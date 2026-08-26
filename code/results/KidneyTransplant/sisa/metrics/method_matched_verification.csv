@@ -1,0 +1,6 @@
+scenario,reference,maximum_prediction_difference,parameters_match,ks_d_before,ks_d_after,ks_d_improvement,ks_p_value_after,probability_mae_before,probability_mae_after,probability_mae_improvement,prediction_agreement_after,absolute_bce_difference_after,absolute_confidence_difference_after,forget_rows
+s1_recipient_withdrawal,clean_retain_only_sisa_model_reference,0.0,True,0.04285714285714286,0.0,0.04285714285714286,1.0,0.0012982738,0.0,0.0012982738,1.0,0.0,0.0,420
+s2_living_donor_withdrawal,clean_retain_only_sisa_model_reference,0.0,True,0.09238095238095238,0.0,0.09238095238095238,1.0,0.0018792202,0.0,0.0018792202,1.0,0.0,0.0,2100
+s3_hospital_withdrawal,clean_retain_only_sisa_model_reference,0.0,True,0.07238095238095238,0.0,0.07238095238095238,1.0,0.002978928,0.0,0.002978928,1.0,0.0,0.0,4200
+s4_invalid_consent,clean_retain_only_sisa_model_reference,0.0,True,0.07595238095238095,0.0,0.07595238095238095,1.0,0.002722424,0.0,0.002722424,1.0,0.0,0.0,4200
+s5_retention_expiry,clean_retain_only_sisa_model_reference,0.0,True,0.1138095238095238,0.0,0.1138095238095238,1.0,0.0042188074,0.0,0.0042188074,1.0,0.0,0.0,6300

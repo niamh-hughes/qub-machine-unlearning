@@ -1,0 +1,11 @@
+{
+  "recipient_count": 20,
+  "identical_complete_five_field_trajectories_allowed": 0,
+  "minimum_unique_day7_urine_output_values": 12,
+  "minimum_unique_day7_adherence_values": 12,
+  "maximum_single_day7_urine_output_fraction": 0.2,
+  "maximum_single_day7_adherence_fraction": 0.2,
+  "diversity_failure_is_structural_failure": false,
+  "regeneration_on_diversity_failure": false,
+  "model_metric_thresholds": null
+}

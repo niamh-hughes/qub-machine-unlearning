@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "python_version": "3.12.13",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "torch": "2.12.1",
+    "joblib": "1.5.3"
+  },
+  "deterministic_algorithms": true,
+  "preserved_first_run_split_membership_identical": true,
+  "best_validation_model_restored": true,
+  "preprocessor_reloaded": true,
+  "model_reloaded": true,
+  "probabilities_reproduced": true,
+  "maximum_probability_difference": 1.1102230246251565e-16,
+  "metrics_independently_recalculated": true,
+  "confusion_matrix_reproduced": true,
+  "saved_identifiers_and_targets_match": true,
+  "test_used_once_after_selection": true,
+  "network_requests": 0
+}

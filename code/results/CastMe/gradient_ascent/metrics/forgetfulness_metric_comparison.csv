@@ -1,0 +1,16 @@
+scenario,metric,preferred_direction,original_value,gradient_ascent_value,full_retraining_reference,gradient_ascent_minus_original
+s1_actor_withdrawal,mean_absolute_probability_difference_from_full,lower is better,0.010360430926084518,0.010657300241291523,0.0,0.00029686931520700455
+s1_actor_withdrawal,prediction_agreement_with_full,higher is better,0.9855421686746988,0.9855421686746988,1.0,0.0
+s1_actor_withdrawal,ks_truth_ratio_statistic_vs_full,lower is better,0.03855421686746988,0.04096385542168675,0.0,0.0024096385542168655
+s2_submission_withdrawal,mean_absolute_probability_difference_from_full,lower is better,0.016834480687975883,0.01676671765744686,0.0,-6.776303052902222e-05
+s2_submission_withdrawal,prediction_agreement_with_full,higher is better,0.9691155825924193,0.9691155825924193,1.0,0.0
+s2_submission_withdrawal,ks_truth_ratio_statistic_vs_full,lower is better,0.018249883013570427,0.017781937295273748,0.0,-0.00046794571829667994
+s3_agency_withdrawal,mean_absolute_probability_difference_from_full,lower is better,0.016816727817058563,0.017299029976129532,0.0,0.00048230215907096863
+s3_agency_withdrawal,prediction_agreement_with_full,higher is better,0.9595170454545454,0.9590435606060606,1.0,-0.00047348484848486194
+s3_agency_withdrawal,ks_truth_ratio_statistic_vs_full,lower is better,0.016335227272727272,0.01396780303030303,0.0,-0.002367424242424242
+s4_project_closure,mean_absolute_probability_difference_from_full,lower is better,0.016792265698313713,0.01831921935081482,0.0,0.0015269536525011063
+s4_project_closure,prediction_agreement_with_full,higher is better,0.9731276832564796,0.9691524884719351,1.0,-0.003975194784544445
+s4_project_closure,ks_truth_ratio_statistic_vs_full,lower is better,0.015105740181268883,0.01796788042614088,0.0,0.0028621402448719985
+s5_retention_expiry,mean_absolute_probability_difference_from_full,lower is better,0.019119825214147568,0.021319711580872536,0.0,0.002199886366724968
+s5_retention_expiry,prediction_agreement_with_full,higher is better,0.9680851063829787,0.9660209590346142,1.0,-0.0020641473483645756
+s5_retention_expiry,ks_truth_ratio_statistic_vs_full,lower is better,0.014925373134328358,0.013496348046999047,0.0,-0.0014290250873293109

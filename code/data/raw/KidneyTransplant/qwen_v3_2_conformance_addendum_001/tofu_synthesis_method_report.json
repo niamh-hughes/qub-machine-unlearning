@@ -1,0 +1,62 @@
+{
+  "report_id": "QWEN-V32-CONFORMANCE-ADDENDUM-001",
+  "status": "methodological_adaptation_documented",
+  "reference": {
+    "path": "/Users/niamhhughes/Desktop/Desktop - Niamh\u2019s MacBook Pro/QUB/Research Proj/docs/references/TOFU.pdf",
+    "sha256": "b0f84ec4a61ccfe1d992dafe1f084213701a9c871d820fbec3a8572687fc427b",
+    "mtime_ns": 1785176725922886885,
+    "size_bytes": 1978277,
+    "sections_reviewed": [
+      "2.1 The TOFU Dataset",
+      "2.1.1 The Making of TOFU"
+    ],
+    "pdf_pages_one_based": [
+      3,
+      4,
+      5
+    ]
+  },
+  "adaptation_scope": "The kidney-transplant project adapts TOFU's deterministic attribute-seeding principle to longitudinal tabular classification. It does not reproduce TOFU's author-biography or question-answer format.",
+  "method_mapping": [
+    {
+      "tofu_principle": "entirely fictional entities",
+      "kidney_project_adaptation": "Recipients, donors, identities and clinical trajectories are fictional synthetic entities; no real patient record or external clinical sample record is introduced.",
+      "status": "implemented"
+    },
+    {
+      "tofu_principle": "deterministically seeded attributes reduce generic-model repetition",
+      "kidney_project_adaptation": "Recipient seeds and generation-only day-7 numerical anchors provide diverse starting conditions before Qwen generates each six-assessment trajectory.",
+      "status": "implemented"
+    },
+    {
+      "tofu_principle": "strict generation format",
+      "kidney_project_adaptation": "Qwen returns exactly one assessments array with six fixed days and five numeric fields per assessment; Python derives identifiers, dates, event history and target.",
+      "status": "implemented"
+    },
+    {
+      "tofu_principle": "controlled knowledge and provenance for each fictional entity",
+      "kidney_project_adaptation": "Per-recipient seeds, static controls, event schedules, anchors, prompts, complete responses and manifest records provide controlled and auditable provenance.",
+      "status": "implemented"
+    },
+    {
+      "tofu_principle": "separate retain and forget sets",
+      "kidney_project_adaptation": "Stable recipient, donor, hospital, consent and retention keys support downstream entity-level forget sets and complementary retain sets. Generation does not assign a record to a model split or leak the deletion scenario into classifier features.",
+      "status": "supported_downstream_not_generated_by_qwen"
+    },
+    {
+      "tofu_principle": "frequency analysis detects repeated defaults",
+      "kidney_project_adaptation": "The diagnostic-100 and confirmation reports compute day-specific dominant values, unique-value counts and identical-trajectory counts.",
+      "status": "implemented"
+    },
+    {
+      "tofu_principle": "diagnostic/manual review before bulk generation",
+      "kidney_project_adaptation": "The v3.1 diagnostic-100 exposed repetition; the guarded v3.2 confirmation tested the anchor correction before any 10,000-recipient production run.",
+      "status": "implemented"
+    }
+  ],
+  "anchor_equivalence_explanation": "Recipient-specific numerical anchors are the longitudinal-tabular equivalent of TOFU's seeded author attributes: both constrain entity-specific generation before the LLM responds so a generic model default is less likely to dominate the synthetic dataset.",
+  "real_patient_data_used": false,
+  "external_clinical_dataset_sample_records_used": false,
+  "question_answer_structure_copied": false,
+  "api_requests_made_by_addendum": 0
+}

@@ -1,0 +1,4 @@
+method,policy_accuracy,macro_f1,entity_exact_match,cutoff_date_exact_match,schema_valid_rate,mean_forget_jaccard,exact_forget_match_rate,mean_deletion_precision,mean_deletion_recall,correct_human_review_rate,unsafe_execution_rate,unsafe_execution_count
+rule_baseline,0.5875,0.7363944010900532,0.59375,0.5625,1.0,0.65,0.65,0.65,0.65,1.0,0.0,0
+zero_shot,0.8375,0.9072502663158948,0.859375,0.75,0.99,0.875,0.875,0.875,0.875,1.0,0.0,0
+few_shot,0.9875,0.9935483870967742,0.984375,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0

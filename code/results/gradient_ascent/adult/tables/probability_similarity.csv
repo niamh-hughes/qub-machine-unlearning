@@ -1,0 +1,6 @@
+scenario,display_name,mean_probability_shift_from_baseline,probability_similarity_with_baseline
+s1_random_1_percent,Random 1%,0.0028448061648250326,0.9971551938351749
+s2_random_5_percent,Random 5%,0.008577027886270539,0.9914229721137294
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),0.00763999943769396,0.992360000562306
+s4_random_10_percent,Random 10%,0.007133289184226562,0.9928667108157735
+s5_retention_expiry,Simulated Retention Expiry,0.02752355844251866,0.9724764415574814

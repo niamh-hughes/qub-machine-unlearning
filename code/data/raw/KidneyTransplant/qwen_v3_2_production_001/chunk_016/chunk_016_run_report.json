@@ -1,0 +1,2314 @@
+{
+  "run_id": "QWEN-V32-PROD-001",
+  "chunk_id": "CHUNK-016",
+  "status": "completed",
+  "api_requests_attempted": 100,
+  "api_requests_completed": 100,
+  "api_responses_received": 100,
+  "recipients_validated": 100,
+  "attempts": 100,
+  "failures": 0,
+  "retries": 0,
+  "automatic_resume": false,
+  "chunks_011_to_100_started": false,
+  "final_dataset_assembly_started": false,
+  "failure": null,
+  "elapsed_seconds": 358.1584500828758,
+  "finish_reason_counts": {
+    "stop": 100
+  },
+  "reasoning_content_status_counts": {
+    "absent": 100
+  },
+  "finish_records": [
+    {
+      "request_id": "QWEN-V32-PROD-REQ001501",
+      "recipient_id": "V32P-R001501",
+      "request_sequence_number": 1501,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1175,
+      "token_usage": {
+        "completion_tokens": 505,
+        "prompt_tokens": 1076,
+        "total_tokens": 1581,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001502",
+      "recipient_id": "V32P-R001502",
+      "request_sequence_number": 1502,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1175,
+      "token_usage": {
+        "completion_tokens": 505,
+        "prompt_tokens": 1073,
+        "total_tokens": 1578,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001503",
+      "recipient_id": "V32P-R001503",
+      "request_sequence_number": 1503,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1177,
+      "token_usage": {
+        "completion_tokens": 507,
+        "prompt_tokens": 1082,
+        "total_tokens": 1589,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001504",
+      "recipient_id": "V32P-R001504",
+      "request_sequence_number": 1504,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1185,
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 1075,
+        "total_tokens": 1590,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001505",
+      "recipient_id": "V32P-R001505",
+      "request_sequence_number": 1505,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1173,
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1082,
+        "total_tokens": 1585,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001506",
+      "recipient_id": "V32P-R001506",
+      "request_sequence_number": 1506,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1079,
+        "total_tokens": 1580,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001507",
+      "recipient_id": "V32P-R001507",
+      "request_sequence_number": 1507,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1175,
+      "token_usage": {
+        "completion_tokens": 505,
+        "prompt_tokens": 1080,
+        "total_tokens": 1585,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001508",
+      "recipient_id": "V32P-R001508",
+      "request_sequence_number": 1508,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1190,
+      "token_usage": {
+        "completion_tokens": 520,
+        "prompt_tokens": 1081,
+        "total_tokens": 1601,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001509",
+      "recipient_id": "V32P-R001509",
+      "request_sequence_number": 1509,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1186,
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1072,
+        "total_tokens": 1588,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001510",
+      "recipient_id": "V32P-R001510",
+      "request_sequence_number": 1510,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1185,
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 1072,
+        "total_tokens": 1587,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001511",
+      "recipient_id": "V32P-R001511",
+      "request_sequence_number": 1511,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1176,
+      "token_usage": {
+        "completion_tokens": 506,
+        "prompt_tokens": 1076,
+        "total_tokens": 1582,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001512",
+      "recipient_id": "V32P-R001512",
+      "request_sequence_number": 1512,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1173,
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1073,
+        "total_tokens": 1576,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001513",
+      "recipient_id": "V32P-R001513",
+      "request_sequence_number": 1513,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1073,
+        "total_tokens": 1574,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001514",
+      "recipient_id": "V32P-R001514",
+      "request_sequence_number": 1514,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1184,
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 1079,
+        "total_tokens": 1593,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001515",
+      "recipient_id": "V32P-R001515",
+      "request_sequence_number": 1515,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1188,
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 1076,
+        "total_tokens": 1594,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001516",
+      "recipient_id": "V32P-R001516",
+      "request_sequence_number": 1516,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1070,
+        "total_tokens": 1571,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001517",
+      "recipient_id": "V32P-R001517",
+      "request_sequence_number": 1517,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1078,
+        "total_tokens": 1595,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001518",
+      "recipient_id": "V32P-R001518",
+      "request_sequence_number": 1518,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1172,
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1082,
+        "total_tokens": 1584,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001519",
+      "recipient_id": "V32P-R001519",
+      "request_sequence_number": 1519,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1073,
+        "total_tokens": 1574,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001520",
+      "recipient_id": "V32P-R001520",
+      "request_sequence_number": 1520,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1074,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001521",
+      "recipient_id": "V32P-R001521",
+      "request_sequence_number": 1521,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1072,
+        "total_tokens": 1573,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001522",
+      "recipient_id": "V32P-R001522",
+      "request_sequence_number": 1522,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1176,
+      "token_usage": {
+        "completion_tokens": 506,
+        "prompt_tokens": 1080,
+        "total_tokens": 1586,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001523",
+      "recipient_id": "V32P-R001523",
+      "request_sequence_number": 1523,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1184,
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 1076,
+        "total_tokens": 1590,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001524",
+      "recipient_id": "V32P-R001524",
+      "request_sequence_number": 1524,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1172,
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1075,
+        "total_tokens": 1577,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001525",
+      "recipient_id": "V32P-R001525",
+      "request_sequence_number": 1525,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1075,
+        "total_tokens": 1588,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001526",
+      "recipient_id": "V32P-R001526",
+      "request_sequence_number": 1526,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1075,
+        "total_tokens": 1576,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001527",
+      "recipient_id": "V32P-R001527",
+      "request_sequence_number": 1527,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1076,
+        "total_tokens": 1577,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001528",
+      "recipient_id": "V32P-R001528",
+      "request_sequence_number": 1528,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1186,
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1072,
+        "total_tokens": 1588,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001529",
+      "recipient_id": "V32P-R001529",
+      "request_sequence_number": 1529,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1079,
+        "total_tokens": 1580,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001530",
+      "recipient_id": "V32P-R001530",
+      "request_sequence_number": 1530,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1185,
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 1071,
+        "total_tokens": 1586,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001531",
+      "recipient_id": "V32P-R001531",
+      "request_sequence_number": 1531,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1076,
+        "total_tokens": 1577,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001532",
+      "recipient_id": "V32P-R001532",
+      "request_sequence_number": 1532,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1074,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001533",
+      "recipient_id": "V32P-R001533",
+      "request_sequence_number": 1533,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1072,
+        "total_tokens": 1573,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001534",
+      "recipient_id": "V32P-R001534",
+      "request_sequence_number": 1534,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1186,
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1076,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001535",
+      "recipient_id": "V32P-R001535",
+      "request_sequence_number": 1535,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1173,
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1076,
+        "total_tokens": 1579,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001536",
+      "recipient_id": "V32P-R001536",
+      "request_sequence_number": 1536,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1079,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001537",
+      "recipient_id": "V32P-R001537",
+      "request_sequence_number": 1537,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1176,
+      "token_usage": {
+        "completion_tokens": 506,
+        "prompt_tokens": 1073,
+        "total_tokens": 1579,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001538",
+      "recipient_id": "V32P-R001538",
+      "request_sequence_number": 1538,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1186,
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1079,
+        "total_tokens": 1595,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001539",
+      "recipient_id": "V32P-R001539",
+      "request_sequence_number": 1539,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1186,
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1075,
+        "total_tokens": 1591,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001540",
+      "recipient_id": "V32P-R001540",
+      "request_sequence_number": 1540,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1185,
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 1079,
+        "total_tokens": 1594,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001541",
+      "recipient_id": "V32P-R001541",
+      "request_sequence_number": 1541,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1173,
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1077,
+        "total_tokens": 1580,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001542",
+      "recipient_id": "V32P-R001542",
+      "request_sequence_number": 1542,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1188,
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 1074,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001543",
+      "recipient_id": "V32P-R001543",
+      "request_sequence_number": 1543,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1188,
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 1076,
+        "total_tokens": 1594,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001544",
+      "recipient_id": "V32P-R001544",
+      "request_sequence_number": 1544,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1189,
+      "token_usage": {
+        "completion_tokens": 519,
+        "prompt_tokens": 1077,
+        "total_tokens": 1596,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001545",
+      "recipient_id": "V32P-R001545",
+      "request_sequence_number": 1545,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1176,
+      "token_usage": {
+        "completion_tokens": 506,
+        "prompt_tokens": 1076,
+        "total_tokens": 1582,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001546",
+      "recipient_id": "V32P-R001546",
+      "request_sequence_number": 1546,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1186,
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1076,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001547",
+      "recipient_id": "V32P-R001547",
+      "request_sequence_number": 1547,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1078,
+        "total_tokens": 1579,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001548",
+      "recipient_id": "V32P-R001548",
+      "request_sequence_number": 1548,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1174,
+      "token_usage": {
+        "completion_tokens": 504,
+        "prompt_tokens": 1072,
+        "total_tokens": 1576,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001549",
+      "recipient_id": "V32P-R001549",
+      "request_sequence_number": 1549,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1077,
+        "total_tokens": 1578,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001550",
+      "recipient_id": "V32P-R001550",
+      "request_sequence_number": 1550,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1172,
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1076,
+        "total_tokens": 1578,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001551",
+      "recipient_id": "V32P-R001551",
+      "request_sequence_number": 1551,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1186,
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1076,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001552",
+      "recipient_id": "V32P-R001552",
+      "request_sequence_number": 1552,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1185,
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 1077,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001553",
+      "recipient_id": "V32P-R001553",
+      "request_sequence_number": 1553,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1173,
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1077,
+        "total_tokens": 1580,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001554",
+      "recipient_id": "V32P-R001554",
+      "request_sequence_number": 1554,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1076,
+        "total_tokens": 1593,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001555",
+      "recipient_id": "V32P-R001555",
+      "request_sequence_number": 1555,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1172,
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1073,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001556",
+      "recipient_id": "V32P-R001556",
+      "request_sequence_number": 1556,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1077,
+        "total_tokens": 1590,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001557",
+      "recipient_id": "V32P-R001557",
+      "request_sequence_number": 1557,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1074,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001558",
+      "recipient_id": "V32P-R001558",
+      "request_sequence_number": 1558,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1185,
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 1075,
+        "total_tokens": 1590,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001559",
+      "recipient_id": "V32P-R001559",
+      "request_sequence_number": 1559,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1071,
+        "total_tokens": 1588,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001560",
+      "recipient_id": "V32P-R001560",
+      "request_sequence_number": 1560,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1071,
+        "total_tokens": 1584,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001561",
+      "recipient_id": "V32P-R001561",
+      "request_sequence_number": 1561,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1178,
+      "token_usage": {
+        "completion_tokens": 508,
+        "prompt_tokens": 1072,
+        "total_tokens": 1580,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001562",
+      "recipient_id": "V32P-R001562",
+      "request_sequence_number": 1562,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1073,
+        "total_tokens": 1574,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001563",
+      "recipient_id": "V32P-R001563",
+      "request_sequence_number": 1563,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1075,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001564",
+      "recipient_id": "V32P-R001564",
+      "request_sequence_number": 1564,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1170,
+      "token_usage": {
+        "completion_tokens": 500,
+        "prompt_tokens": 1075,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001565",
+      "recipient_id": "V32P-R001565",
+      "request_sequence_number": 1565,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1172,
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1073,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001566",
+      "recipient_id": "V32P-R001566",
+      "request_sequence_number": 1566,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1076,
+        "total_tokens": 1589,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001567",
+      "recipient_id": "V32P-R001567",
+      "request_sequence_number": 1567,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1080,
+        "total_tokens": 1597,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001568",
+      "recipient_id": "V32P-R001568",
+      "request_sequence_number": 1568,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1173,
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1073,
+        "total_tokens": 1576,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001569",
+      "recipient_id": "V32P-R001569",
+      "request_sequence_number": 1569,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1075,
+        "total_tokens": 1576,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001570",
+      "recipient_id": "V32P-R001570",
+      "request_sequence_number": 1570,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1192,
+      "token_usage": {
+        "completion_tokens": 522,
+        "prompt_tokens": 1081,
+        "total_tokens": 1603,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001571",
+      "recipient_id": "V32P-R001571",
+      "request_sequence_number": 1571,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1075,
+        "total_tokens": 1576,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001572",
+      "recipient_id": "V32P-R001572",
+      "request_sequence_number": 1572,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1188,
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 1080,
+        "total_tokens": 1598,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001573",
+      "recipient_id": "V32P-R001573",
+      "request_sequence_number": 1573,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1072,
+        "total_tokens": 1585,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001574",
+      "recipient_id": "V32P-R001574",
+      "request_sequence_number": 1574,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1188,
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 1076,
+        "total_tokens": 1594,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001575",
+      "recipient_id": "V32P-R001575",
+      "request_sequence_number": 1575,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1192,
+      "token_usage": {
+        "completion_tokens": 522,
+        "prompt_tokens": 1081,
+        "total_tokens": 1603,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001576",
+      "recipient_id": "V32P-R001576",
+      "request_sequence_number": 1576,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1079,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001577",
+      "recipient_id": "V32P-R001577",
+      "request_sequence_number": 1577,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1076,
+        "total_tokens": 1577,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001578",
+      "recipient_id": "V32P-R001578",
+      "request_sequence_number": 1578,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1175,
+      "token_usage": {
+        "completion_tokens": 505,
+        "prompt_tokens": 1075,
+        "total_tokens": 1580,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001579",
+      "recipient_id": "V32P-R001579",
+      "request_sequence_number": 1579,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1075,
+        "total_tokens": 1592,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001580",
+      "recipient_id": "V32P-R001580",
+      "request_sequence_number": 1580,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1073,
+        "total_tokens": 1574,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001581",
+      "recipient_id": "V32P-R001581",
+      "request_sequence_number": 1581,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1190,
+      "token_usage": {
+        "completion_tokens": 520,
+        "prompt_tokens": 1080,
+        "total_tokens": 1600,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001582",
+      "recipient_id": "V32P-R001582",
+      "request_sequence_number": 1582,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1076,
+        "total_tokens": 1589,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001583",
+      "recipient_id": "V32P-R001583",
+      "request_sequence_number": 1583,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1080,
+        "total_tokens": 1581,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001584",
+      "recipient_id": "V32P-R001584",
+      "request_sequence_number": 1584,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1164,
+      "token_usage": {
+        "completion_tokens": 494,
+        "prompt_tokens": 1076,
+        "total_tokens": 1570,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001585",
+      "recipient_id": "V32P-R001585",
+      "request_sequence_number": 1585,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1174,
+      "token_usage": {
+        "completion_tokens": 504,
+        "prompt_tokens": 1077,
+        "total_tokens": 1581,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001586",
+      "recipient_id": "V32P-R001586",
+      "request_sequence_number": 1586,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1072,
+        "total_tokens": 1573,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001587",
+      "recipient_id": "V32P-R001587",
+      "request_sequence_number": 1587,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1173,
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1076,
+        "total_tokens": 1579,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001588",
+      "recipient_id": "V32P-R001588",
+      "request_sequence_number": 1588,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1073,
+        "total_tokens": 1586,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001589",
+      "recipient_id": "V32P-R001589",
+      "request_sequence_number": 1589,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1077,
+        "total_tokens": 1590,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001590",
+      "recipient_id": "V32P-R001590",
+      "request_sequence_number": 1590,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1184,
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 1079,
+        "total_tokens": 1593,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001591",
+      "recipient_id": "V32P-R001591",
+      "request_sequence_number": 1591,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1190,
+      "token_usage": {
+        "completion_tokens": 520,
+        "prompt_tokens": 1077,
+        "total_tokens": 1597,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001592",
+      "recipient_id": "V32P-R001592",
+      "request_sequence_number": 1592,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1071,
+        "total_tokens": 1584,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001593",
+      "recipient_id": "V32P-R001593",
+      "request_sequence_number": 1593,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1171,
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1073,
+        "total_tokens": 1574,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001594",
+      "recipient_id": "V32P-R001594",
+      "request_sequence_number": 1594,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1177,
+      "token_usage": {
+        "completion_tokens": 507,
+        "prompt_tokens": 1081,
+        "total_tokens": 1588,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001595",
+      "recipient_id": "V32P-R001595",
+      "request_sequence_number": 1595,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1188,
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 1077,
+        "total_tokens": 1595,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001596",
+      "recipient_id": "V32P-R001596",
+      "request_sequence_number": 1596,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1071,
+        "total_tokens": 1588,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001597",
+      "recipient_id": "V32P-R001597",
+      "request_sequence_number": 1597,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1175,
+      "token_usage": {
+        "completion_tokens": 505,
+        "prompt_tokens": 1083,
+        "total_tokens": 1588,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001598",
+      "recipient_id": "V32P-R001598",
+      "request_sequence_number": 1598,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1077,
+        "total_tokens": 1590,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001599",
+      "recipient_id": "V32P-R001599",
+      "request_sequence_number": 1599,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1187,
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1081,
+        "total_tokens": 1598,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "QWEN-V32-PROD-REQ001600",
+      "recipient_id": "V32P-R001600",
+      "request_sequence_number": 1600,
+      "finish_reason": "stop",
+      "reasoning_content_status": "absent",
+      "final_content_length": 1183,
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1072,
+        "total_tokens": 1585,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      }
+    }
+  ],
+  "token_usage_total": {
+    "prompt_tokens": 107586,
+    "completion_tokens": 50907,
+    "total_tokens": 158493
+  },
+  "request_records": 100,
+  "response_records": 100,
+  "manifest_records": 400,
+  "manifest_status_counts": {
+    "request_preserved_before_submission": 100,
+    "network_submission_started": 100,
+    "response_preserved": 100,
+    "validated_and_checkpointed": 100
+  },
+  "checkpoint_rows": 600,
+  "chunk_dimensions": [
+    600,
+    31
+  ],
+  "validation": {
+    "status": "passed",
+    "checks": {
+      "dimensions": true,
+      "schema_exact": true,
+      "recipient_count": true,
+      "six_rows_each": true,
+      "ordered_days": true,
+      "unique_request_ids": true,
+      "unique_recipient_days": true,
+      "unique_assessment_ids": true,
+      "no_missing_values": true,
+      "no_duplicate_rows": true,
+      "response_payloads": true,
+      "reconciliation": true,
+      "direct_identifiers_absent": true,
+      "joined_42_column_export_absent": true,
+      "static_fields_constant": true,
+      "python_derivations_exact": true,
+      "approved_ranges": true,
+      "identity_separate": true,
+      "anchor_proximity_diagnostic_only": true,
+      "no_identical_complete_trajectories": true,
+      "checkpoint_assessment_equality": true
+    },
+    "failures": [],
+    "derivation_error_examples": [],
+    "range_error_examples": [],
+    "anchor_error_examples": [],
+    "anchor_deviation_warnings": []
+  },
+  "reconciliation": {
+    "status": "passed",
+    "recipient_payloads": 100,
+    "qwen_fields_reconciled": 3000,
+    "expected_qwen_fields": 3000,
+    "mismatch_count": 0,
+    "mismatch_examples": [],
+    "all_preserved_response_fields_match_validated_table": true
+  },
+  "diagnostics": {
+    "status": "diagnostic_only_not_used_for_regeneration",
+    "classifier_trained": false,
+    "regeneration_triggered": false,
+    "numerical_ranges": {
+      "creatinine_mg_dl": {
+        "minimum": 0.65,
+        "maximum": 2.05
+      },
+      "urine_output_ml_24h": {
+        "minimum": 1420.0,
+        "maximum": 3050.0
+      },
+      "tacrolimus_level_ng_ml": {
+        "minimum": 4.8,
+        "maximum": 13.3
+      },
+      "medication_adherence_pct": {
+        "minimum": 48.5,
+        "maximum": 100.0
+      },
+      "creatinine_change_pct": {
+        "minimum": -22.222222222222225,
+        "maximum": 46.62447257383966
+      }
+    },
+    "day_specific_unique_values_and_tie_aware_modes": {
+      "7": {
+        "creatinine_mg_dl": {
+          "dominant_values": [
+            1.52
+          ],
+          "dominant_count": 7,
+          "dominant_fraction": 0.07,
+          "mode_is_tied": false,
+          "unique_values": 67
+        },
+        "urine_output_ml_24h": {
+          "dominant_values": [
+            2350.0
+          ],
+          "dominant_count": 7,
+          "dominant_fraction": 0.07,
+          "mode_is_tied": false,
+          "unique_values": 68
+        },
+        "tacrolimus_level_ng_ml": {
+          "dominant_values": [
+            10.5,
+            8.9,
+            9.6
+          ],
+          "dominant_count": 4,
+          "dominant_fraction": 0.04,
+          "mode_is_tied": true,
+          "unique_values": 70
+        },
+        "medication_adherence_pct": {
+          "dominant_values": [
+            98.5,
+            99.5
+          ],
+          "dominant_count": 4,
+          "dominant_fraction": 0.04,
+          "mode_is_tied": true,
+          "unique_values": 79
+        }
+      },
+      "14": {
+        "creatinine_mg_dl": {
+          "dominant_values": [
+            1.38
+          ],
+          "dominant_count": 10,
+          "dominant_fraction": 0.1,
+          "mode_is_tied": false,
+          "unique_values": 35
+        },
+        "urine_output_ml_24h": {
+          "dominant_values": [
+            2150.0
+          ],
+          "dominant_count": 22,
+          "dominant_fraction": 0.22,
+          "mode_is_tied": false,
+          "unique_values": 29
+        },
+        "tacrolimus_level_ng_ml": {
+          "dominant_values": [
+            10.8
+          ],
+          "dominant_count": 11,
+          "dominant_fraction": 0.11,
+          "mode_is_tied": false,
+          "unique_values": 39
+        },
+        "medication_adherence_pct": {
+          "dominant_values": [
+            97.5
+          ],
+          "dominant_count": 11,
+          "dominant_fraction": 0.11,
+          "mode_is_tied": false,
+          "unique_values": 51
+        }
+      },
+      "30": {
+        "creatinine_mg_dl": {
+          "dominant_values": [
+            1.15
+          ],
+          "dominant_count": 11,
+          "dominant_fraction": 0.11,
+          "mode_is_tied": false,
+          "unique_values": 35
+        },
+        "urine_output_ml_24h": {
+          "dominant_values": [
+            2100.0
+          ],
+          "dominant_count": 11,
+          "dominant_fraction": 0.11,
+          "mode_is_tied": false,
+          "unique_values": 38
+        },
+        "tacrolimus_level_ng_ml": {
+          "dominant_values": [
+            10.5
+          ],
+          "dominant_count": 13,
+          "dominant_fraction": 0.13,
+          "mode_is_tied": false,
+          "unique_values": 31
+        },
+        "medication_adherence_pct": {
+          "dominant_values": [
+            96.8
+          ],
+          "dominant_count": 6,
+          "dominant_fraction": 0.06,
+          "mode_is_tied": false,
+          "unique_values": 62
+        }
+      },
+      "60": {
+        "creatinine_mg_dl": {
+          "dominant_values": [
+            1.05,
+            1.18
+          ],
+          "dominant_count": 9,
+          "dominant_fraction": 0.09,
+          "mode_is_tied": true,
+          "unique_values": 37
+        },
+        "urine_output_ml_24h": {
+          "dominant_values": [
+            1850.0
+          ],
+          "dominant_count": 11,
+          "dominant_fraction": 0.11,
+          "mode_is_tied": false,
+          "unique_values": 48
+        },
+        "tacrolimus_level_ng_ml": {
+          "dominant_values": [
+            10.2
+          ],
+          "dominant_count": 12,
+          "dominant_fraction": 0.12,
+          "mode_is_tied": false,
+          "unique_values": 27
+        },
+        "medication_adherence_pct": {
+          "dominant_values": [
+            98.8
+          ],
+          "dominant_count": 7,
+          "dominant_fraction": 0.07,
+          "mode_is_tied": false,
+          "unique_values": 59
+        }
+      },
+      "90": {
+        "creatinine_mg_dl": {
+          "dominant_values": [
+            1.18
+          ],
+          "dominant_count": 10,
+          "dominant_fraction": 0.1,
+          "mode_is_tied": false,
+          "unique_values": 42
+        },
+        "urine_output_ml_24h": {
+          "dominant_values": [
+            2050.0,
+            1850.0
+          ],
+          "dominant_count": 6,
+          "dominant_fraction": 0.06,
+          "mode_is_tied": true,
+          "unique_values": 53
+        },
+        "tacrolimus_level_ng_ml": {
+          "dominant_values": [
+            9.8
+          ],
+          "dominant_count": 9,
+          "dominant_fraction": 0.09,
+          "mode_is_tied": false,
+          "unique_values": 37
+        },
+        "medication_adherence_pct": {
+          "dominant_values": [
+            98.5
+          ],
+          "dominant_count": 9,
+          "dominant_fraction": 0.09,
+          "mode_is_tied": false,
+          "unique_values": 62
+        }
+      },
+      "180": {
+        "creatinine_mg_dl": {
+          "dominant_values": [
+            1.12
+          ],
+          "dominant_count": 11,
+          "dominant_fraction": 0.11,
+          "mode_is_tied": false,
+          "unique_values": 40
+        },
+        "urine_output_ml_24h": {
+          "dominant_values": [
+            1650.0,
+            1950.0
+          ],
+          "dominant_count": 6,
+          "dominant_fraction": 0.06,
+          "mode_is_tied": true,
+          "unique_values": 54
+        },
+        "tacrolimus_level_ng_ml": {
+          "dominant_values": [
+            7.5,
+            9.5
+          ],
+          "dominant_count": 10,
+          "dominant_fraction": 0.1,
+          "mode_is_tied": true,
+          "unique_values": 27
+        },
+        "medication_adherence_pct": {
+          "dominant_values": [
+            99.0
+          ],
+          "dominant_count": 7,
+          "dominant_fraction": 0.07,
+          "mode_is_tied": false,
+          "unique_values": 61
+        }
+      }
+    },
+    "identical_complete_trajectories": {
+      "identical_trajectory_groups": 0,
+      "recipients_in_identical_trajectory_groups": 0,
+      "maximum_identical_group_size": 1
+    },
+    "anchor_output_and_suffix_correlations": {
+      "creatinine_mg_dl": {
+        "anchor_output_correlation": 0.9988125602800795,
+        "output_recipient_suffix_correlation": 0.09155374808594058,
+        "anchor_recipient_suffix_correlation": 0.0944711704775563,
+        "anchor_minimum": 0.65,
+        "anchor_maximum": 2.032,
+        "anchor_unique_values": 96
+      },
+      "urine_output_ml_24h": {
+        "anchor_output_correlation": 0.9942882092475596,
+        "output_recipient_suffix_correlation": 0.04101619442360527,
+        "anchor_recipient_suffix_correlation": 0.05271304660123504,
+        "anchor_minimum": 1615.5,
+        "anchor_maximum": 2827.5,
+        "anchor_unique_values": 99
+      },
+      "tacrolimus_level_ng_ml": {
+        "anchor_output_correlation": 0.9993116042335658,
+        "output_recipient_suffix_correlation": 0.08702660381320003,
+        "anchor_recipient_suffix_correlation": 0.0844307809906704,
+        "anchor_minimum": 6.8,
+        "anchor_maximum": 13.34,
+        "anchor_unique_values": 87
+      },
+      "medication_adherence_pct": {
+        "anchor_output_correlation": 0.9998149388468683,
+        "output_recipient_suffix_correlation": 0.01378279163027667,
+        "anchor_recipient_suffix_correlation": 0.013652541259895632,
+        "anchor_minimum": 54.92,
+        "anchor_maximum": 99.83,
+        "anchor_unique_values": 97
+      }
+    },
+    "anchor_clipping_counts": {
+      "creatinine_mg_dl": {
+        "at_minimum": 2,
+        "at_maximum": 0
+      },
+      "urine_output_ml_24h": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      },
+      "tacrolimus_level_ng_ml": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      },
+      "medication_adherence_pct": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      }
+    },
+    "positive_negative_range_overlap": {
+      "creatinine_mg_dl": {
+        "positive_range": [
+          0.76,
+          1.854
+        ],
+        "negative_range": [
+          0.65,
+          2.05
+        ],
+        "ranges_overlap": true
+      },
+      "urine_output_ml_24h": {
+        "positive_range": [
+          1550.0,
+          2750.0
+        ],
+        "negative_range": [
+          1420.0,
+          3050.0
+        ],
+        "ranges_overlap": true
+      },
+      "tacrolimus_level_ng_ml": {
+        "positive_range": [
+          6.0,
+          11.3
+        ],
+        "negative_range": [
+          4.8,
+          13.3
+        ],
+        "ranges_overlap": true
+      },
+      "medication_adherence_pct": {
+        "positive_range": [
+          48.5,
+          99.8
+        ],
+        "negative_range": [
+          56.77,
+          100.0
+        ],
+        "ranges_overlap": true
+      }
+    },
+    "target_count": 55,
+    "target_prevalence": 0.09166666666666666,
+    "target_sequence_counts": {
+      "[0,0,0,0,0,0]": 72,
+      "[0,0,0,0,1,0]": 5,
+      "[0,0,0,1,0,0]": 7,
+      "[1,1,0,0,0,0]": 5,
+      "[1,1,1,0,0,0]": 11
+    },
+    "event_recipients": 40,
+    "non_event_recipients": 60,
+    "category_counts": {
+      "hospital_id": {
+        "V32P-H01": 18,
+        "V32P-H02": 16,
+        "V32P-H03": 10,
+        "V32P-H04": 14,
+        "V32P-H05": 7,
+        "V32P-H06": 10,
+        "V32P-H07": 8,
+        "V32P-H08": 10,
+        "V32P-H09": 7
+      },
+      "donor_type": {
+        "Deceased": 64,
+        "Living": 36
+      },
+      "recovery_pattern": {
+        "gradual": 40,
+        "partial": 22,
+        "rapid": 38
+      },
+      "adherence_pattern": {
+        "high": 50,
+        "low": 13,
+        "variable": 37
+      },
+      "tacrolimus_exposure_pattern": {
+        "high": 25,
+        "in_range": 38,
+        "variable": 37
+      },
+      "infection_episode_days": {
+        "[14]": 4,
+        "[30]": 11,
+        "[60]": 2,
+        "[90]": 4,
+        "[]": 79
+      },
+      "non_rejection_confounders": {
+        "dehydration": 34,
+        "high_creatinine": 3,
+        "none": 28,
+        "tacrolimus_exposure": 35
+      }
+    },
+    "warnings": [
+      "day 14 urine_output_ml_24h dominant value frequency is 0.220"
+    ]
+  },
+  "soft_warnings": [],
+  "integrity_in_finally": {
+    "protected_unchanged": true,
+    "previous_evidence_unchanged": true,
+    "notebooks_01_05_unchanged": true,
+    "production_design_unchanged": true,
+    "completed_chunks_001_010_and_progress_010_unchanged": true,
+    "validation_amendment_001_unchanged": true,
+    "validation_amendment_002_unchanged": true,
+    "progress_through_chunk_010_unchanged": true,
+    "chunks_021_100_absent": true,
+    "final_assembly_absent": true,
+    "chunk_001_unchanged": true,
+    "chunk_002_unchanged": true,
+    "chunk_003_unchanged": true,
+    "chunk_004_unchanged": true,
+    "chunk_005_unchanged": true,
+    "chunk_006_unchanged": true,
+    "chunk_007_unchanged": true,
+    "chunk_008_unchanged": true,
+    "chunk_009_unchanged": true,
+    "chunk_010_unchanged": true,
+    "chunk_011_unchanged": true,
+    "chunk_012_unchanged": true,
+    "chunk_013_unchanged": true,
+    "chunk_014_unchanged": true,
+    "chunk_015_unchanged": true
+  },
+  "protected_before": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "protected_in_finally": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "artifact_fingerprints_excluding_report": {
+    "anchor_audit_chunk_016.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/anchor_audit_chunk_016.csv",
+      "sha256": "18d6481577f593580fcad9c4fdd214e5b5554cb83c105b1b81225559b0ee1b0b",
+      "mtime_ns": 1786919718382667481,
+      "size_bytes": 23597
+    },
+    "assessment_chunk_016.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/assessment_chunk_016.csv",
+      "sha256": "93631ec0a6045b8ef78c5f8c20553fb5b8bb6ed0343917e55dd7234bed323777",
+      "mtime_ns": 1786919718381273399,
+      "size_bytes": 147041
+    },
+    "completion_state.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/completion_state.json",
+      "sha256": "f35cdbed83df36f2cad5aab262e7d02b03f559ed3eaafbefb9546d8d28637de9",
+      "mtime_ns": 1786919718383509106,
+      "size_bytes": 349
+    },
+    "diagnostic_quality_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/diagnostic_quality_report.json",
+      "sha256": "1e6886073131d4677c59790c9f230191faa44e71fb7126a7fc1c1cdc7f297d61",
+      "mtime_ns": 1786919718383374064,
+      "size_bytes": 10063
+    },
+    "identity_chunk_016.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/identity_chunk_016.csv",
+      "sha256": "6575be81461d9cecb3cccd8e62c47de602cf78e0478f811d1cca3a3fbb6f2f2c",
+      "mtime_ns": 1786919361010326426,
+      "size_bytes": 35287
+    },
+    "manifest.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/manifest.jsonl",
+      "sha256": "da924eb9ae3833760b2ec060270c7f83ba4a8a5f4c9493221236e0739e15a385",
+      "mtime_ns": 1786919718085005572,
+      "size_bytes": 115075
+    },
+    "request_response_reconciliation.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/request_response_reconciliation.json",
+      "sha256": "6689cfee50e6d3028b78a6e81d22e68bf05b068d4d9503f8ab4e851c4e2bc2b2",
+      "mtime_ns": 1786919718382953148,
+      "size_bytes": 233
+    },
+    "requests.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/requests.jsonl",
+      "sha256": "c0ecb89ee812e8cd97aa347473eb9d9997cab961509827e5feae4954913ee88b",
+      "mtime_ns": 1786919714435862896,
+      "size_bytes": 892806
+    },
+    "responses.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/responses.jsonl",
+      "sha256": "d62f2e5bbb4f58c2021927863fa5b8b7aa98da22796c7e5bc571eed3e81e19f4",
+      "mtime_ns": 1786919718079882116,
+      "size_bytes": 281107
+    },
+    "run_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/run_configuration.json",
+      "sha256": "a53b2a28ebca35fa3756b791375905421a2405b7960a44a2c50e5dec36110419",
+      "mtime_ns": 1786919361010630053,
+      "size_bytes": 2380
+    },
+    "validated_recipient_checkpoint.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016/validated_recipient_checkpoint.csv",
+      "sha256": "93631ec0a6045b8ef78c5f8c20553fb5b8bb6ed0343917e55dd7234bed323777",
+      "mtime_ns": 1786919718084757030,
+      "size_bytes": 147041
+    }
+  },
+  "created_files": [
+    "anchor_audit_chunk_016.csv",
+    "assessment_chunk_016.csv",
+    "completion_state.json",
+    "diagnostic_quality_report.json",
+    "identity_chunk_016.csv",
+    "manifest.jsonl",
+    "request_response_reconciliation.json",
+    "requests.jsonl",
+    "responses.jsonl",
+    "run_configuration.json",
+    "validated_recipient_checkpoint.csv",
+    "chunk_016_run_report.json"
+  ],
+  "validation_policy_amendment_id": "PROD-VALIDATION-AMENDMENT-002",
+  "anchor_generation_quality": {
+    "scope": "chunk_016",
+    "status": "passed",
+    "policy": "chunk_level_generation_quality_gate_not_individual_record_rejection",
+    "original_prompt_tolerances": {
+      "creatinine_mg_dl": 0.12,
+      "urine_output_ml_24h": 120.0,
+      "tacrolimus_level_ng_ml": 0.6,
+      "medication_adherence_pct": 1.5
+    },
+    "identifier_materiality_absolute_correlation_threshold": 0.2,
+    "anchor_output_and_recipient_suffix_correlations": {
+      "creatinine_mg_dl": {
+        "anchor_output_correlation": 0.9988125602800795,
+        "output_recipient_suffix_correlation": 0.09155374808594058,
+        "anchor_recipient_suffix_correlation": 0.0944711704775563,
+        "anchor_minimum": 0.65,
+        "anchor_maximum": 2.032,
+        "anchor_unique_values": 96
+      },
+      "urine_output_ml_24h": {
+        "anchor_output_correlation": 0.9942882092475596,
+        "output_recipient_suffix_correlation": 0.04101619442360527,
+        "anchor_recipient_suffix_correlation": 0.05271304660123504,
+        "anchor_minimum": 1615.5,
+        "anchor_maximum": 2827.5,
+        "anchor_unique_values": 99
+      },
+      "tacrolimus_level_ng_ml": {
+        "anchor_output_correlation": 0.9993116042335658,
+        "output_recipient_suffix_correlation": 0.08702660381320003,
+        "anchor_recipient_suffix_correlation": 0.0844307809906704,
+        "anchor_minimum": 6.8,
+        "anchor_maximum": 13.34,
+        "anchor_unique_values": 87
+      },
+      "medication_adherence_pct": {
+        "anchor_output_correlation": 0.9998149388468683,
+        "output_recipient_suffix_correlation": 0.01378279163027667,
+        "anchor_recipient_suffix_correlation": 0.013652541259895632,
+        "anchor_minimum": 54.92,
+        "anchor_maximum": 99.83,
+        "anchor_unique_values": 97
+      }
+    },
+    "anchor_difference_distributions": {
+      "creatinine_mg_dl": {
+        "count": 100,
+        "minimum": 0.0,
+        "maximum": 0.05900000000000016,
+        "mean": 0.009920000000000007,
+        "standard_deviation": 0.013237582860930476,
+        "median": 0.0030000000000001137,
+        "p90": 0.02820000000000004,
+        "p95": 0.03524999999999991,
+        "p99": 0.058010000000000055
+      },
+      "urine_output_ml_24h": {
+        "count": 100,
+        "minimum": 0.0,
+        "maximum": 96.5,
+        "mean": 14.736000000000006,
+        "standard_deviation": 19.51914198933959,
+        "median": 4.050000000000182,
+        "p90": 43.72999999999984,
+        "p95": 49.07999999999995,
+        "p99": 66.10700000000034
+      },
+      "tacrolimus_level_ng_ml": {
+        "count": 100,
+        "minimum": 0.0,
+        "maximum": 0.1999999999999993,
+        "mean": 0.040499999999999974,
+        "standard_deviation": 0.05034630075785112,
+        "median": 0.02999999999999936,
+        "p90": 0.09999999999999973,
+        "p95": 0.16100000000000006,
+        "p99": 0.19010000000000132
+      },
+      "medication_adherence_pct": {
+        "count": 100,
+        "minimum": 0.0,
+        "maximum": 0.8199999999999932,
+        "mean": 0.11359999999999928,
+        "standard_deviation": 0.17362327032975708,
+        "median": 0.030000000000001137,
+        "p90": 0.3619999999999992,
+        "p95": 0.4530000000000028,
+        "p99": 0.7111000000000013
+      }
+    },
+    "anchor_deviation_warning_counts": {
+      "creatinine_mg_dl": 0,
+      "urine_output_ml_24h": 0,
+      "tacrolimus_level_ng_ml": 0,
+      "medication_adherence_pct": 0
+    },
+    "day7_unique_values_and_tied_modes": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          1.52
+        ],
+        "dominant_count": 7,
+        "dominant_fraction": 0.07,
+        "mode_is_tied": false,
+        "unique_values": 67
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          2350.0
+        ],
+        "dominant_count": 7,
+        "dominant_fraction": 0.07,
+        "mode_is_tied": false,
+        "unique_values": 68
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          10.5,
+          8.9,
+          9.6
+        ],
+        "dominant_count": 4,
+        "dominant_fraction": 0.04,
+        "mode_is_tied": true,
+        "unique_values": 70
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          98.5,
+          99.5
+        ],
+        "dominant_count": 4,
+        "dominant_fraction": 0.04,
+        "mode_is_tied": true,
+        "unique_values": 79
+      }
+    },
+    "identical_complete_trajectories": {
+      "identical_trajectory_groups": 0,
+      "recipients_in_identical_trajectory_groups": 0,
+      "maximum_identical_group_size": 1
+    },
+    "anchor_clipping_counts": {
+      "creatinine_mg_dl": {
+        "at_minimum": 2,
+        "at_maximum": 0
+      },
+      "urine_output_ml_24h": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      },
+      "tacrolimus_level_ng_ml": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      },
+      "medication_adherence_pct": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      }
+    },
+    "later_day_repetition_warnings": [
+      "day 14 urine_output_ml_24h dominant value frequency is 0.220"
+    ],
+    "gates": {
+      "creatinine_mg_dl_anchor_output_correlation_at_least_0_90": true,
+      "urine_output_ml_24h_anchor_output_correlation_at_least_0_90": true,
+      "tacrolimus_level_ng_ml_anchor_output_correlation_at_least_0_90": true,
+      "medication_adherence_pct_anchor_output_correlation_at_least_0_90": true,
+      "day7_urine_unique_values_at_least_30": true,
+      "day7_adherence_unique_values_at_least_30": true,
+      "day7_urine_dominant_fraction_at_most_0_20": true,
+      "day7_adherence_dominant_fraction_at_most_0_20": true,
+      "anchor_recipient_suffix_correlations_below_materiality_threshold": true,
+      "no_identical_complete_trajectories": true
+    },
+    "failed_gates": []
+  },
+  "anchor_deviation_warning_count": 0
+}

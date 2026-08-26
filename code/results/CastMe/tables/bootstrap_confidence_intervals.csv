@@ -1,0 +1,4 @@
+metric,point_estimate,ci_lower,ci_upper,valid_resamples,bootstrap_method,unique_test_clusters
+auroc,0.7686339453376476,0.7583293431387346,0.7790102993992599,1000,actor_role_cluster_bootstrap,7921
+f1,0.6342441714715468,0.6226287635913873,0.6466179829686246,1000,actor_role_cluster_bootstrap,7921
+balanced_accuracy,0.6981664275176038,0.6881476199789599,0.7079372902905073,1000,actor_role_cluster_bootstrap,7921

@@ -1,0 +1,6 @@
+scenario,comparison_type,reference_model,forget_set_row_count,ks_p_value,ks_statistic,probability_mae,prediction_agreement,absolute_bce_difference,absolute_true_label_confidence_difference,truth_ratio_definition,seed,fixed_threshold
+Actor withdrawal — 1%,method_matched_vs_clean_retain_only_sisa,Clean retain-only SISA method-matched reference,415,1.0,0.0,0.0,1.0,0.0,0.0,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Submission withdrawal — 5%,method_matched_vs_clean_retain_only_sisa,Clean retain-only SISA method-matched reference,2137,1.0,0.0,0.0,1.0,0.0,0.0,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Agency withdrawal — 10%,method_matched_vs_clean_retain_only_sisa,Clean retain-only SISA method-matched reference,4224,1.0,0.0,0.0,1.0,0.0,0.0,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Project closure — 15%,method_matched_vs_clean_retain_only_sisa,Clean retain-only SISA method-matched reference,6289,1.0,0.0,0.0,1.0,0.0,0.0,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Retention expiry — 15%,method_matched_vs_clean_retain_only_sisa,Clean retain-only SISA method-matched reference,6298,1.0,0.0,0.0,1.0,0.0,0.0,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32

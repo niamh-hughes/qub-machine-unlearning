@@ -1,0 +1,33 @@
+scenario,display_name,model,attack_type,tpr_at_fpr_0.001,tpr_at_fpr_0.01,tpr_at_fpr_0.05
+s1_random_1_percent,Random 1%,baseline,confidence,0.0,0.008540758723566058,0.048904618444528945
+s1_random_1_percent,Random 1%,baseline,loss,0.0,0.008043522770481733,0.0488753692708181
+s1_random_1_percent,Random 1%,fully_retrained,confidence,0.0,0.009867935119803823,0.040594439684462434
+s1_random_1_percent,Random 1%,fully_retrained,loss,0.0,0.009838390403876266,0.04053535025260732
+s1_random_1_percent,Random 1%,gradient_ascent,confidence,0.0,0.012261057109935887,0.04396253730020386
+s1_random_1_percent,Random 1%,gradient_ascent,loss,0.0,0.011995154666587881,0.04387390315242119
+s1_random_1_percent,Random 1%,overfit_control,confidence,0.0,0.011788341655094986,0.03899902502437439
+s1_random_1_percent,Random 1%,overfit_control,loss,0.0,0.011788341655094986,0.03891039087659172
+s2_random_5_percent,Random 5%,baseline,confidence,0.0,0.008540758723566058,0.048904618444528945
+s2_random_5_percent,Random 5%,baseline,loss,0.0,0.008043522770481733,0.0488753692708181
+s2_random_5_percent,Random 5%,fully_retrained,confidence,0.0,0.009759852216748768,0.054310344827586204
+s2_random_5_percent,Random 5%,fully_retrained,loss,0.0,0.00960591133004926,0.0541564039408867
+s2_random_5_percent,Random 5%,gradient_ascent,confidence,0.0,0.008620689655172414,0.052309113300492614
+s2_random_5_percent,Random 5%,gradient_ascent,loss,0.0,0.008620689655172414,0.05224753694581281
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),baseline,confidence,0.0,0.008540758723566058,0.048904618444528945
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),baseline,loss,0.0,0.008043522770481733,0.0488753692708181
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),fully_retrained,confidence,0.0,0.00951032593641316,0.04650518605152196
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),fully_retrained,loss,0.0,0.009356437167215537,0.04650518605152196
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),gradient_ascent,confidence,0.0,0.01040288079775938,0.04604351974392909
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),gradient_ascent,loss,0.0,0.01027976978240128,0.04604351974392909
+s4_random_10_percent,Random 10%,baseline,confidence,0.0,0.008540758723566058,0.048904618444528945
+s4_random_10_percent,Random 10%,baseline,loss,0.0,0.008043522770481733,0.0488753692708181
+s4_random_10_percent,Random 10%,fully_retrained,confidence,0.0,0.013747156321091972,0.051998700032499186
+s4_random_10_percent,Random 10%,fully_retrained,loss,0.0,0.013454663633409164,0.051998700032499186
+s4_random_10_percent,Random 10%,gradient_ascent,confidence,0.0,0.013584660383490413,0.05004874878128047
+s4_random_10_percent,Random 10%,gradient_ascent,loss,0.0,0.013292167695807605,0.049658758531036726
+s5_retention_expiry,Simulated Retention Expiry,baseline,confidence,0.0,0.008540758723566058,0.048904618444528945
+s5_retention_expiry,Simulated Retention Expiry,baseline,loss,0.0,0.008043522770481733,0.0488753692708181
+s5_retention_expiry,Simulated Retention Expiry,fully_retrained,confidence,0.0,0.019857362606628442,0.11138302335337714
+s5_retention_expiry,Simulated Retention Expiry,fully_retrained,loss,0.0,0.019787442315760035,0.11138302335337714
+s5_retention_expiry,Simulated Retention Expiry,gradient_ascent,confidence,0.0,0.02576562718500909,0.13428191861278144
+s5_retention_expiry,Simulated Retention Expiry,gradient_ascent,loss,0.0,0.025590826457838063,0.13428191861278144

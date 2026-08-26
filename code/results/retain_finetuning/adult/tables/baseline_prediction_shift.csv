@@ -1,0 +1,6 @@
+scenario,baseline_prediction_agreement,mean_absolute_probability_shift_from_baseline
+s1_random_1_percent,0.9903098130203357,0.00993434330165037
+s2_random_5_percent,0.9912651835676266,0.007920206663548094
+s3_simulated_data_provider_withdrawal,0.9888085164460215,0.01025461336640388
+s4_random_10_percent,0.9881261089122424,0.00984508836880998
+s5_retention_expiry,0.9881261089122424,0.0100580089708199

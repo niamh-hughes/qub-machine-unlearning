@@ -1,0 +1,29 @@
+{
+  "status": "failed",
+  "notebook": "notebooks/01_baseline_model.ipynb",
+  "command": "jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1800 final_submission/notebooks/01_baseline_model.ipynb",
+  "exit_status": 1,
+  "runtime_seconds": 8.941820041,
+  "failing_execution_count": 3,
+  "failing_notebook_cell_index_zero_based": 5,
+  "failure_stage": "project path and initial run-status setup",
+  "error_type": "TypeError",
+  "error_message": "'str' object is not callable",
+  "error_output": "DICTIONARY_PATH = DATA_DIR / \"data_dictionary.csv\"(RESULT_DIR / \"run_summary.json\").write_text(...) raised TypeError: 'str' object is not callable",
+  "root_cause": "The inserted running-status write was concatenated to the preceding DICTIONARY_PATH assignment because the preceding notebook source line lacked a terminating newline.",
+  "source_correction_after_failure": "A terminating newline was restored in Notebook 01. The same append-boundary defect was corrected proactively in Notebook 02. No notebook was retried.",
+  "execution_effects": {
+    "model_training_started": false,
+    "models_overwritten": false,
+    "processed_data_overwritten": false,
+    "metric_outputs_overwritten": false,
+    "notebook_executed_output_saved": false,
+    "notebooks_02_or_03_executed": false,
+    "network_requests": 0
+  },
+  "preserved_output_hashes": {
+    "results/baseline/test_metrics.csv": "34597b7dae445cf83145d6c85814de62cfc0f312a58d585dfc4fc479a492ec7d",
+    "results/baseline/test_predictions.csv": "94894c20b84f3c65005a016944c59cc175227793e62ad0744d714750229ca110"
+  },
+  "retry_authorized": false
+}

@@ -1,0 +1,22 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "base_url": "https://resolution-andreas-alerts-blah.trycloudflare.com/v1",
+  "prompt_version": "qwen-deletion-interpreter-v1",
+  "prompt_hashes": {
+    "zero_shot": "7573be667626a9e9d9bc1993afc371733b91a01a4779a9a978ded811b4ccde98",
+    "few_shot": "540f2354710a9c4fa5dc1a1fdf44847b32d9d03ccbf4957389ecfc9e68e5d9e6"
+  },
+  "temperature": 0,
+  "max_tokens": 350,
+  "max_retries": 0,
+  "timeout_seconds": 90.0,
+  "response_format": "json_object",
+  "enable_thinking": false,
+  "benchmark_sha256": "95f5f2904b7e8e079e5d06409100f1525a2e0598466282ae06b2840fc74bd7ce",
+  "worked_example_latency_seconds": 1.158374791033566,
+  "benchmark_api_calls_succeeded": 200,
+  "total_api_calls_succeeded": 201,
+  "inference_seconds": 125.83026162511669,
+  "api_key_source": "hidden input or QWEN_API_KEY environment variable",
+  "completed_at": "2026-08-25T10:58:44.870076+00:00"
+}

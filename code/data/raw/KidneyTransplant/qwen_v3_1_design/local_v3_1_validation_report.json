@@ -1,0 +1,363 @@
+{
+  "design_version": "qwen-kidney-v3.1",
+  "api_request_count": 0,
+  "qwen_return_schema": {
+    "root_keys": [
+      "assessments"
+    ],
+    "assessment_count": 6,
+    "assessment_days": [
+      7,
+      14,
+      30,
+      60,
+      90,
+      180
+    ],
+    "assessment_keys": [
+      "days_since_transplant",
+      "creatinine_mg_dl",
+      "urine_output_ml_24h",
+      "tacrolimus_level_ng_ml",
+      "medication_adherence_pct"
+    ]
+  },
+  "api_configuration": {
+    "client": {
+      "max_retries": 0
+    },
+    "completion": {
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "presence_penalty": 1.5,
+      "extra_body": {
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "seed": "unique deterministic corrected_10_control_plan.request_seed",
+    "automatic_retry": false,
+    "response_order": [
+      "resp.model_dump_json(indent=2)",
+      "append complete response to immutable JSONL",
+      "extract final content",
+      "parse and validate"
+    ]
+  },
+  "python_infection_derivation": "1 iff assessment day is in Python-controlled infection_episode_days",
+  "event_risk_relationship": {
+    "formula": "seeded logistic probability from HLA, antibody risk, previous transplant, adherence, donor type and cold ischaemia, then a random draw",
+    "probabilistic_rows": 90,
+    "forced_overlap_rows": 10,
+    "final_event_recipients": 34,
+    "probability_min": 0.107888,
+    "probability_max": 0.663739,
+    "high_risk_without_rejection": "V31-R000008",
+    "lower_risk_with_rejection": "V31-R000061"
+  },
+  "identity_rows": 180,
+  "recipient_rows": 100,
+  "assessment_rows": 600,
+  "consent_effective_dates": {
+    "RECIPIENT_V1": "2023-01-09",
+    "RECIPIENT_V2": "2023-01-10",
+    "RECIPIENT_V3": "2023-02-09",
+    "RECIPIENT_V4": "2023-03-07"
+  },
+  "invalid_consent_structure": {
+    "rows": 60,
+    "recipients": 38,
+    "records_per_recipient": {
+      "1": 19,
+      "2": 16,
+      "3": 3
+    },
+    "assessment_days": [
+      7,
+      14,
+      30,
+      60
+    ],
+    "hospitals": 9,
+    "donors": 34,
+    "complete_histories": 0
+  },
+  "retention_cutoff": "2025-02-26",
+  "retention_structure": {
+    "rows": 90,
+    "recipients": 37,
+    "records_per_recipient": {
+      "1": 4,
+      "2": 13,
+      "3": 20
+    },
+    "assessment_days": [
+      7,
+      14,
+      30
+    ],
+    "hospitals": 9,
+    "donors": 34,
+    "consent_versions": [
+      "RECIPIENT_V1",
+      "RECIPIENT_V2",
+      "RECIPIENT_V3"
+    ],
+    "complete_histories": 0
+  },
+  "hospital_size_distribution": {
+    "V31-H01": 18,
+    "V31-H02": 15,
+    "V31-H03": 13,
+    "V31-H04": 12,
+    "V31-H05": 10,
+    "V31-H06": 9,
+    "V31-H07": 8,
+    "V31-H08": 7,
+    "V31-H09": 5,
+    "V31-H10": 3
+  },
+  "donor_cluster_size_distribution": {
+    "1": 60,
+    "2": 20
+  },
+  "deceased_donor_cluster_size_distribution": {
+    "1": 20,
+    "2": 20
+  },
+  "selected_donor_deletion_clusters": {
+    "V31-DL000001": 1,
+    "V31-DP000001": 2,
+    "V31-DP000002": 2
+  },
+  "deletion_scenarios": [
+    {
+      "scenario": "recipient_withdrawal",
+      "matched_rows": 6,
+      "matched_percentage": 0.01,
+      "recipients": 1,
+      "hospitals": 1,
+      "donors": 1,
+      "consent_versions": 1,
+      "assessment_days": "[7, 14, 30, 60, 90, 180]",
+      "records_per_recipient_distribution": "{\"6\": 1}",
+      "complete_histories_removed": 1
+    },
+    {
+      "scenario": "donor_withdrawal",
+      "matched_rows": 30,
+      "matched_percentage": 0.05,
+      "recipients": 5,
+      "hospitals": 3,
+      "donors": 3,
+      "consent_versions": 3,
+      "assessment_days": "[7, 14, 30, 60, 90, 180]",
+      "records_per_recipient_distribution": "{\"6\": 5}",
+      "complete_histories_removed": 5
+    },
+    {
+      "scenario": "hospital_removal",
+      "matched_rows": 60,
+      "matched_percentage": 0.1,
+      "recipients": 10,
+      "hospitals": 1,
+      "donors": 10,
+      "consent_versions": 3,
+      "assessment_days": "[7, 14, 30, 60, 90, 180]",
+      "records_per_recipient_distribution": "{\"6\": 10}",
+      "complete_histories_removed": 10
+    },
+    {
+      "scenario": "invalid_consent_version",
+      "matched_rows": 60,
+      "matched_percentage": 0.1,
+      "recipients": 38,
+      "hospitals": 9,
+      "donors": 34,
+      "consent_versions": 1,
+      "assessment_days": "[7, 14, 30, 60]",
+      "records_per_recipient_distribution": "{\"1\": 19, \"2\": 16, \"3\": 3}",
+      "complete_histories_removed": 0
+    },
+    {
+      "scenario": "retention_expiry",
+      "matched_rows": 90,
+      "matched_percentage": 0.15,
+      "recipients": 37,
+      "hospitals": 9,
+      "donors": 34,
+      "consent_versions": 3,
+      "assessment_days": "[7, 14, 30]",
+      "records_per_recipient_distribution": "{\"1\": 4, \"2\": 13, \"3\": 20}",
+      "complete_histories_removed": 0
+    }
+  ],
+  "corrected_10_archetypes": [
+    {
+      "request_id": "QWEN-V31-C10-REQ000001",
+      "recipient_id": "V31-R000001",
+      "hospital_id": "V31-H01",
+      "donor_id": "V31-DL000001",
+      "archetype": "stable_negative",
+      "request_seed": 310001
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000002",
+      "recipient_id": "V31-R000002",
+      "hospital_id": "V31-H05",
+      "donor_id": "V31-DL000002",
+      "archetype": "stable_negative",
+      "request_seed": 310002
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000003",
+      "recipient_id": "V31-R000003",
+      "hospital_id": "V31-H02",
+      "donor_id": "V31-DL000003",
+      "archetype": "infection_confounder_negative",
+      "request_seed": 310003
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000004",
+      "recipient_id": "V31-R000004",
+      "hospital_id": "V31-H06",
+      "donor_id": "V31-DL000004",
+      "archetype": "high_creatinine_confounder_negative",
+      "request_seed": 310004
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000005",
+      "recipient_id": "V31-R000005",
+      "hospital_id": "V31-H08",
+      "donor_id": "V31-DL000005",
+      "archetype": "subtle_positive",
+      "request_seed": 310005
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000006",
+      "recipient_id": "V31-R000006",
+      "hospital_id": "V31-H02",
+      "donor_id": "V31-DL000006",
+      "archetype": "moderate_positive",
+      "request_seed": 310006
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000007",
+      "recipient_id": "V31-R000007",
+      "hospital_id": "V31-H03",
+      "donor_id": "V31-DL000007",
+      "archetype": "rejection_high_adherence_in_range_tacrolimus",
+      "request_seed": 310007
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000008",
+      "recipient_id": "V31-R000008",
+      "hospital_id": "V31-H07",
+      "donor_id": "V31-DL000008",
+      "archetype": "high_risk_without_rejection",
+      "request_seed": 310008
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000009",
+      "recipient_id": "V31-R000061",
+      "hospital_id": "V31-H01",
+      "donor_id": "V31-DP000001",
+      "archetype": "lower_risk_with_rejection_shared_deceased_donor",
+      "request_seed": 310009
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000010",
+      "recipient_id": "V31-R000062",
+      "hospital_id": "V31-H01",
+      "donor_id": "V31-DP000001",
+      "archetype": "stable_negative_shared_deceased_donor",
+      "request_seed": 310010
+    }
+  ],
+  "hard_validation": {
+    "qwen_payload": [
+      "exact root and assessments array",
+      "six ordered days",
+      "exact five-key set",
+      "finite numeric types",
+      "canonical ranges",
+      "no forbidden fields"
+    ],
+    "python_derivations": [
+      "infection",
+      "creatinine change",
+      "previous rejection",
+      "30-day target"
+    ],
+    "metadata": [
+      "monotonic consent",
+      "varied consent deletion",
+      "varied retention deletion",
+      "varied hospitals",
+      "deceased donor sizes one and two",
+      "constant shared donor fields",
+      "identifier separation"
+    ]
+  },
+  "diagnostic_validation": {
+    "status": "diagnostic only; not formal performance",
+    "checks": [
+      "repeated continuous values",
+      "univariate AUROC",
+      "grouped exploratory classification",
+      "outcome-exclusive categorical values",
+      "subgroup prevalence",
+      "positive/negative overlap"
+    ],
+    "ten_recipient_policy": "warnings only; no production AUROC threshold",
+    "grouped_split": {
+      "key": "recipient_id",
+      "rule": "all six assessments remain together",
+      "prerequisite_before_training": true
+    }
+  },
+  "storage_defaults": {
+    "responses": "complete serialized responses to immutable chunked JSONL before extraction",
+    "recipients_per_chunk": 100,
+    "chunk_size_status": "provisional until benchmarked",
+    "expected_api_requests": 10000,
+    "expected_output_rows": 60000,
+    "estimated_tokens_per_request_from_v2": 1145.2,
+    "estimated_total_tokens": 11452000,
+    "chunk_count": 100,
+    "authoritative_manifest": {
+      "format": "append-only JSONL",
+      "fields": [
+        "request_id",
+        "recipient_id",
+        "seed",
+        "status",
+        "token_usage",
+        "validation_result",
+        "response_chunk",
+        "line_number"
+      ]
+    },
+    "optional_manifest_snapshot": "derived CSV, never authoritative",
+    "resume": "skip completed request IDs from JSONL/checkpoints; never overwrite or retry automatically",
+    "primary_future_outputs": [
+      "identity table",
+      "assessment table"
+    ],
+    "audit_only_joined_42_column_export": "disabled by default",
+    "full_generation_executed": false
+  },
+  "unresolved_decisions": [
+    "benchmark provisional 100-recipient chunk size",
+    "set production thresholds after a larger diagnostic batch"
+  ],
+  "generation_flags": {
+    "RUN_CORRECTED_10": false,
+    "RUN_100_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  }
+}

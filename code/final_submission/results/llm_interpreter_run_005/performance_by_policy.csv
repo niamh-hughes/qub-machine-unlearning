@@ -1,0 +1,16 @@
+method,deletion_policy,requests,policy_accuracy,entity_exact_match,mean_forget_jaccard,exact_forget_match_rate,under_deleted_rows,over_deleted_rows
+rule_baseline,recipient_withdrawal,16,0.6875,0.6875,0.875,0.875,12,0
+rule_baseline,donor_withdrawal,16,0.625,0.625,0.75,0.75,48,0
+rule_baseline,hospital_removal,16,0.4375,0.4375,0.4375,0.4375,38826,0
+rule_baseline,invalid_consent,16,0.625,0.625,0.625,0.625,24888,0
+rule_baseline,retention_expiry,16,0.5625,1.0,0.5625,0.5625,43834,0
+zero_shot,recipient_withdrawal,16,0.9375,0.9375,1.0,1.0,0,0
+zero_shot,donor_withdrawal,16,0.8125,0.8125,0.9375,0.9375,12,0
+zero_shot,hospital_removal,16,0.6875,0.6875,0.6875,0.6875,21570,0
+zero_shot,invalid_consent,16,1.0,1.0,1.0,1.0,0,0
+zero_shot,retention_expiry,16,0.75,1.0,0.75,0.75,25048,0
+few_shot,recipient_withdrawal,16,1.0,1.0,1.0,1.0,0,0
+few_shot,donor_withdrawal,16,0.9375,0.9375,1.0,1.0,0,0
+few_shot,hospital_removal,16,1.0,1.0,1.0,1.0,0,0
+few_shot,invalid_consent,16,1.0,1.0,1.0,1.0,0,0
+few_shot,retention_expiry,16,1.0,1.0,1.0,1.0,0,0

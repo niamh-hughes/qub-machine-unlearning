@@ -1,0 +1,64 @@
+{
+  "algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+  "determinism": "numpy default_rng(recipient request_seed + 3200000)",
+  "inputs": [
+    "request_seed",
+    "baseline_creatinine_mg_dl",
+    "recovery_pattern",
+    "adherence_pattern",
+    "tacrolimus_exposure_pattern",
+    "infection_episode_days",
+    "confirmed_rejection_event_days",
+    "rejection_signal_strength",
+    "non_rejection_confounders"
+  ],
+  "outputs": [
+    "day7_creatinine_anchor_mg_dl",
+    "day7_urine_output_anchor_ml_24h",
+    "day7_tacrolimus_anchor_ng_ml",
+    "day7_medication_adherence_anchor_pct"
+  ],
+  "approved_ranges": {
+    "creatinine_mg_dl": {
+      "minimum": 0.65,
+      "maximum": 2.91,
+      "unit": "mg/dL",
+      "reference_observed_min": 0.65,
+      "reference_observed_max": 2.91,
+      "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+    },
+    "urine_output_ml_24h": {
+      "minimum": 755.0,
+      "maximum": 3200.0,
+      "unit": "mL/24h",
+      "reference_observed_min": 755.0,
+      "reference_observed_max": 3200.0,
+      "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+    },
+    "tacrolimus_level_ng_ml": {
+      "minimum": 2.9,
+      "maximum": 13.5,
+      "unit": "ng/mL",
+      "reference_observed_min": 2.9,
+      "reference_observed_max": 13.5,
+      "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+    },
+    "medication_adherence_pct": {
+      "minimum": 0.0,
+      "maximum": 100.0,
+      "unit": "percent",
+      "reference_observed_min": 73.3,
+      "reference_observed_max": 100.0,
+      "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+    }
+  },
+  "prompt_proximity_tolerances": {
+    "creatinine_mg_dl": 0.12,
+    "urine_output_ml_24h": 120.0,
+    "tacrolimus_level_ng_ml": 0.6,
+    "medication_adherence_pct": 1.5
+  },
+  "post_response_jitter_or_adjustment": false,
+  "classifier_feature_allowed": false,
+  "final_assessment_columns_added": []
+}

@@ -1,0 +1,44 @@
+{
+  "review_id": "QWEN-V32-PROD-001-MANUAL-QUALITY-REVIEW-001",
+  "run_id": "QWEN-V32-PROD-001",
+  "created_at_utc": "2026-08-16T23:11:35.140657+00:00",
+  "status": "completed",
+  "api_requests_attempted": 0,
+  "api_requests_completed": 0,
+  "chunk_reviewed": 20,
+  "chunk_sample_size_recipients": 100,
+  "observations": {
+    "chunk_020_frozen_urine_anchor_recipient_order_correlation": -0.22430525410752342,
+    "chunk_020_frozen_urine_anchor_recipient_order_correlation_rounded": -0.2243,
+    "cumulative_through_2000_urine_anchor_recipient_order_correlation": -0.030485985737320156,
+    "cumulative_through_2000_correlation_rounded": -0.0305,
+    "full_frozen_10000_recipient_anchor_correlations": {
+      "creatinine_mg_dl": -0.0046424195058719295,
+      "urine_output_ml_24h": -0.002415255618747954,
+      "tacrolimus_level_ng_ml": -0.005949496051650136,
+      "medication_adherence_pct": -0.011777167029743536
+    },
+    "full_frozen_anchor_correlation_range": {
+      "minimum": -0.011777167029743536,
+      "maximum": -0.002415255618747954,
+      "rounded_statement": "between -0.0118 and -0.0024"
+    },
+    "chunk_020_anchor_output_correlations": {
+      "creatinine_mg_dl": 0.9985967764679262,
+      "urine_output_ml_24h": 0.995403339328568,
+      "tacrolimus_level_ng_ml": 0.9979870143081305,
+      "medication_adherence_pct": 0.9996275222565442
+    },
+    "all_chunk_020_anchor_output_correlations_exceed_0_99": true,
+    "day_7_diversity_passed": true,
+    "identical_trajectory_groups": 0,
+    "hard_validation_failures": [],
+    "leakage_failures": []
+  },
+  "decision": "accepted_without_regeneration",
+  "decision_reason": "The isolated 100-recipient chunk correlation is not supported by the cumulative 2,000-recipient or full frozen 10,000-recipient skeleton evidence; all hard validation, diversity, trajectory and leakage checks passed.",
+  "generator_changed": false,
+  "prompt_changed": false,
+  "anchors_changed": false,
+  "targets_changed": false
+}

@@ -1,0 +1,6 @@
+scenario,retain_count,num_epochs,batch_size,learning_rate,best_epoch,best_val_loss,early_stopping_triggered,runtime_seconds
+s1_random_1_percent,33847,10,64,0.0005,2,0.30120043943496533,True,7.865476207924075
+s2_random_5_percent,32480,10,64,0.0005,1,0.3006626895231983,True,6.13723312492948
+s3_simulated_data_provider_withdrawal,32491,10,64,0.0005,4,0.30059820636923834,True,10.81638837500941
+s4_random_10_percent,30770,10,64,0.0005,3,0.3008114498046588,True,8.601153208990581
+s5_retention_expiry,28604,10,64,0.0005,1,0.30078234628286316,True,5.558269084081985

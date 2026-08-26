@@ -1,0 +1,6 @@
+scenario,validation_selected_epoch,best_probability_epoch,best_loss_epoch,best_entropy_epoch,sweep_criteria_select_same_epoch,actual_finetuning_epochs_run,finetuning_runtime_seconds,full_retraining_runtime_seconds,runtime_ratio_finetuned_to_retrained
+s1_random_1_percent,2,2,2,2,True,6,7.865476207924075,6.158162959036417,1.277243921644257
+s2_random_5_percent,1,2,2,2,True,5,6.13723312492948,6.309742750017904,0.9726598005777757
+s3_simulated_data_provider_withdrawal,4,2,2,2,True,8,10.81638837500941,4.582675707992166,2.360277938966023
+s4_random_10_percent,3,2,2,2,True,7,8.601153208990581,5.082447624998167,1.69232500629924
+s5_retention_expiry,1,5,5,5,True,5,5.558269084081985,5.083568624977488,1.0933793746330314

@@ -1,0 +1,6 @@
+scenario,seed,epochs_completed,selected_retained_validation_bce,runtime_seconds,selected_epoch,selection_reason,utility_constraint_satisfied,best_forgetting_diagnostic_epoch,retained_validation_bce_change,forget_bce_change
+s1_recipient_withdrawal,42,8,0.09124873852729798,1.417933417018503,8,largest forget BCE among checkpoints within the 2% retained-validation utility constraint,True,8,0.00015655394395193423,0.0025676230575102585
+s2_living_donor_withdrawal,42,8,0.0928475410938263,1.6431759169790894,7,largest forget BCE among checkpoints within the 2% retained-validation utility constraint,True,8,0.0017553565104802549,0.004128077509705397
+s3_hospital_withdrawal,42,8,0.09276665010570008,2.1205216250382364,8,largest forget BCE among checkpoints within the 2% retained-validation utility constraint,True,8,0.001477351034129104,0.007328964462275017
+s4_invalid_consent,42,8,0.09511262041551095,1.8662250828929245,6,largest forget BCE among checkpoints within the 2% retained-validation utility constraint,True,8,0.0016576761007308927,0.004144800590134626
+s5_retention_expiry,42,8,0.09078151194972536,2.6356202501337975,6,largest forget BCE among checkpoints within the 2% retained-validation utility constraint,True,8,0.0014094211787820943,0.004090502654712558

@@ -1,0 +1,60 @@
+{
+  "n_shards": 5,
+  "n_slices": 5,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "maximum_epochs_per_slice": 12,
+  "early_stopping_patience": 3,
+  "seed": 42,
+  "threshold": 0.62,
+  "architecture": [
+    24,
+    64,
+    32,
+    1
+  ],
+  "experiment": "policy-aware SISA configuration sensitivity experiment",
+  "assignment_inputs": [
+    "training recipient_id",
+    "donor_id",
+    "five predefined training-forget masks",
+    "seed 42"
+  ],
+  "assignment_optimisation": {
+    "phase1_success": true,
+    "minimum_maximum_affected_shards": 3,
+    "phase2_success": true,
+    "minimum_total_affected_shards": 9
+  },
+  "slice_training_seed_definition": "derived_seed('policy_slice_training', shard_id, slice_id)",
+  "slice_training_seeds": {
+    "shard_1_slice_1": 4125698204,
+    "shard_1_slice_2": 1381616596,
+    "shard_1_slice_3": 1040596689,
+    "shard_1_slice_4": 1162407041,
+    "shard_1_slice_5": 1816768135,
+    "shard_2_slice_1": 3348951447,
+    "shard_2_slice_2": 611178503,
+    "shard_2_slice_3": 3142452253,
+    "shard_2_slice_4": 3545266270,
+    "shard_2_slice_5": 1481866264,
+    "shard_3_slice_1": 595239902,
+    "shard_3_slice_2": 2855424630,
+    "shard_3_slice_3": 3935021342,
+    "shard_3_slice_4": 2314801019,
+    "shard_3_slice_5": 2727585514,
+    "shard_4_slice_1": 2361848181,
+    "shard_4_slice_2": 3812300803,
+    "shard_4_slice_3": 562195937,
+    "shard_4_slice_4": 2097560434,
+    "shard_4_slice_5": 2852067248,
+    "shard_5_slice_1": 1775412442,
+    "shard_5_slice_2": 3065926721,
+    "shard_5_slice_3": 3305257308,
+    "shard_5_slice_4": 2409638965,
+    "shard_5_slice_5": 906129549
+  },
+  "preprocessor_source": "models/baseline/baseline_preprocessor.joblib",
+  "scenario": "recipient_withdrawal"
+}

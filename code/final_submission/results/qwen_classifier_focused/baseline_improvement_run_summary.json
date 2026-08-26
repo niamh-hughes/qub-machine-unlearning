@@ -1,0 +1,109 @@
+{
+  "status": "baseline_completed_unlearning_paused",
+  "seed": 42,
+  "subset_recipients": 600,
+  "subset_rows": 3600,
+  "best_epoch": 3,
+  "selected_class_weight_strategy": "inverse_frequency",
+  "validation_history": [
+    {
+      "epoch": 1,
+      "train_loss": 7.187134309787111,
+      "validation_pr_auc": 0.1185423898096555,
+      "validation_auroc": 0.6471774193548387,
+      "validation_balanced_accuracy": 0.5979655425219942,
+      "validation_f1": 0.2111111111111111,
+      "validation_bce": 1.0427356076620984,
+      "elapsed_seconds": 129.54795870799717
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.399347538478495,
+      "validation_pr_auc": 0.1416042477496847,
+      "validation_auroc": 0.6775568181818181,
+      "validation_balanced_accuracy": 0.5935667155425219,
+      "validation_f1": 0.2276422764227642,
+      "validation_bce": 0.5286704800386699,
+      "elapsed_seconds": 259.964739832998
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.2288526092780687,
+      "validation_pr_auc": 0.1540872249604147,
+      "validation_auroc": 0.6843841642228738,
+      "validation_balanced_accuracy": 0.5975989736070382,
+      "validation_f1": 0.2352941176470588,
+      "validation_bce": 0.3269253765131711,
+      "elapsed_seconds": 389.8554522919949
+    }
+  ],
+  "best_validation_metrics": {
+    "epoch": 3,
+    "validation_pr_auc": 0.15408722496041474,
+    "validation_auroc": 0.6843841642228738,
+    "validation_bce": 0.3269253765131711,
+    "validation_balanced_accuracy": 0.5975989736070382,
+    "validation_f1": 0.23529411764705882,
+    "class_weight_strategy": "inverse_frequency",
+    "configuration": {
+      "qwen_model": "Qwen/Qwen2.5-0.5B",
+      "qwen_subset_recipients": 600,
+      "deletion_scenario": "hospital_removal",
+      "hospital_id": "V32P-H05",
+      "seed": 42,
+      "max_epochs": 3,
+      "unlearning_epochs": 1,
+      "training_batch_size": 16,
+      "evaluation_batch_size": 64,
+      "learning_rate": 0.0002,
+      "gradient_difference_learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "adam_epsilon": 1e-06,
+      "warmup_fraction": 0.05,
+      "gradient_clip_norm": 1.0,
+      "lora_rank": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.05,
+      "lora_targets": [
+        "q_proj",
+        "v_proj"
+      ],
+      "benchmark_batches": 25,
+      "benchmark_warmup_batches": 3,
+      "feasibility_threshold_minutes": 45.0,
+      "allow_runtime_override": false,
+      "run_class_weight_diagnostic": false,
+      "run_unlearning": false,
+      "maximum_length": 144
+    },
+    "seed": 42,
+    "selection_rule": "maximum validation PR-AUC; earliest epoch breaks exact ties"
+  },
+  "test_metrics": {
+    "n": 540,
+    "positive_count": 41,
+    "threshold": 0.34,
+    "pr_auc": 0.10902738011451138,
+    "balanced_accuracy": 0.5386138129918373,
+    "binary_cross_entropy": 0.34892530113406983,
+    "f1": 0.1487603305785124,
+    "auroc": 0.6475634195219708,
+    "bce_quality": 0.7054458243048883,
+    "composite_utility": 0.2413984703680979
+  },
+  "mlp_same_subset": {
+    "n": 540,
+    "positive_count": 41,
+    "threshold": 0.62,
+    "pr_auc": 0.16935779829168424,
+    "balanced_accuracy": 0.6609071802140867,
+    "binary_cross_entropy": 0.6049079895019531,
+    "f1": 0.267515923566879,
+    "auroc": 0.749498997995992,
+    "bce_quality": 0.5461246735312605,
+    "composite_utility": 0.34913436200000486
+  },
+  "baseline_adequacy_decision": "A. BASELINE ADEQUATE",
+  "estimated_later_experiment_minutes": 11.342825915408117,
+  "unlearning_executed_in_this_pass": false
+}

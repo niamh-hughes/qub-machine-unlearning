@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "seed": 42,
+  "subset_recipients": 600,
+  "subset_rows": 3600,
+  "scenario": "hospital_removal",
+  "hospital_id": "V32P-H05",
+  "forget_rows": 228,
+  "retain_rows": 2292,
+  "estimated_total_minutes": 6.048538327993534,
+  "actual_training_seconds": {
+    "baseline": 138.3724136669989,
+    "full_retraining": 130.47327712499828,
+    "gradient_difference": 25.280813375000434
+  },
+  "qwen_baseline": {
+    "n": 540,
+    "positive_count": 41,
+    "threshold": 0.98,
+    "pr_auc": 0.10092813777652482,
+    "balanced_accuracy": 0.5977809277090766,
+    "binary_cross_entropy": 2.8288807177789983,
+    "f1": 0.19090909090909092,
+    "auroc": 0.6134464050051321,
+    "bce_quality": 0.05907894268660193,
+    "composite_utility": 0.14134024879105184
+  },
+  "mlp_same_subset": {
+    "n": 540,
+    "positive_count": 41,
+    "threshold": 0.62,
+    "pr_auc": 0.16935779829168424,
+    "balanced_accuracy": 0.6609071802140867,
+    "binary_cross_entropy": 0.6049079895019531,
+    "f1": 0.267515923566879,
+    "auroc": 0.749498997995992,
+    "bce_quality": 0.5461246735312605,
+    "composite_utility": 0.34913436200000486
+  },
+  "full_retraining_composite_utility": 4.999999999901476e-12,
+  "gradient_difference_composite_utility": 4.999999999841787e-12,
+  "gradient_difference_vs_full_ks": {
+    "statistic": 0.7368421052631579,
+    "p_value": 2.0539321863066382e-60
+  },
+  "gradient_difference_speed_up": 5.160960416488025,
+  "unlearning_scope": "task-specific LoRA adapters and classification head only"
+}

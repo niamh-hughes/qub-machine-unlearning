@@ -1,0 +1,6 @@
+scenario,expected_total_size,actual_total_size,retain_forget_overlap,complete_training_coverage,forget_indices_valid,retain_indices_valid,passed
+s1_random_1_percent,34189,34189,0,True,True,True,True
+s2_random_5_percent,34189,34189,0,True,True,True,True
+s3_simulated_data_provider_withdrawal,34189,34189,0,True,True,True,True
+s4_random_10_percent,34189,34189,0,True,True,True,True
+s5_retention_expiry,34189,34189,0,True,True,True,True

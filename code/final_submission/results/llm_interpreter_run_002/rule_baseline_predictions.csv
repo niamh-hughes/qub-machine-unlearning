@@ -1,0 +1,101 @@
+request_id,method,request_type,entity_type,entity_ids,date_cutoff,requires_human_review,reason,schema_valid,parse_error,api_status,request_latency_seconds,retry_count
+LLMREQ-001,rule_baseline,recipient_withdrawal,recipient,['V32P-R004205'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-002,rule_baseline,recipient_withdrawal,recipient,['V32P-R001325'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-003,rule_baseline,recipient_withdrawal,recipient,['V32P-R001426'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-004,rule_baseline,recipient_withdrawal,recipient,['V32P-R007674'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-005,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-006,rule_baseline,recipient_withdrawal,recipient,['V32P-R005972'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-007,rule_baseline,recipient_withdrawal,recipient,['V32P-R005394'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-008,rule_baseline,recipient_withdrawal,recipient,['V32P-R007913'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-009,rule_baseline,recipient_withdrawal,recipient,['V32P-R008186'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-010,rule_baseline,recipient_withdrawal,recipient,['V32P-R009732'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-011,rule_baseline,recipient_withdrawal,recipient,['V32P-R008817'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-012,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-013,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-014,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-015,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-016,rule_baseline,recipient_withdrawal,recipient,['V32P-R002885'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-017,rule_baseline,donor_withdrawal,donor,['V32P-DP001594'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-018,rule_baseline,donor_withdrawal,donor,['V32P-DP000200'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-019,rule_baseline,donor_withdrawal,donor,['V32P-DP001152'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-020,rule_baseline,donor_withdrawal,donor,['V32P-DP001364'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-021,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-022,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-023,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-024,rule_baseline,donor_withdrawal,donor,['V32P-DP000419'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-025,rule_baseline,donor_withdrawal,donor,['V32P-DP000668'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-026,rule_baseline,donor_withdrawal,donor,['V32P-DP000150'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-027,rule_baseline,donor_withdrawal,donor,['V32P-DP000142'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-028,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-029,rule_baseline,donor_withdrawal,donor,['V32P-DP000340'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-030,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-031,rule_baseline,donor_withdrawal,donor,['V32P-DP001469'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-032,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-033,rule_baseline,hospital_removal,hospital,['V32P-H05'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-034,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-035,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-036,rule_baseline,hospital_removal,hospital,['V32P-H05'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-037,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-038,rule_baseline,hospital_removal,hospital,['V32P-H05'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-039,rule_baseline,hospital_removal,hospital,['V32P-H05'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-040,rule_baseline,hospital_removal,hospital,['V32P-H05'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-041,rule_baseline,hospital_removal,hospital,['V32P-H05'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-042,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-043,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-044,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-045,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-046,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-047,rule_baseline,hospital_removal,hospital,['V32P-H05'],,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-048,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-049,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-050,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-051,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-052,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-053,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-054,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-055,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-056,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-057,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-058,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-059,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-060,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-061,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-062,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-063,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-064,rule_baseline,invalid_consent,consent_rule,"['Invalidated', 'RECIPIENT_V3']",,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-065,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-066,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-067,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-068,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-069,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-070,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-071,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-072,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-073,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-074,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-075,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-076,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-077,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-078,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-079,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-080,rule_baseline,retention_expiry,retention_rule,[],2025-12-31,False,Rule match,True,,not_applicable,0.0,0
+LLMREQ-081,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-082,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-083,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-084,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-085,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-086,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-087,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-088,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-089,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-090,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-091,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-092,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-093,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-094,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-095,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-096,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-097,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-098,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0
+LLMREQ-099,rule_baseline,unknown,none,[],,True,No explicit removal intent,True,,not_applicable,0.0,0
+LLMREQ-100,rule_baseline,unknown,none,[],,True,No complete authorised rule matched,True,,not_applicable,0.0,0

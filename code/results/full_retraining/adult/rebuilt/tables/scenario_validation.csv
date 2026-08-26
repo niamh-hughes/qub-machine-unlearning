@@ -1,0 +1,6 @@
+scenario,forget_retain_overlap,coverage_count,coverage_matches_training,forget_indices_valid,retain_indices_valid,forget_records_in_baseline_training,forget_records_absent_from_retain,passed
+s1_random_1_percent,0,34189,True,True,True,True,True,True
+s2_random_5_percent,0,34189,True,True,True,True,True,True
+s3_different_random_5_percent,0,34189,True,True,True,True,True,True
+s4_random_10_percent,0,34189,True,True,True,True,True,True
+s5_retention_expiry,0,34189,True,True,True,True,True,True

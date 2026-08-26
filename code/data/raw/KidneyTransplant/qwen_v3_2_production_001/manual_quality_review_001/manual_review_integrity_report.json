@@ -1,0 +1,72 @@
+{
+  "review_id": "QWEN-V32-PROD-001-MANUAL-QUALITY-REVIEW-001",
+  "status": "passed",
+  "created_at_utc": "2026-08-16T23:11:35.171517+00:00",
+  "api_requests_attempted": 0,
+  "input_evidence_fingerprints": {
+    "chunk_020": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_020",
+      "file_count": 12,
+      "total_size_bytes": 1725053,
+      "aggregate_sha256_with_metadata": "403b87efa60047e715f42e1be0effab51d3f47e7eacdc561b1e3c0bd2bf34e84"
+    },
+    "progress_through_chunk_020": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_020",
+      "file_count": 4,
+      "total_size_bytes": 295864,
+      "aggregate_sha256_with_metadata": "22c2fed0f7d641282c3ae54de897ca616ccd0289f2933a981790d208850d227f"
+    },
+    "validation_amendment_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/validation_amendment_001",
+      "file_count": 4,
+      "total_size_bytes": 76312,
+      "aggregate_sha256_with_metadata": "615a5a8d5cfddda5e007db69cb1edb14ebe8343785be46d7f9959609c0a99d5f"
+    },
+    "validation_amendment_002": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/validation_amendment_002",
+      "file_count": 4,
+      "total_size_bytes": 391631,
+      "aggregate_sha256_with_metadata": "858fd1b1a277f4e57600250afaf1a5c77a04280a2ec01cbbeced71b076cd60f1"
+    },
+    "frozen_production_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001",
+      "file_count": 17,
+      "total_size_bytes": 25925956,
+      "aggregate_sha256_with_metadata": "9a5d88928b4e62268c8d735693799e7b762592beeb4ce19da45c9cb7c9563191"
+    }
+  },
+  "protected_before": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "protected_after": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "all_input_evidence_unchanged": true,
+  "review_file_fingerprints_excluding_self": {
+    "chunk_020_manual_review.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/manual_quality_review_001/chunk_020_manual_review.json",
+      "sha256": "2631233644432064811d833158cd110176e41cbca869a530f0642ed7e98a2388",
+      "mtime_ns": 1786921895140933943,
+      "size_bytes": 1976
+    },
+    "identifier_order_quality_policy.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/manual_quality_review_001/identifier_order_quality_policy.json",
+      "sha256": "05374331f07bd95c8344dc685134cb0e3db95a203610bce4d4883d9507e6b20d",
+      "mtime_ns": 1786921895141135026,
+      "size_bytes": 1099
+    }
+  },
+  "created_files": [
+    "chunk_020_manual_review.json",
+    "identifier_order_quality_policy.json",
+    "manual_review_integrity_report.json"
+  ]
+}

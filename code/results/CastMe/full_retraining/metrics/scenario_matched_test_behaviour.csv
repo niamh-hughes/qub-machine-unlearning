@@ -1,0 +1,6 @@
+scenario,matched_test_rows,original_mean_probability,retrained_mean_probability,mean_absolute_probability_difference,prediction_disagreement_rate
+s1_actor_withdrawal,80,0.19915378,0.19120002,0.011642577,0.0
+s2_submission_withdrawal,410,0.34756315,0.33586422,0.014867759,0.03170731707317073
+s3_agency_withdrawal,921,0.33854085,0.33571854,0.017711198,0.02823018458197611
+s4_project_closure,1384,0.31993857,0.31778628,0.0164184,0.026734104046242775
+s5_retention_expiry,1319,0.35859036,0.34416473,0.019057436,0.028051554207733132

@@ -1,0 +1,51 @@
+{
+  "status": "completed",
+  "task": "baseline kidney-transplant classifier",
+  "target": "acute_rejection_within_30_days",
+  "actions": {
+    "0": "continue standard monitoring",
+    "1": "priority transplant-team review and further tests"
+  },
+  "data_shape": [
+    60000,
+    31
+  ],
+  "recipient_count": 10000,
+  "positive_target_count": 4494,
+  "split_assessment_rows": {
+    "train": 42024,
+    "validation": 8988,
+    "test": 8988
+  },
+  "preserved_first_run_split_membership_identical": true,
+  "best_epoch": 12,
+  "training_seconds": 4.3392719170078635,
+  "device": "cpu",
+  "parameter_count": 3713,
+  "positive_class_weight": 12.29873417721519,
+  "selected_threshold": 0.62,
+  "test_metrics": {
+    "n": 8988,
+    "positive_count": 665,
+    "prevalence": 0.07398753613233566,
+    "threshold": 0.62,
+    "pr_auc": 0.16886120264644638,
+    "auroc": 0.7321320843861427,
+    "balanced_accuracy": 0.6303888400564068,
+    "f1": 0.2445793581960104,
+    "binary_cross_entropy": 0.5750919266960258,
+    "precision": 0.17184643510054845,
+    "recall": 0.42406015037593986,
+    "specificity": 0.8367175297368737,
+    "accuracy": 0.806186025812194,
+    "true_negative": 6964,
+    "false_positive": 1359,
+    "false_negative": 383,
+    "true_positive": 282,
+    "positive_prediction_rate": 0.18257676902536715
+  },
+  "all_verification_checks_pass": true,
+  "final_acceptance_pass": true,
+  "performance_target_imposed": false,
+  "dataset_altered_for_performance": false
+}

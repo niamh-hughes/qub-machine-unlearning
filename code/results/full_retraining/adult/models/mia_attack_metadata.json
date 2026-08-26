@@ -1,0 +1,30 @@
+{
+  "attack_feature_names": [
+    "negative_model_loss",
+    "true_class_confidence",
+    "negative_entropy",
+    "max_probability",
+    "probability_margin",
+    "correct_prediction",
+    "model_probability",
+    "true_class"
+  ],
+  "direct_attack_columns": {
+    "negative_loss": "negative_model_loss",
+    "true_class_confidence": "true_class_confidence",
+    "entropy": "negative_entropy"
+  },
+  "direct_attack_thresholds": {
+    "negative_loss": -0.2940543055534363,
+    "true_class_confidence": 0.7452360212802887,
+    "entropy": -0.501452162861824
+  },
+  "primary_attack": "shadow_logistic_score",
+  "random_seed": 42,
+  "shadow_model_count": 16,
+  "shadow_epochs": 10,
+  "bootstrap_resamples": 2000,
+  "permutation_resamples": 1000,
+  "shadow_auxiliary_pool": "validation split from Notebook 1",
+  "positive_control_excluded_from_main_comparison": true
+}

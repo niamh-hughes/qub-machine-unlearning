@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b7b334751605ded0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "```json\n{\"predictions\":[{\"row_key\":\"row_00575\",\"positive_class_score\":0.05},{\"row_key\":\"row_00576\",\"positive_class_score\":0.85},{\"row_key\":\"row_00577\",\"positive_class_score\":0.75},{\"row_key\":\"row_00578\",\"positive_class_score\":0.45},{\"row_key\":\"row_00579\",\"positive_class_score\":0.35},{\"row_key\":\"row_00580\",\"positive_class_score\":0.25},{\"row_key\":\"row_00581\",\"positive_class_score\":0.15},{\"row_key\":\"row_00582\",\"positive_class_score\":0.82},{\"row_key\":\"row_00583\",\"positive_class_score\":0.65},{\"row_key\":\"row_00584\",\"positive_class_score\":0.4},{\"row_key\":\"row_00585\",\"positive_class_score\":0.25},{\"row_key\":\"row_00586\",\"positive_class_score\":0.15},{\"row_key\":\"row_00587\",\"positive_class_score\":0.1},{\"row_key\":\"row_00588\",\"positive_class_score\":0.88},{\"row_key\":\"row_00589\",\"positive_class_score\":0.7},{\"row_key\":\"row_00590\",\"positive_class_score\":0.55},{\"row_key\":\"row_00591\",\"positive_class_score\":0.6},{\"row_key\":\"row_00592\",\"positive_class_score\":0.3},{\"row_key\":\"row_00593\",\"positive_class_score\":0.2},{\"row_key\":\"row_00594\",\"positive_class_score\":0.9},{\"row_key\":\"row_00595\",\"positive_class_score\":0.75},{\"row_key\":\"row_00596\",\"positive_class_score\":0.5},{\"row_key\":\"row_00597\",\"positive_class_score\":0.35},{\"row_key\":\"row_00598\",\"positive_class_score\":0.25},{\"row_key\":\"row_00599\",\"positive_class_score\":0.3}]}\n```",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787669183,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 501,
+    "prompt_tokens": 4889,
+    "total_tokens": 5390,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

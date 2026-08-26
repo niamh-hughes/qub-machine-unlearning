@@ -1,0 +1,12 @@
+{
+  "checkpoint": "Qwen/Qwen2.5-0.5B",
+  "saved_model": "models/qwen_classifier_lora/baseline",
+  "total_qwen_parameters": 494034560,
+  "trainable_lora_and_head_parameters": 542464,
+  "trainable_percentage": 0.10968241015579405,
+  "qwen_base_frozen": true,
+  "threshold": 0.52,
+  "training_runtime_seconds": 3125.8530367079993,
+  "training_rows": 42024,
+  "status": "completed"
+}

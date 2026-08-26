@@ -1,0 +1,31 @@
+{
+  "scenario": "hospital_removal",
+  "aggregation": "unweighted_mean",
+  "models": [
+    {
+      "shard_id": 1,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/hash_based/unlearned/hospital_removal/shard_1_model.pt"
+    },
+    {
+      "shard_id": 2,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/hash_based/unlearned/hospital_removal/shard_2_model.pt"
+    },
+    {
+      "shard_id": 3,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/hash_based/unlearned/hospital_removal/shard_3_model.pt"
+    },
+    {
+      "shard_id": 4,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/hash_based/unlearned/hospital_removal/shard_4_model.pt"
+    },
+    {
+      "shard_id": 5,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/hash_based/unlearned/hospital_removal/shard_5_model.pt"
+    }
+  ]
+}

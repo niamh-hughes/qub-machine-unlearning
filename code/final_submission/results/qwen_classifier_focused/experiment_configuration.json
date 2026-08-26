@@ -1,0 +1,33 @@
+{
+  "qwen_model": "Qwen/Qwen2.5-0.5B",
+  "qwen_subset_recipients": 600,
+  "deletion_scenario": "hospital_removal",
+  "hospital_id": "V32P-H05",
+  "seed": 42,
+  "max_epochs": 5,
+  "early_stopping_patience": 2,
+  "unlearning_epochs": 1,
+  "training_batch_size": 16,
+  "evaluation_batch_size": 64,
+  "learning_rate": 0.0002,
+  "gradient_difference_learning_rate": 2e-05,
+  "gradient_difference_forget_weight": 1.0,
+  "weight_decay": 0.01,
+  "adam_epsilon": 1e-06,
+  "warmup_fraction": 0.05,
+  "gradient_clip_norm": 1.0,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "lora_targets": [
+    "q_proj",
+    "v_proj"
+  ],
+  "benchmark_batches": 25,
+  "benchmark_warmup_batches": 3,
+  "feasibility_threshold_minutes": 45.0,
+  "allow_runtime_override": true,
+  "run_class_weight_diagnostic": false,
+  "run_unlearning": true,
+  "maximum_length": 144
+}

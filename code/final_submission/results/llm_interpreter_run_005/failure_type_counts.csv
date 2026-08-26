@@ -1,0 +1,15 @@
+method,error_type,count
+few_shot,correct,99
+few_shot,wrong_entity_extraction,1
+few_shot,wrong_policy,1
+rule_baseline,correct,67
+rule_baseline,under_deletion,28
+rule_baseline,wrong_cutoff_date,7
+rule_baseline,wrong_entity_extraction,26
+rule_baseline,wrong_policy,33
+zero_shot,correct,87
+zero_shot,malformed_or_schema_invalid,1
+zero_shot,under_deletion,10
+zero_shot,wrong_cutoff_date,4
+zero_shot,wrong_entity_extraction,9
+zero_shot,wrong_policy,13

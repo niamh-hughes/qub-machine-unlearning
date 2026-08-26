@@ -1,0 +1,108 @@
+{
+  "status": "completed",
+  "task": "Policy-aware SISA configuration sensitivity experiment",
+  "seed": 42,
+  "threshold": 0.62,
+  "configuration": {
+    "n_shards": 5,
+    "n_slices": 5,
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "maximum_epochs_per_slice": 12,
+    "early_stopping_patience": 3,
+    "seed": 42,
+    "threshold": 0.62,
+    "architecture": [
+      24,
+      64,
+      32,
+      1
+    ],
+    "experiment": "policy-aware SISA configuration sensitivity experiment",
+    "assignment_inputs": [
+      "training recipient_id",
+      "donor_id",
+      "five predefined training-forget masks",
+      "seed 42"
+    ],
+    "assignment_optimisation": {
+      "phase1_success": true,
+      "minimum_maximum_affected_shards": 3,
+      "phase2_success": true,
+      "minimum_total_affected_shards": 9
+    },
+    "slice_training_seed_definition": "derived_seed('policy_slice_training', shard_id, slice_id)",
+    "slice_training_seeds": {
+      "shard_1_slice_1": 4125698204,
+      "shard_1_slice_2": 1381616596,
+      "shard_1_slice_3": 1040596689,
+      "shard_1_slice_4": 1162407041,
+      "shard_1_slice_5": 1816768135,
+      "shard_2_slice_1": 3348951447,
+      "shard_2_slice_2": 611178503,
+      "shard_2_slice_3": 3142452253,
+      "shard_2_slice_4": 3545266270,
+      "shard_2_slice_5": 1481866264,
+      "shard_3_slice_1": 595239902,
+      "shard_3_slice_2": 2855424630,
+      "shard_3_slice_3": 3935021342,
+      "shard_3_slice_4": 2314801019,
+      "shard_3_slice_5": 2727585514,
+      "shard_4_slice_1": 2361848181,
+      "shard_4_slice_2": 3812300803,
+      "shard_4_slice_3": 562195937,
+      "shard_4_slice_4": 2097560434,
+      "shard_4_slice_5": 2852067248,
+      "shard_5_slice_1": 1775412442,
+      "shard_5_slice_2": 3065926721,
+      "shard_5_slice_3": 3305257308,
+      "shard_5_slice_4": 2409638965,
+      "shard_5_slice_5": 906129549
+    },
+    "preprocessor_source": "models/baseline/baseline_preprocessor.joblib"
+  },
+  "preparation_seconds": 1.9721478749997914,
+  "original_checkpoint_count": 25,
+  "original_storage_bytes": 1320675,
+  "updated_storage_bytes": 471283,
+  "affected_shards": {
+    "recipient_withdrawal": 1,
+    "donor_withdrawal": 1,
+    "hospital_removal": 1,
+    "invalid_consent": 3,
+    "retention_expiry": 3
+  },
+  "reused_shards": {
+    "recipient_withdrawal": 4,
+    "donor_withdrawal": 4,
+    "hospital_removal": 4,
+    "invalid_consent": 2,
+    "retention_expiry": 2
+  },
+  "replayed_slice_stages": {
+    "donor_withdrawal": 2,
+    "hospital_removal": 5,
+    "invalid_consent": 14,
+    "recipient_withdrawal": 1,
+    "retention_expiry": 14
+  },
+  "sequential_deletion_seconds": {
+    "recipient_withdrawal": 0.05924304202198982,
+    "donor_withdrawal": 0.058208666974678636,
+    "hospital_removal": 0.349116540979594,
+    "invalid_consent": 1.2875036671757698,
+    "retention_expiry": 1.2162430819589645
+  },
+  "parallel_runtime_measured": false,
+  "replay_seed_audit_pass": true,
+  "reused_shards_byte_identical": true,
+  "all_models_verified": true,
+  "maximum_ensemble_probability_difference": 0.0,
+  "utility_metrics_reproduced": true,
+  "composite_utility_reproduced": true,
+  "all_verification_checks_pass": true,
+  "protected_inputs_unchanged": true,
+  "original_policy_checkpoints_unchanged": true,
+  "network_requests": 0
+}

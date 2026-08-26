@@ -1,0 +1,25 @@
+{
+  "request_id": "QWEN-BATCH10-REQ000006",
+  "recipient_id": "QWEN-BATCH10-R000006",
+  "archetype": "tacrolimus_exposure_no_rejection",
+  "confirmed_rejection_event_days": [],
+  "api_requests_attempted": 6,
+  "api_requests_completed": 6,
+  "row_count": 6,
+  "validation_status": "passed",
+  "soft_warnings": [],
+  "token_usage": {
+    "completion_tokens": 705,
+    "prompt_tokens": 443,
+    "total_tokens": 1148,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "files": {
+    "complete_response": "QWEN-BATCH10-REQ000006_complete_response.json",
+    "final_content": "QWEN-BATCH10-REQ000006_final_content.txt",
+    "diagnostics": "QWEN-BATCH10-REQ000006_diagnostics.json",
+    "parsed": "QWEN-BATCH10-REQ000006_parsed.json",
+    "checkpoint": "QWEN-BATCH10-REQ000006_checkpoint_canonical_42.csv"
+  }
+}

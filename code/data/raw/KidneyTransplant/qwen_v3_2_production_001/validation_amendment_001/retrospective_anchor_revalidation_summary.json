@@ -1,0 +1,76 @@
+{
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-001",
+  "status": "passed",
+  "api_requests": 0,
+  "preserved_responses_revalidated": 572,
+  "urine_difference_distribution_ml_24h": {
+    "count": 572,
+    "minimum": 0.0,
+    "maximum": 123.80000000000018,
+    "mean": 18.316608391608394,
+    "standard_deviation": 24.490992786284334,
+    "median": 5.250000000000114,
+    "p90": 56.46999999999998,
+    "p95": 72.085,
+    "p99": 89.06100000000005
+  },
+  "complete_difference_distributions": {
+    "creatinine_mg_dl": {
+      "count": 572,
+      "minimum": 0.0,
+      "maximum": 0.08200000000000007,
+      "mean": 0.011620629370629377,
+      "standard_deviation": 0.015987466494681937,
+      "median": 0.0040000000000000036,
+      "p90": 0.038000000000000034,
+      "p95": 0.04899999999999993,
+      "p99": 0.06257999999999998
+    },
+    "urine_output_ml_24h": {
+      "count": 572,
+      "minimum": 0.0,
+      "maximum": 123.80000000000018,
+      "mean": 18.316608391608394,
+      "standard_deviation": 24.490992786284334,
+      "median": 5.250000000000114,
+      "p90": 56.46999999999998,
+      "p95": 72.085,
+      "p99": 89.06100000000005
+    },
+    "tacrolimus_level_ng_ml": {
+      "count": 572,
+      "minimum": 0.0,
+      "maximum": 0.4399999999999995,
+      "mean": 0.04982517482517485,
+      "standard_deviation": 0.06706877950589218,
+      "median": 0.02999999999999936,
+      "p90": 0.14000000000000057,
+      "p95": 0.17899999999999838,
+      "p99": 0.29580000000000006
+    },
+    "medication_adherence_pct": {
+      "count": 572,
+      "minimum": 0.0,
+      "maximum": 1.3900000000000006,
+      "mean": 0.1510839160839163,
+      "standard_deviation": 0.22759432061515186,
+      "median": 0.03999999999999204,
+      "p90": 0.45999999999999375,
+      "p95": 0.6045000000000037,
+      "p99": 0.9434999999999978
+    }
+  },
+  "exceeds_original_120_ml": 1,
+  "exceeds_amended_150_ml": 0,
+  "non_urine_anchor_failures": 0,
+  "other_validation_failures": 0,
+  "recipient_572": {
+    "structural_json_valid": true,
+    "approved_ranges_valid": true,
+    "python_derived_fields_available": true,
+    "request_preserved": true,
+    "response_preserved": true,
+    "accepted_under_amendment": true
+  },
+  "ambiguous_or_other_failed_records": 0
+}

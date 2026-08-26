@@ -1,0 +1,15 @@
+{
+  "attempt_id": "baseline_attempt_001",
+  "status": "failed_final_readback_verification",
+  "original_command": "jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1800 final_submission/notebooks/01_baseline_model.ipynb",
+  "failure_stage": "Final reload and independent metric-recalculation audit after model training and artifact saving",
+  "saved_binary_cross_entropy": 0.5750919333648553,
+  "csv_recalculated_binary_cross_entropy": 0.575091929522044,
+  "absolute_difference": 3.842811291399073e-09,
+  "original_absolute_tolerance": 1e-12,
+  "corrected_absolute_tolerance": 1e-08,
+  "previous_submission_manifest_sha256": "c22d03a29fb6a2e8415f419da39a9c341c397847139285758381ad30c4876b45",
+  "model_training_completed": true,
+  "artifact_saving_completed_before_failure": true,
+  "automatic_retry_made": false
+}

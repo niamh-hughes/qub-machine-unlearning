@@ -1,0 +1,6 @@
+scenario,forget_rows,affected_shards,unaffected_shards,replayed_slices,replayed_rows,training_row_exposures,request_runtime_seconds
+s1_actor_withdrawal,415,5,0,25,124797,249594,15.99622554203961
+s2_submission_withdrawal,2137,5,0,25,119347,238694,15.834739750018343
+s3_agency_withdrawal,4224,5,0,25,113167,226334,15.953642875072546
+s4_project_closure,6289,5,0,25,107049,214098,14.764415041077882
+s5_retention_expiry,6298,5,0,25,107193,214386,13.950846208026633

@@ -1,0 +1,11 @@
+scenario,partition,maximum_absolute_difference,pass
+recipient_withdrawal,retained_test,0.0,True
+recipient_withdrawal,training_forget,0.0,True
+donor_withdrawal,retained_test,0.0,True
+donor_withdrawal,training_forget,0.0,True
+hospital_removal,retained_test,0.0,True
+hospital_removal,training_forget,0.0,True
+invalid_consent,retained_test,0.0,True
+invalid_consent,training_forget,0.0,True
+retention_expiry,retained_test,0.0,True
+retention_expiry,training_forget,0.0,True

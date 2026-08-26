@@ -1,0 +1,5 @@
+entity,status,train_entities,validation_entities,test_entities,train_validation_shared,train_test_shared,validation_test_shared,validation_rows_seen_in_train,test_rows_seen_in_train
+actor_id,available,100,100,100,100,100,100,1.0,1.0
+manager_id,available,20,20,20,20,20,20,1.0,1.0
+film_id,available,50,50,50,50,50,50,1.0,1.0
+actor_role_pair,available,35110,7978,7921,687,740,453,0.18788888888888888,0.20022222222222222

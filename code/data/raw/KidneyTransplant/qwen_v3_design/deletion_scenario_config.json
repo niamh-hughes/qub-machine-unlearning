@@ -1,0 +1,27 @@
+{
+  "recipient_withdrawal": {
+    "rule": "recipient_id == V3-R000100",
+    "expected_rows": 6
+  },
+  "donor_withdrawal": {
+    "rule": "donor_id in one living plus two shared deceased donors",
+    "selected_donor_ids": [
+      "V3-DL000001",
+      "V3-DD000001",
+      "V3-DD000002"
+    ],
+    "expected_rows": 30
+  },
+  "hospital_removal": {
+    "rule": "hospital_id == V3-H01",
+    "expected_rows": 60
+  },
+  "invalid_consent_version": {
+    "rule": "training_consent_version == RECIPIENT_V3",
+    "expected_rows": 60
+  },
+  "retention_expiry": {
+    "rule": "retention_expiry_date <= 2025-12-20",
+    "expected_rows": 90
+  }
+}

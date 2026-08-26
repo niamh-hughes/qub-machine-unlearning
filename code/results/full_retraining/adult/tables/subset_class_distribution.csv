@@ -1,0 +1,21 @@
+scenario,display_name,subset,class_label,count,percentage
+s1_random_1_percent,Random 1%,forget,0,266,77.77777777777779
+s1_random_1_percent,Random 1%,forget,1,76,22.22222222222222
+s1_random_1_percent,Random 1%,retain,0,25742,76.05400774071556
+s1_random_1_percent,Random 1%,retain,1,8105,23.945992259284427
+s2_random_5_percent,Random 5%,forget,0,1309,76.59449970743125
+s2_random_5_percent,Random 5%,forget,1,400,23.405500292568753
+s2_random_5_percent,Random 5%,retain,0,24699,76.04371921182266
+s2_random_5_percent,Random 5%,retain,1,7781,23.956280788177338
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),forget,0,1287,75.79505300353357
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),forget,1,411,24.204946996466433
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),retain,0,24721,76.08568526668924
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),retain,1,7770,23.914314733310764
+s4_random_10_percent,Random 10%,forget,0,2618,76.57209710441649
+s4_random_10_percent,Random 10%,forget,1,801,23.427902895583504
+s4_random_10_percent,Random 10%,retain,0,23390,76.01559961000976
+s4_random_10_percent,Random 10%,retain,1,7380,23.984400389990252
+s5_retention_expiry,Simulated Retention Expiry,forget,0,3864,69.18531781557743
+s5_retention_expiry,Simulated Retention Expiry,forget,1,1721,30.81468218442256
+s5_retention_expiry,Simulated Retention Expiry,retain,0,22144,77.41574604950357
+s5_retention_expiry,Simulated Retention Expiry,retain,1,6460,22.584253950496432

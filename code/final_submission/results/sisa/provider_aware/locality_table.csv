@@ -1,0 +1,6 @@
+scenario,forget_rows,recipients,affected_shards,reusable_shards,earliest_slices,replayed_stages,donor_components_affected,hospitals_affected
+recipient_withdrawal,426,71,5,0,S1:1 | S2:1 | S3:1 | S4:1 | S5:1,25,71,10
+donor_withdrawal,1992,332,5,0,S1:1 | S2:1 | S3:1 | S4:1 | S5:1,25,166,10
+hospital_removal,4314,719,5,0,S1:1 | S2:1 | S3:1 | S4:1 | S5:1,25,708,1
+invalid_consent,4148,2640,5,0,S1:1 | S2:1 | S3:1 | S4:1 | S5:1,25,2438,10
+retention_expiry,6262,2576,5,0,S1:1 | S2:1 | S3:1 | S4:1 | S5:1,25,2383,10

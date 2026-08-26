@@ -1,0 +1,31 @@
+{
+  "scenario": "recipient_withdrawal",
+  "aggregation": "unweighted_mean",
+  "models": [
+    {
+      "shard_id": 1,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/policy_aware/unlearned/recipient_withdrawal/shard_1_model.pt"
+    },
+    {
+      "shard_id": 2,
+      "source": "reused_original",
+      "model_path": "models/sisa/policy_aware/original/shard_2_slice_5.pt"
+    },
+    {
+      "shard_id": 3,
+      "source": "reused_original",
+      "model_path": "models/sisa/policy_aware/original/shard_3_slice_5.pt"
+    },
+    {
+      "shard_id": 4,
+      "source": "reused_original",
+      "model_path": "models/sisa/policy_aware/original/shard_4_slice_5.pt"
+    },
+    {
+      "shard_id": 5,
+      "source": "reused_original",
+      "model_path": "models/sisa/policy_aware/original/shard_5_slice_5.pt"
+    }
+  ]
+}

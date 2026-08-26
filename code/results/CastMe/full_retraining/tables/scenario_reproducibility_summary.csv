@@ -1,0 +1,6 @@
+scenario,deletion_request_type,requested_percentage,achieved_percentage,percentage_point_difference,forget_training_rows,retain_training_rows,retain_validation_rows,retain_test_rows,forget_callback_rate,seed,fixed_baseline_validation_threshold
+s1_actor_withdrawal,Actor withdrawal — 1%,0.01,0.009880952380952381,-0.011904761904761932,415,41585,8927,8920,0.18072289156626506,42,0.32
+s2_submission_withdrawal,Submission withdrawal — 5%,0.05,0.05088095238095238,0.08809523809523781,2137,39863,8505,8590,0.3781001403837155,42,0.32
+s3_agency_withdrawal,Agency withdrawal — 10%,0.1,0.10057142857142858,0.057142857142856995,4224,37776,8145,8079,0.3288352272727273,42,0.32
+s4_project_closure,Project closure — 15%,0.15,0.14973809523809523,-0.026190476190476875,6289,35711,7673,7616,0.3065670217840674,42,0.32
+s5_retention_expiry,Retention expiry — 15%,0.15,0.14995238095238095,-0.004761904761904634,6298,35702,7639,7681,0.3658304223563036,42,0.32

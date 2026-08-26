@@ -1,0 +1,6 @@
+scenario,display_name,selected_method,configured_max_epochs,actual_epochs_completed,selected_epoch,optimizer_steps,runtime_seconds,selection_valid,early_stopping_reason,complete_forget_set_coverage
+s1_random_1_percent,Random 1%,NegGrad,10,3,3,6,0.0251715830527246,True,no_validation_acceptable_forget_loss_improvement,True
+s2_random_5_percent,Random 5%,NegGrad,10,3,3,21,0.08394387492444366,True,no_validation_acceptable_forget_loss_improvement,True
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),NegGrad,10,3,3,21,0.08355404192116112,True,no_validation_acceptable_forget_loss_improvement,True
+s4_random_10_percent,Random 10%,NegGrad,10,3,3,42,0.15383245807606727,True,no_validation_acceptable_forget_loss_improvement,True
+s5_retention_expiry,Simulated Retention Expiry,NegGrad,10,3,3,66,0.23419558291789144,True,no_validation_acceptable_forget_loss_improvement,True

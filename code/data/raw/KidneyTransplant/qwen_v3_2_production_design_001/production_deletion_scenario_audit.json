@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "assessment_rows": 60000,
+  "scenarios": {
+    "recipient_withdrawal": {
+      "matched_assessment_rows": 600,
+      "matched_fraction": 0.01,
+      "affected_recipients": 100,
+      "affected_donors": 100,
+      "affected_hospitals": 10,
+      "complete_recipient_histories": 100,
+      "records_per_recipient_distribution": {
+        "6": 100
+      },
+      "assessment_days": [
+        7,
+        14,
+        30,
+        60,
+        90,
+        180
+      ],
+      "selection_key": "recipient_id"
+    },
+    "donor_withdrawal": {
+      "matched_assessment_rows": 3000,
+      "matched_fraction": 0.05,
+      "affected_recipients": 500,
+      "affected_donors": 250,
+      "affected_hospitals": 10,
+      "complete_recipient_histories": 500,
+      "records_per_recipient_distribution": {
+        "6": 500
+      },
+      "assessment_days": [
+        7,
+        14,
+        30,
+        60,
+        90,
+        180
+      ],
+      "selection_key": "donor_id (250 shared deceased donors covering 500 recipients)"
+    },
+    "hospital_removal": {
+      "matched_assessment_rows": 6000,
+      "matched_fraction": 0.1,
+      "affected_recipients": 1000,
+      "affected_donors": 982,
+      "affected_hospitals": 1,
+      "complete_recipient_histories": 1000,
+      "records_per_recipient_distribution": {
+        "6": 1000
+      },
+      "assessment_days": [
+        7,
+        14,
+        30,
+        60,
+        90,
+        180
+      ],
+      "selection_key": "hospital_id=V32P-H05"
+    },
+    "invalid_consent": {
+      "matched_assessment_rows": 6000,
+      "matched_fraction": 0.1,
+      "affected_recipients": 3800,
+      "affected_donors": 3516,
+      "affected_hospitals": 10,
+      "complete_recipient_histories": 0,
+      "records_per_recipient_distribution": {
+        "1": 1900,
+        "2": 1600,
+        "3": 300
+      },
+      "assessment_days": [
+        7,
+        14,
+        30
+      ],
+      "selection_key": "training_consent_status=Invalidated and training_consent_version=RECIPIENT_V3"
+    },
+    "retention_expiry": {
+      "matched_assessment_rows": 9000,
+      "matched_fraction": 0.15,
+      "affected_recipients": 3700,
+      "affected_donors": 3408,
+      "affected_hospitals": 10,
+      "complete_recipient_histories": 0,
+      "records_per_recipient_distribution": {
+        "1": 400,
+        "2": 1300,
+        "3": 2000
+      },
+      "assessment_days": [
+        7,
+        14,
+        30
+      ],
+      "selection_key": "retention_expiry_date <= 2025-12-31"
+    }
+  },
+  "pairwise_assessment_row_overlap": {
+    "recipient_withdrawal": {
+      "recipient_withdrawal": 600,
+      "donor_withdrawal": 24,
+      "hospital_removal": 42,
+      "invalid_consent": 57,
+      "retention_expiry": 88
+    },
+    "donor_withdrawal": {
+      "recipient_withdrawal": 24,
+      "donor_withdrawal": 3000,
+      "hospital_removal": 282,
+      "invalid_consent": 304,
+      "retention_expiry": 455
+    },
+    "hospital_removal": {
+      "recipient_withdrawal": 42,
+      "donor_withdrawal": 282,
+      "hospital_removal": 6000,
+      "invalid_consent": 602,
+      "retention_expiry": 950
+    },
+    "invalid_consent": {
+      "recipient_withdrawal": 57,
+      "donor_withdrawal": 304,
+      "hospital_removal": 602,
+      "invalid_consent": 6000,
+      "retention_expiry": 1429
+    },
+    "retention_expiry": {
+      "recipient_withdrawal": 88,
+      "donor_withdrawal": 455,
+      "hospital_removal": 950,
+      "invalid_consent": 1429,
+      "retention_expiry": 9000
+    }
+  },
+  "mutual_exclusivity_forced": false,
+  "complete_history_rule": "Recipient, donor and hospital selections remove complete histories by design; invalid-consent and retention-expiry remain record-level and remove no complete history."
+}

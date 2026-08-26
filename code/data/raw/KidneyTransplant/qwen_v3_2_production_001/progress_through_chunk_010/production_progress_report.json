@@ -1,0 +1,121 @@
+{
+  "run_id": "QWEN-V32-PROD-001",
+  "checkpoint": "through_chunk_010",
+  "status": "completed",
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-002",
+  "created_at_utc": "2026-08-16T21:47:14.267629+00:00",
+  "chunks_present": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "chunks_completed_by_resume": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "new_api_requests_attempted": 373,
+  "new_api_requests_completed": 373,
+  "new_retries": 0,
+  "aggregate_request_records": 1000,
+  "aggregate_response_records": 1000,
+  "aggregate_manifest_records": 4002,
+  "expected_extra_manifest_records": 2,
+  "aggregate_dimensions": [
+    6000,
+    31
+  ],
+  "aggregate_token_usage": {
+    "prompt_tokens": 1075621,
+    "completion_tokens": 509804,
+    "total_tokens": 1585425
+  },
+  "aggregate_chunk_elapsed_seconds": 3650.0847580411937,
+  "aggregate_checkpoint_elapsed_seconds": 2.6173217080067843,
+  "target_count": 462,
+  "target_prevalence": 0.077,
+  "event_recipients": 342,
+  "non_event_recipients": 658,
+  "anchor_deviation_warning_counts": {
+    "creatinine_mg_dl": 0,
+    "urine_output_ml_24h": 1,
+    "tacrolimus_level_ng_ml": 0,
+    "medication_adherence_pct": 1
+  },
+  "chunk_quality_gate_statuses": {
+    "chunk_001": "passed",
+    "chunk_002": "passed",
+    "chunk_003": "passed",
+    "chunk_004": "passed",
+    "chunk_005": "passed",
+    "chunk_006": "passed",
+    "chunk_007": "passed",
+    "chunk_008": "passed",
+    "chunk_009": "passed",
+    "chunk_010": "passed"
+  },
+  "reconciliation_status": "passed",
+  "reconciliation_failures": [],
+  "integrity_after_aggregate_checkpoint": {
+    "protected_unchanged": true,
+    "previous_evidence_unchanged": true,
+    "notebooks_01_05_unchanged": true,
+    "production_design_unchanged": true,
+    "validation_amendment_001_unchanged": true,
+    "validation_amendment_002_unchanged": true,
+    "original_chunk_007_failed_report_unchanged": true,
+    "chunk_007_request_response_manifest_checkpoint_prefixes_preserved": true,
+    "chunk_007_identity_unchanged": true,
+    "chunk_007_run_configuration_unchanged": true,
+    "chunks_011_100_absent": true,
+    "final_assembly_absent": true,
+    "chunk_001_unchanged": true,
+    "chunk_002_unchanged": true,
+    "chunk_003_unchanged": true,
+    "chunk_004_unchanged": true,
+    "chunk_005_unchanged": true,
+    "chunk_006_unchanged": true,
+    "chunk_007_unchanged": true,
+    "chunk_008_unchanged": true,
+    "chunk_009_unchanged": true,
+    "chunk_010_unchanged": true
+  },
+  "created_files": [
+    "production_progress_report.json",
+    "cross_chunk_reconciliation.json",
+    "cross_chunk_distribution_report.json",
+    "cross_chunk_integrity_report.json"
+  ],
+  "progress_file_fingerprints_excluding_self": {
+    "cross_chunk_distribution_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_010/cross_chunk_distribution_report.json",
+      "sha256": "a3a5e155ff7401b36df9c777927fb1ce3e55858b50a164cb318c22855bcab21e",
+      "mtime_ns": 1786916833856354814,
+      "size_bytes": 145010
+    },
+    "cross_chunk_integrity_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_010/cross_chunk_integrity_report.json",
+      "sha256": "d30cfe73cf7252fcce987fd2d71e8b76d68a6a517994d16c2d8517689778d815",
+      "mtime_ns": 1786916833856646102,
+      "size_bytes": 4448
+    },
+    "cross_chunk_reconciliation.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_010/cross_chunk_reconciliation.json",
+      "sha256": "75b72faef6a31c8a68c0531e5f29da69b87179af6dd067050d3173f953fbd0e6",
+      "mtime_ns": 1786916833854110805,
+      "size_bytes": 1657
+    }
+  },
+  "chunks_011_to_100_started": false,
+  "final_dataset_assembly_started": false,
+  "classifier_trained": false,
+  "generator_tuned": false
+}

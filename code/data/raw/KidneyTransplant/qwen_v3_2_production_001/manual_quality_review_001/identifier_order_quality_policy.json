@@ -1,0 +1,30 @@
+{
+  "policy_id": "QWEN-V32-IDENTIFIER-ORDER-QUALITY-POLICY-001",
+  "review_id": "QWEN-V32-PROD-001-MANUAL-QUALITY-REVIEW-001",
+  "created_at_utc": "2026-08-16T23:11:35.140671+00:00",
+  "scope": "future frozen v3.2 production chunks",
+  "policy_type": "quality_gate_interpretation_only",
+  "continue_reporting": [
+    "anchor_recipient_numeric_order_correlations",
+    "qwen_output_recipient_numeric_order_correlations"
+  ],
+  "isolated_per_chunk_absolute_correlation_above_0_20": "diagnostic_warning",
+  "isolated_per_chunk_action": "do_not_reject_or_regenerate_otherwise_valid_recipients",
+  "authoritative_checks": [
+    "full_frozen_10000_recipient_anchor_correlations",
+    "cumulative_generated_data_correlations"
+  ],
+  "cumulative_absolute_correlation_threshold": 0.2,
+  "stop_before_next_chunk_when": [
+    "any_cumulative_absolute_identifier_order_correlation_is_at_least_0.20",
+    "additional_evidence_of_systematic_identifier_dependence_exists"
+  ],
+  "unchanged_components": [
+    "generator",
+    "prompt",
+    "anchors",
+    "targets",
+    "data"
+  ],
+  "api_requests_attempted": 0
+}

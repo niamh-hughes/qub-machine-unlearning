@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "task": "deletion scenarios and full retraining",
+  "seed": 42,
+  "threshold": 0.62,
+  "scenarios": [
+    "recipient_withdrawal",
+    "donor_withdrawal",
+    "hospital_removal",
+    "invalid_consent",
+    "retention_expiry"
+  ],
+  "scenario_count": 5,
+  "complete_deletion_rows": {
+    "recipient_withdrawal": 600,
+    "donor_withdrawal": 3000,
+    "hospital_removal": 6000,
+    "invalid_consent": 6000,
+    "retention_expiry": 9000
+  },
+  "training_forget_rows": {
+    "recipient_withdrawal": 426,
+    "donor_withdrawal": 1992,
+    "hospital_removal": 4314,
+    "invalid_consent": 4148,
+    "retention_expiry": 6262
+  },
+  "retained_training_rows": {
+    "recipient_withdrawal": 41598,
+    "donor_withdrawal": 40032,
+    "hospital_removal": 37710,
+    "invalid_consent": 37876,
+    "retention_expiry": 35762
+  },
+  "training_seconds": {
+    "recipient_withdrawal": 3.923028624849394,
+    "donor_withdrawal": 3.450067917117849,
+    "hospital_removal": 3.847863083006814,
+    "invalid_consent": 3.5281695418525487,
+    "retention_expiry": 3.1110606249421835
+  },
+  "all_verification_checks_pass": true,
+  "model_probabilities_reproduced": true,
+  "network_requests": 0
+}

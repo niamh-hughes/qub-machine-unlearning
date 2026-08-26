@@ -1,0 +1,78 @@
+{
+  "run_id": "QWEN-V32-CONFIRM20-001",
+  "base_url": "https://resolution-andreas-alerts-blah.trycloudflare.com/v1",
+  "api_key": "REDACTED",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "api_configuration": {
+    "client": {
+      "max_retries": 0
+    },
+    "completion": {
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "presence_penalty": 1.5,
+      "extra_body": {
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "seed": "unique deterministic corrected_10_control_plan.request_seed",
+    "automatic_retry": false,
+    "response_order": [
+      "resp.model_dump_json(indent=2)",
+      "append complete response to immutable JSONL",
+      "extract final content",
+      "parse and validate"
+    ]
+  },
+  "prompt_version": "qwen-kidney-v3.2",
+  "prompt_sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+  "anchor_algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+  "anchor_metadata_sha256": "ac429bbebafc704f4ada07327899bcd5403c04032d2cd52c017cc49e041b48c7",
+  "event_coverage_audit_sha256": "061868b7bf288b106f722dac4164edb3b133bb7465f030f6563ddaa4d7177536",
+  "confirmation_recipient_ids": [
+    "V31-R000009",
+    "V31-R000010",
+    "V31-R000011",
+    "V31-R000012",
+    "V31-R000013",
+    "V31-R000014",
+    "V31-R000015",
+    "V31-R000016",
+    "V31-R000017",
+    "V31-R000018",
+    "V31-R000019",
+    "V31-R000020",
+    "V31-R000021",
+    "V31-R000022",
+    "V31-R000023",
+    "V31-R000024",
+    "V31-R000025",
+    "V31-R000026",
+    "V31-R000027",
+    "V31-R000028"
+  ],
+  "maximum_requests": 20,
+  "max_retries": 0,
+  "one_time_gate": "RUN_QWEN_V32_CONFIRM20=QWEN-V32-CONFIRM20-001",
+  "protected_before": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "diagnostic100_before": {
+    "file_count": 11,
+    "total_size_bytes": 740646,
+    "aggregate_sha256_with_metadata": "7950744f9e9f250d420e9d9668c85965ffa0ce4ce11d1a7792460226ed48d272"
+  },
+  "persistent_generation_flags": {
+    "RUN_QWEN_V32_CONFIRM20": false,
+    "RUN_10000_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  }
+}

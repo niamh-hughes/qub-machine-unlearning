@@ -1,0 +1,728 @@
+{
+  "run_id": "QWEN-V32-PROD-001",
+  "checkpoint": "through_chunk_075",
+  "status": "completed",
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-002",
+  "manual_review_id": "QWEN-V32-PROD-001-MANUAL-QUALITY-REVIEW-001",
+  "created_at_utc": "2026-08-17T14:44:01.617856+00:00",
+  "chunks_present": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+  ],
+  "chunks_completed_this_execution": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+  ],
+  "new_api_requests_attempted": 2500,
+  "new_api_requests_completed": 2500,
+  "new_retries": 0,
+  "new_token_usage": {
+    "prompt_tokens": 2689080,
+    "completion_tokens": 1273542,
+    "total_tokens": 3962622
+  },
+  "cumulative_token_usage": {
+    "prompt_tokens": 8067225,
+    "completion_tokens": 3821383,
+    "total_tokens": 11888608
+  },
+  "new_chunk_elapsed_seconds": 9082.335173042258,
+  "cumulative_chunk_elapsed_seconds": 27377.25042091543,
+  "aggregate_request_records": 7501,
+  "aggregate_response_records": 7500,
+  "aggregate_manifest_records": 30005,
+  "expected_extra_manifest_records": 5,
+  "aggregate_dimensions": [
+    45000,
+    31
+  ],
+  "target_count": 3446,
+  "target_prevalence": 0.07657777777777777,
+  "per_chunk_target_prevalence": {
+    "001": {
+      "positive_assessments": 59,
+      "assessment_rows": 600,
+      "prevalence": 0.09833333333333333
+    },
+    "002": {
+      "positive_assessments": 41,
+      "assessment_rows": 600,
+      "prevalence": 0.06833333333333333
+    },
+    "003": {
+      "positive_assessments": 40,
+      "assessment_rows": 600,
+      "prevalence": 0.06666666666666667
+    },
+    "004": {
+      "positive_assessments": 43,
+      "assessment_rows": 600,
+      "prevalence": 0.07166666666666667
+    },
+    "005": {
+      "positive_assessments": 52,
+      "assessment_rows": 600,
+      "prevalence": 0.08666666666666667
+    },
+    "006": {
+      "positive_assessments": 48,
+      "assessment_rows": 600,
+      "prevalence": 0.08
+    },
+    "007": {
+      "positive_assessments": 52,
+      "assessment_rows": 600,
+      "prevalence": 0.08666666666666667
+    },
+    "008": {
+      "positive_assessments": 38,
+      "assessment_rows": 600,
+      "prevalence": 0.06333333333333334
+    },
+    "009": {
+      "positive_assessments": 53,
+      "assessment_rows": 600,
+      "prevalence": 0.08833333333333333
+    },
+    "010": {
+      "positive_assessments": 36,
+      "assessment_rows": 600,
+      "prevalence": 0.06
+    },
+    "011": {
+      "positive_assessments": 41,
+      "assessment_rows": 600,
+      "prevalence": 0.06833333333333333
+    },
+    "012": {
+      "positive_assessments": 42,
+      "assessment_rows": 600,
+      "prevalence": 0.07
+    },
+    "013": {
+      "positive_assessments": 49,
+      "assessment_rows": 600,
+      "prevalence": 0.08166666666666667
+    },
+    "014": {
+      "positive_assessments": 36,
+      "assessment_rows": 600,
+      "prevalence": 0.06
+    },
+    "015": {
+      "positive_assessments": 50,
+      "assessment_rows": 600,
+      "prevalence": 0.08333333333333333
+    },
+    "016": {
+      "positive_assessments": 55,
+      "assessment_rows": 600,
+      "prevalence": 0.09166666666666666
+    },
+    "017": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    },
+    "018": {
+      "positive_assessments": 39,
+      "assessment_rows": 600,
+      "prevalence": 0.065
+    },
+    "019": {
+      "positive_assessments": 34,
+      "assessment_rows": 600,
+      "prevalence": 0.056666666666666664
+    },
+    "020": {
+      "positive_assessments": 35,
+      "assessment_rows": 600,
+      "prevalence": 0.058333333333333334
+    },
+    "021": {
+      "positive_assessments": 35,
+      "assessment_rows": 600,
+      "prevalence": 0.058333333333333334
+    },
+    "022": {
+      "positive_assessments": 40,
+      "assessment_rows": 600,
+      "prevalence": 0.06666666666666667
+    },
+    "023": {
+      "positive_assessments": 37,
+      "assessment_rows": 600,
+      "prevalence": 0.06166666666666667
+    },
+    "024": {
+      "positive_assessments": 54,
+      "assessment_rows": 600,
+      "prevalence": 0.09
+    },
+    "025": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    },
+    "026": {
+      "positive_assessments": 48,
+      "assessment_rows": 600,
+      "prevalence": 0.08
+    },
+    "027": {
+      "positive_assessments": 57,
+      "assessment_rows": 600,
+      "prevalence": 0.095
+    },
+    "028": {
+      "positive_assessments": 44,
+      "assessment_rows": 600,
+      "prevalence": 0.07333333333333333
+    },
+    "029": {
+      "positive_assessments": 54,
+      "assessment_rows": 600,
+      "prevalence": 0.09
+    },
+    "030": {
+      "positive_assessments": 52,
+      "assessment_rows": 600,
+      "prevalence": 0.08666666666666667
+    },
+    "031": {
+      "positive_assessments": 59,
+      "assessment_rows": 600,
+      "prevalence": 0.09833333333333333
+    },
+    "032": {
+      "positive_assessments": 40,
+      "assessment_rows": 600,
+      "prevalence": 0.06666666666666667
+    },
+    "033": {
+      "positive_assessments": 51,
+      "assessment_rows": 600,
+      "prevalence": 0.085
+    },
+    "034": {
+      "positive_assessments": 51,
+      "assessment_rows": 600,
+      "prevalence": 0.085
+    },
+    "035": {
+      "positive_assessments": 32,
+      "assessment_rows": 600,
+      "prevalence": 0.05333333333333334
+    },
+    "036": {
+      "positive_assessments": 55,
+      "assessment_rows": 600,
+      "prevalence": 0.09166666666666666
+    },
+    "037": {
+      "positive_assessments": 60,
+      "assessment_rows": 600,
+      "prevalence": 0.1
+    },
+    "038": {
+      "positive_assessments": 49,
+      "assessment_rows": 600,
+      "prevalence": 0.08166666666666667
+    },
+    "039": {
+      "positive_assessments": 35,
+      "assessment_rows": 600,
+      "prevalence": 0.058333333333333334
+    },
+    "040": {
+      "positive_assessments": 44,
+      "assessment_rows": 600,
+      "prevalence": 0.07333333333333333
+    },
+    "041": {
+      "positive_assessments": 43,
+      "assessment_rows": 600,
+      "prevalence": 0.07166666666666667
+    },
+    "042": {
+      "positive_assessments": 40,
+      "assessment_rows": 600,
+      "prevalence": 0.06666666666666667
+    },
+    "043": {
+      "positive_assessments": 53,
+      "assessment_rows": 600,
+      "prevalence": 0.08833333333333333
+    },
+    "044": {
+      "positive_assessments": 34,
+      "assessment_rows": 600,
+      "prevalence": 0.056666666666666664
+    },
+    "045": {
+      "positive_assessments": 59,
+      "assessment_rows": 600,
+      "prevalence": 0.09833333333333333
+    },
+    "046": {
+      "positive_assessments": 62,
+      "assessment_rows": 600,
+      "prevalence": 0.10333333333333333
+    },
+    "047": {
+      "positive_assessments": 52,
+      "assessment_rows": 600,
+      "prevalence": 0.08666666666666667
+    },
+    "048": {
+      "positive_assessments": 45,
+      "assessment_rows": 600,
+      "prevalence": 0.075
+    },
+    "049": {
+      "positive_assessments": 53,
+      "assessment_rows": 600,
+      "prevalence": 0.08833333333333333
+    },
+    "050": {
+      "positive_assessments": 44,
+      "assessment_rows": 600,
+      "prevalence": 0.07333333333333333
+    },
+    "051": {
+      "positive_assessments": 31,
+      "assessment_rows": 600,
+      "prevalence": 0.051666666666666666
+    },
+    "052": {
+      "positive_assessments": 41,
+      "assessment_rows": 600,
+      "prevalence": 0.06833333333333333
+    },
+    "053": {
+      "positive_assessments": 31,
+      "assessment_rows": 600,
+      "prevalence": 0.051666666666666666
+    },
+    "054": {
+      "positive_assessments": 40,
+      "assessment_rows": 600,
+      "prevalence": 0.06666666666666667
+    },
+    "055": {
+      "positive_assessments": 38,
+      "assessment_rows": 600,
+      "prevalence": 0.06333333333333334
+    },
+    "056": {
+      "positive_assessments": 48,
+      "assessment_rows": 600,
+      "prevalence": 0.08
+    },
+    "057": {
+      "positive_assessments": 39,
+      "assessment_rows": 600,
+      "prevalence": 0.065
+    },
+    "058": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    },
+    "059": {
+      "positive_assessments": 34,
+      "assessment_rows": 600,
+      "prevalence": 0.056666666666666664
+    },
+    "060": {
+      "positive_assessments": 43,
+      "assessment_rows": 600,
+      "prevalence": 0.07166666666666667
+    },
+    "061": {
+      "positive_assessments": 41,
+      "assessment_rows": 600,
+      "prevalence": 0.06833333333333333
+    },
+    "062": {
+      "positive_assessments": 54,
+      "assessment_rows": 600,
+      "prevalence": 0.09
+    },
+    "063": {
+      "positive_assessments": 64,
+      "assessment_rows": 600,
+      "prevalence": 0.10666666666666667
+    },
+    "064": {
+      "positive_assessments": 58,
+      "assessment_rows": 600,
+      "prevalence": 0.09666666666666666
+    },
+    "065": {
+      "positive_assessments": 48,
+      "assessment_rows": 600,
+      "prevalence": 0.08
+    },
+    "066": {
+      "positive_assessments": 53,
+      "assessment_rows": 600,
+      "prevalence": 0.08833333333333333
+    },
+    "067": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    },
+    "068": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    },
+    "069": {
+      "positive_assessments": 62,
+      "assessment_rows": 600,
+      "prevalence": 0.10333333333333333
+    },
+    "070": {
+      "positive_assessments": 49,
+      "assessment_rows": 600,
+      "prevalence": 0.08166666666666667
+    },
+    "071": {
+      "positive_assessments": 35,
+      "assessment_rows": 600,
+      "prevalence": 0.058333333333333334
+    },
+    "072": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    },
+    "073": {
+      "positive_assessments": 49,
+      "assessment_rows": 600,
+      "prevalence": 0.08166666666666667
+    },
+    "074": {
+      "positive_assessments": 34,
+      "assessment_rows": 600,
+      "prevalence": 0.056666666666666664
+    },
+    "075": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    }
+  },
+  "event_recipients": 2580,
+  "non_event_recipients": 4920,
+  "anchor_deviation_warning_counts": {
+    "creatinine_mg_dl": 0,
+    "urine_output_ml_24h": 9,
+    "tacrolimus_level_ng_ml": 0,
+    "medication_adherence_pct": 7
+  },
+  "chunk_quality_gate_statuses": {
+    "chunk_001": "passed",
+    "chunk_002": "passed",
+    "chunk_003": "passed",
+    "chunk_004": "passed",
+    "chunk_005": "passed",
+    "chunk_006": "passed",
+    "chunk_007": "passed",
+    "chunk_008": "passed",
+    "chunk_009": "passed",
+    "chunk_010": "passed",
+    "chunk_011": "passed",
+    "chunk_012": "passed",
+    "chunk_013": "passed",
+    "chunk_014": "passed",
+    "chunk_015": "passed",
+    "chunk_016": "passed",
+    "chunk_017": "passed",
+    "chunk_018": "passed",
+    "chunk_019": "passed",
+    "chunk_020": "accepted_after_manual_review",
+    "chunk_021": "passed",
+    "chunk_022": "passed",
+    "chunk_023": "passed",
+    "chunk_024": "passed",
+    "chunk_025": "passed",
+    "chunk_026": "passed",
+    "chunk_027": "passed",
+    "chunk_028": "passed",
+    "chunk_029": "passed",
+    "chunk_030": "passed",
+    "chunk_031": "passed",
+    "chunk_032": "passed",
+    "chunk_033": "passed",
+    "chunk_034": "passed",
+    "chunk_035": "passed",
+    "chunk_036": "passed",
+    "chunk_037": "passed",
+    "chunk_038": "passed",
+    "chunk_039": "passed",
+    "chunk_040": "passed",
+    "chunk_041": "passed",
+    "chunk_042": "passed",
+    "chunk_043": "passed",
+    "chunk_044": "passed",
+    "chunk_045": "passed",
+    "chunk_046": "passed",
+    "chunk_047": "passed",
+    "chunk_048": "passed",
+    "chunk_049": "passed",
+    "chunk_050": "passed",
+    "chunk_051": "passed",
+    "chunk_052": "passed",
+    "chunk_053": "passed",
+    "chunk_054": "passed",
+    "chunk_055": "passed",
+    "chunk_056": "passed",
+    "chunk_057": "passed",
+    "chunk_058": "passed",
+    "chunk_059": "passed",
+    "chunk_060": "passed",
+    "chunk_061": "passed",
+    "chunk_062": "passed",
+    "chunk_063": "passed",
+    "chunk_064": "passed",
+    "chunk_065": "passed",
+    "chunk_066": "passed",
+    "chunk_067": "passed",
+    "chunk_068": "passed",
+    "chunk_069": "passed",
+    "chunk_070": "passed",
+    "chunk_071": "passed",
+    "chunk_072": "passed",
+    "chunk_073": "passed",
+    "chunk_074": "passed",
+    "chunk_075": "passed"
+  },
+  "repeated_value_diagnostics": [
+    "day 14 urine_output_ml_24h dominant value frequency is 0.213"
+  ],
+  "reconciliation_status": "passed",
+  "reconciliation_failures": [],
+  "quality_gate_failures": [],
+  "integrity_after_aggregate_checkpoint": {
+    "protected_unchanged": true,
+    "previous_evidence_unchanged": true,
+    "notebooks_01_05_unchanged": true,
+    "production_design_unchanged": true,
+    "completed_chunks_001_050_and_historical_evidence_unchanged": true,
+    "progress_through_chunk_050_unchanged": true,
+    "validation_amendment_001_unchanged": true,
+    "validation_amendment_002_unchanged": true,
+    "manual_quality_review_001_unchanged": true,
+    "chunks_076_100_absent": true,
+    "final_assembly_absent": true,
+    "chunk_001_unchanged": true,
+    "chunk_002_unchanged": true,
+    "chunk_003_unchanged": true,
+    "chunk_004_unchanged": true,
+    "chunk_005_unchanged": true,
+    "chunk_006_unchanged": true,
+    "chunk_007_unchanged": true,
+    "chunk_008_unchanged": true,
+    "chunk_009_unchanged": true,
+    "chunk_010_unchanged": true,
+    "chunk_011_unchanged": true,
+    "chunk_012_unchanged": true,
+    "chunk_013_unchanged": true,
+    "chunk_014_unchanged": true,
+    "chunk_015_unchanged": true,
+    "chunk_016_unchanged": true,
+    "chunk_017_unchanged": true,
+    "chunk_018_unchanged": true,
+    "chunk_019_unchanged": true,
+    "chunk_020_unchanged": true,
+    "chunk_021_unchanged": true,
+    "chunk_022_unchanged": true,
+    "chunk_023_unchanged": true,
+    "chunk_024_unchanged": true,
+    "chunk_025_unchanged": true,
+    "chunk_026_unchanged": true,
+    "chunk_027_unchanged": true,
+    "chunk_028_unchanged": true,
+    "chunk_029_unchanged": true,
+    "chunk_030_unchanged": true,
+    "chunk_031_unchanged": true,
+    "chunk_032_unchanged": true,
+    "chunk_033_unchanged": true,
+    "chunk_034_unchanged": true,
+    "chunk_035_unchanged": true,
+    "chunk_036_unchanged": true,
+    "chunk_037_unchanged": true,
+    "chunk_038_unchanged": true,
+    "chunk_039_unchanged": true,
+    "chunk_040_unchanged": true,
+    "chunk_041_unchanged": true,
+    "chunk_042_unchanged": true,
+    "chunk_043_unchanged": true,
+    "chunk_044_unchanged": true,
+    "chunk_045_unchanged": true,
+    "chunk_046_unchanged": true,
+    "chunk_047_unchanged": true,
+    "chunk_048_unchanged": true,
+    "chunk_049_unchanged": true,
+    "chunk_050_unchanged": true,
+    "chunk_051_unchanged": true,
+    "chunk_052_unchanged": true,
+    "chunk_053_unchanged": true,
+    "chunk_054_unchanged": true,
+    "chunk_055_unchanged": true,
+    "chunk_056_unchanged": true,
+    "chunk_057_unchanged": true,
+    "chunk_058_unchanged": true,
+    "chunk_059_unchanged": true,
+    "chunk_060_unchanged": true,
+    "chunk_061_unchanged": true,
+    "chunk_062_unchanged": true,
+    "chunk_063_unchanged": true,
+    "chunk_064_unchanged": true,
+    "chunk_065_unchanged": true,
+    "chunk_066_unchanged": true,
+    "chunk_067_unchanged": true,
+    "chunk_068_unchanged": true,
+    "chunk_069_unchanged": true,
+    "chunk_070_unchanged": true,
+    "chunk_071_unchanged": true,
+    "chunk_072_unchanged": true,
+    "chunk_073_unchanged": true,
+    "chunk_074_unchanged": true,
+    "chunk_075_unchanged": true
+  },
+  "created_files": [
+    "production_progress_report.json",
+    "cross_chunk_reconciliation.json",
+    "cross_chunk_distribution_report.json",
+    "cross_chunk_integrity_report.json"
+  ],
+  "progress_file_fingerprints_excluding_self": {
+    "cross_chunk_distribution_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_075/cross_chunk_distribution_report.json",
+      "sha256": "c10e07f3c5a5abdad7b3e2963f1a6ba2fde1cdb8dcf3ea07595b32f7cc0a9b22",
+      "mtime_ns": 1786977841126818794,
+      "size_bytes": 1436067
+    },
+    "cross_chunk_integrity_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_075/cross_chunk_integrity_report.json",
+      "sha256": "5e55929a71877f49fc3d4e2d3240561da6a5ed5a6a0f4b50739d711f415a3188",
+      "mtime_ns": 1786977841127588588,
+      "size_bytes": 24755
+    },
+    "cross_chunk_reconciliation.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_075/cross_chunk_reconciliation.json",
+      "sha256": "11737e844265505948ac6984c895394f102dca8b1e03b50f43b43aa9cbce0591",
+      "mtime_ns": 1786977841108006848,
+      "size_bytes": 2159
+    }
+  },
+  "chunks_076_to_100_started": false,
+  "final_dataset_assembly_started": false,
+  "classifier_trained": false,
+  "generator_tuned": false,
+  "actual_api_requests_this_execution": 2500,
+  "logical_production_recipients": 7500,
+  "successful_response_records": 7500,
+  "request_attempt_records": 7501,
+  "preserved_timeout_attempts_without_response": 1
+}

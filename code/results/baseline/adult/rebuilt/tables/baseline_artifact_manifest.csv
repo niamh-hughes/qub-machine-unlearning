@@ -1,0 +1,12 @@
+artifact,path,exists
+baseline_checkpoint_seed_42,models/adult/rebuilt/adult_baseline_seed_42.pt,True
+baseline_checkpoint_seed_43,models/adult/rebuilt/adult_baseline_seed_43.pt,True
+baseline_checkpoint_seed_44,models/adult/rebuilt/adult_baseline_seed_44.pt,True
+preprocessor,models/adult/rebuilt/adult_preprocessor.joblib,True
+metrics_by_seed,results/baseline/adult/rebuilt/metrics/baseline_metrics_by_seed.csv,True
+metrics_aggregate,results/baseline/adult/rebuilt/metrics/baseline_metrics_aggregate.csv,True
+record_outputs,results/baseline/adult/rebuilt/tables/baseline_record_outputs.csv,True
+training_histories,results/baseline/adult/rebuilt/tables/baseline_training_histories.csv,True
+processed_train,data/processed/adult/rebuilt/X_train_processed.csv,True
+processed_validation,data/processed/adult/rebuilt/X_val_processed.csv,True
+processed_test,data/processed/adult/rebuilt/X_test_processed.csv,True

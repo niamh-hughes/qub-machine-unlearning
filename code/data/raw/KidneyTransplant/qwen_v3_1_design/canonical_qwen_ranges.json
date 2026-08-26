@@ -1,0 +1,34 @@
+{
+  "creatinine_mg_dl": {
+    "minimum": 0.65,
+    "maximum": 2.91,
+    "unit": "mg/dL",
+    "reference_observed_min": 0.65,
+    "reference_observed_max": 2.91,
+    "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+  },
+  "urine_output_ml_24h": {
+    "minimum": 755.0,
+    "maximum": 3200.0,
+    "unit": "mL/24h",
+    "reference_observed_min": 755.0,
+    "reference_observed_max": 3200.0,
+    "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+  },
+  "tacrolimus_level_ng_ml": {
+    "minimum": 2.9,
+    "maximum": 13.5,
+    "unit": "ng/mL",
+    "reference_observed_min": 2.9,
+    "reference_observed_max": 13.5,
+    "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+  },
+  "medication_adherence_pct": {
+    "minimum": 0.0,
+    "maximum": 100.0,
+    "unit": "percent",
+    "reference_observed_min": 73.3,
+    "reference_observed_max": 100.0,
+    "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+  }
+}

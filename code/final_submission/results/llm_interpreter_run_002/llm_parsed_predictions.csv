@@ -1,0 +1,1817 @@
+request_id,request_text,prompt_condition,raw_response,parsed_request_type,parsed_entity_type,parsed_entity_ids,parsed_date_cutoff,parsed_requires_human_review,effective_request_type,effective_entity_type,effective_entity_ids,effective_date_cutoff,effective_requires_human_review,schema_valid,parse_error,parser_normalization,request_latency_seconds,retry_count,api_status
+LLMREQ-001,Recipient V32P-R004205 withdraws consent for all their records to be used for model training.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R004205""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request with explicit ID provided.""
+}",recipient_withdrawal,recipient,"[""V32P-R004205""]",,False,recipient_withdrawal,recipient,"[""V32P-R004205""]",,False,True,,whitespace_only,0.7711021669674665,0,succeeded
+LLMREQ-002,Remove every assessment belonging to recipient V32P-R001325 from future training.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for training data removal; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7049186250660568,0,succeeded
+LLMREQ-003,Process a complete training-data withdrawal for recipient V32P-R001426.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R001426""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Complete withdrawal request for recipient V32P-R001426.""
+}",recipient_withdrawal,recipient,"[""V32P-R001426""]",,False,recipient_withdrawal,recipient,"[""V32P-R001426""]",,False,True,,whitespace_only,0.8500045421533287,0,succeeded
+LLMREQ-004,Exclude the full longitudinal history of recipient V32P-R007674 from the training corpus.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R007674""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request to exclude full history of recipient V32P-R007674.""
+}",recipient_withdrawal,recipient,"[""V32P-R007674""]",,False,recipient_withdrawal,recipient,"[""V32P-R007674""]",,False,True,,whitespace_only,0.8710543750785291,0,succeeded
+LLMREQ-005,Recipient V32P-R006444 requests removal of their transplant assessments from model training.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R006444""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request with explicit recipient ID provided.""
+}",recipient_withdrawal,recipient,"[""V32P-R006444""]",,False,recipient_withdrawal,recipient,"[""V32P-R006444""]",,False,True,,whitespace_only,0.7811244169715792,0,succeeded
+LLMREQ-006,Apply the recipient records withdrawal request for V32P-R005972.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R005972""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for ID V32P-R005972.""
+}",recipient_withdrawal,recipient,"[""V32P-R005972""]",,False,recipient_withdrawal,recipient,"[""V32P-R005972""]",,False,True,,whitespace_only,0.8580127919558436,0,succeeded
+LLMREQ-007,Stop using any assessment linked to recipient V32P-R005394 for training.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R005394""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for specific recipient ID.""
+}",recipient_withdrawal,recipient,"[""V32P-R005394""]",,False,recipient_withdrawal,recipient,"[""V32P-R005394""]",,False,True,,whitespace_only,0.822868708986789,0,succeeded
+LLMREQ-008,Delete recipient V32P-R007913's complete assessment history from the training scope.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R007913""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for specific ID.""
+}",recipient_withdrawal,recipient,"[""V32P-R007913""]",,False,recipient_withdrawal,recipient,"[""V32P-R007913""]",,False,True,,whitespace_only,0.8796788330655545,0,succeeded
+LLMREQ-009,Treat V32P-R008186 as a recipient who has withdrawn permission for training use.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008186""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request identified with explicit recipient ID.""
+}",recipient_withdrawal,recipient,"[""V32P-R008186""]",,False,recipient_withdrawal,recipient,"[""V32P-R008186""]",,False,True,,whitespace_only,0.7842449168674648,0,succeeded
+LLMREQ-010,Remove all training records whose recipient identifier is V32P-R009732.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R009732""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Valid recipient withdrawal request with explicit recipient ID.""
+}",recipient_withdrawal,recipient,"[""V32P-R009732""]",,False,recipient_withdrawal,recipient,"[""V32P-R009732""]",,False,True,,whitespace_only,1.0055802080314606,0,succeeded
+LLMREQ-011,The data subject identified as recipient V32P-R008817 has withdrawn training consent.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008817""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request with explicit ID provided.""
+}",recipient_withdrawal,recipient,"[""V32P-R008817""]",,False,recipient_withdrawal,recipient,"[""V32P-R008817""]",,False,True,,whitespace_only,0.7775171669200063,0,succeeded
+LLMREQ-012,Please action full recipient-level removal for V32P-R008897 from model training.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008897""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for specific ID V32P-R008897.""
+}",recipient_withdrawal,recipient,"[""V32P-R008897""]",,False,recipient_withdrawal,recipient,"[""V32P-R008897""]",,False,True,,whitespace_only,0.8462402920704335,0,succeeded
+LLMREQ-013,I'm recipient V32P-R008144 and I don't want my transplant information training the system anymore.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008144""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for specific recipient ID.""
+}",recipient_withdrawal,recipient,"[""V32P-R008144""]",,False,recipient_withdrawal,recipient,"[""V32P-R008144""]",,False,True,,whitespace_only,0.7831687498837709,0,succeeded
+LLMREQ-014,Can you stop the model using everything recorded for me? My recipient number is V32P-R009171.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R009171""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for specific recipient ID V32P-R009171.""
+}",recipient_withdrawal,recipient,"[""V32P-R009171""]",,False,recipient_withdrawal,recipient,"[""V32P-R009171""]",,False,True,,whitespace_only,0.8688585839699954,0,succeeded
+LLMREQ-015,Take all of my assessment history out of future training please — I'm V32P-R006569.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R006569""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request identified with explicit recipient ID.""
+}",recipient_withdrawal,recipient,"[""V32P-R006569""]",,False,recipient_withdrawal,recipient,"[""V32P-R006569""]",,False,True,,whitespace_only,0.8668225409928709,0,succeeded
+LLMREQ-016,I changed my mind about training use; remove everything tied to recipient ID V32P-R002885.,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R002885""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for ID V32P-R002885.""
+}",recipient_withdrawal,recipient,"[""V32P-R002885""]",,False,recipient_withdrawal,recipient,"[""V32P-R002885""]",,False,True,,whitespace_only,0.8431778750382364,0,succeeded
+LLMREQ-017,Donor V32P-DP001594 withdraws permission for linked transplant records to be used in training.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001594""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request with explicit donor ID provided.""
+}",donor_withdrawal,donor,"[""V32P-DP001594""]",,False,donor_withdrawal,donor,"[""V32P-DP001594""]",,False,True,,whitespace_only,0.8222859168890864,0,succeeded
+LLMREQ-018,Remove all assessments linked to donor V32P-DP000200 from model training.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for model training removal; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6354787920136005,0,succeeded
+LLMREQ-019,Process donor-level withdrawal for donor identifier V32P-DP001152.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001152""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request processed for specified donor ID.""
+}",donor_withdrawal,donor,"[""V32P-DP001152""]",,False,donor_withdrawal,donor,"[""V32P-DP001152""]",,False,True,,whitespace_only,0.8847833750769496,0,succeeded
+LLMREQ-020,Exclude every recipient assessment associated with donor V32P-DP001364 from training.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering logic requested; policy does not allow filtering by associated donor relationships.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6704630840104073,0,succeeded
+LLMREQ-021,Donor V32P-DP001562 requests removal of all linked data from the training corpus.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001562""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request with explicit donor ID provided.""
+}",donor_withdrawal,donor,"[""V32P-DP001562""]",,False,donor_withdrawal,donor,"[""V32P-DP001562""]",,False,True,,whitespace_only,0.8518181249964982,0,succeeded
+LLMREQ-022,Apply the linked-donor removal policy to V32P-DP000477.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000477""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request for specific donor ID V32P-DP000477.""
+}",donor_withdrawal,donor,"[""V32P-DP000477""]",,False,donor_withdrawal,donor,"[""V32P-DP000477""]",,False,True,,whitespace_only,0.9172786248382181,0,succeeded
+LLMREQ-023,Stop training on records connected to donor V32P-DP001670.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001670""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request identified with explicit donor ID.""
+}",donor_withdrawal,donor,"[""V32P-DP001670""]",,False,donor_withdrawal,donor,"[""V32P-DP001670""]",,False,True,,whitespace_only,0.819423875072971,0,succeeded
+LLMREQ-024,Delete the training scope associated with donor V32P-DP000419.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request involves unsupported clinical filtering ('training scope') not covered by allowed deletion types.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6701624589040875,0,succeeded
+LLMREQ-025,Treat V32P-DP000668 as a donor who has withdrawn training permission.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000668""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request identified with explicit donor ID.""
+}",donor_withdrawal,donor,"[""V32P-DP000668""]",,False,donor_withdrawal,donor,"[""V32P-DP000668""]",,False,True,,whitespace_only,0.8131399170961231,0,succeeded
+LLMREQ-026,Remove all training records whose donor identifier is V32P-DP000150.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000150""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request identified with explicit donor ID V32P-DP000150.""
+}",donor_withdrawal,donor,"[""V32P-DP000150""]",,False,donor_withdrawal,donor,"[""V32P-DP000150""]",,False,True,,whitespace_only,0.9759110829327255,0,succeeded
+LLMREQ-027,The donor identified as V32P-DP000142 has withdrawn data-use permission.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000142""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor V32P-DP000142 withdrew data-use permission.""
+}",donor_withdrawal,donor,"[""V32P-DP000142""]",,False,donor_withdrawal,donor,"[""V32P-DP000142""]",,False,True,,whitespace_only,0.8994848330039531,0,succeeded
+LLMREQ-028,Please action donor-linked removal for V32P-DP001031 from model training.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001031""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request identified with explicit donor ID V32P-DP001031.""
+}",donor_withdrawal,donor,"[""V32P-DP001031""]",,False,donor_withdrawal,donor,"[""V32P-DP001031""]",,False,True,,whitespace_only,0.9187050419859588,0,succeeded
+LLMREQ-029,Please stop using anything connected to my donation in training; my donor ID is V32P-DP000340.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000340""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request with explicit donor ID provided.""
+}",donor_withdrawal,donor,"[""V32P-DP000340""]",,False,donor_withdrawal,donor,"[""V32P-DP000340""]",,False,True,,whitespace_only,0.8154021250084043,0,succeeded
+LLMREQ-030,"I donated the kidney linked to V32P-DP000864, and I want those linked records out of training.",zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000864""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request for specific donor ID V32P-DP000864.""
+}",donor_withdrawal,donor,"[""V32P-DP000864""]",,False,donor_withdrawal,donor,"[""V32P-DP000864""]",,False,True,,whitespace_only,1.042393583105877,0,succeeded
+LLMREQ-031,Can you take the training data connected with donor number V32P-DP001469 out of the system?,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001469""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request identified with explicit donor ID V32P-DP001469.""
+}",donor_withdrawal,donor,"[""V32P-DP001469""]",,False,donor_withdrawal,donor,"[""V32P-DP001469""]",,False,True,,whitespace_only,0.9208992919884622,0,succeeded
+LLMREQ-032,I no longer agree to training use of records tied to me as donor V32P-DP001937.,zero_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001937""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Donor withdrawal request identified with explicit donor ID.""
+}",donor_withdrawal,donor,"[""V32P-DP001937""]",,False,donor_withdrawal,donor,"[""V32P-DP001937""]",,False,True,,whitespace_only,0.8146356251090765,0,succeeded
+LLMREQ-033,Remove all assessments supplied by hospital V32P-H05 from model training.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for model training; policy requires specific entity deletion requests.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6627591659780592,0,succeeded
+LLMREQ-034,Hospital V32P-H05 requires provider-wide removal of its records from training.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Hospital removal request for ID V32P-H05.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7850057079922408,0,succeeded
+LLMREQ-035,Process the frozen hospital-removal policy for V32P-H05.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Hospital removal request for V32P-H05 processed successfully.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7958834578748792,0,succeeded
+LLMREQ-036,Exclude every training assessment belonging to provider V32P-H05.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for training assessments; policy requires specific entity types.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7089987911749631,0,succeeded
+LLMREQ-037,Apply complete provider-level training-data removal to hospital V32P-H05.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Valid hospital removal request with explicit ID.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7376327079255134,0,succeeded
+LLMREQ-038,Stop using records originating from hospital V32P-H05 in the model.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request to remove records from hospital V32P-H05.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.9089562080334872,0,succeeded
+LLMREQ-039,Remove the entire training contribution of hospital V32P-H05.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request to remove hospital V32P-H05 training contribution.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.9694653751794249,0,succeeded
+LLMREQ-040,Hospital identifier V32P-H05 has requested withdrawal of all supplied training data.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Hospital V32P-H05 requested withdrawal of supplied training data.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.8020849160384387,0,succeeded
+LLMREQ-041,Delete from training every record whose hospital ID is V32P-H05.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Valid hospital removal request with explicit hospital ID V32P-H05.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.8064268750604242,0,succeeded
+LLMREQ-042,Action a provider-cluster removal for hospital V32P-H05.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Valid hospital removal request with explicit ID.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7406392500270158,0,succeeded
+LLMREQ-043,Exclude the records submitted by V32P-H05 from subsequent model training.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for model training exclusion; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6413927921094,0,succeeded
+LLMREQ-044,The data provider V32P-H05 requests removal of its assessment records.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Hospital removal request for provider V32P-H05.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7846744160633534,0,succeeded
+LLMREQ-045,Our centre is V32P-H05; please stop training the model on anything we supplied.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request to stop model training is unsupported; requires human review for policy compliance.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6644644578918815,0,succeeded
+LLMREQ-046,Can you take all of V32P-H05's transplant records out of future training?,zero_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Recipient withdrawal request for ID V32P-H05.""
+}",recipient_withdrawal,recipient,"[""V32P-H05""]",,False,unknown,none,[],,True,False,"Required identifiers are missing, unknown, or incompatible",whitespace_only,0.7925593329127878,0,succeeded
+LLMREQ-047,We represent hospital V32P-H05 and want our whole contribution removed from training.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Hospital removal request for V32P-H05.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.783540332922712,0,succeeded
+LLMREQ-048,Nothing from provider V32P-H05 should be used to train the system anymore.,zero_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request to remove hospital V32P-H05 from training data.""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.8813560837879777,0,succeeded
+LLMREQ-049,Remove training assessments with consent status Invalidated under version RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific consent status and version identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8419618338812143,0,succeeded
+LLMREQ-050,Apply the frozen invalid-consent rule: Invalidated and RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent rule with specified entity IDs.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8090328339021653,0,succeeded
+LLMREQ-051,Exclude records marked Invalidated for training consent version RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific Invalidated and RECIPIENT_V3 identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8795323329977691,0,succeeded
+LLMREQ-052,Process all assessments where training consent is Invalidated and the version is RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific consent identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8176500829868019,0,succeeded
+LLMREQ-053,The audit requires removal of Invalidated consent records under RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific consent identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8253996670246124,0,succeeded
+LLMREQ-054,Stop using records carrying Invalidated status with consent version RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific Invalidated and RECIPIENT_V3 identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.9616647909861058,0,succeeded
+LLMREQ-055,Remove the training scope defined by Invalidated plus RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specified entity IDs.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8125519999302924,0,succeeded
+LLMREQ-056,"Apply consent-audit removal to status Invalidated, version RECIPIENT_V3.",zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specified status and version identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8342419171240181,0,succeeded
+LLMREQ-057,Exclude assessment rows whose training consent is Invalidated under RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific consent identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8154830411076546,0,succeeded
+LLMREQ-058,Action the established consent rule for Invalidated / RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Actioning established consent rule for Invalidated / RECIPIENT_V3.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8565460001118481,0,succeeded
+LLMREQ-059,Delete from training records labelled Invalidated at RECIPIENT_V3.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent pattern with specific identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8686560830101371,0,succeeded
+LLMREQ-060,Use the fixed audit policy to remove Invalidated RECIPIENT_V3 assessments.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8090869579464197,0,succeeded
+LLMREQ-061,The consent audit says Invalidated for RECIPIENT_V3; those rows can't stay in training.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Invalid consent rule identified for RECIPIENT_V3 requiring removal.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,1.0404216670431197,0,succeeded
+LLMREQ-062,Please take out anything marked Invalidated on the RECIPIENT_V3 consent version.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific consent identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.836273750057444,0,succeeded
+LLMREQ-063,Can you remove the training records with RECIPIENT_V3 that now say Invalidated?,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent criteria with specific identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8084938330575824,0,succeeded
+LLMREQ-064,Anything under RECIPIENT_V3 with an Invalidated status needs to come out of training.,zero_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches invalid_consent pattern with specific consent rule identifiers.""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8222950829658657,0,succeeded
+LLMREQ-065,Remove assessments whose retention expiry date is on or before 2025-12-31.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering on assessments; policy requires specific entity IDs or rules.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.659959957934916,0,succeeded
+LLMREQ-066,Apply the frozen retention cutoff of 2025-12-31 to training records.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention_expiry policy with specified cutoff date and empty entity list.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.829975290922448,0,succeeded
+LLMREQ-067,Exclude records with retention_expiry_date <= 2025-12-31.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention expiry policy with specified cutoff date.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.8204099999275059,0,succeeded
+LLMREQ-068,Process retention-based removal through 2025-12-31 inclusive.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Valid retention expiry request with specified cutoff date and no specific entity IDs.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7665900408755988,0,succeeded
+LLMREQ-069,Remove training assessments that expired for retention by 2025-12-31.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for training assessments; policy requires specific entity types.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6609749998897314,0,succeeded
+LLMREQ-070,Apply the time-based deletion rule using cutoff 2025-12-31.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Time-based deletion rule with specified cutoff date.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7298471659887582,0,succeeded
+LLMREQ-071,Stop using records whose retention period ended on or before 2025-12-31.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention_expiry criteria with specified cutoff date.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.8259199999738485,0,succeeded
+LLMREQ-072,Delete the training scope covered by retention deadline 2025-12-31.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention_expiry criteria with specified cutoff date and empty entity list.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7681740410625935,0,succeeded
+LLMREQ-073,Action expiry-based removal with the inclusive date 2025-12-31.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Expiry-based removal request with cutoff 2025-12-31 matches retention_rule policy.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.9281269588973373,0,succeeded
+LLMREQ-074,Exclude assessment rows at or before retention cutoff 2025-12-31.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention_expiry criteria with cutoff 2025-12-31 and no specific entity IDs.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.8498032079078257,0,succeeded
+LLMREQ-075,Use 2025-12-31 as the fixed retention-expiry deletion cutoff.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit retention expiry request with fixed cutoff date and no specific entity IDs.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7646105838939548,0,succeeded
+LLMREQ-076,Remove all model-training records expired by 2025-12-31.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for model-training records; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6894494579173625,0,succeeded
+LLMREQ-077,Anything whose keeping period ran out by 2025-12-31 should come out of training.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention expiry criteria with specified cutoff date and empty entity list.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7835035000462085,0,succeeded
+LLMREQ-078,Can you clear training records that reached their retention end date by 2025-12-31?,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request refers to 'training records', which is not a supported entity type for synthetic kidney-transplant data deletion.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7842639170121402,0,succeeded
+LLMREQ-079,Please take out the assessments we were only allowed to keep through 2025-12-31.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention expiry criteria with cutoff 2025-12-31 and no specific entity IDs.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.8494116661604494,0,succeeded
+LLMREQ-080,Records expired on or before 2025-12-31 shouldn't be used for training anymore.,zero_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Request matches retention expiry policy with specified cutoff date and no specific entity IDs.""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7723969160579145,0,succeeded
+LLMREQ-081,Please remove my old records.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request lacks specific identifiers, entity type, or valid policy criteria for automated processing.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.668598750140518,0,succeeded
+LLMREQ-082,I withdraw permission.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Missing specific entity identifiers and context to determine the exact withdrawal type.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6462380830198526,0,succeeded
+LLMREQ-083,Can you delete the transplant information?,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request is ambiguous and lacks specific identifiers or policy conditions required for processing.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7288314159959555,0,succeeded
+LLMREQ-084,My data should not be there anymore.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request is ambiguous and lacks specific identifiers or policy details required for processing.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6530614579096437,0,succeeded
+LLMREQ-085,Please deal with the records from my hospital.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Missing explicit hospital ID required for hospital_removal request.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6277999579906464,0,succeeded
+LLMREQ-086,Remove what has expired.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Ambiguous request lacking specific identifiers or explicit retention rule parameters.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6350106250029057,0,succeeded
+LLMREQ-087,I need some donor information taken out.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Missing specific donor ID and withdrawal details required for processing.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6999463748652488,0,succeeded
+LLMREQ-088,Please stop using my assessments.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request is ambiguous and lacks specific identifiers or policy keywords required for processing.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.653794834157452,0,succeeded
+LLMREQ-089,The consent entry is wrong; remove it.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Ambiguous request lacking specific entity IDs or required literal arguments for invalid_consent processing.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7616683340165764,0,succeeded
+LLMREQ-090,Can someone review my deletion request?,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Request is ambiguous and lacks specific identifiers or deletion criteria.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7132319170050323,0,succeeded
+LLMREQ-091,Remove every patient whose creatinine is above 2.0.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering based on creatinine levels; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6427910409402102,0,succeeded
+LLMREQ-092,Delete records for recipients with low medication adherence.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for medication adherence; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6251792500261217,0,succeeded
+LLMREQ-093,Forget all assessments showing an infection.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering requested; policy requires specific entity IDs or rules.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6396314159501344,0,succeeded
+LLMREQ-094,Remove records based on recipient ethnicity.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering based on ethnicity is not allowed.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7511904591228813,0,succeeded
+LLMREQ-095,Delete everyone older than 60 from training.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering based on age; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7125459159724414,0,succeeded
+LLMREQ-096,Forget all cases with a previous rejection.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering logic; requires human review for policy compliance.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.8209754589479417,0,succeeded
+LLMREQ-097,Remove all deceased-donor transplants.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering requested; policy requires specific entity IDs or explicit rules.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.687462667003274,0,succeeded
+LLMREQ-098,Delete records with high antibody risk scores.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering for antibody risk scores; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7453712499700487,0,succeeded
+LLMREQ-099,Forget assessments from patients with poor urine output.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering based on patient condition; requires human review.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7097117907833308,0,succeeded
+LLMREQ-100,Remove every record where the prediction target is positive.,zero_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering requested; policy requires specific entity IDs or rules.""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6405661669559777,0,succeeded
+LLMREQ-001,Recipient V32P-R004205 withdraws consent for all their records to be used for model training.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R004205""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient withdrawal request""
+}",recipient_withdrawal,recipient,"[""V32P-R004205""]",,False,recipient_withdrawal,recipient,"[""V32P-R004205""]",,False,True,,whitespace_only,0.8229902090970427,0,succeeded
+LLMREQ-002,Remove every assessment belonging to recipient V32P-R001325 from future training.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R001325""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient and withdrawal""
+}",recipient_withdrawal,recipient,"[""V32P-R001325""]",,False,recipient_withdrawal,recipient,"[""V32P-R001325""]",,False,True,,whitespace_only,0.6755491669755429,0,succeeded
+LLMREQ-003,Process a complete training-data withdrawal for recipient V32P-R001426.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R001426""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient and withdrawal""
+}",recipient_withdrawal,recipient,"[""V32P-R001426""]",,False,recipient_withdrawal,recipient,"[""V32P-R001426""]",,False,True,,whitespace_only,0.6009792909026146,0,succeeded
+LLMREQ-004,Exclude the full longitudinal history of recipient V32P-R007674 from the training corpus.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R007674""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient and withdrawal""
+}",recipient_withdrawal,recipient,"[""V32P-R007674""]",,False,recipient_withdrawal,recipient,"[""V32P-R007674""]",,False,True,,whitespace_only,1.4908583329524845,0,succeeded
+LLMREQ-005,Recipient V32P-R006444 requests removal of their transplant assessments from model training.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R006444""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient and withdrawal""
+}",recipient_withdrawal,recipient,"[""V32P-R006444""]",,False,recipient_withdrawal,recipient,"[""V32P-R006444""]",,False,True,,whitespace_only,0.7858376670628786,0,succeeded
+LLMREQ-006,Apply the recipient records withdrawal request for V32P-R005972.,few_shot,"{""request_type"": ""recipient_withdrawal"", ""entity_type"": ""recipient"", ""entity_ids"": [""V32P-R005972""], ""date_cutoff"": null, ""requires_human_review"": false, ""reason"": ""Explicit recipient and withdrawal""}",recipient_withdrawal,recipient,"[""V32P-R005972""]",,False,recipient_withdrawal,recipient,"[""V32P-R005972""]",,False,True,,whitespace_only,0.6993126661982387,0,succeeded
+LLMREQ-007,Stop using any assessment linked to recipient V32P-R005394 for training.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R005394""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient withdrawal request""
+}",recipient_withdrawal,recipient,"[""V32P-R005394""]",,False,recipient_withdrawal,recipient,"[""V32P-R005394""]",,False,True,,whitespace_only,0.7964084998238832,0,succeeded
+LLMREQ-008,Delete recipient V32P-R007913's complete assessment history from the training scope.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R007913""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient and withdrawal""
+}",recipient_withdrawal,recipient,"[""V32P-R007913""]",,False,recipient_withdrawal,recipient,"[""V32P-R007913""]",,False,True,,whitespace_only,0.7928905000444502,0,succeeded
+LLMREQ-009,Treat V32P-R008186 as a recipient who has withdrawn permission for training use.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008186""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient withdrawal request""
+}",recipient_withdrawal,recipient,"[""V32P-R008186""]",,False,recipient_withdrawal,recipient,"[""V32P-R008186""]",,False,True,,whitespace_only,0.7846687498968095,0,succeeded
+LLMREQ-010,Remove all training records whose recipient identifier is V32P-R009732.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R009732""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient and withdrawal""
+}",recipient_withdrawal,recipient,"[""V32P-R009732""]",,False,recipient_withdrawal,recipient,"[""V32P-R009732""]",,False,True,,whitespace_only,0.7926158751361072,0,succeeded
+LLMREQ-011,The data subject identified as recipient V32P-R008817 has withdrawn training consent.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008817""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient withdrawal request""
+}",recipient_withdrawal,recipient,"[""V32P-R008817""]",,False,recipient_withdrawal,recipient,"[""V32P-R008817""]",,False,True,,whitespace_only,0.7916479159612209,0,succeeded
+LLMREQ-012,Please action full recipient-level removal for V32P-R008897 from model training.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008897""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient and withdrawal""
+}",recipient_withdrawal,recipient,"[""V32P-R008897""]",,False,recipient_withdrawal,recipient,"[""V32P-R008897""]",,False,True,,whitespace_only,0.8475988749414682,0,succeeded
+LLMREQ-013,I'm recipient V32P-R008144 and I don't want my transplant information training the system anymore.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R008144""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient withdrawal request""
+}",recipient_withdrawal,recipient,"[""V32P-R008144""]",,False,recipient_withdrawal,recipient,"[""V32P-R008144""]",,False,True,,whitespace_only,0.8865606668405235,0,succeeded
+LLMREQ-014,Can you stop the model using everything recorded for me? My recipient number is V32P-R009171.,few_shot,"{""request_type"": ""recipient_withdrawal"", ""entity_type"": ""recipient"", ""entity_ids"": [""V32P-R009171""], ""date_cutoff"": null, ""requires_human_review"": false, ""reason"": ""Explicit recipient withdrawal request with ID""}",recipient_withdrawal,recipient,"[""V32P-R009171""]",,False,recipient_withdrawal,recipient,"[""V32P-R009171""]",,False,True,,whitespace_only,0.938260291935876,0,succeeded
+LLMREQ-015,Take all of my assessment history out of future training please — I'm V32P-R006569.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R006569""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient withdrawal request""
+}",recipient_withdrawal,recipient,"[""V32P-R006569""]",,False,recipient_withdrawal,recipient,"[""V32P-R006569""]",,False,True,,whitespace_only,0.9230712079443038,0,succeeded
+LLMREQ-016,I changed my mind about training use; remove everything tied to recipient ID V32P-R002885.,few_shot,"{
+  ""request_type"": ""recipient_withdrawal"",
+  ""entity_type"": ""recipient"",
+  ""entity_ids"": [
+    ""V32P-R002885""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit recipient withdrawal request with ID""
+}",recipient_withdrawal,recipient,"[""V32P-R002885""]",,False,recipient_withdrawal,recipient,"[""V32P-R002885""]",,False,True,,whitespace_only,0.8024358341936022,0,succeeded
+LLMREQ-017,Donor V32P-DP001594 withdraws permission for linked transplant records to be used in training.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001594""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and withdrawal""
+}",donor_withdrawal,donor,"[""V32P-DP001594""]",,False,donor_withdrawal,donor,"[""V32P-DP001594""]",,False,True,,whitespace_only,0.8189765000715852,0,succeeded
+LLMREQ-018,Remove all assessments linked to donor V32P-DP000200 from model training.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000200""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and removal""
+}",donor_withdrawal,donor,"[""V32P-DP000200""]",,False,donor_withdrawal,donor,"[""V32P-DP000200""]",,False,True,,whitespace_only,0.8125745828729123,0,succeeded
+LLMREQ-019,Process donor-level withdrawal for donor identifier V32P-DP001152.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001152""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and withdrawal""
+}",donor_withdrawal,donor,"[""V32P-DP001152""]",,False,donor_withdrawal,donor,"[""V32P-DP001152""]",,False,True,,whitespace_only,0.821849999949336,0,succeeded
+LLMREQ-020,Exclude every recipient assessment associated with donor V32P-DP001364 from training.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering on recipient assessments linked to a donor""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.662266458850354,0,succeeded
+LLMREQ-021,Donor V32P-DP001562 requests removal of all linked data from the training corpus.,few_shot,"{""request_type"": ""donor_withdrawal"", ""entity_type"": ""donor"", ""entity_ids"": [""V32P-DP001562""], ""date_cutoff"": null, ""requires_human_review"": false, ""reason"": ""Explicit donor and removal""}",donor_withdrawal,donor,"[""V32P-DP001562""]",,False,donor_withdrawal,donor,"[""V32P-DP001562""]",,False,True,,whitespace_only,0.6412957499269396,0,succeeded
+LLMREQ-022,Apply the linked-donor removal policy to V32P-DP000477.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000477""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and removal policy""
+}",donor_withdrawal,donor,"[""V32P-DP000477""]",,False,donor_withdrawal,donor,"[""V32P-DP000477""]",,False,True,,whitespace_only,0.8883864160161465,0,succeeded
+LLMREQ-023,Stop training on records connected to donor V32P-DP001670.,few_shot,"{""request_type"": ""donor_withdrawal"", ""entity_type"": ""donor"", ""entity_ids"": [""V32P-DP001670""], ""date_cutoff"": null, ""requires_human_review"": false, ""reason"": ""Explicit donor and withdrawal""}",donor_withdrawal,donor,"[""V32P-DP001670""]",,False,donor_withdrawal,donor,"[""V32P-DP001670""]",,False,True,,whitespace_only,0.6768952498678118,0,succeeded
+LLMREQ-024,Delete the training scope associated with donor V32P-DP000419.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000419""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and removal""
+}",donor_withdrawal,donor,"[""V32P-DP000419""]",,False,donor_withdrawal,donor,"[""V32P-DP000419""]",,False,True,,whitespace_only,0.6223172910977155,0,succeeded
+LLMREQ-025,Treat V32P-DP000668 as a donor who has withdrawn training permission.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000668""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and withdrawal""
+}",donor_withdrawal,donor,"[""V32P-DP000668""]",,False,donor_withdrawal,donor,"[""V32P-DP000668""]",,False,True,,whitespace_only,0.8029553340747952,0,succeeded
+LLMREQ-026,Remove all training records whose donor identifier is V32P-DP000150.,few_shot,"{""request_type"": ""donor_withdrawal"", ""entity_type"": ""donor"", ""entity_ids"": [""V32P-DP000150""], ""date_cutoff"": null, ""requires_human_review"": false, ""reason"": ""Explicit donor and removal""}",donor_withdrawal,donor,"[""V32P-DP000150""]",,False,donor_withdrawal,donor,"[""V32P-DP000150""]",,False,True,,whitespace_only,0.6689907908439636,0,succeeded
+LLMREQ-027,The donor identified as V32P-DP000142 has withdrawn data-use permission.,few_shot,"{""request_type"": ""donor_withdrawal"", ""entity_type"": ""donor"", ""entity_ids"": [""V32P-DP000142""], ""date_cutoff"": null, ""requires_human_review"": false, ""reason"": ""Explicit donor and withdrawal""}",donor_withdrawal,donor,"[""V32P-DP000142""]",,False,donor_withdrawal,donor,"[""V32P-DP000142""]",,False,True,,whitespace_only,0.6256102081388235,0,succeeded
+LLMREQ-028,Please action donor-linked removal for V32P-DP001031 from model training.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001031""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and removal""
+}",donor_withdrawal,donor,"[""V32P-DP001031""]",,False,donor_withdrawal,donor,"[""V32P-DP001031""]",,False,True,,whitespace_only,0.8419688330031931,0,succeeded
+LLMREQ-029,Please stop using anything connected to my donation in training; my donor ID is V32P-DP000340.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000340""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor ID and withdrawal request""
+}",donor_withdrawal,donor,"[""V32P-DP000340""]",,False,donor_withdrawal,donor,"[""V32P-DP000340""]",,False,True,,whitespace_only,1.0326531250029802,0,succeeded
+LLMREQ-030,"I donated the kidney linked to V32P-DP000864, and I want those linked records out of training.",few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP000864""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor withdrawal request with valid ID""
+}",donor_withdrawal,donor,"[""V32P-DP000864""]",,False,donor_withdrawal,donor,"[""V32P-DP000864""]",,False,True,,whitespace_only,0.8178127920255065,0,succeeded
+LLMREQ-031,Can you take the training data connected with donor number V32P-DP001469 out of the system?,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001469""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor and removal""
+}",donor_withdrawal,donor,"[""V32P-DP001469""]",,False,donor_withdrawal,donor,"[""V32P-DP001469""]",,False,True,,whitespace_only,0.8133236670400947,0,succeeded
+LLMREQ-032,I no longer agree to training use of records tied to me as donor V32P-DP001937.,few_shot,"{
+  ""request_type"": ""donor_withdrawal"",
+  ""entity_type"": ""donor"",
+  ""entity_ids"": [
+    ""V32P-DP001937""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit donor withdrawal request""
+}",donor_withdrawal,donor,"[""V32P-DP001937""]",,False,donor_withdrawal,donor,"[""V32P-DP001937""]",,False,True,,whitespace_only,0.7968979580327868,0,succeeded
+LLMREQ-033,Remove all assessments supplied by hospital V32P-H05 from model training.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.8338351249694824,0,succeeded
+LLMREQ-034,Hospital V32P-H05 requires provider-wide removal of its records from training.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7419115419033915,0,succeeded
+LLMREQ-035,Process the frozen hospital-removal policy for V32P-H05.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal policy""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7505411251913756,0,succeeded
+LLMREQ-036,Exclude every training assessment belonging to provider V32P-H05.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit provider and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7379257089924067,0,succeeded
+LLMREQ-037,Apply complete provider-level training-data removal to hospital V32P-H05.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.8312561248894781,0,succeeded
+LLMREQ-038,Stop using records originating from hospital V32P-H05 in the model.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.815854209009558,0,succeeded
+LLMREQ-039,Remove the entire training contribution of hospital V32P-H05.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.8146531670354307,0,succeeded
+LLMREQ-040,Hospital identifier V32P-H05 has requested withdrawal of all supplied training data.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and withdrawal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7838182079140097,0,succeeded
+LLMREQ-041,Delete from training every record whose hospital ID is V32P-H05.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7498536249622703,0,succeeded
+LLMREQ-042,Action a provider-cluster removal for hospital V32P-H05.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7508486660663038,0,succeeded
+LLMREQ-043,Exclude the records submitted by V32P-H05 from subsequent model training.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital removal request""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7340127909556031,0,succeeded
+LLMREQ-044,The data provider V32P-H05 requests removal of its assessment records.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit provider and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7418043748475611,0,succeeded
+LLMREQ-045,Our centre is V32P-H05; please stop training the model on anything we supplied.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7826640410348773,0,succeeded
+LLMREQ-046,Can you take all of V32P-H05's transplant records out of future training?,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital removal request""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.8389505420345813,0,succeeded
+LLMREQ-047,We represent hospital V32P-H05 and want our whole contribution removed from training.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit hospital and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.7503863340243697,0,succeeded
+LLMREQ-048,Nothing from provider V32P-H05 should be used to train the system anymore.,few_shot,"{
+  ""request_type"": ""hospital_removal"",
+  ""entity_type"": ""hospital"",
+  ""entity_ids"": [
+    ""V32P-H05""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit provider and removal""
+}",hospital_removal,hospital,"[""V32P-H05""]",,False,hospital_removal,hospital,"[""V32P-H05""]",,False,True,,whitespace_only,0.735843458911404,0,succeeded
+LLMREQ-049,Remove training assessments with consent status Invalidated under version RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with required identifiers""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8993289999198169,0,succeeded
+LLMREQ-050,Apply the frozen invalid-consent rule: Invalidated and RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen consent rule""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.783885583980009,0,succeeded
+LLMREQ-051,Exclude records marked Invalidated for training consent version RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen consent rule""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8496484581846744,0,succeeded
+LLMREQ-052,Process all assessments where training consent is Invalidated and the version is RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with Invalidated and RECIPIENT_V3""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8915567090734839,0,succeeded
+LLMREQ-053,The audit requires removal of Invalidated consent records under RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen consent rule""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8390929158776999,0,succeeded
+LLMREQ-054,Stop using records carrying Invalidated status with consent version RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with required identifiers""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8215982920955867,0,succeeded
+LLMREQ-055,Remove the training scope defined by Invalidated plus RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with required identifiers""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.9543779161758721,0,succeeded
+LLMREQ-056,"Apply consent-audit removal to status Invalidated, version RECIPIENT_V3.",few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with status and version""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8292068750597537,0,succeeded
+LLMREQ-057,Exclude assessment rows whose training consent is Invalidated under RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen consent rule""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.7673024160321802,0,succeeded
+LLMREQ-058,Action the established consent rule for Invalidated / RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with required identifiers""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8134182498324662,0,succeeded
+LLMREQ-059,Delete from training records labelled Invalidated at RECIPIENT_V3.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule deletion request""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8179526671301574,0,succeeded
+LLMREQ-060,Use the fixed audit policy to remove Invalidated RECIPIENT_V3 assessments.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit invalid consent rule with required identifiers""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8155868749599904,0,succeeded
+LLMREQ-061,The consent audit says Invalidated for RECIPIENT_V3; those rows can't stay in training.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with Invalidated and RECIPIENT_V3""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8588725829031318,0,succeeded
+LLMREQ-062,Please take out anything marked Invalidated on the RECIPIENT_V3 consent version.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with required identifiers""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8464325000531971,0,succeeded
+LLMREQ-063,Can you remove the training records with RECIPIENT_V3 that now say Invalidated?,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with Invalidated and RECIPIENT_V3""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8589116670191288,0,succeeded
+LLMREQ-064,Anything under RECIPIENT_V3 with an Invalidated status needs to come out of training.,few_shot,"{
+  ""request_type"": ""invalid_consent"",
+  ""entity_type"": ""consent_rule"",
+  ""entity_ids"": [
+    ""Invalidated"",
+    ""RECIPIENT_V3""
+  ],
+  ""date_cutoff"": null,
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit consent rule with required identifiers""
+}",invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,,whitespace_only,0.8007232500240207,0,succeeded
+LLMREQ-065,Remove assessments whose retention expiry date is on or before 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7051393750589341,0,succeeded
+LLMREQ-066,Apply the frozen retention cutoff of 2025-12-31 to training records.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.8329273338895291,0,succeeded
+LLMREQ-067,Exclude records with retention_expiry_date <= 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.6969961251597852,0,succeeded
+LLMREQ-068,Process retention-based removal through 2025-12-31 inclusive.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7080933752004057,0,succeeded
+LLMREQ-069,Remove training assessments that expired for retention by 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.701406667008996,0,succeeded
+LLMREQ-070,Apply the time-based deletion rule using cutoff 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7036335000302643,0,succeeded
+LLMREQ-071,Stop using records whose retention period ended on or before 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7962080419529229,0,succeeded
+LLMREQ-072,Delete the training scope covered by retention deadline 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7046909159980714,0,succeeded
+LLMREQ-073,Action expiry-based removal with the inclusive date 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit retention expiry with valid cutoff date""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7562305410392582,0,succeeded
+LLMREQ-074,Exclude assessment rows at or before retention cutoff 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7090883750934154,0,succeeded
+LLMREQ-075,Use 2025-12-31 as the fixed retention-expiry deletion cutoff.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7580874590203166,0,succeeded
+LLMREQ-076,Remove all model-training records expired by 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7227682499215007,0,succeeded
+LLMREQ-077,Anything whose keeping period ran out by 2025-12-31 should come out of training.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.6989812080282718,0,succeeded
+LLMREQ-078,Can you clear training records that reached their retention end date by 2025-12-31?,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.6994722918607295,0,succeeded
+LLMREQ-079,Please take out the assessments we were only allowed to keep through 2025-12-31.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Explicit retention expiry with valid cutoff date""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7369092921726406,0,succeeded
+LLMREQ-080,Records expired on or before 2025-12-31 shouldn't be used for training anymore.,few_shot,"{
+  ""request_type"": ""retention_expiry"",
+  ""entity_type"": ""retention_rule"",
+  ""entity_ids"": [],
+  ""date_cutoff"": ""2025-12-31"",
+  ""requires_human_review"": false,
+  ""reason"": ""Complete frozen cutoff""
+}",retention_expiry,retention_rule,[],2025-12-31,False,retention_expiry,retention_rule,[],2025-12-31,False,True,,whitespace_only,0.7160685411654413,0,succeeded
+LLMREQ-081,Please remove my old records.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Required policy argument is missing""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6032361250836402,0,succeeded
+LLMREQ-082,I withdraw permission.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Required policy argument is missing""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.604579416802153,0,succeeded
+LLMREQ-083,Can you delete the transplant information?,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Required policy argument is missing""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6500818750355393,0,succeeded
+LLMREQ-084,My data should not be there anymore.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Required policy argument is missing""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6021777500864118,0,succeeded
+LLMREQ-085,Please deal with the records from my hospital.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Missing explicit hospital ID and specific removal action""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6230649577919394,0,succeeded
+LLMREQ-086,Remove what has expired.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Missing explicit retention cutoff date""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6070809590164572,0,succeeded
+LLMREQ-087,I need some donor information taken out.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Missing explicit donor ID required for withdrawal""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.623357875039801,0,succeeded
+LLMREQ-088,Please stop using my assessments.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Required policy argument is missing""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6833852499257773,0,succeeded
+LLMREQ-089,The consent entry is wrong; remove it.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Missing specific consent rule identifiers and invalidation context""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.631410958012566,0,succeeded
+LLMREQ-090,Can someone review my deletion request?,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Required policy argument is missing""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6065128750633448,0,succeeded
+LLMREQ-091,Remove every patient whose creatinine is above 2.0.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering logic""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.5990482501219958,0,succeeded
+LLMREQ-092,Delete records for recipients with low medication adherence.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering on medication adherence""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6107744998298585,0,succeeded
+LLMREQ-093,Forget all assessments showing an infection.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering on infection status""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.7314698752015829,0,succeeded
+LLMREQ-094,Remove records based on recipient ethnicity.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering by ethnicity""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.5210944171994925,0,succeeded
+LLMREQ-095,Delete everyone older than 60 from training.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering by age""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6390378749929368,0,succeeded
+LLMREQ-096,Forget all cases with a previous rejection.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering logic""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.5880720838904381,0,succeeded
+LLMREQ-097,Remove all deceased-donor transplants.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering without explicit ID""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.612896875012666,0,succeeded
+LLMREQ-098,Delete records with high antibody risk scores.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering logic""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.5891949578654021,0,succeeded
+LLMREQ-099,Forget assessments from patients with poor urine output.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering on urine output""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.6757662498857826,0,succeeded
+LLMREQ-100,Remove every record where the prediction target is positive.,few_shot,"{
+  ""request_type"": ""unknown"",
+  ""entity_type"": ""none"",
+  ""entity_ids"": [],
+  ""date_cutoff"": null,
+  ""requires_human_review"": true,
+  ""reason"": ""Unsupported clinical filtering on prediction target""
+}",unknown,none,[],,True,unknown,none,[],,True,True,,whitespace_only,0.765095999930054,0,succeeded

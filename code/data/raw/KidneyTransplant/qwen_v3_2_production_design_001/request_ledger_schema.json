@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Qwen v3.2 append-only prospective request ledger record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "chunk_id",
+    "request_id",
+    "recipient_id",
+    "request_sequence_number",
+    "attempt_number",
+    "deterministic_request_seed",
+    "prompt_version",
+    "prompt_template_sha256",
+    "rendered_prompt_sha256",
+    "rendered_message_payload",
+    "model",
+    "completion_parameters",
+    "anchor_algorithm_version",
+    "anchor_metadata_sha256",
+    "timestamp_utc",
+    "status"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "chunk_id": {
+      "type": "string"
+    },
+    "request_id": {
+      "type": "string"
+    },
+    "recipient_id": {
+      "type": "string",
+      "description": "Pseudonymous production recipient ID; not a direct identifier."
+    },
+    "request_sequence_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "attempt_number": {
+      "const": 1
+    },
+    "deterministic_request_seed": {
+      "type": "integer"
+    },
+    "prompt_version": {
+      "const": "qwen-kidney-v3.2"
+    },
+    "prompt_template_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "rendered_prompt_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "rendered_message_payload": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "role",
+          "content"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "system",
+              "user"
+            ]
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "model": {
+      "type": "string"
+    },
+    "completion_parameters": {
+      "type": "object"
+    },
+    "anchor_algorithm_version": {
+      "const": "qwen-kidney-v3.2-anchor-v1"
+    },
+    "anchor_metadata_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "const": "preserved_before_network_submission"
+    }
+  },
+  "append_only_invariants": [
+    "serialize and fsync this record before network submission",
+    "never overwrite, truncate or reorder requests.jsonl",
+    "attempt_number remains 1 because automatic retries are prohibited",
+    "skip request IDs already validated by the authoritative checkpoints",
+    "responses.jsonl remains separate and stores the complete serialized response before extraction or parsing",
+    "direct identifiers are prohibited"
+  ],
+  "prohibited_direct_identifier_fields": [
+    "person_id",
+    "full_name",
+    "date_of_birth",
+    "email_address",
+    "postcode",
+    "hospital_number"
+  ]
+}

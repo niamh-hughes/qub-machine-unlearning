@@ -1,0 +1,6 @@
+scenario,approximate_unlearning_model,reference_model,forget_set_row_count,ks_p_value,ks_statistic,truth_ratio_definition,seed,fixed_threshold
+Actor withdrawal — 1%,gradient_ascent,full_retraining,415,0.8777231858355168,0.04096385542168675,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Submission withdrawal — 5%,gradient_ascent,full_retraining,2137,0.8881979505463847,0.017781937295273748,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Agency withdrawal — 10%,gradient_ascent,full_retraining,4224,0.804488224321594,0.01396780303030303,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Project closure — 15%,gradient_ascent,full_retraining,6289,0.26199394618136407,0.01796788042614088,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32
+Retention expiry — 15%,gradient_ascent,full_retraining,6298,0.614829976724147,0.013496348046999047,"(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",42,0.32

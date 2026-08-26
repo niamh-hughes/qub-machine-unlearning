@@ -1,0 +1,315 @@
+{
+  "method": "sisa",
+  "method_name": "Sharded, Isolated, Sliced and Aggregated",
+  "configuration": {
+    "master_seed": 42,
+    "number_of_shards": 5,
+    "number_of_slices": 5,
+    "epochs_per_slice": 2,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "aggregation": "mean_predicted_probability",
+    "slice_protocol": "cumulative_slices_1_through_j"
+  },
+  "assignment_manifest_path": "results/CastMe/sisa/configuration/assignment_manifest.json",
+  "assignment_file_hash": "60edca9d196e5fe6b8390f849b97f63eb579a46e45d5ffa86fe7a286032f0456",
+  "assignment_logical_hash": "4c8865d1b1b270668a76121996452b386275eb480da3d9f62bf5ac58ead4f1a2",
+  "aggregation": "mean_predicted_probability",
+  "threshold": 0.32,
+  "feature_order": [
+    "experience_years",
+    "role_match_score",
+    "accent_match",
+    "availability_match",
+    "line_accuracy_score",
+    "special_skill_match",
+    "self_tape_quality_score",
+    "manager_rating",
+    "prior_collaboration",
+    "days_before_deadline"
+  ],
+  "architecture": {
+    "input_dimension": 10,
+    "hidden_layer_dimensions": [
+      16,
+      8
+    ],
+    "hidden_activation": "ReLU",
+    "dropout_probability": 0.1,
+    "output": "single logit"
+  },
+  "baseline_split_artifacts": {
+    "train": {
+      "index_path": "results/CastMe/configuration/baseline_splits/train_indices.npy",
+      "index_sha256": "0bf0379544c9a1ce89cd9632ff1849797421e9c9b7d6a9c9b2b1b600a4c9d2a5",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/train_audition_ids.npy",
+      "audition_id_sha256": "bfb48e52ac66f63e7f63acdbcaf266768b8b8b47d1c3bd9ff7d243850a63e652",
+      "row_count": 42000,
+      "proportion": 0.7
+    },
+    "validation": {
+      "index_path": "results/CastMe/configuration/baseline_splits/validation_indices.npy",
+      "index_sha256": "88f3c72e92ec53d97f676297f7a4c040f8822091f13945e8c3a70bbe7252b0d2",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/validation_audition_ids.npy",
+      "audition_id_sha256": "eb1cd4f99f40c861c0bdaf183973bcaef8ae3dd64332d157faf5e591b94fa891",
+      "row_count": 9000,
+      "proportion": 0.15
+    },
+    "test": {
+      "index_path": "results/CastMe/configuration/baseline_splits/test_indices.npy",
+      "index_sha256": "b67c4b744175b01b81bd1c2f4fabc0cd8feb0f2b420a59d41d46932be0344257",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/test_audition_ids.npy",
+      "audition_id_sha256": "f7cd05f8e509773b97d19913e1404f1a892669a83d9059b3052c064917135c3d",
+      "row_count": 9000,
+      "proportion": 0.15
+    }
+  },
+  "deletion_configuration": {
+    "s1_actor_withdrawal": {
+      "display_name": "Actor withdrawal \u2014 1%",
+      "rule_type": "equals",
+      "column": "actor_id",
+      "identifier": "A034",
+      "requested_percentage": 0.01,
+      "subset_rule": "actor_id == 'A034'",
+      "reason": "An individual asks CastMe to delete all audition submissions and associated personal data."
+    },
+    "s2_submission_withdrawal": {
+      "display_name": "Submission withdrawal \u2014 5%",
+      "rule_type": "boolean_true",
+      "column": "withdrawal_requested",
+      "identifier": "True",
+      "requested_percentage": 0.05,
+      "subset_rule": "withdrawal_requested == True",
+      "reason": "Different actors withdraw specific submissions or self-tapes without deleting their accounts."
+    },
+    "s3_agency_withdrawal": {
+      "display_name": "Agency withdrawal \u2014 10%",
+      "rule_type": "equals",
+      "column": "manager_id",
+      "identifier": "M20",
+      "requested_percentage": 0.1,
+      "subset_rule": "manager_id == 'M20'",
+      "reason": "An agency ends its agreement, requiring removal of the personal audition data it supplied."
+    },
+    "s4_project_closure": {
+      "display_name": "Project closure \u2014 15%",
+      "rule_type": "equals",
+      "column": "film_id",
+      "identifier": "F50",
+      "requested_percentage": 0.15,
+      "subset_rule": "film_id == 'F50'",
+      "reason": "The casting purpose has ended, so personal audition data collected for the project is no longer required."
+    },
+    "s5_retention_expiry": {
+      "display_name": "Retention expiry \u2014 15%",
+      "rule_type": "date_before",
+      "column": "audition_date",
+      "identifier": "2021-09-20",
+      "requested_percentage": 0.15,
+      "subset_rule": "audition_date < '2021-09-20'",
+      "reason": "Older audition records have exceeded CastMe's defined retention period."
+    }
+  },
+  "preprocessing_limitation": "Frozen pre-deletion scaler may retain deleted-record influence; model-only SISA.",
+  "reference_model_types": {
+    "cross_method": "monolithic_full_retraining_external_reference",
+    "method_matched": "clean_retain_only_sisa_ensemble"
+  },
+  "frozen_preprocessor_path": "models/castme/castme_preprocessor.joblib",
+  "frozen_preprocessor_hash": "bd2465b409947c7d2cef5b772de9577933f6f266e57764ef3dbaf876094b4e28",
+  "raw_dataset_hash": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+  "cleaned_dataset_hash": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+  "original_sisa_training_seconds": 16.67264524998609,
+  "initial_checkpoint_storage_bytes": 359460,
+  "initial_operational_sisa_storage_scope": "25 original slice checkpoints and five original final shard models; excludes post-deletion and evaluation-only references.",
+  "upstream_artifact_hashes": {
+    "notebooks/CastMe/01_castme_baseline.ipynb": "c8abe97cc2f31311effa7cea892bc384e6efebf3772ad887885a84a0ce387602",
+    "notebooks/CastMe/02_castme_forget_sets_and_full_retraining.ipynb": "489fbc350b744622ccf02893e46fe1e094b5d36543654c1301099098f7634d1f",
+    "notebooks/CastMe/03_castme_retain_set_finetuning.ipynb": "527d55861f18030a4dcdfc13a67cf529fc2fb1190ffd42c7c12ef39531b3860a",
+    "notebooks/CastMe/04_castme_gradient_ascent.ipynb": "0465d4a884dcf38e148656a51b46e8c205a20d79b9df08051f2535667fae1380",
+    "data/processed/castme/castme_auditions_clean.csv": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+    "models/castme/castme_baseline_mlp.pt": "4f7757e504911e6411983a911001e9aea9eef15fd7268fac71c84b0bc1cc7332",
+    "models/castme/castme_preprocessor.joblib": "bd2465b409947c7d2cef5b772de9577933f6f266e57764ef3dbaf876094b4e28",
+    "results/CastMe/configuration/baseline_manifest.json": "81d1f8ee6aef0d4874768ba8068d8aa330c870c0ae71ae6f8e7f233131ddaa57",
+    "results/CastMe/full_retraining/configuration/scenario_manifest.json": "629171f6ace6b944e6c9c72ac166bb9f09df8496a9c261cf5e4f691870a5577a",
+    "results/CastMe/full_retraining/tables/training_summary.csv": "c85a6518f4f83a78dac9e4d0c88a89f47a8be02939307f1f6c7d345d67b15e5c",
+    "models/castme/full_retraining/s1_actor_withdrawal/model.pt": "0d3e4e7c25b13d7adc773360c721f6f981fbc66fa7878dbf8963303edfacec45",
+    "models/castme/full_retraining/s1_actor_withdrawal/preprocessor.joblib": "a5cdbfc1a9fc67ba87fc2681d889604aab470393ac8bad424bf15645179336dd",
+    "results/CastMe/full_retraining/forget_indices/s1_actor_withdrawal_forget_train_indices.npy": "e04fe24bd40b6a31fcd9fb1d85b63a9a50c9f63c8ac64ca3704c2d7656d61af9",
+    "results/CastMe/full_retraining/retain_indices/s1_actor_withdrawal_retain_train_indices.npy": "bce3c0227e3fb55f270143046a8a1853595a83b8d9805e5c6dbcfd87ef669792",
+    "models/castme/full_retraining/s2_submission_withdrawal/model.pt": "0ccf222a832b3134022615802a82eaadb31fc25b0aa46f0e9d871031e72b40bc",
+    "models/castme/full_retraining/s2_submission_withdrawal/preprocessor.joblib": "6c4f1e413c998a9033e6fee3ce3d7d6831f4203a7bacc01d8cae2ed9e0012533",
+    "results/CastMe/full_retraining/forget_indices/s2_submission_withdrawal_forget_train_indices.npy": "1a03bf9f555e4bb93d21fcd08259ecd33cb3b9dc5f6ba1844576ccaf3d5829b9",
+    "results/CastMe/full_retraining/retain_indices/s2_submission_withdrawal_retain_train_indices.npy": "b18074a72e678668b04ed10d26059178984676016d338536a895e31a031583b9",
+    "models/castme/full_retraining/s3_agency_withdrawal/model.pt": "c2287655a6925a5ea7eadd6350e55681775c6a09bb8374772ab4b8b6bd84121e",
+    "models/castme/full_retraining/s3_agency_withdrawal/preprocessor.joblib": "0143bb1551faf4944f9b53609e330eec5e8c352cd172000a18cd96f63e8fb707",
+    "results/CastMe/full_retraining/forget_indices/s3_agency_withdrawal_forget_train_indices.npy": "7c7db051ebe8ae636e79f85ca8be2887a2182627358daa752a066f660567ed22",
+    "results/CastMe/full_retraining/retain_indices/s3_agency_withdrawal_retain_train_indices.npy": "9b7735e4d9bb01a3186703e2ce8e0c1db8164335f14f2fccb36354c07e44868d",
+    "models/castme/full_retraining/s4_project_closure/model.pt": "e771afe39b7f613b8f8edbe37a585b66b6b7937c2c660e1ba6a69584c7504545",
+    "models/castme/full_retraining/s4_project_closure/preprocessor.joblib": "f030a0b78c767c057c97d85f59d8952093a8006af3f24dea5c97a58191b34dcb",
+    "results/CastMe/full_retraining/forget_indices/s4_project_closure_forget_train_indices.npy": "c18d1000172600afef80a5d627f9e64cdcc828611c88ac3529b83560fe978bd6",
+    "results/CastMe/full_retraining/retain_indices/s4_project_closure_retain_train_indices.npy": "013f8c1d453ea820400d96dfa836bac33537c675905d5ebb0e69fd411a254c7c",
+    "models/castme/full_retraining/s5_retention_expiry/model.pt": "12761a7599627288535f739b49671f9de1c6920bfac45642e52ae6019a0596c4",
+    "models/castme/full_retraining/s5_retention_expiry/preprocessor.joblib": "f2c0b1030a01d0ed8db8a3a0ca1feb4bb7d5d3da521a1135871ffdc33992fa1f",
+    "results/CastMe/full_retraining/forget_indices/s5_retention_expiry_forget_train_indices.npy": "75c119988b655c3f68b00cbcf768e15447b8c50f22463fc31ecebaaedc0d25fd",
+    "results/CastMe/full_retraining/retain_indices/s5_retention_expiry_retain_train_indices.npy": "6685248f94c51eedb28f8b57ddaa85d77545bb1168a211d9fb90d77fe2bd8fb1"
+  },
+  "original_checkpoint_paths": {
+    "1": {
+      "1": "models/castme/sisa/original/shard_1/slice_1.pt",
+      "2": "models/castme/sisa/original/shard_1/slice_2.pt",
+      "3": "models/castme/sisa/original/shard_1/slice_3.pt",
+      "4": "models/castme/sisa/original/shard_1/slice_4.pt",
+      "5": "models/castme/sisa/original/shard_1/slice_5.pt"
+    },
+    "2": {
+      "1": "models/castme/sisa/original/shard_2/slice_1.pt",
+      "2": "models/castme/sisa/original/shard_2/slice_2.pt",
+      "3": "models/castme/sisa/original/shard_2/slice_3.pt",
+      "4": "models/castme/sisa/original/shard_2/slice_4.pt",
+      "5": "models/castme/sisa/original/shard_2/slice_5.pt"
+    },
+    "3": {
+      "1": "models/castme/sisa/original/shard_3/slice_1.pt",
+      "2": "models/castme/sisa/original/shard_3/slice_2.pt",
+      "3": "models/castme/sisa/original/shard_3/slice_3.pt",
+      "4": "models/castme/sisa/original/shard_3/slice_4.pt",
+      "5": "models/castme/sisa/original/shard_3/slice_5.pt"
+    },
+    "4": {
+      "1": "models/castme/sisa/original/shard_4/slice_1.pt",
+      "2": "models/castme/sisa/original/shard_4/slice_2.pt",
+      "3": "models/castme/sisa/original/shard_4/slice_3.pt",
+      "4": "models/castme/sisa/original/shard_4/slice_4.pt",
+      "5": "models/castme/sisa/original/shard_4/slice_5.pt"
+    },
+    "5": {
+      "1": "models/castme/sisa/original/shard_5/slice_1.pt",
+      "2": "models/castme/sisa/original/shard_5/slice_2.pt",
+      "3": "models/castme/sisa/original/shard_5/slice_3.pt",
+      "4": "models/castme/sisa/original/shard_5/slice_4.pt",
+      "5": "models/castme/sisa/original/shard_5/slice_5.pt"
+    }
+  },
+  "original_final_model_paths": {
+    "1": "models/castme/sisa/original/shard_1/final_model.pt",
+    "2": "models/castme/sisa/original/shard_2/final_model.pt",
+    "3": "models/castme/sisa/original/shard_3/final_model.pt",
+    "4": "models/castme/sisa/original/shard_4/final_model.pt",
+    "5": "models/castme/sisa/original/shard_5/final_model.pt"
+  },
+  "method_matched_model_paths": {
+    "s1_actor_withdrawal": {
+      "1": "models/castme/sisa/method_matched_reference/s1_actor_withdrawal/shard_1_model.pt",
+      "2": "models/castme/sisa/method_matched_reference/s1_actor_withdrawal/shard_2_model.pt",
+      "3": "models/castme/sisa/method_matched_reference/s1_actor_withdrawal/shard_3_model.pt",
+      "4": "models/castme/sisa/method_matched_reference/s1_actor_withdrawal/shard_4_model.pt",
+      "5": "models/castme/sisa/method_matched_reference/s1_actor_withdrawal/shard_5_model.pt"
+    },
+    "s2_submission_withdrawal": {
+      "1": "models/castme/sisa/method_matched_reference/s2_submission_withdrawal/shard_1_model.pt",
+      "2": "models/castme/sisa/method_matched_reference/s2_submission_withdrawal/shard_2_model.pt",
+      "3": "models/castme/sisa/method_matched_reference/s2_submission_withdrawal/shard_3_model.pt",
+      "4": "models/castme/sisa/method_matched_reference/s2_submission_withdrawal/shard_4_model.pt",
+      "5": "models/castme/sisa/method_matched_reference/s2_submission_withdrawal/shard_5_model.pt"
+    },
+    "s3_agency_withdrawal": {
+      "1": "models/castme/sisa/method_matched_reference/s3_agency_withdrawal/shard_1_model.pt",
+      "2": "models/castme/sisa/method_matched_reference/s3_agency_withdrawal/shard_2_model.pt",
+      "3": "models/castme/sisa/method_matched_reference/s3_agency_withdrawal/shard_3_model.pt",
+      "4": "models/castme/sisa/method_matched_reference/s3_agency_withdrawal/shard_4_model.pt",
+      "5": "models/castme/sisa/method_matched_reference/s3_agency_withdrawal/shard_5_model.pt"
+    },
+    "s4_project_closure": {
+      "1": "models/castme/sisa/method_matched_reference/s4_project_closure/shard_1_model.pt",
+      "2": "models/castme/sisa/method_matched_reference/s4_project_closure/shard_2_model.pt",
+      "3": "models/castme/sisa/method_matched_reference/s4_project_closure/shard_3_model.pt",
+      "4": "models/castme/sisa/method_matched_reference/s4_project_closure/shard_4_model.pt",
+      "5": "models/castme/sisa/method_matched_reference/s4_project_closure/shard_5_model.pt"
+    },
+    "s5_retention_expiry": {
+      "1": "models/castme/sisa/method_matched_reference/s5_retention_expiry/shard_1_model.pt",
+      "2": "models/castme/sisa/method_matched_reference/s5_retention_expiry/shard_2_model.pt",
+      "3": "models/castme/sisa/method_matched_reference/s5_retention_expiry/shard_3_model.pt",
+      "4": "models/castme/sisa/method_matched_reference/s5_retention_expiry/shard_4_model.pt",
+      "5": "models/castme/sisa/method_matched_reference/s5_retention_expiry/shard_5_model.pt"
+    }
+  },
+  "post_deletion_model_paths": {
+    "s1_actor_withdrawal": {
+      "1": "models/castme/sisa/post_deletion/s1_actor_withdrawal/shard_1_model.pt",
+      "2": "models/castme/sisa/post_deletion/s1_actor_withdrawal/shard_2_model.pt",
+      "3": "models/castme/sisa/post_deletion/s1_actor_withdrawal/shard_3_model.pt",
+      "4": "models/castme/sisa/post_deletion/s1_actor_withdrawal/shard_4_model.pt",
+      "5": "models/castme/sisa/post_deletion/s1_actor_withdrawal/shard_5_model.pt"
+    },
+    "s2_submission_withdrawal": {
+      "1": "models/castme/sisa/post_deletion/s2_submission_withdrawal/shard_1_model.pt",
+      "2": "models/castme/sisa/post_deletion/s2_submission_withdrawal/shard_2_model.pt",
+      "3": "models/castme/sisa/post_deletion/s2_submission_withdrawal/shard_3_model.pt",
+      "4": "models/castme/sisa/post_deletion/s2_submission_withdrawal/shard_4_model.pt",
+      "5": "models/castme/sisa/post_deletion/s2_submission_withdrawal/shard_5_model.pt"
+    },
+    "s3_agency_withdrawal": {
+      "1": "models/castme/sisa/post_deletion/s3_agency_withdrawal/shard_1_model.pt",
+      "2": "models/castme/sisa/post_deletion/s3_agency_withdrawal/shard_2_model.pt",
+      "3": "models/castme/sisa/post_deletion/s3_agency_withdrawal/shard_3_model.pt",
+      "4": "models/castme/sisa/post_deletion/s3_agency_withdrawal/shard_4_model.pt",
+      "5": "models/castme/sisa/post_deletion/s3_agency_withdrawal/shard_5_model.pt"
+    },
+    "s4_project_closure": {
+      "1": "models/castme/sisa/post_deletion/s4_project_closure/shard_1_model.pt",
+      "2": "models/castme/sisa/post_deletion/s4_project_closure/shard_2_model.pt",
+      "3": "models/castme/sisa/post_deletion/s4_project_closure/shard_3_model.pt",
+      "4": "models/castme/sisa/post_deletion/s4_project_closure/shard_4_model.pt",
+      "5": "models/castme/sisa/post_deletion/s4_project_closure/shard_5_model.pt"
+    },
+    "s5_retention_expiry": {
+      "1": "models/castme/sisa/post_deletion/s5_retention_expiry/shard_1_model.pt",
+      "2": "models/castme/sisa/post_deletion/s5_retention_expiry/shard_2_model.pt",
+      "3": "models/castme/sisa/post_deletion/s5_retention_expiry/shard_3_model.pt",
+      "4": "models/castme/sisa/post_deletion/s5_retention_expiry/shard_4_model.pt",
+      "5": "models/castme/sisa/post_deletion/s5_retention_expiry/shard_5_model.pt"
+    }
+  },
+  "table_paths": {
+    "shard_slice_composition": "results/CastMe/sisa/tables/shard_slice_composition.csv",
+    "original_training_history": "results/CastMe/sisa/histories/original_sisa_training_history.csv",
+    "original_sisa_utility": "results/CastMe/sisa/metrics/original_sisa_utility.csv",
+    "request_plan": "results/CastMe/sisa/tables/request_plan.csv",
+    "replay_summary": "results/CastMe/sisa/tables/replay_summary.csv",
+    "replay_shard_details": "results/CastMe/sisa/tables/replay_shard_details.csv",
+    "primary_utility_metrics": "results/CastMe/sisa/metrics/primary_utility_metrics.csv",
+    "utility_gaps": "results/CastMe/sisa/metrics/utility_gaps.csv",
+    "utility_difference_cis": "results/CastMe/sisa/metrics/utility_difference_confidence_intervals.csv",
+    "cross_method_forget_quality": "results/CastMe/sisa/metrics/cross_method_forget_quality.csv",
+    "forget_quality_compatibility": "results/CastMe/sisa/metrics/forget_quality.csv",
+    "method_matched_forget_quality": "results/CastMe/sisa/metrics/method_matched_forget_quality.csv",
+    "forget_quality_comparisons": "results/CastMe/sisa/metrics/forget_quality_comparisons.csv",
+    "forgetfulness_metrics_compatibility": "results/CastMe/sisa/metrics/forgetfulness_metrics.csv",
+    "supplementary_forget_diagnostics": "results/CastMe/sisa/metrics/supplementary_forget_diagnostics.csv",
+    "matched_test_behaviour": "results/CastMe/sisa/metrics/scenario_matched_test_behaviour.csv",
+    "runtime_comparison": "results/CastMe/sisa/tables/runtime_comparison.csv",
+    "method_matched_verification": "results/CastMe/sisa/tables/method_matched_verification.csv"
+  },
+  "storage_path": "results/CastMe/sisa/tables/checkpoint_storage.csv",
+  "reload_verification_path": "results/CastMe/sisa/tables/reload_verification.csv",
+  "figure_paths": {
+    "composition": "results/CastMe/sisa/figures/shard_slice_composition.png",
+    "original_history": "results/CastMe/sisa/figures/original_sisa_training_history.png",
+    "replay_scope": "results/CastMe/sisa/figures/affected_shards_and_replayed_slices.png",
+    "forget_quality": "results/CastMe/sisa/figures/forget_quality_ks.png",
+    "runtime": "results/CastMe/sisa/figures/request_time_runtime_comparison.png"
+  },
+  "runtime_environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0",
+    "pytorch": "2.5.1",
+    "device": "mps"
+  }
+}

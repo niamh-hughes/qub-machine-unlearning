@@ -1,0 +1,67 @@
+{
+  "run_id": "QWEN-V32-PROD-001",
+  "chunk_id": "CHUNK-048",
+  "frozen_chunk_id": "QWEN-V32-PROD-CHUNK048",
+  "status": "started_after_preflight",
+  "started_at_utc": "2026-08-17T11:00:55.285409+00:00",
+  "base_url": "https://resolution-andreas-alerts-blah.trycloudflare.com/v1",
+  "api_key": "REDACTED",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "completion_parameters": {
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "max_tokens": 8192,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "presence_penalty": 1.5,
+    "extra_body": {
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "client": {
+    "max_retries": 0,
+    "timeout_seconds": 180.0
+  },
+  "automatic_retry": false,
+  "maximum_api_requests": 100,
+  "request_execution": "sequential",
+  "attempt_number": 1,
+  "prompt_version": "qwen-kidney-v3.2",
+  "prompt_template_sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+  "anchor_algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+  "gate": "RUN_QWEN_V32_PRODUCTION_CHUNKS_031_050=QWEN-V32-PROD-001-CHUNKS-031-050-A002-QR001",
+  "preflight_checks": {
+    "chunks_001_030_complete_immutable": true,
+    "progress_030_counts_verified": true,
+    "aggregate_manifest_12002": true,
+    "amendments_001_002_verified": true,
+    "manual_review_001_verified": true,
+    "frozen_prompt_anchor_skeleton_verified": true,
+    "next_2000_frozen_recipients_verified": true,
+    "authorised_existing_chunks_are_completed_prefix_only": true,
+    "chunks_051_100_disabled": true,
+    "maximum_new_requests_2000": true,
+    "automatic_retries_disabled": true,
+    "final_assembly_disabled": true
+  },
+  "protected_before": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "production_design_before": {
+    "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001",
+    "file_count": 17,
+    "total_size_bytes": 25925956,
+    "aggregate_sha256_with_metadata": "9a5d88928b4e62268c8d735693799e7b762592beeb4ce19da45c9cb7c9563191"
+  },
+  "persistent_generation_flags": {
+    "chunks_011_to_100": false,
+    "RUN_10000_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  }
+}

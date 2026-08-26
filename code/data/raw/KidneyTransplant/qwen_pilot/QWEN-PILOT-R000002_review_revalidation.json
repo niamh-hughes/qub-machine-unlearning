@@ -1,0 +1,71 @@
+{
+  "api_request_count": 0,
+  "recipient_id": "QWEN-PILOT-R000001",
+  "recipient_count": 1,
+  "assessment_count": 6,
+  "hard_validation_status": "passed",
+  "hard_failures": [],
+  "soft_warnings": [
+    "API change inconsistent on days [14, 30, 60, 90, 180]; API values not authoritative",
+    "Extra requested clinical fields absent; checks unavailable",
+    "Range checks do not establish clinical validity"
+  ],
+  "checks_unavailable": [
+    "First assessment: v1 baseline creatinine unavailable"
+  ],
+  "derived_previous_rejection": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "derived_target": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "creatinine_inconsistent_days": [
+    14,
+    30,
+    60,
+    90,
+    180
+  ],
+  "scenario_support": [
+    {
+      "scenario": "recipient withdrawal",
+      "minimum_audit_fields": "recipient_id",
+      "supported_by_pilot": true,
+      "status": "supported"
+    },
+    {
+      "scenario": "donor withdrawal",
+      "minimum_audit_fields": "donor_id",
+      "supported_by_pilot": true,
+      "status": "supported"
+    },
+    {
+      "scenario": "hospital removal",
+      "minimum_audit_fields": "hospital_id",
+      "supported_by_pilot": true,
+      "status": "supported"
+    },
+    {
+      "scenario": "invalid-consent batch",
+      "minimum_audit_fields": "consent_batch_id + consent validity",
+      "supported_by_pilot": false,
+      "status": "pilot gap; batch design needs confirmation"
+    },
+    {
+      "scenario": "retention expiry",
+      "minimum_audit_fields": "assessment_date + retention_expiry_date",
+      "supported_by_pilot": false,
+      "status": "pilot gap; canonical audit fields"
+    }
+  ]
+}

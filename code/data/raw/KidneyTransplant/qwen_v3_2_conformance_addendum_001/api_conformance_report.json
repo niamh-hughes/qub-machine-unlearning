@@ -1,0 +1,127 @@
+{
+  "report_id": "QWEN-V32-CONFORMANCE-ADDENDUM-001",
+  "status": "conformant",
+  "supervisor_reference": {
+    "path": "/Users/niamhhughes/Desktop/Desktop - Niamh\u2019s MacBook Pro/QUB/Research Proj/docs/references/USAGE.md",
+    "sha256": "97a30d5eba8daf3ab65fc1e77d5a22075c793860d3c7a37d7a6cf755b60d39c2",
+    "mtime_ns": 1786891290971132317,
+    "size_bytes": 1341
+  },
+  "implementation_evidence": {
+    "pre_addendum_notebook_sha256": "5f00a6a24c1ba4426406c5ad6ba4c660fb8e49c261937ba029e9f81487ba823c",
+    "v3_2_api_configuration": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/api_configuration.json",
+      "sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+      "mtime_ns": 1786901129917104010,
+      "size_bytes": 587
+    },
+    "v3_2_run_configuration": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_configuration.json",
+      "sha256": "b55bdc4487178daa34a0428248189a87a1eaac134ff7101a1fa99245171797de",
+      "mtime_ns": 1786901129917981348,
+      "size_bytes": 2320
+    },
+    "review_method": "read-only inspection of the executed v3.2 Notebook 00 source and immutable run evidence"
+  },
+  "supervisor_specified_settings": {
+    "base_url": {
+      "supervisor_value": "https://resolution-andreas-alerts-blah.trycloudflare.com/v1",
+      "implemented_value": "https://resolution-andreas-alerts-blah.trycloudflare.com/v1",
+      "matches": true
+    },
+    "api_key": {
+      "supervisor_value": "local-key",
+      "implemented_value": "local-key",
+      "matches": true,
+      "artifact_storage_note": "The immutable run configuration intentionally stores REDACTED."
+    },
+    "model": {
+      "supervisor_value": "Qwen/Qwen3.6-35B-A3B",
+      "implemented_value": "Qwen/Qwen3.6-35B-A3B",
+      "matches": true
+    },
+    "client_and_interface": {
+      "supervisor_value": "openai.OpenAI with client.chat.completions.create",
+      "implemented_value": "openai.OpenAI with client.chat.completions.create",
+      "matches": true
+    },
+    "text_message_format": {
+      "supervisor_example": "messages is a list of role/content dictionaries with string content",
+      "implemented_format": "messages is a list of role/content dictionaries with string content; the project adds one system instruction before the user prompt",
+      "compatible_with_supervisor_example": true
+    }
+  },
+  "project_controlled_safeguards_not_specified_by_supervisor": [
+    {
+      "setting": "max_tokens",
+      "implemented_value": 8192,
+      "classification": "project-controlled safeguard/configuration",
+      "supervisor_requirement": false,
+      "note": "USAGE.md shows max_tokens=300 in an illustrative text example; it does not define the project limit."
+    },
+    {
+      "setting": "temperature",
+      "implemented_value": 0.7,
+      "classification": "project-controlled sampling configuration",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "top_p",
+      "implemented_value": 0.8,
+      "classification": "project-controlled sampling configuration",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "presence_penalty",
+      "implemented_value": 1.5,
+      "classification": "project-controlled sampling configuration",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "top_k",
+      "implemented_value": 20,
+      "classification": "project-controlled sampling configuration",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "enable_thinking",
+      "implemented_value": false,
+      "classification": "project-controlled response-mode safeguard",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "max_retries",
+      "implemented_value": 0,
+      "classification": "project-controlled request safeguard",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "concurrency",
+      "implemented_value": "sequential requests",
+      "classification": "project-controlled request safeguard",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "confirmation_batch_size",
+      "implemented_value": 20,
+      "classification": "project-controlled confirmation chunk size",
+      "supervisor_requirement": false
+    },
+    {
+      "setting": "complete_response_preservation_before_parsing",
+      "implemented_value": true,
+      "classification": "project-controlled audit safeguard",
+      "supervisor_requirement": false
+    }
+  ],
+  "explicit_scope_notes": {
+    "usage_does_not_specify_thinking_mode": true,
+    "usage_does_not_specify_sampling_parameters": true,
+    "usage_does_not_specify_retries": true,
+    "usage_does_not_specify_concurrency": true,
+    "usage_does_not_specify_production_or_confirmation_batch_size": true,
+    "image_input_required_for_dataset": false,
+    "image_input_used": false
+  },
+  "api_requests_made_by_addendum": 0
+}

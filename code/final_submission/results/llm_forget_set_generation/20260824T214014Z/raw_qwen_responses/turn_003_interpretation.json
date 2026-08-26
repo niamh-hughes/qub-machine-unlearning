@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8c2f52b1335c0da2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"response\": \"You can query the dataset, manage training records, or request the unlearning (forgetting) of specific data points. For example, you can find recipients with high creatinine levels, check consent status, or delete specific records.\",\n  \"action\": \"help\",\n  \"parameters\": null\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787607660,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 410,
+    "total_tokens": 480,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,15 @@
+Prompt version: qwen-kidney-v3
+Generate one fictional kidney-transplant clinical trajectory.
+Input: pseudonymous recipient seed {recipient_seed}; approved static clinical fields {static_clinical_fields};
+assessment days [7,14,30,60,90,180]; hidden confirmed events {hidden_event_schedule};
+signal strength {signal_strength}; confounders {confounder_instructions};
+adherence {adherence_pattern}; infections {infection_episodes};
+tacrolimus exposure {tacrolimus_exposure}; recovery {recovery_pattern}.
+Return JSON with exactly one assessments array. Each assessment contains exactly:
+days_since_transplant, creatinine_mg_dl, urine_output_ml_24h,
+tacrolimus_level_ng_ml, medication_adherence_pct, infection_indicator.
+Use plausible continuous variation; avoid dominant round templates such as 12.5, 98, 1800, or 2100.
+Do not return target labels, previous_rejection, creatinine_change_pct, ABO compatibility,
+direct identifiers, consent/retention data, event metadata, Markdown, or prose.
+Configuration: enable_thinking=False; deterministic request seed; one recipient per request;
+max_retries=0; preserve complete response before parsing; validate immediately; never retry automatically.

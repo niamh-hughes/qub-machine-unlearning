@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "task": "gradient ascent",
+  "seed": 42,
+  "threshold": 0.62,
+  "scenario_count": 5,
+  "scenarios": [
+    "recipient_withdrawal",
+    "donor_withdrawal",
+    "hospital_removal",
+    "invalid_consent",
+    "retention_expiry"
+  ],
+  "configuration": {
+    "optimizer": "AdamW",
+    "learning_rate": 1e-05,
+    "weight_decay": 0,
+    "batch_size": 512,
+    "maximum_epochs": 20,
+    "safety_patience": 3,
+    "gradient_clip_norm": 1.0,
+    "validation_relative_allowance": 0.05,
+    "device": "cpu"
+  },
+  "selected_epochs": {
+    "recipient_withdrawal": 20,
+    "donor_withdrawal": 20,
+    "hospital_removal": 20,
+    "invalid_consent": 20,
+    "retention_expiry": 20
+  },
+  "eligible_updated_models": {
+    "recipient_withdrawal": true,
+    "donor_withdrawal": true,
+    "hospital_removal": true,
+    "invalid_consent": true,
+    "retention_expiry": true
+  },
+  "training_seconds": {
+    "recipient_withdrawal": 0.08273058291524649,
+    "donor_withdrawal": 0.1644238329026848,
+    "hospital_removal": 0.3087864159606397,
+    "invalid_consent": 0.3704429999925196,
+    "retention_expiry": 0.45432337489910424
+  },
+  "all_models_verified": true,
+  "utility_metrics_reproduced": true,
+  "composite_utility_reproduced": true,
+  "maximum_retained_test_probability_difference": 1.1102230246251565e-16,
+  "maximum_training_forget_probability_difference": 2.220446049250313e-16,
+  "all_verification_checks_pass": true,
+  "protected_inputs_unchanged": true,
+  "network_requests": 0
+}

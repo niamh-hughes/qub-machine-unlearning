@@ -1,0 +1,6 @@
+display_name,scenario,selection_rule,deletion_selection_seed_or_derivation,forget_count,forget_percentage,retain_count,retain_percentage,forget_positive_class_percentage,retain_positive_class_percentage,purpose
+Random 1%,s1_random_1_percent,Random sample of 1% of original training records,42,342,1.0003217409108194,33847,98.99967825908918,22.22222222222222,23.945992259284427,Small random deletion request
+Random 5%,s2_random_5_percent,Random sample of 5% of original training records,43,1709,4.998683787183012,32480,95.00131621281699,23.405500292568753,23.956280788177338,Moderate random deletion request
+Simulated Data Provider Withdrawal (~5%),s3_simulated_data_provider_withdrawal,All records assigned to simulated Provider_E,52,1698,4.9665096961010855,32491,95.03349030389892,24.204946996466433,23.914314733310764,External data-provider withdrawal request
+Random 10%,s4_random_10_percent,Random sample of 10% of original training records,45,3419,10.00029249173711,30770,89.9997075082629,23.427902895583504,23.984400389990252,Larger random deletion request
+Simulated Retention Expiry,s5_retention_expiry,Synthetic collection date before retention cutoff,synthetic dates from RANDOM_SEED,5585,16.33566351750563,28604,83.66433648249438,30.81468218442256,22.584253950496432,Non-random cohort deletion under distribution shift

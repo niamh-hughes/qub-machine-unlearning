@@ -1,0 +1,228 @@
+{
+  "model_metrics_computed": false,
+  "model_metric_acceptance_thresholds": false,
+  "generator_tuning_from_confirmation_metrics": false,
+  "day_specific_dominant_values_and_unique_counts": [
+    {
+      "field": "creatinine_mg_dl",
+      "day": 7,
+      "dominant_value": 1.25,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 18
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 14,
+      "dominant_value": 1.05,
+      "dominant_count": 4,
+      "dominant_fraction": 0.2,
+      "unique_values": 14
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 30,
+      "dominant_value": 1.12,
+      "dominant_count": 3,
+      "dominant_fraction": 0.15,
+      "unique_values": 15
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 60,
+      "dominant_value": 1.08,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 18
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 90,
+      "dominant_value": 1.12,
+      "dominant_count": 3,
+      "dominant_fraction": 0.15,
+      "unique_values": 16
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 180,
+      "dominant_value": 0.91,
+      "dominant_count": 3,
+      "dominant_fraction": 0.15,
+      "unique_values": 15
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 7,
+      "dominant_value": 1850.0,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 16
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 14,
+      "dominant_value": 2100.0,
+      "dominant_count": 4,
+      "dominant_fraction": 0.2,
+      "unique_values": 14
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 30,
+      "dominant_value": 1950.0,
+      "dominant_count": 3,
+      "dominant_fraction": 0.15,
+      "unique_values": 14
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 60,
+      "dominant_value": 1850.0,
+      "dominant_count": 3,
+      "dominant_fraction": 0.15,
+      "unique_values": 15
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 90,
+      "dominant_value": 1950.0,
+      "dominant_count": 5,
+      "dominant_fraction": 0.25,
+      "unique_values": 15
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 180,
+      "dominant_value": 2050.0,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 18
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 7,
+      "dominant_value": 10.8,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 17
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 14,
+      "dominant_value": 9.5,
+      "dominant_count": 3,
+      "dominant_fraction": 0.15,
+      "unique_values": 15
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 30,
+      "dominant_value": 9.5,
+      "dominant_count": 4,
+      "dominant_fraction": 0.2,
+      "unique_values": 12
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 60,
+      "dominant_value": 8.5,
+      "dominant_count": 5,
+      "dominant_fraction": 0.25,
+      "unique_values": 12
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 90,
+      "dominant_value": 8.2,
+      "dominant_count": 5,
+      "dominant_fraction": 0.25,
+      "unique_values": 12
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 180,
+      "dominant_value": 7.5,
+      "dominant_count": 5,
+      "dominant_fraction": 0.25,
+      "unique_values": 12
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 7,
+      "dominant_value": 96.5,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 17
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 14,
+      "dominant_value": 85.0,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 16
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 30,
+      "dominant_value": 78.5,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 14
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 60,
+      "dominant_value": 90.0,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 15
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 90,
+      "dominant_value": 96.5,
+      "dominant_count": 4,
+      "dominant_fraction": 0.2,
+      "unique_values": 17
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 180,
+      "dominant_value": 92.0,
+      "dominant_count": 3,
+      "dominant_fraction": 0.15,
+      "unique_values": 17
+    }
+  ],
+  "day7_summary": {
+    "urine_output": {
+      "dominant_value": 1850.0,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 16
+    },
+    "medication_adherence": {
+      "dominant_value": 96.5,
+      "dominant_count": 2,
+      "dominant_fraction": 0.1,
+      "unique_values": 17
+    }
+  },
+  "identical_complete_five_field_trajectories": {
+    "duplicate_group_count": 0,
+    "groups": []
+  },
+  "production_acceptance_conditions": {
+    "structural_validation_passed": true,
+    "no_identical_complete_five_field_trajectories": true,
+    "day7_urine_unique_at_least_12": true,
+    "day7_adherence_unique_at_least_12": true,
+    "day7_urine_dominant_fraction_at_most_0_20": true,
+    "day7_adherence_dominant_fraction_at_most_0_20": true
+  },
+  "all_production_acceptance_conditions_passed": true,
+  "production_suitability": "suitable",
+  "diversity_failure_action": "none"
+}

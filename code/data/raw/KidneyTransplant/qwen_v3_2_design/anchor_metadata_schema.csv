@@ -1,0 +1,16 @@
+field_name,data_type,role,classifier_allowed,final_assessment_table_allowed
+recipient_id,object,generation-only anchor metadata,False,False
+request_seed,int64,generation-only anchor metadata,False,False
+anchor_algorithm_version,object,generation-only anchor metadata,False,False
+recovery_pattern,object,generation-only anchor metadata,False,False
+adherence_pattern,object,generation-only anchor metadata,False,False
+tacrolimus_exposure_pattern,object,generation-only anchor metadata,False,False
+infection_episode_days,object,generation-only anchor metadata,False,False
+confirmed_rejection_event_days,object,generation-only anchor metadata,False,False
+rejection_signal_strength,object,generation-only anchor metadata,False,False
+non_rejection_confounders,object,generation-only anchor metadata,False,False
+baseline_creatinine_mg_dl,float64,generation-only anchor metadata,False,False
+day7_creatinine_anchor_mg_dl,float64,generation-only anchor metadata,False,False
+day7_urine_output_anchor_ml_24h,float64,generation-only anchor metadata,False,False
+day7_tacrolimus_anchor_ng_ml,float64,generation-only anchor metadata,False,False
+day7_medication_adherence_anchor_pct,float64,generation-only anchor metadata,False,False

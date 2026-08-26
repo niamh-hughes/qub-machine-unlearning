@@ -1,0 +1,35 @@
+{
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-001",
+  "status": "active_for_production_validation_from_resume_authorisation",
+  "created_at_utc": "2026-08-16T19:52:51.010033+00:00",
+  "post_hoc_origin_disclosed": true,
+  "origin": {
+    "introduced_after_observed_boundary_failure": true,
+    "request_id": "QWEN-V32-PROD-REQ000572",
+    "recipient_id": "V32P-R000572",
+    "urine_anchor_ml_24h": 2173.8,
+    "returned_value_ml_24h": 2050.0,
+    "absolute_difference_ml": 123.8,
+    "original_tolerance_ml": 120.0
+  },
+  "change": {
+    "validator_field": "day-7 urine_output_ml_24h absolute anchor difference",
+    "original_tolerance_ml": 120.0,
+    "amended_tolerance_ml": 150.0,
+    "rationale": "validation allowance for reasonable numerical rounding at the observed boundary"
+  },
+  "unchanged_contract": {
+    "qwen_prompt_instruction_ml": 120.0,
+    "prompt_sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+    "anchor_algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+    "other_anchor_tolerances": {
+      "creatinine_mg_dl": 0.12,
+      "tacrolimus_level_ng_ml": 0.6,
+      "medication_adherence_pct": 1.5
+    },
+    "numerical_ranges_unchanged": true,
+    "generation_rules_unchanged": true,
+    "no_retry_or_regeneration_of_recipient_572": true
+  },
+  "application_scope": "consistent and retrospective across all production records"
+}

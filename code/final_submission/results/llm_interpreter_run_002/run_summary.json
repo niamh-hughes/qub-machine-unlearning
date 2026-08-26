@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "benchmark_request_count": 100,
+  "request_category_counts": {
+    "straightforward": 60,
+    "paraphrased": 20,
+    "ambiguous": 10,
+    "unsupported": 10
+  },
+  "llm_model": "Qwen/Qwen3.6-35B-A3B",
+  "connectivity_calls_succeeded": 1,
+  "benchmark_api_calls_succeeded": 200,
+  "total_api_calls_succeeded": 201,
+  "zero_shot_policy_accuracy": 0.8375,
+  "few_shot_policy_accuracy": 0.9875,
+  "rule_policy_accuracy": 0.5875,
+  "zero_shot_mean_forget_jaccard": 0.875,
+  "few_shot_mean_forget_jaccard": 1.0,
+  "rule_mean_forget_jaccard": 0.65,
+  "human_review": {
+    "rule_baseline": 1.0,
+    "zero_shot": 1.0,
+    "few_shot": 1.0
+  },
+  "unsafe_execution_count": {
+    "rule_baseline": 0,
+    "zero_shot": 0,
+    "few_shot": 0
+  },
+  "processed_output": "processed_data/llm_interpreter_run_002",
+  "result_output": "results/llm_interpreter_run_002",
+  "protected_project_integrity": "PASS",
+  "completed_at": "2026-08-22T13:59:24.531155+00:00"
+}

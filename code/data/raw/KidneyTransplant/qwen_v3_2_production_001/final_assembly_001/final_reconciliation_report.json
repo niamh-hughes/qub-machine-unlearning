@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "assembly_id": "QWEN-V32-PROD-001-FINAL-ASSEMBLY-001",
+  "request_attempt_records": 10001,
+  "successful_response_records": 10000,
+  "manifest_records": 40005,
+  "qwen_fields_expected": 300000,
+  "qwen_fields_reconciled": 300000,
+  "mismatch_count": 0,
+  "parse_errors": [],
+  "authoritative_progress_checkpoint_status": "passed",
+  "historical_timeout": {
+    "recipient_id": "V32P-R004714",
+    "request_attempts": 2,
+    "successful_responses": 1,
+    "request_failed_manifest_records": 1,
+    "manual_retry_preserved": true
+  }
+}

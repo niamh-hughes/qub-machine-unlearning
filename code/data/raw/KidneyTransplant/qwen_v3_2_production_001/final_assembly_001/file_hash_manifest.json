@@ -1,0 +1,68 @@
+{
+  "assembly_id": "QWEN-V32-PROD-001-FINAL-ASSEMBLY-001",
+  "algorithm": "SHA-256",
+  "files": {
+    "README.md": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/README.md",
+      "sha256": "4c95f6e019bc27b512e750aa4cc101ac0d84169f97438e51a4f9d1b50ba8fba9",
+      "mtime_ns": 1786988678997056887,
+      "size_bytes": 1280
+    },
+    "classifier_feature_list.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/classifier_feature_list.json",
+      "sha256": "9fd5fde0ac22707a8dd9f5fe11da688aba8bca9a95b6309b3cf2abd475d9cf81",
+      "mtime_ns": 1786988677390162244,
+      "size_bytes": 819
+    },
+    "data_dictionary.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/data_dictionary.csv",
+      "sha256": "34c1ed42fee63a8eb35db4513ef64feddbb40d4f6135057ea84951b31bb0a55f",
+      "mtime_ns": 1786988677390621367,
+      "size_bytes": 10140
+    },
+    "deletion_scenario_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/deletion_scenario_audit.csv",
+      "sha256": "dee9507bf26d198b6a26fd72e43b5810a90ce88a80b91a00d7567ad5ecf133ea",
+      "mtime_ns": 1786988677391814028,
+      "size_bytes": 7388
+    },
+    "final_assembly_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/final_assembly_report.json",
+      "sha256": "8c46a9095d989821a53b293f1792f5354d53d7c15a460326410997c921bdd25e",
+      "mtime_ns": 1786988678996911721,
+      "size_bytes": 2292
+    },
+    "final_integrity_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/final_integrity_report.json",
+      "sha256": "63a6394c4fc3835680c2403cdae7b8c785de0739ce3cf60b314f296a35b8cf3d",
+      "mtime_ns": 1786988678996679347,
+      "size_bytes": 64393
+    },
+    "final_quality_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/final_quality_report.json",
+      "sha256": "00b2068c9ae2f5dd7d356a762d850a13fc9707a61656a00d66c52214bd943165",
+      "mtime_ns": 1786988678995979891,
+      "size_bytes": 14769
+    },
+    "final_reconciliation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/final_reconciliation_report.json",
+      "sha256": "10d160700bdcbd5490b40951f6ab192b86779ab215dc64fd19be145fe98af4bf",
+      "mtime_ns": 1786988678995504101,
+      "size_bytes": 560
+    },
+    "kidney_transplant_assessments.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/kidney_transplant_assessments.csv",
+      "sha256": "ec6c6265fc7ed7674c2950316efefb74546b04a817e37fd64170c076d6205600",
+      "mtime_ns": 1786988677342244822,
+      "size_bytes": 14627908
+    },
+    "kidney_transplant_identity.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/final_assembly_001/kidney_transplant_identity.csv",
+      "sha256": "f795a8310732222ad07817cf1a983514a24f9eb6604afd5b3bd9ea500ef57815",
+      "mtime_ns": 1786988677387629963,
+      "size_bytes": 3174187
+    }
+  },
+  "self_hash_policy": "The manifest cannot contain its own ordinary file SHA-256 without circularity. Its canonical payload digest below fingerprints the complete manifest payload before that digest field is added; the ordinary manifest file SHA-256 is reported by the execution output and final handoff.",
+  "canonical_payload_sha256_excluding_this_field": "7d1321f31caaffe4ce7b11726547d0247d62f4882f7a2ccdc741c25580f0f3a0"
+}

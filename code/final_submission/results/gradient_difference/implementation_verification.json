@@ -1,0 +1,18 @@
+{
+  "loss_identity": {
+    "pass": true,
+    "absolute_difference": 0.0
+  },
+  "gradient_identity": {
+    "pass": true,
+    "maximum_absolute_difference": 0.0
+  },
+  "sign_ablation_pass": true,
+  "model_initialisation_pass": true,
+  "data_membership_pass": true,
+  "paired_sampling_pass": true,
+  "update_accounting_pass": true,
+  "five_fixed_epochs_pass": true,
+  "epoch_5_primary": true,
+  "oracle_used_for_training": false
+}

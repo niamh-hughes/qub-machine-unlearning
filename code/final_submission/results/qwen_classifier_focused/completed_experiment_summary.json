@@ -1,0 +1,295 @@
+{
+  "status": "qwen_stable_gradient_difference_complete",
+  "seed": 42,
+  "subset_recipients": 600,
+  "subset_rows": 3600,
+  "baseline": {
+    "checkpoint": "models/qwen_classifier_focused/baseline_best_max5",
+    "completion": {
+      "status": "completed",
+      "signature": {
+        "tag": "Qwen baseline",
+        "initialisation": "fresh pretrained Qwen + fresh LoRA/head",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "seed": 42,
+        "max_epochs": 5,
+        "early_stopping_patience": 2,
+        "batch_size": 16,
+        "learning_rate": 0.0002,
+        "maximum_length": 144,
+        "adam_epsilon": 1e-06,
+        "warmup_fraction": 0.05,
+        "lora_rank": 8,
+        "lora_alpha": 16,
+        "lora_targets": [
+          "q_proj",
+          "v_proj"
+        ],
+        "class_weight_strategy": "inverse_frequency",
+        "training_membership_sha256": "26cf71ef9a9cf1119b5f3fd1caee01584dcd34b4e9a7f8c39776c356b1738819",
+        "validation_membership_sha256": "a4e23c11fa0462d820fb76d510739118e8617f1a30e21ffaff060adc85156de8"
+      },
+      "best_epoch": 3,
+      "best_validation_pr_auc": 0.17099476328941954,
+      "epochs_completed": 5,
+      "early_stopping_triggered": true,
+      "training_seconds": 674.7496061239945,
+      "qwen_base_frozen": true
+    },
+    "validation": {
+      "tag": "Qwen baseline",
+      "epoch": 3,
+      "validation_pr_auc": 0.17099476328941954,
+      "validation_auroc": 0.6699505131964809,
+      "validation_bce": 0.3634884878351125,
+      "validation_balanced_accuracy": 0.627016129032258,
+      "validation_f1": 0.23404255319148937,
+      "class_weight_strategy": "inverse_frequency",
+      "selection_rule": "maximum validation PR-AUC; earliest epoch breaks exact ties",
+      "configuration": {
+        "qwen_model": "Qwen/Qwen2.5-0.5B",
+        "qwen_subset_recipients": 600,
+        "deletion_scenario": "hospital_removal",
+        "hospital_id": "V32P-H05",
+        "seed": 42,
+        "max_epochs": 5,
+        "early_stopping_patience": 2,
+        "unlearning_epochs": 1,
+        "training_batch_size": 16,
+        "evaluation_batch_size": 64,
+        "learning_rate": 0.0002,
+        "gradient_difference_learning_rate": 2e-05,
+        "gradient_difference_forget_weight": 1.0,
+        "weight_decay": 0.01,
+        "adam_epsilon": 1e-06,
+        "warmup_fraction": 0.05,
+        "gradient_clip_norm": 1.0,
+        "lora_rank": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "lora_targets": [
+          "q_proj",
+          "v_proj"
+        ],
+        "benchmark_batches": 25,
+        "benchmark_warmup_batches": 3,
+        "feasibility_threshold_minutes": 45.0,
+        "allow_runtime_override": false,
+        "run_class_weight_diagnostic": false,
+        "run_unlearning": true,
+        "maximum_length": 144
+      },
+      "seed": 42
+    },
+    "threshold": 0.06,
+    "test_metrics": {
+      "n": 540,
+      "positive_count": 41,
+      "threshold": 0.06,
+      "pr_auc": 0.07990128027312843,
+      "balanced_accuracy": 0.47448555647881124,
+      "binary_cross_entropy": 0.42068661640098437,
+      "f1": 0.0972972972972973,
+      "auroc": 0.5359010704335501,
+      "bce_quality": 0.656595835536676,
+      "composite_utility": 0.17674220684938516
+    }
+  },
+  "full_retraining": {
+    "checkpoint": "models/qwen_classifier_focused/full_retraining_hospital_removal_max5",
+    "completion": {
+      "status": "completed",
+      "signature": {
+        "tag": "Full Retraining",
+        "initialisation": "fresh pretrained Qwen + fresh LoRA/head",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "seed": 42,
+        "max_epochs": 5,
+        "early_stopping_patience": 2,
+        "batch_size": 16,
+        "learning_rate": 0.0002,
+        "maximum_length": 144,
+        "adam_epsilon": 1e-06,
+        "warmup_fraction": 0.05,
+        "lora_rank": 8,
+        "lora_alpha": 16,
+        "lora_targets": [
+          "q_proj",
+          "v_proj"
+        ],
+        "class_weight_strategy": "inverse_frequency",
+        "training_membership_sha256": "7a5aff3068f170f09a4421a52ec2e743c9291af7949765c724ec2a388f6ff5b8",
+        "validation_membership_sha256": "187f11efc367d8c0e5197c3b8bdccccaf1df55baf6297fdfc0b80dea2dec6ed5"
+      },
+      "best_epoch": 3,
+      "best_validation_pr_auc": 0.14753570257106632,
+      "epochs_completed": 5,
+      "early_stopping_triggered": true,
+      "training_seconds": 1231.8481923739964,
+      "qwen_base_frozen": true
+    },
+    "threshold": 0.63,
+    "metrics": {
+      "n": 492,
+      "positive_count": 36,
+      "threshold": 0.63,
+      "pr_auc": 0.0983016679296867,
+      "balanced_accuracy": 0.6198830409356726,
+      "binary_cross_entropy": 1.5800676896724624,
+      "f1": 0.17956656346749225,
+      "auroc": 0.6285940545808967,
+      "bce_quality": 0.20596115628981773,
+      "composite_utility": 0.21007452981910008
+    }
+  },
+  "gradient_difference": {
+    "checkpoint": "models/qwen_classifier_focused/gradient_difference_hospital_removal_max5",
+    "selected_configuration": {
+      "learning_rate": 4.000000000000001e-06,
+      "forget_weight": 0.1,
+      "update_epochs": 2,
+      "config_id": "gd_14_lr4e-06_l0.1_e2"
+    },
+    "completion": {
+      "status": "completed",
+      "signature": {
+        "tag": "Stable Gradient Difference \u2014 Hospital Removal",
+        "initialisation": "final selected baseline LoRA/head",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "seed": 42,
+        "learning_rate": 4.000000000000001e-06,
+        "forget_weight": 0.1,
+        "epochs": 2,
+        "batch_size": 16,
+        "maximum_length": 144,
+        "lora_rank": 8,
+        "gradient_clip_norm": 1.0,
+        "forget_membership_sha256": "ec87f7baffbee76c2a3c151a5e334d7b369df99724c060d8d9a9c7f9732ee04d",
+        "retain_membership_sha256": "7a5aff3068f170f09a4421a52ec2e743c9291af7949765c724ec2a388f6ff5b8",
+        "baseline_signature": {
+          "tag": "Qwen baseline",
+          "initialisation": "fresh pretrained Qwen + fresh LoRA/head",
+          "model": "Qwen/Qwen2.5-0.5B",
+          "seed": 42,
+          "max_epochs": 5,
+          "early_stopping_patience": 2,
+          "batch_size": 16,
+          "learning_rate": 0.0002,
+          "maximum_length": 144,
+          "adam_epsilon": 1e-06,
+          "warmup_fraction": 0.05,
+          "lora_rank": 8,
+          "lora_alpha": 16,
+          "lora_targets": [
+            "q_proj",
+            "v_proj"
+          ],
+          "class_weight_strategy": "inverse_frequency",
+          "training_membership_sha256": "26cf71ef9a9cf1119b5f3fd1caee01584dcd34b4e9a7f8c39776c356b1738819",
+          "validation_membership_sha256": "a4e23c11fa0462d820fb76d510739118e8617f1a30e21ffaff060adc85156de8"
+        },
+        "selection": "validation-only stability/utility/KS rule",
+        "objective": "retain cross-entropy minus lambda times forget cross-entropy"
+      },
+      "training_seconds": 44.98311404200649,
+      "optimizer_steps": 30,
+      "mean_retain_loss": 2.295218156153957,
+      "mean_forget_loss": 2.2332277075154705,
+      "maximum_gradient_norm": 449.0830383300781,
+      "clipping_triggered_percent": 100.0,
+      "qwen_base_frozen": true
+    },
+    "metrics": {
+      "n": 492,
+      "positive_count": 36,
+      "threshold": 0.06,
+      "pr_auc": 0.07552708311622072,
+      "balanced_accuracy": 0.5899122807017544,
+      "binary_cross_entropy": 1.5027383166098514,
+      "f1": 0.16143497757847533,
+      "auroc": 0.5241837231968811,
+      "bce_quality": 0.22251999491879887,
+      "composite_utility": 0.18160948565037652
+    },
+    "collapsed": false
+  },
+  "forgetting": {
+    "forget_rows": 228,
+    "ks_p_value": 0.029436045835861006,
+    "ks_statistic": 0.13596491228070176
+  },
+  "efficiency": {
+    "full_retraining_seconds": 1231.8481923739964,
+    "gradient_difference_seconds": 44.98311404200649,
+    "speed_up": 27.384680198522098
+  },
+  "old_collapsed_run": {
+    "metrics": {
+      "n": 492,
+      "positive_count": 36,
+      "threshold": 0.06,
+      "pr_auc": 0.07552708311622072,
+      "balanced_accuracy": 0.5899122807017544,
+      "binary_cross_entropy": 1.5027383166098514,
+      "f1": 0.16143497757847533,
+      "auroc": 0.5241837231968811,
+      "bce_quality": 0.22251999491879887,
+      "composite_utility": 0.18160948565037652
+    },
+    "completion": {
+      "status": "completed",
+      "signature": {
+        "tag": "Stable Gradient Difference \u2014 Hospital Removal",
+        "initialisation": "final selected baseline LoRA/head",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "seed": 42,
+        "learning_rate": 4.000000000000001e-06,
+        "forget_weight": 0.1,
+        "epochs": 2,
+        "batch_size": 16,
+        "maximum_length": 144,
+        "lora_rank": 8,
+        "gradient_clip_norm": 1.0,
+        "forget_membership_sha256": "ec87f7baffbee76c2a3c151a5e334d7b369df99724c060d8d9a9c7f9732ee04d",
+        "retain_membership_sha256": "7a5aff3068f170f09a4421a52ec2e743c9291af7949765c724ec2a388f6ff5b8",
+        "baseline_signature": {
+          "tag": "Qwen baseline",
+          "initialisation": "fresh pretrained Qwen + fresh LoRA/head",
+          "model": "Qwen/Qwen2.5-0.5B",
+          "seed": 42,
+          "max_epochs": 5,
+          "early_stopping_patience": 2,
+          "batch_size": 16,
+          "learning_rate": 0.0002,
+          "maximum_length": 144,
+          "adam_epsilon": 1e-06,
+          "warmup_fraction": 0.05,
+          "lora_rank": 8,
+          "lora_alpha": 16,
+          "lora_targets": [
+            "q_proj",
+            "v_proj"
+          ],
+          "class_weight_strategy": "inverse_frequency",
+          "training_membership_sha256": "26cf71ef9a9cf1119b5f3fd1caee01584dcd34b4e9a7f8c39776c356b1738819",
+          "validation_membership_sha256": "a4e23c11fa0462d820fb76d510739118e8617f1a30e21ffaff060adc85156de8"
+        },
+        "selection": "validation-only stability/utility/KS rule",
+        "objective": "retain cross-entropy minus lambda times forget cross-entropy"
+      },
+      "training_seconds": 44.98311404200649,
+      "optimizer_steps": 30,
+      "mean_retain_loss": 2.295218156153957,
+      "mean_forget_loss": 2.2332277075154705,
+      "maximum_gradient_norm": 449.0830383300781,
+      "clipping_triggered_percent": 100.0,
+      "qwen_base_frozen": true
+    },
+    "forgetting": {
+      "forget_rows": 228,
+      "ks_p_value": 0.029436045835861006,
+      "ks_statistic": 0.13596491228070176
+    },
+    "diagnosis": "single-class retained-test collapse"
+  }
+}

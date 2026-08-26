@@ -1,0 +1,10 @@
+check,pass
+every training recipient once,True
+every training assessment once,True
+one shard and slice per recipient,True
+shards reconstruct training,True
+all shard-slices nonempty,True
+both target classes per shard,True
+validation/test absent,True
+assignment reproduces,True
+assignment inputs limited to ID and seed,True

@@ -1,0 +1,6 @@
+display_name,scenario,retain_count,configured_max_epochs,actual_epochs_run,best_epoch,best_val_loss,early_stopping_triggered,runtime_seconds,runtime_per_epoch
+Random 1%,s1_random_1_percent,33847,20,12,9,0.3009147726705157,True,6.158162959036417,0.5131802465863681
+Random 5%,s2_random_5_percent,32480,20,15,12,0.30117423189262404,True,6.309742750017904,0.42064951666786027
+Simulated Data Provider Withdrawal (~5%),s3_simulated_data_provider_withdrawal,32491,20,11,8,0.30176442033307915,True,4.582675707992166,0.4166068825447424
+Random 10%,s4_random_10_percent,30770,20,13,10,0.30138610844041946,True,5.082447624998167,0.3909575096152436
+Simulated Retention Expiry,s5_retention_expiry,28604,20,14,11,0.3024425094419902,True,5.083568624977488,0.36311204464124913

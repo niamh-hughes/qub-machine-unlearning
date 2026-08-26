@@ -1,0 +1,6 @@
+scenario,epochs,forget_examples_processed,retain_examples_sampled,expected_optimizer_steps,actual_optimizer_steps,combined_backward_passes,update_seconds
+recipient_withdrawal,5,2130,2130,5,5,5,0.018912211060523987
+donor_withdrawal,5,9960,9960,20,20,20,0.059612000128254294
+hospital_removal,5,21570,21570,45,45,45,0.1246533349622041
+invalid_consent,5,20740,20740,45,45,45,0.12425412400625646
+retention_expiry,5,31310,31310,65,65,65,0.253788668429479

@@ -1,0 +1,6 @@
+scenario,rows_affected,full_dataset_percentage,recipients_affected,donors_affected,hospitals_affected,complete_histories_removed,partial_histories_affected,structural_type,training_forget_rows,training_percentage,retained_training_rows,deleted_validation_rows,retained_validation_rows,deleted_test_rows,retained_test_rows
+recipient_withdrawal,600,0.01,100,100,10,100,0,person-level complete-history,426,0.010137064534551685,41598,84,8904,90,8898
+donor_withdrawal,3000,0.050000000000000003,500,250,10,500,0,linked-entity complete-history,1992,0.047401484865790974,40032,516,8472,492,8496
+hospital_removal,6000,0.10000000000000001,1000,982,1,1000,0,provider-cluster complete-history,4314,0.1026556253569389,37710,822,8166,864,8124
+invalid_consent,6000,0.10000000000000001,3800,3516,10,0,3800,distributed partial-history,4148,0.098705501618122971,37876,942,8046,910,8078
+retention_expiry,9000,0.14999999999999999,3700,3408,10,0,3700,time-based partial-history,6262,0.14901008947268227,35762,1364,7624,1374,7614

@@ -1,0 +1,426 @@
+{
+  "status": "diagnostic_only_not_used_for_regeneration",
+  "classifier_trained": false,
+  "regeneration_triggered": false,
+  "numerical_ranges": {
+    "creatinine_mg_dl": {
+      "minimum": 0.65,
+      "maximum": 2.05
+    },
+    "urine_output_ml_24h": {
+      "minimum": 1390.4,
+      "maximum": 3100.0
+    },
+    "tacrolimus_level_ng_ml": {
+      "minimum": 5.8,
+      "maximum": 13.0
+    },
+    "medication_adherence_pct": {
+      "minimum": 58.62,
+      "maximum": 99.8
+    },
+    "creatinine_change_pct": {
+      "minimum": -27.58620689655172,
+      "maximum": 57.6086956521739
+    }
+  },
+  "day_specific_unique_values_and_tie_aware_modes": {
+    "7": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          1.42
+        ],
+        "dominant_count": 6,
+        "dominant_fraction": 0.06,
+        "mode_is_tied": false,
+        "unique_values": 62
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          2350.0
+        ],
+        "dominant_count": 6,
+        "dominant_fraction": 0.06,
+        "mode_is_tied": false,
+        "unique_values": 78
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          11.8
+        ],
+        "dominant_count": 4,
+        "dominant_fraction": 0.04,
+        "mode_is_tied": false,
+        "unique_values": 75
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          98.5
+        ],
+        "dominant_count": 6,
+        "dominant_fraction": 0.06,
+        "mode_is_tied": false,
+        "unique_values": 74
+      }
+    },
+    "14": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          1.38
+        ],
+        "dominant_count": 8,
+        "dominant_fraction": 0.08,
+        "mode_is_tied": false,
+        "unique_values": 38
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          2150.0
+        ],
+        "dominant_count": 14,
+        "dominant_fraction": 0.14,
+        "mode_is_tied": false,
+        "unique_values": 32
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          10.8,
+          9.8
+        ],
+        "dominant_count": 11,
+        "dominant_fraction": 0.11,
+        "mode_is_tied": true,
+        "unique_values": 31
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          98.5,
+          97.5
+        ],
+        "dominant_count": 8,
+        "dominant_fraction": 0.08,
+        "mode_is_tied": true,
+        "unique_values": 53
+      }
+    },
+    "30": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          1.15
+        ],
+        "dominant_count": 10,
+        "dominant_fraction": 0.1,
+        "mode_is_tied": false,
+        "unique_values": 33
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          2100.0
+        ],
+        "dominant_count": 15,
+        "dominant_fraction": 0.15,
+        "mode_is_tied": false,
+        "unique_values": 38
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          8.5
+        ],
+        "dominant_count": 13,
+        "dominant_fraction": 0.13,
+        "mode_is_tied": false,
+        "unique_values": 26
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          96.8
+        ],
+        "dominant_count": 12,
+        "dominant_fraction": 0.12,
+        "mode_is_tied": false,
+        "unique_values": 54
+      }
+    },
+    "60": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          1.18
+        ],
+        "dominant_count": 11,
+        "dominant_fraction": 0.11,
+        "mode_is_tied": false,
+        "unique_values": 40
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          1850.0,
+          2050.0
+        ],
+        "dominant_count": 10,
+        "dominant_fraction": 0.1,
+        "mode_is_tied": true,
+        "unique_values": 41
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          8.2
+        ],
+        "dominant_count": 12,
+        "dominant_fraction": 0.12,
+        "mode_is_tied": false,
+        "unique_values": 24
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          91.0,
+          96.5,
+          95.2,
+          98.0,
+          95.0
+        ],
+        "dominant_count": 4,
+        "dominant_fraction": 0.04,
+        "mode_is_tied": true,
+        "unique_values": 55
+      }
+    },
+    "90": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          1.18,
+          1.05
+        ],
+        "dominant_count": 8,
+        "dominant_fraction": 0.08,
+        "mode_is_tied": true,
+        "unique_values": 41
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          2050.0
+        ],
+        "dominant_count": 9,
+        "dominant_fraction": 0.09,
+        "mode_is_tied": false,
+        "unique_values": 47
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          7.5
+        ],
+        "dominant_count": 11,
+        "dominant_fraction": 0.11,
+        "mode_is_tied": false,
+        "unique_values": 32
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          98.5
+        ],
+        "dominant_count": 6,
+        "dominant_fraction": 0.06,
+        "mode_is_tied": false,
+        "unique_values": 55
+      }
+    },
+    "180": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          0.92
+        ],
+        "dominant_count": 7,
+        "dominant_fraction": 0.07,
+        "mode_is_tied": false,
+        "unique_values": 41
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          1750.0
+        ],
+        "dominant_count": 8,
+        "dominant_fraction": 0.08,
+        "mode_is_tied": false,
+        "unique_values": 46
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          6.8
+        ],
+        "dominant_count": 14,
+        "dominant_fraction": 0.14,
+        "mode_is_tied": false,
+        "unique_values": 33
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          99.0
+        ],
+        "dominant_count": 9,
+        "dominant_fraction": 0.09,
+        "mode_is_tied": false,
+        "unique_values": 51
+      }
+    }
+  },
+  "identical_complete_trajectories": {
+    "identical_trajectory_groups": 0,
+    "recipients_in_identical_trajectory_groups": 0,
+    "maximum_identical_group_size": 1
+  },
+  "anchor_output_and_suffix_correlations": {
+    "creatinine_mg_dl": {
+      "anchor_output_correlation": 0.9986260490188902,
+      "output_recipient_suffix_correlation": 0.0194479417210607,
+      "anchor_recipient_suffix_correlation": 0.010168906414394949,
+      "anchor_minimum": 0.65,
+      "anchor_maximum": 2.049,
+      "anchor_unique_values": 97
+    },
+    "urine_output_ml_24h": {
+      "anchor_output_correlation": 0.9950637667290685,
+      "output_recipient_suffix_correlation": 0.06334388002498396,
+      "anchor_recipient_suffix_correlation": 0.046650225690419427,
+      "anchor_minimum": 1571.2,
+      "anchor_maximum": 2875.0,
+      "anchor_unique_values": 100
+    },
+    "tacrolimus_level_ng_ml": {
+      "anchor_output_correlation": 0.9987396856210441,
+      "output_recipient_suffix_correlation": 0.11746938329310752,
+      "anchor_recipient_suffix_correlation": 0.11073879494203963,
+      "anchor_minimum": 7.35,
+      "anchor_maximum": 13.08,
+      "anchor_unique_values": 93
+    },
+    "medication_adherence_pct": {
+      "anchor_output_correlation": 0.9994045437584985,
+      "output_recipient_suffix_correlation": 0.11936909067932672,
+      "anchor_recipient_suffix_correlation": 0.11816342490663746,
+      "anchor_minimum": 58.62,
+      "anchor_maximum": 99.73,
+      "anchor_unique_values": 93
+    }
+  },
+  "anchor_clipping_counts": {
+    "creatinine_mg_dl": {
+      "at_minimum": 3,
+      "at_maximum": 0
+    },
+    "urine_output_ml_24h": {
+      "at_minimum": 0,
+      "at_maximum": 0
+    },
+    "tacrolimus_level_ng_ml": {
+      "at_minimum": 0,
+      "at_maximum": 0
+    },
+    "medication_adherence_pct": {
+      "at_minimum": 0,
+      "at_maximum": 0
+    }
+  },
+  "positive_negative_range_overlap": {
+    "creatinine_mg_dl": {
+      "positive_range": [
+        0.72,
+        1.79
+      ],
+      "negative_range": [
+        0.65,
+        2.05
+      ],
+      "ranges_overlap": true
+    },
+    "urine_output_ml_24h": {
+      "positive_range": [
+        1650.0,
+        2750.0
+      ],
+      "negative_range": [
+        1390.4,
+        3100.0
+      ],
+      "ranges_overlap": true
+    },
+    "tacrolimus_level_ng_ml": {
+      "positive_range": [
+        7.2,
+        12.11
+      ],
+      "negative_range": [
+        5.8,
+        13.0
+      ],
+      "ranges_overlap": true
+    },
+    "medication_adherence_pct": {
+      "positive_range": [
+        65.0,
+        99.2
+      ],
+      "negative_range": [
+        58.62,
+        99.8
+      ],
+      "ranges_overlap": true
+    }
+  },
+  "target_count": 57,
+  "target_prevalence": 0.095,
+  "target_sequence_counts": {
+    "[0,0,0,0,0,0]": 74,
+    "[0,0,0,0,1,0]": 5,
+    "[0,0,0,1,0,0]": 3,
+    "[1,1,0,0,0,0]": 5,
+    "[1,1,1,0,0,0]": 13
+  },
+  "event_recipients": 38,
+  "non_event_recipients": 62,
+  "category_counts": {
+    "hospital_id": {
+      "V32P-H01": 18,
+      "V32P-H02": 16,
+      "V32P-H03": 13,
+      "V32P-H04": 16,
+      "V32P-H05": 14,
+      "V32P-H06": 10,
+      "V32P-H07": 3,
+      "V32P-H08": 6,
+      "V32P-H09": 1,
+      "V32P-H10": 3
+    },
+    "donor_type": {
+      "Deceased": 62,
+      "Living": 38
+    },
+    "recovery_pattern": {
+      "gradual": 29,
+      "partial": 27,
+      "rapid": 44
+    },
+    "adherence_pattern": {
+      "high": 50,
+      "low": 15,
+      "variable": 35
+    },
+    "tacrolimus_exposure_pattern": {
+      "high": 28,
+      "in_range": 35,
+      "variable": 37
+    },
+    "infection_episode_days": {
+      "[14]": 6,
+      "[30]": 6,
+      "[60]": 3,
+      "[90]": 4,
+      "[]": 81
+    },
+    "non_rejection_confounders": {
+      "dehydration": 38,
+      "high_creatinine": 1,
+      "none": 28,
+      "tacrolimus_exposure": 33
+    }
+  },
+  "warnings": []
+}

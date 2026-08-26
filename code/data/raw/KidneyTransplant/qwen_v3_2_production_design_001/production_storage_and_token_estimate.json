@@ -1,0 +1,52 @@
+{
+  "status": "provisional_planning_estimate",
+  "initial_tokens_per_recipient": 1582,
+  "estimated_total_tokens": 15820000,
+  "v3_2_confirmation_observed": {
+    "recipients": 20,
+    "prompt_tokens": 21488,
+    "completion_tokens": 10146,
+    "total_tokens": 31634,
+    "observed_total_tokens_per_recipient": 1581.7
+  },
+  "provisional_note": "1,582 tokens per recipient is the initial rounded estimate from the 20-recipient confirmation and must be updated after an authorised first-chunk benchmark.",
+  "storage_estimates_bytes": {
+    "responses_jsonl": 20508500,
+    "future_manifest_or_status_jsonl_at_confirmation_density": 9633500,
+    "validated_assessment_csv_at_confirmation_density": 15616000,
+    "identity_csv_at_confirmation_density": 2937150,
+    "prospective_requests_jsonl_using_mock_line_size": 49680000
+  },
+  "estimation_basis_fingerprints": {
+    "responses.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl",
+      "sha256": "89cb4f30fb4d8b5446352141ad66367b3bbf3199dc799dc414cb6cc25e7a58b0",
+      "mtime_ns": 1786901201806326103,
+      "size_bytes": 41017
+    },
+    "manifest.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl",
+      "sha256": "5bc125fc795b9e573afd006732f5662a8b57979ee7f68223955a41ed1581ad12",
+      "mtime_ns": 1786901201810275290,
+      "size_bytes": 19267
+    },
+    "assessment_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv",
+      "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+      "mtime_ns": 1786901201867289505,
+      "size_bytes": 31232
+    },
+    "identity_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv",
+      "sha256": "c8acff1228625f9428cbf0b319b19377024a20151d6769d1b630ab556565944e",
+      "mtime_ns": 1786901201868164302,
+      "size_bytes": 6527
+    },
+    "run_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json",
+      "sha256": "e1068f639f0d1c0f134ffd6fb7f48d0299fafe945dbe5a47536f038cfdfa4954",
+      "mtime_ns": 1786901201992795412,
+      "size_bytes": 23332
+    }
+  }
+}

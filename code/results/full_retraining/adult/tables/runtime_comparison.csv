@@ -1,0 +1,6 @@
+scenario,retain_count,num_epochs,batch_size,learning_rate,runtime_seconds
+s1_random_5_percent,32480,20,256,0.001,5.565436582954135
+s2_random_5_percent,32480,20,256,0.001,6.043909750005696
+s3_random_10_percent,30770,20,256,0.001,7.0915448750020005
+s4_retention_expiry,28604,20,256,0.001,3.8692165419925004
+s5_combined_gdpr_request,27176,20,256,0.001,4.533730291994289

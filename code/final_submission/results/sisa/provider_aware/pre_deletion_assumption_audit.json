@@ -1,0 +1,425 @@
+{
+  "status": "frozen_before_deletion_masks",
+  "timestamp_utc": "2026-08-25T13:10:26.554021+00:00",
+  "assumption": "Hospitals are predeclared data-provider boundaries; exact future forget sets are unknown.",
+  "slice_assumption": "Chronological data-arrival order within provider-aware shards.",
+  "input_columns_used": [
+    "recipient_id",
+    "donor_id",
+    "hospital_id",
+    "assessment_id",
+    "assessment_date"
+  ],
+  "forbidden_columns_not_used": [
+    "acute_rejection_within_30_days",
+    "recipient_age",
+    "donor_age",
+    "donor_type",
+    "kidney_failure_cause",
+    "previous_transplant",
+    "dialysis_months",
+    "abo_compatibility_category",
+    "hla_mismatch_count",
+    "antibody_risk_score",
+    "cold_ischaemia_hours",
+    "days_since_transplant",
+    "creatinine_mg_dl",
+    "creatinine_change_pct",
+    "urine_output_ml_24h",
+    "tacrolimus_level_ng_ml",
+    "medication_adherence_pct",
+    "infection_indicator",
+    "previous_rejection",
+    "training_consent_status",
+    "training_consent_version",
+    "retention_expiry_date",
+    "previous_rejection"
+  ],
+  "deletion_masks_loaded": false,
+  "assignment_seed": 42,
+  "hospital_pairing": [
+    {
+      "shard_id": 1,
+      "pair_role": "larger",
+      "hospital_id": "V32P-H01",
+      "component_rows": 10110
+    },
+    {
+      "shard_id": 1,
+      "pair_role": "smaller",
+      "hospital_id": "V32P-H10",
+      "component_rows": 798
+    },
+    {
+      "shard_id": 2,
+      "pair_role": "larger",
+      "hospital_id": "V32P-H02",
+      "component_rows": 7446
+    },
+    {
+      "shard_id": 2,
+      "pair_role": "smaller",
+      "hospital_id": "V32P-H09",
+      "component_rows": 1362
+    },
+    {
+      "shard_id": 3,
+      "pair_role": "larger",
+      "hospital_id": "V32P-H03",
+      "component_rows": 5880
+    },
+    {
+      "shard_id": 3,
+      "pair_role": "smaller",
+      "hospital_id": "V32P-H08",
+      "component_rows": 1968
+    },
+    {
+      "shard_id": 4,
+      "pair_role": "larger",
+      "hospital_id": "V32P-H04",
+      "component_rows": 4878
+    },
+    {
+      "shard_id": 4,
+      "pair_role": "smaller",
+      "hospital_id": "V32P-H07",
+      "component_rows": 2658
+    },
+    {
+      "shard_id": 5,
+      "pair_role": "larger",
+      "hospital_id": "V32P-H05",
+      "component_rows": 3810
+    },
+    {
+      "shard_id": 5,
+      "pair_role": "smaller",
+      "hospital_id": "V32P-H06",
+      "component_rows": 3114
+    }
+  ],
+  "shard_balance": [
+    {
+      "shard_id": 1,
+      "training_rows": 10908,
+      "recipients": 1818,
+      "donor_components": 1358,
+      "hospitals_present": 10,
+      "balance_deviation_pct": 29.78298115362651
+    },
+    {
+      "shard_id": 2,
+      "training_rows": 8808,
+      "recipients": 1468,
+      "donor_components": 1149,
+      "hospitals_present": 9,
+      "balance_deviation_pct": 4.797258709308975
+    },
+    {
+      "shard_id": 3,
+      "training_rows": 7848,
+      "recipients": 1308,
+      "donor_components": 1061,
+      "hospitals_present": 8,
+      "balance_deviation_pct": -6.6247858366647545
+    },
+    {
+      "shard_id": 4,
+      "training_rows": 7536,
+      "recipients": 1256,
+      "donor_components": 1051,
+      "hospitals_present": 7,
+      "balance_deviation_pct": -10.336950314106216
+    },
+    {
+      "shard_id": 5,
+      "training_rows": 6924,
+      "recipients": 1154,
+      "donor_components": 982,
+      "hospitals_present": 6,
+      "balance_deviation_pct": -17.618503712164472
+    }
+  ],
+  "slice_ranges": [
+    {
+      "shard_id": 1,
+      "slice_id": 1,
+      "recipients": 364,
+      "rows": 2184,
+      "donor_components": 245,
+      "minimum_date": "2023-11-10",
+      "maximum_date": "2025-06-16",
+      "mean_shard_slice_rows": 2181.6,
+      "balance_deviation_pct": 0.11001100110011418
+    },
+    {
+      "shard_id": 1,
+      "slice_id": 2,
+      "recipients": 363,
+      "rows": 2178,
+      "donor_components": 247,
+      "minimum_date": "2023-11-30",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 2181.6,
+      "balance_deviation_pct": -0.16501650165016085
+    },
+    {
+      "shard_id": 1,
+      "slice_id": 3,
+      "recipients": 364,
+      "rows": 2184,
+      "donor_components": 264,
+      "minimum_date": "2023-12-21",
+      "maximum_date": "2025-06-27",
+      "mean_shard_slice_rows": 2181.6,
+      "balance_deviation_pct": 0.11001100110011418
+    },
+    {
+      "shard_id": 1,
+      "slice_id": 4,
+      "recipients": 363,
+      "rows": 2178,
+      "donor_components": 287,
+      "minimum_date": "2024-03-10",
+      "maximum_date": "2025-06-26",
+      "mean_shard_slice_rows": 2181.6,
+      "balance_deviation_pct": -0.16501650165016085
+    },
+    {
+      "shard_id": 1,
+      "slice_id": 5,
+      "recipients": 364,
+      "rows": 2184,
+      "donor_components": 315,
+      "minimum_date": "2024-07-14",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 2181.6,
+      "balance_deviation_pct": 0.11001100110011418
+    },
+    {
+      "shard_id": 2,
+      "slice_id": 1,
+      "recipients": 294,
+      "rows": 1764,
+      "donor_components": 199,
+      "minimum_date": "2023-11-10",
+      "maximum_date": "2025-06-14",
+      "mean_shard_slice_rows": 1761.6,
+      "balance_deviation_pct": 0.13623978201635395
+    },
+    {
+      "shard_id": 2,
+      "slice_id": 2,
+      "recipients": 293,
+      "rows": 1758,
+      "donor_components": 219,
+      "minimum_date": "2023-12-01",
+      "maximum_date": "2025-06-20",
+      "mean_shard_slice_rows": 1761.6,
+      "balance_deviation_pct": -0.20435967302451802
+    },
+    {
+      "shard_id": 2,
+      "slice_id": 3,
+      "recipients": 294,
+      "rows": 1764,
+      "donor_components": 230,
+      "minimum_date": "2023-12-24",
+      "maximum_date": "2025-06-28",
+      "mean_shard_slice_rows": 1761.6,
+      "balance_deviation_pct": 0.13623978201635395
+    },
+    {
+      "shard_id": 2,
+      "slice_id": 4,
+      "recipients": 293,
+      "rows": 1758,
+      "donor_components": 237,
+      "minimum_date": "2024-03-24",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 1761.6,
+      "balance_deviation_pct": -0.20435967302451802
+    },
+    {
+      "shard_id": 2,
+      "slice_id": 5,
+      "recipients": 294,
+      "rows": 1764,
+      "donor_components": 264,
+      "minimum_date": "2024-08-01",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 1761.6,
+      "balance_deviation_pct": 0.13623978201635395
+    },
+    {
+      "shard_id": 3,
+      "slice_id": 1,
+      "recipients": 262,
+      "rows": 1572,
+      "donor_components": 208,
+      "minimum_date": "2023-11-10",
+      "maximum_date": "2025-06-25",
+      "mean_shard_slice_rows": 1569.6,
+      "balance_deviation_pct": 0.1529051987767642
+    },
+    {
+      "shard_id": 3,
+      "slice_id": 2,
+      "recipients": 261,
+      "rows": 1566,
+      "donor_components": 205,
+      "minimum_date": "2023-12-05",
+      "maximum_date": "2025-06-26",
+      "mean_shard_slice_rows": 1569.6,
+      "balance_deviation_pct": -0.22935779816513183
+    },
+    {
+      "shard_id": 3,
+      "slice_id": 3,
+      "recipients": 262,
+      "rows": 1572,
+      "donor_components": 205,
+      "minimum_date": "2023-12-28",
+      "maximum_date": "2025-06-23",
+      "mean_shard_slice_rows": 1569.6,
+      "balance_deviation_pct": 0.1529051987767642
+    },
+    {
+      "shard_id": 3,
+      "slice_id": 4,
+      "recipients": 262,
+      "rows": 1572,
+      "donor_components": 207,
+      "minimum_date": "2024-03-31",
+      "maximum_date": "2025-06-27",
+      "mean_shard_slice_rows": 1569.6,
+      "balance_deviation_pct": 0.1529051987767642
+    },
+    {
+      "shard_id": 3,
+      "slice_id": 5,
+      "recipients": 261,
+      "rows": 1566,
+      "donor_components": 236,
+      "minimum_date": "2024-07-30",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 1569.6,
+      "balance_deviation_pct": -0.22935779816513183
+    },
+    {
+      "shard_id": 4,
+      "slice_id": 1,
+      "recipients": 251,
+      "rows": 1506,
+      "donor_components": 194,
+      "minimum_date": "2023-11-10",
+      "maximum_date": "2025-06-21",
+      "mean_shard_slice_rows": 1507.2,
+      "balance_deviation_pct": -0.07961783439490748
+    },
+    {
+      "shard_id": 4,
+      "slice_id": 2,
+      "recipients": 251,
+      "rows": 1506,
+      "donor_components": 198,
+      "minimum_date": "2023-12-04",
+      "maximum_date": "2025-06-19",
+      "mean_shard_slice_rows": 1507.2,
+      "balance_deviation_pct": -0.07961783439490748
+    },
+    {
+      "shard_id": 4,
+      "slice_id": 3,
+      "recipients": 251,
+      "rows": 1506,
+      "donor_components": 209,
+      "minimum_date": "2023-12-26",
+      "maximum_date": "2025-06-27",
+      "mean_shard_slice_rows": 1507.2,
+      "balance_deviation_pct": -0.07961783439490748
+    },
+    {
+      "shard_id": 4,
+      "slice_id": 4,
+      "recipients": 251,
+      "rows": 1506,
+      "donor_components": 219,
+      "minimum_date": "2024-04-08",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 1507.2,
+      "balance_deviation_pct": -0.07961783439490748
+    },
+    {
+      "shard_id": 4,
+      "slice_id": 5,
+      "recipients": 252,
+      "rows": 1512,
+      "donor_components": 231,
+      "minimum_date": "2024-07-29",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 1507.2,
+      "balance_deviation_pct": 0.3184713375796148
+    },
+    {
+      "shard_id": 5,
+      "slice_id": 1,
+      "recipients": 231,
+      "rows": 1386,
+      "donor_components": 185,
+      "minimum_date": "2023-11-10",
+      "maximum_date": "2025-06-28",
+      "mean_shard_slice_rows": 1384.8,
+      "balance_deviation_pct": 0.08665511265164974
+    },
+    {
+      "shard_id": 5,
+      "slice_id": 2,
+      "recipients": 230,
+      "rows": 1380,
+      "donor_components": 176,
+      "minimum_date": "2023-12-02",
+      "maximum_date": "2025-06-20",
+      "mean_shard_slice_rows": 1384.8,
+      "balance_deviation_pct": -0.34662045060658253
+    },
+    {
+      "shard_id": 5,
+      "slice_id": 3,
+      "recipients": 231,
+      "rows": 1386,
+      "donor_components": 197,
+      "minimum_date": "2023-12-23",
+      "maximum_date": "2025-06-27",
+      "mean_shard_slice_rows": 1384.8,
+      "balance_deviation_pct": 0.08665511265164974
+    },
+    {
+      "shard_id": 5,
+      "slice_id": 4,
+      "recipients": 231,
+      "rows": 1386,
+      "donor_components": 208,
+      "minimum_date": "2024-04-04",
+      "maximum_date": "2025-06-08",
+      "mean_shard_slice_rows": 1384.8,
+      "balance_deviation_pct": 0.08665511265164974
+    },
+    {
+      "shard_id": 5,
+      "slice_id": 5,
+      "recipients": 231,
+      "rows": 1386,
+      "donor_components": 216,
+      "minimum_date": "2024-08-21",
+      "maximum_date": "2025-06-29",
+      "mean_shard_slice_rows": 1384.8,
+      "balance_deviation_pct": 0.08665511265164974
+    }
+  ],
+  "assignment_hashes": {
+    "shard_assignment_sha256": "fa7d65f438d0f00ea505c8779bad6d61f7dc1fcce4db8caa26cdffe616e0ecd0",
+    "slice_assignment_sha256": "a2907bc08839183d612d87906e616f0ac96b9d483088e8f0824704f09a14c1f7"
+  }
+}

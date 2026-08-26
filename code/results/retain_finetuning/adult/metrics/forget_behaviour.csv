@@ -1,0 +1,6 @@
+scenario,baseline_retrained_prediction_agreement,finetuned_retrained_prediction_agreement,baseline_retrained_probability_difference,finetuned_retrained_probability_difference
+s1_random_1_percent,0.9883040935672515,0.9883040935672515,0.010891299,0.011010094
+s2_random_5_percent,0.9842012873025161,0.9865418373317729,0.013411344,0.011668878
+s3_simulated_data_provider_withdrawal,0.9852767962308598,0.9870435806831567,0.01306956,0.014123965
+s4_random_10_percent,0.9850833577069319,0.9836209417958467,0.0146252215,0.015063384
+s5_retention_expiry,0.9457475380483438,0.9604297224709042,0.03611636,0.02775809

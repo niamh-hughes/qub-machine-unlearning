@@ -1,0 +1,86 @@
+{
+  "dataset_description": "Synthetic repeated-round personal audition submissions with audit-only deletion metadata.",
+  "row_count": 60000,
+  "audit_metadata_definitions": {
+    "audition_date": "ISO audition date used only for retention-based deletion",
+    "withdrawal_requested": "Recorded submission-level withdrawal request used only for deletion construction"
+  },
+  "model_feature_list": [
+    "experience_years",
+    "role_match_score",
+    "accent_match",
+    "availability_match",
+    "line_accuracy_score",
+    "special_skill_match",
+    "self_tape_quality_score",
+    "manager_rating",
+    "prior_collaboration",
+    "days_before_deadline"
+  ],
+  "excluded_metadata_columns": [
+    "audition_id",
+    "actor_id",
+    "manager_id",
+    "film_id",
+    "role_id",
+    "audition_round",
+    "audition_date",
+    "withdrawal_requested"
+  ],
+  "target_column": "callback",
+  "stratification_target": "callback",
+  "split_strategy": "seed-42 two-stage stratified random row split (70/15/15)",
+  "split_proportions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "split_artifacts": {
+    "train": {
+      "index_path": "results/CastMe/configuration/baseline_splits/train_indices.npy",
+      "index_sha256": "0bf0379544c9a1ce89cd9632ff1849797421e9c9b7d6a9c9b2b1b600a4c9d2a5",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/train_audition_ids.npy",
+      "audition_id_sha256": "bfb48e52ac66f63e7f63acdbcaf266768b8b8b47d1c3bd9ff7d243850a63e652",
+      "row_count": 42000,
+      "proportion": 0.7
+    },
+    "validation": {
+      "index_path": "results/CastMe/configuration/baseline_splits/validation_indices.npy",
+      "index_sha256": "88f3c72e92ec53d97f676297f7a4c040f8822091f13945e8c3a70bbe7252b0d2",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/validation_audition_ids.npy",
+      "audition_id_sha256": "eb1cd4f99f40c861c0bdaf183973bcaef8ae3dd64332d157faf5e591b94fa891",
+      "row_count": 9000,
+      "proportion": 0.15
+    },
+    "test": {
+      "index_path": "results/CastMe/configuration/baseline_splits/test_indices.npy",
+      "index_sha256": "b67c4b744175b01b81bd1c2f4fabc0cd8feb0f2b420a59d41d46932be0344257",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/test_audition_ids.npy",
+      "audition_id_sha256": "f7cd05f8e509773b97d19913e1404f1a892669a83d9059b3052c064917135c3d",
+      "row_count": 9000,
+      "proportion": 0.15
+    }
+  },
+  "seed": 42,
+  "fixed_validation_threshold": 0.32,
+  "architecture": {
+    "input_dimension": 10,
+    "hidden_layer_dimensions": [
+      16,
+      8
+    ],
+    "hidden_activation": "ReLU",
+    "dropout_probability": 0.1,
+    "output": "single logit"
+  },
+  "preprocessor_path": "models/castme/castme_preprocessor.joblib",
+  "preprocessor_hash": "bd2465b409947c7d2cef5b772de9577933f6f266e57764ef3dbaf876094b4e28",
+  "raw_dataset_hash": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+  "processed_dataset_hash": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+  "runtime_environment": {
+    "python": "3.12.13",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "pytorch": "2.12.1"
+  }
+}

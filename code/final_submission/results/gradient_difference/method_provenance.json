@@ -1,0 +1,33 @@
+{
+  "paper": "TOFU: A Task of Fictitious Unlearning for LLMs",
+  "paper_section": "Section 3.2, Unlearning Algorithms, Gradient Difference",
+  "paper_url": "https://arxiv.org/html/2401.06121#S3.SS2",
+  "official_repository": "https://github.com/locuslab/tofu",
+  "files_consulted": [
+    "forget.py",
+    "data_module.py",
+    "dataloader.py",
+    "config/forget.yaml"
+  ],
+  "original_objective": "-L_forget + L_retain",
+  "paired_sampling": "dataset length equals forget set; each forget item pairs with one sampled retain item",
+  "reproduced_exactly": [
+    "fresh all-data model",
+    "equal loss weights",
+    "reverse only forget loss",
+    "one combined backward pass",
+    "one retain sample per forget sample",
+    "five fixed epochs",
+    "epoch defined by a complete forget-set pass",
+    "epoch 5 primary",
+    "no oracle for Gradient Difference"
+  ],
+  "binary_adaptation": "token-level language-model cross-entropy is replaced by established unweighted BCEWithLogitsLoss",
+  "inapplicable_llm_infrastructure": [
+    "DeepSpeed",
+    "BFloat16",
+    "token masking",
+    "causal-LM tokenisation"
+  ],
+  "claim_boundary": "faithful algorithmic adaptation; not a reproduction of the TOFU LLM experiment"
+}

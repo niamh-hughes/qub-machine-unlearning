@@ -1,0 +1,16 @@
+scenario,model,matched_test_rows,mean_probability,mean_absolute_probability_difference_from_full
+s1_actor_withdrawal,original_sisa,80,0.20408222,0.018244633
+s1_actor_withdrawal,post_deletion_sisa,80,0.20309648,0.018082453
+s1_actor_withdrawal,full_retraining,80,0.19120002,0.0
+s2_submission_withdrawal,original_sisa,410,0.34421602,0.019718328
+s2_submission_withdrawal,post_deletion_sisa,410,0.33752185,0.018913465
+s2_submission_withdrawal,full_retraining,410,0.33586422,0.0
+s3_agency_withdrawal,original_sisa,921,0.33551416,0.02287201
+s3_agency_withdrawal,post_deletion_sisa,921,0.33402088,0.02385204
+s3_agency_withdrawal,full_retraining,921,0.33571854,0.0
+s4_project_closure,original_sisa,1384,0.32033375,0.023025356
+s4_project_closure,post_deletion_sisa,1384,0.3204885,0.024814308
+s4_project_closure,full_retraining,1384,0.31778628,0.0
+s5_retention_expiry,original_sisa,1319,0.35642526,0.02402555
+s5_retention_expiry,post_deletion_sisa,1319,0.35333127,0.024717031
+s5_retention_expiry,full_retraining,1319,0.34416473,0.0

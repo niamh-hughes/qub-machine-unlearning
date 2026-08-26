@@ -1,0 +1,2242 @@
+{
+  "run_id": "QWEN-DIAGNOSTIC100-V31-001",
+  "status": "completed",
+  "imported_recipients": 10,
+  "new_api_requests_attempted": 90,
+  "new_api_requests_completed": 90,
+  "attempts": 90,
+  "failures": 0,
+  "retries": 0,
+  "failure": null,
+  "recipients_checkpointed": 100,
+  "assessment_rows_checkpointed": 600,
+  "new_token_usage_total": {
+    "prompt_tokens": 79254,
+    "completion_tokens": 46268,
+    "total_tokens": 125522
+  },
+  "imported_historical_token_usage_reference": {
+    "prompt_tokens": 8799,
+    "completion_tokens": 5138,
+    "total_tokens": 13937
+  },
+  "combined_diagnostic_token_usage_reference": {
+    "prompt_tokens": 88053,
+    "completion_tokens": 51406,
+    "total_tokens": 139459
+  },
+  "new_finish_reason_counts": {
+    "stop": 90
+  },
+  "imported_finish_reason_reference_counts": {
+    "stop": 10
+  },
+  "finish_reason_records": [
+    {
+      "request_id": "QWEN-D100-V31-REQ000009",
+      "recipient_id": "V31-R000009",
+      "seed": 310009,
+      "request_sequence_number": 1,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 888,
+        "total_tokens": 1402,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000010",
+      "recipient_id": "V31-R000010",
+      "seed": 310010,
+      "request_sequence_number": 2,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000011",
+      "recipient_id": "V31-R000011",
+      "seed": 310011,
+      "request_sequence_number": 3,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000012",
+      "recipient_id": "V31-R000012",
+      "seed": 310012,
+      "request_sequence_number": 4,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000013",
+      "recipient_id": "V31-R000013",
+      "seed": 310013,
+      "request_sequence_number": 5,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 886,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000014",
+      "recipient_id": "V31-R000014",
+      "seed": 310014,
+      "request_sequence_number": 6,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 877,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000015",
+      "recipient_id": "V31-R000015",
+      "seed": 310015,
+      "request_sequence_number": 7,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 884,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000016",
+      "recipient_id": "V31-R000016",
+      "seed": 310016,
+      "request_sequence_number": 8,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 877,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000017",
+      "recipient_id": "V31-R000017",
+      "seed": 310017,
+      "request_sequence_number": 9,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 880,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000018",
+      "recipient_id": "V31-R000018",
+      "seed": 310018,
+      "request_sequence_number": 10,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 882,
+        "total_tokens": 1396,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000019",
+      "recipient_id": "V31-R000019",
+      "seed": 310019,
+      "request_sequence_number": 11,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 883,
+        "total_tokens": 1396,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000020",
+      "recipient_id": "V31-R000020",
+      "seed": 310020,
+      "request_sequence_number": 12,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 884,
+        "total_tokens": 1402,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1188,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000021",
+      "recipient_id": "V31-R000021",
+      "seed": 310021,
+      "request_sequence_number": 13,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000022",
+      "recipient_id": "V31-R000022",
+      "seed": 310022,
+      "request_sequence_number": 14,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000023",
+      "recipient_id": "V31-R000023",
+      "seed": 310023,
+      "request_sequence_number": 15,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000024",
+      "recipient_id": "V31-R000024",
+      "seed": 310024,
+      "request_sequence_number": 16,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 884,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000025",
+      "recipient_id": "V31-R000025",
+      "seed": 310025,
+      "request_sequence_number": 17,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 881,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000026",
+      "recipient_id": "V31-R000026",
+      "seed": 310026,
+      "request_sequence_number": 18,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000027",
+      "recipient_id": "V31-R000027",
+      "seed": 310027,
+      "request_sequence_number": 19,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 881,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000028",
+      "recipient_id": "V31-R000028",
+      "seed": 310028,
+      "request_sequence_number": 20,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 881,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000029",
+      "recipient_id": "V31-R000029",
+      "seed": 310029,
+      "request_sequence_number": 21,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 877,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000030",
+      "recipient_id": "V31-R000030",
+      "seed": 310030,
+      "request_sequence_number": 22,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 884,
+        "total_tokens": 1398,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000031",
+      "recipient_id": "V31-R000031",
+      "seed": 310031,
+      "request_sequence_number": 23,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 881,
+        "total_tokens": 1398,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1187,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000032",
+      "recipient_id": "V31-R000032",
+      "seed": 310032,
+      "request_sequence_number": 24,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 882,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000033",
+      "recipient_id": "V31-R000033",
+      "seed": 310033,
+      "request_sequence_number": 25,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 881,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1188,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000034",
+      "recipient_id": "V31-R000034",
+      "seed": 310034,
+      "request_sequence_number": 26,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000035",
+      "recipient_id": "V31-R000035",
+      "seed": 310035,
+      "request_sequence_number": 27,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 884,
+        "total_tokens": 1397,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000036",
+      "recipient_id": "V31-R000036",
+      "seed": 310036,
+      "request_sequence_number": 28,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 880,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000037",
+      "recipient_id": "V31-R000037",
+      "seed": 310037,
+      "request_sequence_number": 29,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000038",
+      "recipient_id": "V31-R000038",
+      "seed": 310038,
+      "request_sequence_number": 30,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000039",
+      "recipient_id": "V31-R000039",
+      "seed": 310039,
+      "request_sequence_number": 31,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 884,
+        "total_tokens": 1397,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000040",
+      "recipient_id": "V31-R000040",
+      "seed": 310040,
+      "request_sequence_number": 32,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000041",
+      "recipient_id": "V31-R000041",
+      "seed": 310041,
+      "request_sequence_number": 33,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 884,
+        "total_tokens": 1400,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000042",
+      "recipient_id": "V31-R000042",
+      "seed": 310042,
+      "request_sequence_number": 34,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 882,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000043",
+      "recipient_id": "V31-R000043",
+      "seed": 310043,
+      "request_sequence_number": 35,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 885,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000044",
+      "recipient_id": "V31-R000044",
+      "seed": 310044,
+      "request_sequence_number": 36,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000045",
+      "recipient_id": "V31-R000045",
+      "seed": 310045,
+      "request_sequence_number": 37,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 880,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000046",
+      "recipient_id": "V31-R000046",
+      "seed": 310046,
+      "request_sequence_number": 38,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 880,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000047",
+      "recipient_id": "V31-R000047",
+      "seed": 310047,
+      "request_sequence_number": 39,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000048",
+      "recipient_id": "V31-R000048",
+      "seed": 310048,
+      "request_sequence_number": 40,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 878,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000049",
+      "recipient_id": "V31-R000049",
+      "seed": 310049,
+      "request_sequence_number": 41,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 888,
+        "total_tokens": 1401,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000050",
+      "recipient_id": "V31-R000050",
+      "seed": 310050,
+      "request_sequence_number": 42,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000051",
+      "recipient_id": "V31-R000051",
+      "seed": 310051,
+      "request_sequence_number": 43,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 877,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000052",
+      "recipient_id": "V31-R000052",
+      "seed": 310052,
+      "request_sequence_number": 44,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000053",
+      "recipient_id": "V31-R000053",
+      "seed": 310053,
+      "request_sequence_number": 45,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000054",
+      "recipient_id": "V31-R000054",
+      "seed": 310054,
+      "request_sequence_number": 46,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000055",
+      "recipient_id": "V31-R000055",
+      "seed": 310055,
+      "request_sequence_number": 47,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000056",
+      "recipient_id": "V31-R000056",
+      "seed": 310056,
+      "request_sequence_number": 48,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000057",
+      "recipient_id": "V31-R000057",
+      "seed": 310057,
+      "request_sequence_number": 49,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 885,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000058",
+      "recipient_id": "V31-R000058",
+      "seed": 310058,
+      "request_sequence_number": 50,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 877,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000059",
+      "recipient_id": "V31-R000059",
+      "seed": 310059,
+      "request_sequence_number": 51,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 882,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000060",
+      "recipient_id": "V31-R000060",
+      "seed": 310060,
+      "request_sequence_number": 52,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 877,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000063",
+      "recipient_id": "V31-R000063",
+      "seed": 310063,
+      "request_sequence_number": 53,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000064",
+      "recipient_id": "V31-R000064",
+      "seed": 310064,
+      "request_sequence_number": 54,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 880,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000065",
+      "recipient_id": "V31-R000065",
+      "seed": 310065,
+      "request_sequence_number": 55,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 877,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000066",
+      "recipient_id": "V31-R000066",
+      "seed": 310066,
+      "request_sequence_number": 56,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 878,
+        "total_tokens": 1396,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1188,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000067",
+      "recipient_id": "V31-R000067",
+      "seed": 310067,
+      "request_sequence_number": 57,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 881,
+        "total_tokens": 1398,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1187,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000068",
+      "recipient_id": "V31-R000068",
+      "seed": 310068,
+      "request_sequence_number": 58,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 877,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000069",
+      "recipient_id": "V31-R000069",
+      "seed": 310069,
+      "request_sequence_number": 59,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 880,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000070",
+      "recipient_id": "V31-R000070",
+      "seed": 310070,
+      "request_sequence_number": 60,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000071",
+      "recipient_id": "V31-R000071",
+      "seed": 310071,
+      "request_sequence_number": 61,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 886,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000072",
+      "recipient_id": "V31-R000072",
+      "seed": 310072,
+      "request_sequence_number": 62,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 883,
+        "total_tokens": 1396,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000073",
+      "recipient_id": "V31-R000073",
+      "seed": 310073,
+      "request_sequence_number": 63,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 885,
+        "total_tokens": 1398,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000074",
+      "recipient_id": "V31-R000074",
+      "seed": 310074,
+      "request_sequence_number": 64,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 518,
+        "prompt_tokens": 883,
+        "total_tokens": 1401,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1188,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000075",
+      "recipient_id": "V31-R000075",
+      "seed": 310075,
+      "request_sequence_number": 65,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 885,
+        "total_tokens": 1398,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000076",
+      "recipient_id": "V31-R000076",
+      "seed": 310076,
+      "request_sequence_number": 66,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 888,
+        "total_tokens": 1403,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000077",
+      "recipient_id": "V31-R000077",
+      "seed": 310077,
+      "request_sequence_number": 67,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 877,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000078",
+      "recipient_id": "V31-R000078",
+      "seed": 310078,
+      "request_sequence_number": 68,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 881,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000079",
+      "recipient_id": "V31-R000079",
+      "seed": 310079,
+      "request_sequence_number": 69,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 879,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000080",
+      "recipient_id": "V31-R000080",
+      "seed": 310080,
+      "request_sequence_number": 70,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 880,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000081",
+      "recipient_id": "V31-R000081",
+      "seed": 310081,
+      "request_sequence_number": 71,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 885,
+        "total_tokens": 1400,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000082",
+      "recipient_id": "V31-R000082",
+      "seed": 310082,
+      "request_sequence_number": 72,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 880,
+        "total_tokens": 1397,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1187,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000083",
+      "recipient_id": "V31-R000083",
+      "seed": 310083,
+      "request_sequence_number": 73,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 880,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000084",
+      "recipient_id": "V31-R000084",
+      "seed": 310084,
+      "request_sequence_number": 74,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 877,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000085",
+      "recipient_id": "V31-R000085",
+      "seed": 310085,
+      "request_sequence_number": 75,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 878,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000086",
+      "recipient_id": "V31-R000086",
+      "seed": 310086,
+      "request_sequence_number": 76,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 885,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000087",
+      "recipient_id": "V31-R000087",
+      "seed": 310087,
+      "request_sequence_number": 77,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 876,
+        "total_tokens": 1389,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000088",
+      "recipient_id": "V31-R000088",
+      "seed": 310088,
+      "request_sequence_number": 78,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 885,
+        "total_tokens": 1398,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000089",
+      "recipient_id": "V31-R000089",
+      "seed": 310089,
+      "request_sequence_number": 79,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 884,
+        "total_tokens": 1397,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000090",
+      "recipient_id": "V31-R000090",
+      "seed": 310090,
+      "request_sequence_number": 80,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 880,
+        "total_tokens": 1396,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000091",
+      "recipient_id": "V31-R000091",
+      "seed": 310091,
+      "request_sequence_number": 81,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000092",
+      "recipient_id": "V31-R000092",
+      "seed": 310092,
+      "request_sequence_number": 82,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 886,
+        "total_tokens": 1399,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000093",
+      "recipient_id": "V31-R000093",
+      "seed": 310093,
+      "request_sequence_number": 83,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 882,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000094",
+      "recipient_id": "V31-R000094",
+      "seed": 310094,
+      "request_sequence_number": 84,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 878,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000095",
+      "recipient_id": "V31-R000095",
+      "seed": 310095,
+      "request_sequence_number": 85,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000096",
+      "recipient_id": "V31-R000096",
+      "seed": 310096,
+      "request_sequence_number": 86,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 880,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000097",
+      "recipient_id": "V31-R000097",
+      "seed": 310097,
+      "request_sequence_number": 87,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 877,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000098",
+      "recipient_id": "V31-R000098",
+      "seed": 310098,
+      "request_sequence_number": 88,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 877,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000099",
+      "recipient_id": "V31-R000099",
+      "seed": 310099,
+      "request_sequence_number": 89,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-D100-V31-REQ000100",
+      "recipient_id": "V31-R000100",
+      "seed": 310100,
+      "request_sequence_number": 90,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 877,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    }
+  ],
+  "response_jsonl_records": 90,
+  "manifest_jsonl_records": 280,
+  "manifest_status_counts": {
+    "imported_validated": 10,
+    "request_started": 90,
+    "response_preserved": 90,
+    "validated": 90
+  },
+  "response_jsonl_size_bytes": 185219,
+  "manifest_jsonl_size_bytes": 102590,
+  "completed_dimensions": {
+    "identity": [
+      180,
+      12
+    ],
+    "assessment": [
+      600,
+      31
+    ]
+  },
+  "independent_validation": {
+    "checks": {
+      "dimensions": true,
+      "schema_exact": true,
+      "recipient_count": true,
+      "six_assessments_each": "True",
+      "assessment_id_unique": true,
+      "recipient_day_unique": true,
+      "no_duplicate_rows": true,
+      "no_missing_required_values": true,
+      "static_fields_constant": true,
+      "assessment_dates_derived": true,
+      "retention_dates_derived": true,
+      "python_derivations_exact": true,
+      "canonical_ranges": true,
+      "longitudinal_consistency": true,
+      "raw_response_reconciliation": true,
+      "identity_one_per_recipient_and_unique_donor": true,
+      "no_identifier_audit_or_event_control_leakage": true,
+      "target_logic_future_window_only": true,
+      "previous_rejection_past_only": true
+    },
+    "failures": [],
+    "date_error_examples": [],
+    "derivation_error_examples": [],
+    "range_error_examples": [],
+    "longitudinal_error_examples": [],
+    "raw_reconciliation": {
+      "expected_field_matches": 3000,
+      "actual_field_matches": 3000,
+      "mismatch_count": 0,
+      "mismatch_examples": []
+    },
+    "leakage_fields": []
+  },
+  "validation_failures": [],
+  "soft_warnings": [
+    "some continuous values dominate more than 40% of a day-specific cell"
+  ],
+  "diagnostic_summary": {
+    "target_prevalence": {
+      "recipient_positive_count": 25,
+      "recipient_count": 100,
+      "recipient_prevalence": 0.25,
+      "assessment_positive_count": 46,
+      "assessment_count": 600,
+      "assessment_prevalence": 0.07666666666666666
+    },
+    "recipient_level_event_analysis": {
+      "row_count": 100,
+      "event_count": 34,
+      "non_event_count": 66,
+      "static_numeric_associations": [
+        {
+          "feature": "recipient_age",
+          "raw_signed_auroc": 0.43516042780748665,
+          "oriented_auroc": 0.5648395721925134,
+          "association_direction": "lower_with_event_or_target"
+        },
+        {
+          "feature": "donor_age",
+          "raw_signed_auroc": 0.43337789661319076,
+          "oriented_auroc": 0.5666221033868093,
+          "association_direction": "lower_with_event_or_target"
+        },
+        {
+          "feature": "previous_transplant",
+          "raw_signed_auroc": 0.5427807486631017,
+          "oriented_auroc": 0.5427807486631017,
+          "association_direction": "higher_with_event_or_target"
+        },
+        {
+          "feature": "dialysis_months",
+          "raw_signed_auroc": 0.5510249554367201,
+          "oriented_auroc": 0.5510249554367201,
+          "association_direction": "higher_with_event_or_target"
+        },
+        {
+          "feature": "hla_mismatch_count",
+          "raw_signed_auroc": 0.6330213903743316,
+          "oriented_auroc": 0.6330213903743316,
+          "association_direction": "higher_with_event_or_target"
+        },
+        {
+          "feature": "antibody_risk_score",
+          "raw_signed_auroc": 0.5017825311942959,
+          "oriented_auroc": 0.5017825311942959,
+          "association_direction": "higher_with_event_or_target"
+        },
+        {
+          "feature": "cold_ischaemia_hours",
+          "raw_signed_auroc": 0.5044563279857397,
+          "oriented_auroc": 0.5044563279857397,
+          "association_direction": "higher_with_event_or_target"
+        },
+        {
+          "feature": "distance_to_transplant_centre_km",
+          "raw_signed_auroc": 0.5106951871657753,
+          "oriented_auroc": 0.5106951871657753,
+          "association_direction": "higher_with_event_or_target"
+        }
+      ]
+    },
+    "grouped_exploratory_model": {
+      "label": "exploratory and not formal performance",
+      "generator_tuning_permitted": false,
+      "method": "5-fold StratifiedGroupKFold logistic regression; all recipient rows kept together",
+      "features": [
+        "days_since_transplant",
+        "creatinine_mg_dl",
+        "creatinine_change_pct",
+        "urine_output_ml_24h",
+        "tacrolimus_level_ng_ml",
+        "medication_adherence_pct",
+        "infection_indicator",
+        "previous_rejection"
+      ],
+      "auroc": 0.6834484382357557,
+      "pr_auc": 0.16093076155578345,
+      "target_prevalence": 0.07666666666666666,
+      "balanced_accuracy_at_0_5": 0.614777899858735,
+      "f1_at_0_5": 0.1992619926199262
+    }
+  },
+  "deletion_scenario_audit": {
+    "status": "passed",
+    "failures": [],
+    "scenarios": {
+      "recipient_withdrawal": {
+        "criterion": "recipient_id == V31-R000100",
+        "expected_assessment_records": 6,
+        "actual_assessment_records": 6,
+        "matches_expected": true,
+        "affected_recipient_count": 1,
+        "affected_recipient_ids": [
+          "V31-R000100"
+        ],
+        "affected_donor_count": 1,
+        "affected_donor_ids": [
+          "V31-DP000020"
+        ],
+        "affected_hospital_count": 1,
+        "affected_hospital_ids": [
+          "V31-H02"
+        ],
+        "affected_assessment_days": [
+          7,
+          14,
+          30,
+          60,
+          90,
+          180
+        ],
+        "complete_history_recipient_count": 1,
+        "complete_history_recipient_ids": [
+          "V31-R000100"
+        ],
+        "complete_histories_expected_by_rule": true,
+        "complete_histories_unintentionally_removed": false
+      },
+      "donor_withdrawal": {
+        "criterion": "donor_id in frozen selected_donor_ids",
+        "expected_assessment_records": 30,
+        "actual_assessment_records": 30,
+        "matches_expected": true,
+        "affected_recipient_count": 5,
+        "affected_recipient_ids": [
+          "V31-R000001",
+          "V31-R000061",
+          "V31-R000062",
+          "V31-R000063",
+          "V31-R000064"
+        ],
+        "affected_donor_count": 3,
+        "affected_donor_ids": [
+          "V31-DL000001",
+          "V31-DP000001",
+          "V31-DP000002"
+        ],
+        "affected_hospital_count": 3,
+        "affected_hospital_ids": [
+          "V31-H01",
+          "V31-H03",
+          "V31-H04"
+        ],
+        "affected_assessment_days": [
+          7,
+          14,
+          30,
+          60,
+          90,
+          180
+        ],
+        "complete_history_recipient_count": 5,
+        "complete_history_recipient_ids": [
+          "V31-R000001",
+          "V31-R000061",
+          "V31-R000062",
+          "V31-R000063",
+          "V31-R000064"
+        ],
+        "complete_histories_expected_by_rule": true,
+        "complete_histories_unintentionally_removed": false
+      },
+      "hospital_removal": {
+        "criterion": "hospital_id == V31-H05",
+        "expected_assessment_records": 60,
+        "actual_assessment_records": 60,
+        "matches_expected": true,
+        "affected_recipient_count": 10,
+        "affected_recipient_ids": [
+          "V31-R000002",
+          "V31-R000016",
+          "V31-R000021",
+          "V31-R000029",
+          "V31-R000035",
+          "V31-R000039",
+          "V31-R000049",
+          "V31-R000075",
+          "V31-R000085",
+          "V31-R000094"
+        ],
+        "affected_donor_count": 10,
+        "affected_donor_ids": [
+          "V31-DL000002",
+          "V31-DL000016",
+          "V31-DL000021",
+          "V31-DL000029",
+          "V31-DL000035",
+          "V31-DL000039",
+          "V31-DP000008",
+          "V31-DP000013",
+          "V31-DP000017",
+          "V31-DS000009"
+        ],
+        "affected_hospital_count": 1,
+        "affected_hospital_ids": [
+          "V31-H05"
+        ],
+        "affected_assessment_days": [
+          7,
+          14,
+          30,
+          60,
+          90,
+          180
+        ],
+        "complete_history_recipient_count": 10,
+        "complete_history_recipient_ids": [
+          "V31-R000002",
+          "V31-R000016",
+          "V31-R000021",
+          "V31-R000029",
+          "V31-R000035",
+          "V31-R000039",
+          "V31-R000049",
+          "V31-R000075",
+          "V31-R000085",
+          "V31-R000094"
+        ],
+        "complete_histories_expected_by_rule": true,
+        "complete_histories_unintentionally_removed": false
+      },
+      "invalid_consent": {
+        "criterion": "frozen training-consent version and effective date interval",
+        "expected_assessment_records": 60,
+        "actual_assessment_records": 60,
+        "matches_expected": true,
+        "affected_recipient_count": 38,
+        "affected_recipient_ids": [
+          "V31-R000009",
+          "V31-R000013",
+          "V31-R000014",
+          "V31-R000015",
+          "V31-R000016",
+          "V31-R000017",
+          "V31-R000019",
+          "V31-R000020",
+          "V31-R000027",
+          "V31-R000029",
+          "V31-R000030",
+          "V31-R000031",
+          "V31-R000034",
+          "V31-R000037",
+          "V31-R000039",
+          "V31-R000047",
+          "V31-R000049",
+          "V31-R000055",
+          "V31-R000056",
+          "V31-R000061",
+          "V31-R000062",
+          "V31-R000065",
+          "V31-R000069",
+          "V31-R000071",
+          "V31-R000072",
+          "V31-R000074",
+          "V31-R000075",
+          "V31-R000077",
+          "V31-R000079",
+          "V31-R000081",
+          "V31-R000082",
+          "V31-R000083",
+          "V31-R000085",
+          "V31-R000087",
+          "V31-R000089",
+          "V31-R000095",
+          "V31-R000097",
+          "V31-R000098"
+        ],
+        "affected_donor_count": 34,
+        "affected_donor_ids": [
+          "V31-DL000009",
+          "V31-DL000013",
+          "V31-DL000014",
+          "V31-DL000015",
+          "V31-DL000016",
+          "V31-DL000017",
+          "V31-DL000019",
+          "V31-DL000020",
+          "V31-DL000027",
+          "V31-DL000029",
+          "V31-DL000030",
+          "V31-DL000031",
+          "V31-DL000034",
+          "V31-DL000037",
+          "V31-DL000039",
+          "V31-DP000001",
+          "V31-DP000003",
+          "V31-DP000005",
+          "V31-DP000006",
+          "V31-DP000007",
+          "V31-DP000008",
+          "V31-DP000009",
+          "V31-DP000010",
+          "V31-DP000011",
+          "V31-DP000012",
+          "V31-DP000013",
+          "V31-DP000014",
+          "V31-DP000015",
+          "V31-DP000018",
+          "V31-DP000019",
+          "V31-DS000007",
+          "V31-DS000009",
+          "V31-DS000015",
+          "V31-DS000016"
+        ],
+        "affected_hospital_count": 9,
+        "affected_hospital_ids": [
+          "V31-H01",
+          "V31-H02",
+          "V31-H03",
+          "V31-H04",
+          "V31-H05",
+          "V31-H06",
+          "V31-H07",
+          "V31-H08",
+          "V31-H09"
+        ],
+        "affected_assessment_days": [
+          7,
+          14,
+          30,
+          60
+        ],
+        "complete_history_recipient_count": 0,
+        "complete_history_recipient_ids": [],
+        "complete_histories_expected_by_rule": false,
+        "complete_histories_unintentionally_removed": false
+      },
+      "retention_expiry": {
+        "criterion": "retention_expiry_date <= 2025-02-26",
+        "expected_assessment_records": 90,
+        "actual_assessment_records": 90,
+        "matches_expected": true,
+        "affected_recipient_count": 37,
+        "affected_recipient_ids": [
+          "V31-R000009",
+          "V31-R000010",
+          "V31-R000013",
+          "V31-R000015",
+          "V31-R000016",
+          "V31-R000017",
+          "V31-R000019",
+          "V31-R000020",
+          "V31-R000027",
+          "V31-R000030",
+          "V31-R000031",
+          "V31-R000034",
+          "V31-R000037",
+          "V31-R000039",
+          "V31-R000047",
+          "V31-R000049",
+          "V31-R000055",
+          "V31-R000056",
+          "V31-R000057",
+          "V31-R000062",
+          "V31-R000065",
+          "V31-R000069",
+          "V31-R000071",
+          "V31-R000072",
+          "V31-R000073",
+          "V31-R000074",
+          "V31-R000075",
+          "V31-R000077",
+          "V31-R000079",
+          "V31-R000081",
+          "V31-R000083",
+          "V31-R000085",
+          "V31-R000087",
+          "V31-R000089",
+          "V31-R000095",
+          "V31-R000097",
+          "V31-R000098"
+        ],
+        "affected_donor_count": 34,
+        "affected_donor_ids": [
+          "V31-DL000009",
+          "V31-DL000010",
+          "V31-DL000013",
+          "V31-DL000015",
+          "V31-DL000016",
+          "V31-DL000017",
+          "V31-DL000019",
+          "V31-DL000020",
+          "V31-DL000027",
+          "V31-DL000030",
+          "V31-DL000031",
+          "V31-DL000034",
+          "V31-DL000037",
+          "V31-DL000039",
+          "V31-DP000001",
+          "V31-DP000003",
+          "V31-DP000005",
+          "V31-DP000006",
+          "V31-DP000007",
+          "V31-DP000008",
+          "V31-DP000009",
+          "V31-DP000010",
+          "V31-DP000011",
+          "V31-DP000012",
+          "V31-DP000013",
+          "V31-DP000014",
+          "V31-DP000015",
+          "V31-DP000018",
+          "V31-DP000019",
+          "V31-DS000007",
+          "V31-DS000009",
+          "V31-DS000015",
+          "V31-DS000016",
+          "V31-DS000017"
+        ],
+        "affected_hospital_count": 9,
+        "affected_hospital_ids": [
+          "V31-H01",
+          "V31-H02",
+          "V31-H03",
+          "V31-H04",
+          "V31-H05",
+          "V31-H06",
+          "V31-H07",
+          "V31-H08",
+          "V31-H09"
+        ],
+        "affected_assessment_days": [
+          7,
+          14,
+          30
+        ],
+        "complete_history_recipient_count": 0,
+        "complete_history_recipient_ids": [],
+        "complete_histories_expected_by_rule": false,
+        "complete_histories_unintentionally_removed": false
+      }
+    }
+  },
+  "protected_before": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_after_validation": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_in_finally": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_integrity_in_finally": true,
+  "immutable_evidence_checks": {
+    "pilot": true,
+    "v2_batch": true,
+    "v3_design": true,
+    "v3_1_design": true,
+    "corrected_10": true,
+    "processed": true,
+    "models": true,
+    "results": true
+  },
+  "immutable_evidence_after": {
+    "pilot": {
+      "file_count": 10,
+      "total_size_bytes": 20029,
+      "aggregate_sha256_with_metadata": "5b52742b31f21d31fef0c8af73bcb73e21d80ced3b7ca7a16071726aeccdf136"
+    },
+    "v2_batch": {
+      "file_count": 65,
+      "total_size_bytes": 148364,
+      "aggregate_sha256_with_metadata": "d3dc3fe5f53d61b9222f21c09bf0fe8520a7e5227d095003ed832b33ee6242a5"
+    },
+    "v3_design": {
+      "file_count": 18,
+      "total_size_bytes": 162898,
+      "aggregate_sha256_with_metadata": "116ca11f8548691a3c92a927ca9e14b629fe2f3e752a869ee255cf8920794ed7"
+    },
+    "v3_1_design": {
+      "file_count": 21,
+      "total_size_bytes": 210322,
+      "aggregate_sha256_with_metadata": "fada34a6567cf9e60c1dd42493ff804e3dbbd1074aed6b2247a6dc4ae5c7ab03"
+    },
+    "corrected_10": {
+      "file_count": 10,
+      "total_size_bytes": 96421,
+      "aggregate_sha256_with_metadata": "29fe6e834e09ce71b59d0b824bdcf56a053a4a4e210ad60032163f20a9b98ba0"
+    },
+    "processed": {
+      "file_count": 1,
+      "total_size_bytes": 19890283,
+      "aggregate_sha256_with_metadata": "ebd066af22ad05ba4d9105be3c6ee0de9632f8b00195728d50b9a25166036f4e"
+    },
+    "models": {
+      "file_count": 72,
+      "total_size_bytes": 582336,
+      "aggregate_sha256_with_metadata": "b0eb642eba17293e891bce95441acaba5541f242f88bf16d98942734af657893"
+    },
+    "results": {
+      "file_count": 131,
+      "total_size_bytes": 7239125,
+      "aggregate_sha256_with_metadata": "b7d147e6a68298e38d3c99c07ebd67b085145a0bf4a9ebaebd357e5323c04b18"
+    }
+  },
+  "notebooks_01_05_checks": {
+    "01_kidney_transplant_baseline.ipynb": true,
+    "02_kidney_transplant_forget_sets_and_full_retraining.ipynb": true,
+    "03_kidney_transplant_retain_set_finetuning.ipynb": true,
+    "04_kidney_transplant_gradient_ascent.ipynb": true,
+    "05_kidney_transplant_sisa.ipynb": true
+  },
+  "persistent_generation_flags": {
+    "RUN_QWEN_DIAGNOSTIC100_V31": false,
+    "RUN_10000_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  },
+  "full_generation_started": false,
+  "protected_after_execution": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_integrity_after_execution": true
+}

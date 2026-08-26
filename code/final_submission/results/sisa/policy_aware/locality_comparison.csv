@@ -1,0 +1,6 @@
+scenario,original_affected_shards,original_replayed_stages,proposed_affected_shards,proposed_replayed_stages,training_forget_rows,training_recipients_affected,original_reused_shards,proposed_reusable_shards,original_earliest_slices,proposed_earliest_slices
+donor_withdrawal,5,25,1,2,1992,332,0,4,S1:1|S2:1|S3:1|S4:1|S5:1,S1:4
+hospital_removal,5,25,1,5,4314,719,0,4,S1:1|S2:1|S3:1|S4:1|S5:1,S1:1
+invalid_consent,5,25,3,14,4148,2640,0,2,S1:1|S2:1|S3:1|S4:1|S5:1,S1:2|S3:1|S5:1
+recipient_withdrawal,5,25,1,1,426,71,0,4,S1:1|S2:1|S3:1|S4:1|S5:1,S1:5
+retention_expiry,5,25,3,14,6262,2576,0,2,S1:1|S2:1|S3:1|S4:1|S5:1,S1:2|S3:1|S4:1

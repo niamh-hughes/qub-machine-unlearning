@@ -1,0 +1,6 @@
+scenario,display_name,epoch_1_moved_closer_by_entropy,any_later_epoch_improved_entropy_over_epoch_1,test_f1_change_epoch_10_minus_epoch_1,retain_f1_change_epoch_10_minus_epoch_1,validation_best_epoch,validation_best_relative_entropy_improvement,validation_best_test_f1_difference_from_full_retraining,best_entropy_epoch,best_probability_epoch,best_loss_epoch,structured_scenario
+s1_random_1_percent,Random 1%,False,True,0.01499788888655984,0.023036689432151536,2,-0.21622705087901894,-0.0052962369173373824,2,2,2,False
+s2_random_5_percent,Random 5%,False,True,0.0031336934675949557,0.01370905220984453,1,-0.26794007288125843,-0.0021852741068804082,2,2,2,False
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),True,True,0.004359417572437296,0.019964543022972903,4,-0.08695112838776176,0.004433550202803671,2,2,2,True
+s4_random_10_percent,Random 10%,False,True,-0.004608697389983596,0.008927029133288467,3,-0.20008254634858824,-0.010650448766608256,2,2,2,False
+s5_retention_expiry,Simulated Retention Expiry,True,True,-0.0058325515947467155,0.01228416743969063,1,0.23952868823058893,0.006241316703504807,5,5,5,True

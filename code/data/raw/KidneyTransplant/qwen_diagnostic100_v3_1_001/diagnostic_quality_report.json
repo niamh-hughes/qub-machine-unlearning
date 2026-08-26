@@ -1,0 +1,1127 @@
+{
+  "diagnostic_only": true,
+  "generator_tuning_permitted": false,
+  "recipient_level_event_analysis": {
+    "row_count": 100,
+    "event_count": 34,
+    "non_event_count": 66,
+    "static_numeric_associations": [
+      {
+        "feature": "recipient_age",
+        "raw_signed_auroc": 0.43516042780748665,
+        "oriented_auroc": 0.5648395721925134,
+        "association_direction": "lower_with_event_or_target"
+      },
+      {
+        "feature": "donor_age",
+        "raw_signed_auroc": 0.43337789661319076,
+        "oriented_auroc": 0.5666221033868093,
+        "association_direction": "lower_with_event_or_target"
+      },
+      {
+        "feature": "previous_transplant",
+        "raw_signed_auroc": 0.5427807486631017,
+        "oriented_auroc": 0.5427807486631017,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "dialysis_months",
+        "raw_signed_auroc": 0.5510249554367201,
+        "oriented_auroc": 0.5510249554367201,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "hla_mismatch_count",
+        "raw_signed_auroc": 0.6330213903743316,
+        "oriented_auroc": 0.6330213903743316,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "antibody_risk_score",
+        "raw_signed_auroc": 0.5017825311942959,
+        "oriented_auroc": 0.5017825311942959,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "cold_ischaemia_hours",
+        "raw_signed_auroc": 0.5044563279857397,
+        "oriented_auroc": 0.5044563279857397,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "distance_to_transplant_centre_km",
+        "raw_signed_auroc": 0.5106951871657753,
+        "oriented_auroc": 0.5106951871657753,
+        "association_direction": "higher_with_event_or_target"
+      }
+    ]
+  },
+  "assessment_level_target_analysis": {
+    "row_count": 600,
+    "target_count": 46,
+    "non_target_count": 554,
+    "time_varying_associations": [
+      {
+        "feature": "days_since_transplant",
+        "raw_signed_auroc": 0.35088683095275464,
+        "oriented_auroc": 0.6491131690472454,
+        "association_direction": "lower_with_event_or_target"
+      },
+      {
+        "feature": "creatinine_mg_dl",
+        "raw_signed_auroc": 0.6053013655627061,
+        "oriented_auroc": 0.6053013655627061,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "creatinine_change_pct",
+        "raw_signed_auroc": 0.6171519384711976,
+        "oriented_auroc": 0.6171519384711976,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "urine_output_ml_24h",
+        "raw_signed_auroc": 0.40374352534923874,
+        "oriented_auroc": 0.5962564746507613,
+        "association_direction": "lower_with_event_or_target"
+      },
+      {
+        "feature": "tacrolimus_level_ng_ml",
+        "raw_signed_auroc": 0.5542693454716686,
+        "oriented_auroc": 0.5542693454716686,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "medication_adherence_pct",
+        "raw_signed_auroc": 0.3599513420185214,
+        "oriented_auroc": 0.6400486579814786,
+        "association_direction": "lower_with_event_or_target"
+      },
+      {
+        "feature": "infection_indicator",
+        "raw_signed_auroc": 0.5236226652016952,
+        "oriented_auroc": 0.5236226652016952,
+        "association_direction": "higher_with_event_or_target"
+      },
+      {
+        "feature": "previous_rejection",
+        "raw_signed_auroc": 0.4404332129963899,
+        "oriented_auroc": 0.5595667870036101,
+        "association_direction": "lower_with_event_or_target"
+      }
+    ],
+    "grouped_exploratory_model": {
+      "label": "exploratory and not formal performance",
+      "generator_tuning_permitted": false,
+      "method": "5-fold StratifiedGroupKFold logistic regression; all recipient rows kept together",
+      "features": [
+        "days_since_transplant",
+        "creatinine_mg_dl",
+        "creatinine_change_pct",
+        "urine_output_ml_24h",
+        "tacrolimus_level_ng_ml",
+        "medication_adherence_pct",
+        "infection_indicator",
+        "previous_rejection"
+      ],
+      "auroc": 0.6834484382357557,
+      "pr_auc": 0.16093076155578345,
+      "target_prevalence": 0.07666666666666666,
+      "balanced_accuracy_at_0_5": 0.614777899858735,
+      "f1_at_0_5": 0.1992619926199262
+    }
+  },
+  "target_prevalence": {
+    "recipient_positive_count": 25,
+    "recipient_count": 100,
+    "recipient_prevalence": 0.25,
+    "assessment_positive_count": 46,
+    "assessment_count": 600,
+    "assessment_prevalence": 0.07666666666666666
+  },
+  "positive_negative_range_overlap": {
+    "days_since_transplant": {
+      "positive_min": 7.0,
+      "positive_max": 90.0,
+      "negative_min": 7.0,
+      "negative_max": 180.0,
+      "ranges_overlap": true
+    },
+    "creatinine_mg_dl": {
+      "positive_min": 1.12,
+      "positive_max": 2.15,
+      "negative_min": 0.71,
+      "negative_max": 2.15,
+      "ranges_overlap": true
+    },
+    "creatinine_change_pct": {
+      "positive_min": -22.758620689655164,
+      "positive_max": 100.0,
+      "negative_min": -28.648648648648646,
+      "negative_max": 153.4246575342466,
+      "ranges_overlap": true
+    },
+    "urine_output_ml_24h": {
+      "positive_min": 1420.0,
+      "positive_max": 2850.0,
+      "negative_min": 1290.0,
+      "negative_max": 2850.0,
+      "ranges_overlap": true
+    },
+    "tacrolimus_level_ng_ml": {
+      "positive_min": 4.1,
+      "positive_max": 13.2,
+      "negative_min": 5.1,
+      "negative_max": 12.8,
+      "ranges_overlap": true
+    },
+    "medication_adherence_pct": {
+      "positive_min": 45.0,
+      "positive_max": 99.2,
+      "negative_min": 45.0,
+      "negative_max": 100.0,
+      "ranges_overlap": true
+    },
+    "infection_indicator": {
+      "positive_min": 0.0,
+      "positive_max": 1.0,
+      "negative_min": 0.0,
+      "negative_max": 1.0,
+      "ranges_overlap": true
+    },
+    "previous_rejection": {
+      "positive_min": 0.0,
+      "positive_max": 0.0,
+      "negative_min": 0.0,
+      "negative_max": 1.0,
+      "ranges_overlap": true
+    }
+  },
+  "outcome_exclusive_categorical_levels": {
+    "donor_type": {
+      "positive_only": [],
+      "negative_only": []
+    },
+    "kidney_failure_cause": {
+      "positive_only": [],
+      "negative_only": []
+    },
+    "abo_compatibility_category": {
+      "positive_only": [],
+      "negative_only": []
+    }
+  },
+  "subgroup_counts_and_prevalence": {
+    "hospital_id": [
+      {
+        "hospital_id": "V31-H01",
+        "target_count": 7,
+        "assessment_count": 108,
+        "target_prevalence": 0.06481481481481481
+      },
+      {
+        "hospital_id": "V31-H02",
+        "target_count": 9,
+        "assessment_count": 90,
+        "target_prevalence": 0.1
+      },
+      {
+        "hospital_id": "V31-H03",
+        "target_count": 10,
+        "assessment_count": 78,
+        "target_prevalence": 0.1282051282051282
+      },
+      {
+        "hospital_id": "V31-H04",
+        "target_count": 9,
+        "assessment_count": 72,
+        "target_prevalence": 0.125
+      },
+      {
+        "hospital_id": "V31-H05",
+        "target_count": 3,
+        "assessment_count": 60,
+        "target_prevalence": 0.05
+      },
+      {
+        "hospital_id": "V31-H06",
+        "target_count": 2,
+        "assessment_count": 54,
+        "target_prevalence": 0.037037037037037035
+      },
+      {
+        "hospital_id": "V31-H07",
+        "target_count": 1,
+        "assessment_count": 48,
+        "target_prevalence": 0.020833333333333332
+      },
+      {
+        "hospital_id": "V31-H08",
+        "target_count": 4,
+        "assessment_count": 42,
+        "target_prevalence": 0.09523809523809523
+      },
+      {
+        "hospital_id": "V31-H09",
+        "target_count": 1,
+        "assessment_count": 30,
+        "target_prevalence": 0.03333333333333333
+      },
+      {
+        "hospital_id": "V31-H10",
+        "target_count": 0,
+        "assessment_count": 18,
+        "target_prevalence": 0.0
+      }
+    ],
+    "training_consent_status": [
+      {
+        "training_consent_status": "Active",
+        "target_count": 46,
+        "assessment_count": 600,
+        "target_prevalence": 0.07666666666666666
+      }
+    ],
+    "training_consent_version": [
+      {
+        "training_consent_version": "RECIPIENT_V1",
+        "target_count": 0,
+        "assessment_count": 1,
+        "target_prevalence": 0.0
+      },
+      {
+        "training_consent_version": "RECIPIENT_V2",
+        "target_count": 2,
+        "assessment_count": 47,
+        "target_prevalence": 0.0425531914893617
+      },
+      {
+        "training_consent_version": "RECIPIENT_V3",
+        "target_count": 9,
+        "assessment_count": 60,
+        "target_prevalence": 0.15
+      },
+      {
+        "training_consent_version": "RECIPIENT_V4",
+        "target_count": 35,
+        "assessment_count": 492,
+        "target_prevalence": 0.07113821138211382
+      }
+    ],
+    "recipient_sex": [
+      {
+        "recipient_sex": "Female",
+        "target_count": 19,
+        "assessment_count": 300,
+        "target_prevalence": 0.06333333333333334
+      },
+      {
+        "recipient_sex": "Male",
+        "target_count": 27,
+        "assessment_count": 300,
+        "target_prevalence": 0.09
+      }
+    ],
+    "recipient_ethnicity": [
+      {
+        "recipient_ethnicity": "Asian",
+        "target_count": 5,
+        "assessment_count": 120,
+        "target_prevalence": 0.041666666666666664
+      },
+      {
+        "recipient_ethnicity": "Black",
+        "target_count": 12,
+        "assessment_count": 120,
+        "target_prevalence": 0.1
+      },
+      {
+        "recipient_ethnicity": "Mixed",
+        "target_count": 12,
+        "assessment_count": 120,
+        "target_prevalence": 0.1
+      },
+      {
+        "recipient_ethnicity": "Other",
+        "target_count": 7,
+        "assessment_count": 120,
+        "target_prevalence": 0.058333333333333334
+      },
+      {
+        "recipient_ethnicity": "White",
+        "target_count": 10,
+        "assessment_count": 120,
+        "target_prevalence": 0.08333333333333333
+      }
+    ],
+    "recipient_region": [
+      {
+        "recipient_region": "London",
+        "target_count": 7,
+        "assessment_count": 120,
+        "target_prevalence": 0.058333333333333334
+      },
+      {
+        "recipient_region": "North West",
+        "target_count": 10,
+        "assessment_count": 120,
+        "target_prevalence": 0.08333333333333333
+      },
+      {
+        "recipient_region": "Northern Ireland",
+        "target_count": 5,
+        "assessment_count": 120,
+        "target_prevalence": 0.041666666666666664
+      },
+      {
+        "recipient_region": "Scotland",
+        "target_count": 12,
+        "assessment_count": 120,
+        "target_prevalence": 0.1
+      },
+      {
+        "recipient_region": "Wales",
+        "target_count": 12,
+        "assessment_count": 120,
+        "target_prevalence": 0.1
+      }
+    ],
+    "donor_type": [
+      {
+        "donor_type": "Deceased",
+        "target_count": 32,
+        "assessment_count": 360,
+        "target_prevalence": 0.08888888888888889
+      },
+      {
+        "donor_type": "Living",
+        "target_count": 14,
+        "assessment_count": 240,
+        "target_prevalence": 0.058333333333333334
+      }
+    ]
+  },
+  "identical_complete_trajectories": {
+    "duplicate_group_count": 0,
+    "duplicate_recipient_groups": []
+  },
+  "dominant_values_by_assessment_day": [
+    {
+      "field": "creatinine_mg_dl",
+      "day": 7,
+      "dominant_value": 1.45,
+      "dominant_count": 16,
+      "dominant_fraction": 0.16
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 14,
+      "dominant_value": 1.38,
+      "dominant_count": 19,
+      "dominant_fraction": 0.19
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 30,
+      "dominant_value": 1.45,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 60,
+      "dominant_value": 1.35,
+      "dominant_count": 8,
+      "dominant_fraction": 0.08
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 90,
+      "dominant_value": 1.42,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 180,
+      "dominant_value": 1.38,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 7,
+      "dominant_value": 0.0,
+      "dominant_count": 7,
+      "dominant_fraction": 0.07
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 14,
+      "dominant_value": -9.210526315789481,
+      "dominant_count": 6,
+      "dominant_fraction": 0.06
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 30,
+      "dominant_value": -3.030303030303033,
+      "dominant_count": 4,
+      "dominant_fraction": 0.04
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 60,
+      "dominant_value": -4.5161290322580685,
+      "dominant_count": 5,
+      "dominant_fraction": 0.05
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 90,
+      "dominant_value": -4.5161290322580685,
+      "dominant_count": 4,
+      "dominant_fraction": 0.04
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 180,
+      "dominant_value": -2.8169014084507067,
+      "dominant_count": 7,
+      "dominant_fraction": 0.07
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 7,
+      "dominant_value": 2100.0,
+      "dominant_count": 49,
+      "dominant_fraction": 0.49
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 14,
+      "dominant_value": 2350.0,
+      "dominant_count": 24,
+      "dominant_fraction": 0.24
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 30,
+      "dominant_value": 2450.0,
+      "dominant_count": 18,
+      "dominant_fraction": 0.18
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 60,
+      "dominant_value": 2300.0,
+      "dominant_count": 12,
+      "dominant_fraction": 0.12
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 90,
+      "dominant_value": 1950.0,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 180,
+      "dominant_value": 2050.0,
+      "dominant_count": 11,
+      "dominant_fraction": 0.11
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 7,
+      "dominant_value": 9.8,
+      "dominant_count": 21,
+      "dominant_fraction": 0.21
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 14,
+      "dominant_value": 9.8,
+      "dominant_count": 14,
+      "dominant_fraction": 0.14
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 30,
+      "dominant_value": 8.5,
+      "dominant_count": 16,
+      "dominant_fraction": 0.16
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 60,
+      "dominant_value": 7.9,
+      "dominant_count": 11,
+      "dominant_fraction": 0.11
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 90,
+      "dominant_value": 7.5,
+      "dominant_count": 12,
+      "dominant_fraction": 0.12
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 180,
+      "dominant_value": 7.2,
+      "dominant_count": 10,
+      "dominant_fraction": 0.1
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 7,
+      "dominant_value": 98.5,
+      "dominant_count": 57,
+      "dominant_fraction": 0.57
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 14,
+      "dominant_value": 99.2,
+      "dominant_count": 25,
+      "dominant_fraction": 0.25
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 30,
+      "dominant_value": 97.8,
+      "dominant_count": 29,
+      "dominant_fraction": 0.29
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 60,
+      "dominant_value": 99.5,
+      "dominant_count": 14,
+      "dominant_fraction": 0.14
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 90,
+      "dominant_value": 99.5,
+      "dominant_count": 14,
+      "dominant_fraction": 0.14
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 180,
+      "dominant_value": 99.1,
+      "dominant_count": 16,
+      "dominant_fraction": 0.16
+    }
+  ],
+  "repeated_value_diagnostics": [
+    {
+      "field": "creatinine_mg_dl",
+      "day": 7,
+      "dominant_value": 1.45,
+      "dominant_count": 16,
+      "dominant_fraction": 0.16,
+      "repeated_value_count": 76,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 14,
+      "dominant_value": 1.38,
+      "dominant_count": 19,
+      "dominant_fraction": 0.19,
+      "repeated_value_count": 70,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 30,
+      "dominant_value": 1.45,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09,
+      "repeated_value_count": 65,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 60,
+      "dominant_value": 1.35,
+      "dominant_count": 8,
+      "dominant_fraction": 0.08,
+      "repeated_value_count": 64,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 90,
+      "dominant_value": 1.42,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09,
+      "repeated_value_count": 59,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 180,
+      "dominant_value": 1.38,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09,
+      "repeated_value_count": 55,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 7,
+      "dominant_value": 0.0,
+      "dominant_count": 7,
+      "dominant_fraction": 0.07,
+      "repeated_value_count": 15,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 14,
+      "dominant_value": -9.210526315789481,
+      "dominant_count": 6,
+      "dominant_fraction": 0.06,
+      "repeated_value_count": 44,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 30,
+      "dominant_value": -3.030303030303033,
+      "dominant_count": 4,
+      "dominant_fraction": 0.04,
+      "repeated_value_count": 22,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 60,
+      "dominant_value": -4.5161290322580685,
+      "dominant_count": 5,
+      "dominant_fraction": 0.05,
+      "repeated_value_count": 22,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 90,
+      "dominant_value": -4.5161290322580685,
+      "dominant_count": 4,
+      "dominant_fraction": 0.04,
+      "repeated_value_count": 21,
+      "warning_only": true
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 180,
+      "dominant_value": -2.8169014084507067,
+      "dominant_count": 7,
+      "dominant_fraction": 0.07,
+      "repeated_value_count": 21,
+      "warning_only": true
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 7,
+      "dominant_value": 2100.0,
+      "dominant_count": 49,
+      "dominant_fraction": 0.49,
+      "repeated_value_count": 94,
+      "warning_only": true
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 14,
+      "dominant_value": 2350.0,
+      "dominant_count": 24,
+      "dominant_fraction": 0.24,
+      "repeated_value_count": 82,
+      "warning_only": true
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 30,
+      "dominant_value": 2450.0,
+      "dominant_count": 18,
+      "dominant_fraction": 0.18,
+      "repeated_value_count": 74,
+      "warning_only": true
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 60,
+      "dominant_value": 2300.0,
+      "dominant_count": 12,
+      "dominant_fraction": 0.12,
+      "repeated_value_count": 73,
+      "warning_only": true
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 90,
+      "dominant_value": 1950.0,
+      "dominant_count": 9,
+      "dominant_fraction": 0.09,
+      "repeated_value_count": 65,
+      "warning_only": true
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 180,
+      "dominant_value": 2050.0,
+      "dominant_count": 11,
+      "dominant_fraction": 0.11,
+      "repeated_value_count": 61,
+      "warning_only": true
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 7,
+      "dominant_value": 9.8,
+      "dominant_count": 21,
+      "dominant_fraction": 0.21,
+      "repeated_value_count": 84,
+      "warning_only": true
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 14,
+      "dominant_value": 9.8,
+      "dominant_count": 14,
+      "dominant_fraction": 0.14,
+      "repeated_value_count": 75,
+      "warning_only": true
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 30,
+      "dominant_value": 8.5,
+      "dominant_count": 16,
+      "dominant_fraction": 0.16,
+      "repeated_value_count": 75,
+      "warning_only": true
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 60,
+      "dominant_value": 7.9,
+      "dominant_count": 11,
+      "dominant_fraction": 0.11,
+      "repeated_value_count": 64,
+      "warning_only": true
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 90,
+      "dominant_value": 7.5,
+      "dominant_count": 12,
+      "dominant_fraction": 0.12,
+      "repeated_value_count": 64,
+      "warning_only": true
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 180,
+      "dominant_value": 7.2,
+      "dominant_count": 10,
+      "dominant_fraction": 0.1,
+      "repeated_value_count": 66,
+      "warning_only": true
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 7,
+      "dominant_value": 98.5,
+      "dominant_count": 57,
+      "dominant_fraction": 0.57,
+      "repeated_value_count": 92,
+      "warning_only": true
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 14,
+      "dominant_value": 99.2,
+      "dominant_count": 25,
+      "dominant_fraction": 0.25,
+      "repeated_value_count": 85,
+      "warning_only": true
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 30,
+      "dominant_value": 97.8,
+      "dominant_count": 29,
+      "dominant_fraction": 0.29,
+      "repeated_value_count": 79,
+      "warning_only": true
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 60,
+      "dominant_value": 99.5,
+      "dominant_count": 14,
+      "dominant_fraction": 0.14,
+      "repeated_value_count": 71,
+      "warning_only": true
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 90,
+      "dominant_value": 99.5,
+      "dominant_count": 14,
+      "dominant_fraction": 0.14,
+      "repeated_value_count": 64,
+      "warning_only": true
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 180,
+      "dominant_value": 99.1,
+      "dominant_count": 16,
+      "dominant_fraction": 0.16,
+      "repeated_value_count": 65,
+      "warning_only": true
+    }
+  ],
+  "per_day_uniqueness": [
+    {
+      "field": "creatinine_mg_dl",
+      "day": 7,
+      "unique_values": 24
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 14,
+      "unique_values": 30
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 30,
+      "unique_values": 35
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 60,
+      "unique_values": 36
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 90,
+      "unique_values": 41
+    },
+    {
+      "field": "creatinine_mg_dl",
+      "day": 180,
+      "unique_values": 45
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 7,
+      "unique_values": 85
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 14,
+      "unique_values": 56
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 30,
+      "unique_values": 78
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 60,
+      "unique_values": 78
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 90,
+      "unique_values": 79
+    },
+    {
+      "field": "creatinine_change_pct",
+      "day": 180,
+      "unique_values": 79
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 7,
+      "unique_values": 6
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 14,
+      "unique_values": 18
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 30,
+      "unique_values": 26
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 60,
+      "unique_values": 27
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 90,
+      "unique_values": 35
+    },
+    {
+      "field": "urine_output_ml_24h",
+      "day": 180,
+      "unique_values": 39
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 7,
+      "unique_values": 16
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 14,
+      "unique_values": 25
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 30,
+      "unique_values": 25
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 60,
+      "unique_values": 36
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 90,
+      "unique_values": 36
+    },
+    {
+      "field": "tacrolimus_level_ng_ml",
+      "day": 180,
+      "unique_values": 34
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 7,
+      "unique_values": 8
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 14,
+      "unique_values": 15
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 30,
+      "unique_values": 21
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 60,
+      "unique_values": 29
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 90,
+      "unique_values": 36
+    },
+    {
+      "field": "medication_adherence_pct",
+      "day": 180,
+      "unique_values": 35
+    }
+  ],
+  "clinical_range_summaries": {
+    "recipient_age": {
+      "minimum": 22.0,
+      "maximum": 78.0,
+      "mean": 50.03,
+      "median": 49.5
+    },
+    "donor_age": {
+      "minimum": 25.0,
+      "maximum": 70.0,
+      "mean": 47.67,
+      "median": 46.5
+    },
+    "dialysis_months": {
+      "minimum": 3.0,
+      "maximum": 72.0,
+      "mean": 37.7,
+      "median": 37.5
+    },
+    "hla_mismatch_count": {
+      "minimum": 0.0,
+      "maximum": 6.0,
+      "mean": 3.0,
+      "median": 3.0
+    },
+    "antibody_risk_score": {
+      "minimum": 0.06,
+      "maximum": 0.93,
+      "mean": 0.4942,
+      "median": 0.495
+    },
+    "cold_ischaemia_hours": {
+      "minimum": 2.2,
+      "maximum": 20.9,
+      "mean": 11.41,
+      "median": 11.4
+    },
+    "days_since_transplant": {
+      "minimum": 7.0,
+      "maximum": 180.0,
+      "mean": 63.5,
+      "median": 45.0
+    },
+    "creatinine_mg_dl": {
+      "minimum": 0.71,
+      "maximum": 2.15,
+      "mean": 1.35955,
+      "median": 1.38
+    },
+    "creatinine_change_pct": {
+      "minimum": -28.648648648648646,
+      "maximum": 153.4246575342466,
+      "mean": 2.37175686746528,
+      "median": -2.608695652173896
+    },
+    "urine_output_ml_24h": {
+      "minimum": 1290.0,
+      "maximum": 2850.0,
+      "mean": 2204.6186666666667,
+      "median": 2200.0
+    },
+    "tacrolimus_level_ng_ml": {
+      "minimum": 4.1,
+      "maximum": 13.2,
+      "mean": 8.591166666666668,
+      "median": 8.5
+    },
+    "medication_adherence_pct": {
+      "minimum": 45.0,
+      "maximum": 100.0,
+      "mean": 90.59583333333333,
+      "median": 96.0
+    }
+  },
+  "soft_plausibility_warnings": [
+    "some continuous values dominate more than 40% of a day-specific cell"
+  ],
+  "raw_response_validated_table_reconciliation": {
+    "expected_field_matches": 3000,
+    "actual_field_matches": 3000,
+    "mismatch_count": 0,
+    "mismatch_examples": []
+  }
+}

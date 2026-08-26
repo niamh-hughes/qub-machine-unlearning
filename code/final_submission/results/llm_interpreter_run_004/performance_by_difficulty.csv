@@ -1,0 +1,13 @@
+method,difficulty_group,requests,policy_accuracy,mean_forget_jaccard,exact_forget_match_rate,correct_human_review_rate,unsafe_execution_rate
+rule_baseline,straightforward,60,0.6333333333333333,0.65,0.65,,
+rule_baseline,paraphrased,20,0.45,0.65,0.65,,
+rule_baseline,ambiguous,10,1.0,,,1.0,0.0
+rule_baseline,unsupported,10,1.0,,,1.0,0.0
+zero_shot,straightforward,60,0.8333333333333334,0.8833333333333333,0.8833333333333333,,
+zero_shot,paraphrased,20,0.85,0.85,0.85,,
+zero_shot,ambiguous,10,1.0,,,1.0,0.0
+zero_shot,unsupported,10,1.0,,,1.0,0.0
+few_shot,straightforward,60,0.9833333333333333,1.0,1.0,,
+few_shot,paraphrased,20,1.0,1.0,1.0,,
+few_shot,ambiguous,10,1.0,,,1.0,0.0
+few_shot,unsupported,10,1.0,,,1.0,0.0

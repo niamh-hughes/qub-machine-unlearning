@@ -1,0 +1,65 @@
+{
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-002",
+  "status": "active_for_production_validation_from_manual_resume_authorisation",
+  "created_at_utc": "2026-08-16T21:24:15.336499+00:00",
+  "post_hoc_origin_disclosed": true,
+  "rationale": {
+    "anchors_are_generation_controls_not_observed_clinical_ground_truth": true,
+    "selective_censoring_avoided": true,
+    "observed_boundary_cases": [
+      {
+        "recipient_id": "V32P-R000572",
+        "measurement": "urine_output_ml_24h",
+        "difference": 123.8,
+        "prompt_tolerance": 120.0
+      },
+      {
+        "recipient_id": "V32P-R000627",
+        "measurement": "medication_adherence_pct",
+        "difference": 1.76,
+        "prompt_tolerance": 1.5
+      }
+    ]
+  },
+  "policy_change": {
+    "anchor_proximity": "diagnostic_anchor_deviation_warning_not_hard_record_validity",
+    "applies_consistently_and_retrospectively": true,
+    "individual_anchor_deviation_does_not_trigger_retry_regeneration_or_rejection": true,
+    "chunk_level_generation_quality_gates_remain_enforced": true
+  },
+  "unchanged": {
+    "prompt_tolerances": {
+      "creatinine_mg_dl": 0.12,
+      "urine_output_ml_24h": 120.0,
+      "tacrolimus_level_ng_ml": 0.6,
+      "medication_adherence_pct": 1.5
+    },
+    "prompt_sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+    "anchor_algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+    "frozen_prompt": true,
+    "frozen_api_configuration": true,
+    "hard_validation_rules": [
+      "response presence and JSON",
+      "exact assessment schema/count/order",
+      "finite numeric types",
+      "approved clinical ranges",
+      "unique recipients/assessments/recipient-days",
+      "dates and retention dates",
+      "ABO/infection/creatinine-change/previous-rejection/target derivations",
+      "static-field consistency",
+      "identifier/audit/event-control leakage",
+      "raw-response reconciliation",
+      "checkpoint integrity",
+      "evidence integrity"
+    ]
+  },
+  "chunk_quality_gate": {
+    "minimum_anchor_output_correlation": 0.9,
+    "minimum_unique_day7_urine_values": 30,
+    "minimum_unique_day7_adherence_values": 30,
+    "maximum_day7_urine_or_adherence_dominant_fraction": 0.2,
+    "identifier_materiality_absolute_correlation_threshold": 0.2,
+    "identical_complete_trajectory_groups_allowed": 0,
+    "failure_action": "preserve completed valid chunk and stop before next chunk for manual review"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "method": "retain_set_finetuning",
+  "method_description": "Model-only retain-set fine-tuning with a frozen baseline preprocessor.",
+  "bootstrap_method": "paired_actor_role_cluster_bootstrap",
+  "bootstrap_resamples": 1000,
+  "headline_utility_metrics": [
+    "pr_auc",
+    "balanced_accuracy",
+    "bce",
+    "f1",
+    "auroc"
+  ],
+  "forget_quality_score": "two-sample KS p-value on Classifier Truth Ratio",
+  "forget_quality_supporting_statistic": "two-sample KS statistic",
+  "truth_ratio_definition": "(1 - p_correct) / p_correct, where p_correct = y*p + (1-y)*(1-p)",
+  "baseline_split_artifacts": {
+    "train": {
+      "index_path": "results/CastMe/configuration/baseline_splits/train_indices.npy",
+      "index_sha256": "0bf0379544c9a1ce89cd9632ff1849797421e9c9b7d6a9c9b2b1b600a4c9d2a5",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/train_audition_ids.npy",
+      "audition_id_sha256": "bfb48e52ac66f63e7f63acdbcaf266768b8b8b47d1c3bd9ff7d243850a63e652",
+      "row_count": 42000,
+      "proportion": 0.7
+    },
+    "validation": {
+      "index_path": "results/CastMe/configuration/baseline_splits/validation_indices.npy",
+      "index_sha256": "88f3c72e92ec53d97f676297f7a4c040f8822091f13945e8c3a70bbe7252b0d2",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/validation_audition_ids.npy",
+      "audition_id_sha256": "eb1cd4f99f40c861c0bdaf183973bcaef8ae3dd64332d157faf5e591b94fa891",
+      "row_count": 9000,
+      "proportion": 0.15
+    },
+    "test": {
+      "index_path": "results/CastMe/configuration/baseline_splits/test_indices.npy",
+      "index_sha256": "b67c4b744175b01b81bd1c2f4fabc0cd8feb0f2b420a59d41d46932be0344257",
+      "audition_id_path": "results/CastMe/configuration/baseline_splits/test_audition_ids.npy",
+      "audition_id_sha256": "f7cd05f8e509773b97d19913e1404f1a892669a83d9059b3052c064917135c3d",
+      "row_count": 9000,
+      "proportion": 0.15
+    }
+  },
+  "configuration": {
+    "seed": 42,
+    "learning_rate": 0.0005,
+    "maximum_epochs": 10,
+    "batch_size": 64,
+    "early_stopping_patience": 4,
+    "early_stopping_min_delta": 0.0001,
+    "optimizer": "AdamW",
+    "updated_parameters": "all_mlp_layers",
+    "selection_split": "scenario_retained_validation",
+    "selection_metric": "binary_cross_entropy"
+  },
+  "dataset_description": "Synthetic repeated-round personal audition submissions with audit-only deletion metadata.",
+  "audit_metadata_definitions": {
+    "audition_date": "ISO audition date used only for retention-based deletion",
+    "withdrawal_requested": "Recorded submission-level withdrawal request used only for deletion construction"
+  },
+  "model_feature_list": [
+    "experience_years",
+    "role_match_score",
+    "accent_match",
+    "availability_match",
+    "line_accuracy_score",
+    "special_skill_match",
+    "self_tape_quality_score",
+    "manager_rating",
+    "prior_collaboration",
+    "days_before_deadline"
+  ],
+  "excluded_metadata_columns": [
+    "audition_id",
+    "actor_id",
+    "manager_id",
+    "film_id",
+    "role_id",
+    "audition_round",
+    "audition_date",
+    "withdrawal_requested"
+  ],
+  "selected_actor_id": "A034",
+  "manager_id": "M20",
+  "film_id": "F50",
+  "retention_cutoff": "2021-09-20",
+  "scenario_definitions": {
+    "s1_actor_withdrawal": {
+      "display_name": "Actor withdrawal \u2014 1%",
+      "rule_type": "equals",
+      "column": "actor_id",
+      "identifier": "A034",
+      "requested_percentage": 0.01,
+      "subset_rule": "actor_id == 'A034'",
+      "reason": "An individual asks CastMe to delete all audition submissions and associated personal data."
+    },
+    "s2_submission_withdrawal": {
+      "display_name": "Submission withdrawal \u2014 5%",
+      "rule_type": "boolean_true",
+      "column": "withdrawal_requested",
+      "identifier": "True",
+      "requested_percentage": 0.05,
+      "subset_rule": "withdrawal_requested == True",
+      "reason": "Different actors withdraw specific submissions or self-tapes without deleting their accounts."
+    },
+    "s3_agency_withdrawal": {
+      "display_name": "Agency withdrawal \u2014 10%",
+      "rule_type": "equals",
+      "column": "manager_id",
+      "identifier": "M20",
+      "requested_percentage": 0.1,
+      "subset_rule": "manager_id == 'M20'",
+      "reason": "An agency ends its agreement, requiring removal of the personal audition data it supplied."
+    },
+    "s4_project_closure": {
+      "display_name": "Project closure \u2014 15%",
+      "rule_type": "equals",
+      "column": "film_id",
+      "identifier": "F50",
+      "requested_percentage": 0.15,
+      "subset_rule": "film_id == 'F50'",
+      "reason": "The casting purpose has ended, so personal audition data collected for the project is no longer required."
+    },
+    "s5_retention_expiry": {
+      "display_name": "Retention expiry \u2014 15%",
+      "rule_type": "date_before",
+      "column": "audition_date",
+      "identifier": "2021-09-20",
+      "requested_percentage": 0.15,
+      "subset_rule": "audition_date < '2021-09-20'",
+      "reason": "Older audition records have exceeded CastMe's defined retention period."
+    }
+  },
+  "scenario_names": [
+    "s1_actor_withdrawal",
+    "s2_submission_withdrawal",
+    "s3_agency_withdrawal",
+    "s4_project_closure",
+    "s5_retention_expiry"
+  ],
+  "threshold": 0.32,
+  "threshold_label": "fixed_baseline_validation_threshold",
+  "source_original_model_hash": "4f7757e504911e6411983a911001e9aea9eef15fd7268fac71c84b0bc1cc7332",
+  "baseline_preprocessor_hash": "bd2465b409947c7d2cef5b772de9577933f6f266e57764ef3dbaf876094b4e28",
+  "raw_dataset_hash": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+  "cleaned_dataset_hash": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+  "upstream_artifact_hashes": {
+    "notebooks/CastMe/01_castme_baseline.ipynb": "c8abe97cc2f31311effa7cea892bc384e6efebf3772ad887885a84a0ce387602",
+    "notebooks/CastMe/02_castme_forget_sets_and_full_retraining.ipynb": "489fbc350b744622ccf02893e46fe1e094b5d36543654c1301099098f7634d1f",
+    "data/processed/castme/castme_auditions_clean.csv": "caaca65a6da3cfc2f1e86d0125a99e06d0e90a3704e4ef4f91e72b9ecf0de721",
+    "models/castme/castme_baseline_mlp.pt": "4f7757e504911e6411983a911001e9aea9eef15fd7268fac71c84b0bc1cc7332",
+    "models/castme/castme_preprocessor.joblib": "bd2465b409947c7d2cef5b772de9577933f6f266e57764ef3dbaf876094b4e28",
+    "results/CastMe/full_retraining/configuration/scenario_manifest.json": "629171f6ace6b944e6c9c72ac166bb9f09df8496a9c261cf5e4f691870a5577a",
+    "results/CastMe/full_retraining/tables/training_summary.csv": "c85a6518f4f83a78dac9e4d0c88a89f47a8be02939307f1f6c7d345d67b15e5c",
+    "models/castme/full_retraining/s1_actor_withdrawal/model.pt": "0d3e4e7c25b13d7adc773360c721f6f981fbc66fa7878dbf8963303edfacec45",
+    "models/castme/full_retraining/s1_actor_withdrawal/preprocessor.joblib": "a5cdbfc1a9fc67ba87fc2681d889604aab470393ac8bad424bf15645179336dd",
+    "results/CastMe/full_retraining/forget_indices/s1_actor_withdrawal_forget_train_indices.npy": "e04fe24bd40b6a31fcd9fb1d85b63a9a50c9f63c8ac64ca3704c2d7656d61af9",
+    "results/CastMe/full_retraining/retain_indices/s1_actor_withdrawal_retain_train_indices.npy": "bce3c0227e3fb55f270143046a8a1853595a83b8d9805e5c6dbcfd87ef669792",
+    "models/castme/full_retraining/s2_submission_withdrawal/model.pt": "0ccf222a832b3134022615802a82eaadb31fc25b0aa46f0e9d871031e72b40bc",
+    "models/castme/full_retraining/s2_submission_withdrawal/preprocessor.joblib": "6c4f1e413c998a9033e6fee3ce3d7d6831f4203a7bacc01d8cae2ed9e0012533",
+    "results/CastMe/full_retraining/forget_indices/s2_submission_withdrawal_forget_train_indices.npy": "1a03bf9f555e4bb93d21fcd08259ecd33cb3b9dc5f6ba1844576ccaf3d5829b9",
+    "results/CastMe/full_retraining/retain_indices/s2_submission_withdrawal_retain_train_indices.npy": "b18074a72e678668b04ed10d26059178984676016d338536a895e31a031583b9",
+    "models/castme/full_retraining/s3_agency_withdrawal/model.pt": "c2287655a6925a5ea7eadd6350e55681775c6a09bb8374772ab4b8b6bd84121e",
+    "models/castme/full_retraining/s3_agency_withdrawal/preprocessor.joblib": "0143bb1551faf4944f9b53609e330eec5e8c352cd172000a18cd96f63e8fb707",
+    "results/CastMe/full_retraining/forget_indices/s3_agency_withdrawal_forget_train_indices.npy": "7c7db051ebe8ae636e79f85ca8be2887a2182627358daa752a066f660567ed22",
+    "results/CastMe/full_retraining/retain_indices/s3_agency_withdrawal_retain_train_indices.npy": "9b7735e4d9bb01a3186703e2ce8e0c1db8164335f14f2fccb36354c07e44868d",
+    "models/castme/full_retraining/s4_project_closure/model.pt": "e771afe39b7f613b8f8edbe37a585b66b6b7937c2c660e1ba6a69584c7504545",
+    "models/castme/full_retraining/s4_project_closure/preprocessor.joblib": "f030a0b78c767c057c97d85f59d8952093a8006af3f24dea5c97a58191b34dcb",
+    "results/CastMe/full_retraining/forget_indices/s4_project_closure_forget_train_indices.npy": "c18d1000172600afef80a5d627f9e64cdcc828611c88ac3529b83560fe978bd6",
+    "results/CastMe/full_retraining/retain_indices/s4_project_closure_retain_train_indices.npy": "013f8c1d453ea820400d96dfa836bac33537c675905d5ebb0e69fd411a254c7c",
+    "models/castme/full_retraining/s5_retention_expiry/model.pt": "12761a7599627288535f739b49671f9de1c6920bfac45642e52ae6019a0596c4",
+    "models/castme/full_retraining/s5_retention_expiry/preprocessor.joblib": "f2c0b1030a01d0ed8db8a3a0ca1feb4bb7d5d3da521a1135871ffdc33992fa1f",
+    "results/CastMe/full_retraining/forget_indices/s5_retention_expiry_forget_train_indices.npy": "75c119988b655c3f68b00cbcf768e15447b8c50f22463fc31ecebaaedc0d25fd",
+    "results/CastMe/full_retraining/retain_indices/s5_retention_expiry_retain_train_indices.npy": "6685248f94c51eedb28f8b57ddaa85d77545bb1168a211d9fb90d77fe2bd8fb1"
+  },
+  "checkpoint_paths": {
+    "s1_actor_withdrawal": "models/castme/retain_set_finetuning/s1_actor_withdrawal/model.pt",
+    "s2_submission_withdrawal": "models/castme/retain_set_finetuning/s2_submission_withdrawal/model.pt",
+    "s3_agency_withdrawal": "models/castme/retain_set_finetuning/s3_agency_withdrawal/model.pt",
+    "s4_project_closure": "models/castme/retain_set_finetuning/s4_project_closure/model.pt",
+    "s5_retention_expiry": "models/castme/retain_set_finetuning/s5_retention_expiry/model.pt"
+  },
+  "table_paths": {
+    "training_summary": "results/CastMe/retain_set_finetuning/tables/training_summary.csv",
+    "primary_utility_metrics": "results/CastMe/retain_set_finetuning/metrics/primary_utility_metrics.csv",
+    "forget_quality": "results/CastMe/retain_set_finetuning/metrics/forget_quality.csv",
+    "utility_difference_summary": "results/CastMe/retain_set_finetuning/metrics/utility_difference_summary.csv",
+    "utility_metrics": "results/CastMe/retain_set_finetuning/metrics/utility_metrics.csv",
+    "utility_gaps": "results/CastMe/retain_set_finetuning/metrics/utility_gaps.csv",
+    "utility_difference_cis": "results/CastMe/retain_set_finetuning/metrics/utility_difference_confidence_intervals.csv",
+    "forgetfulness_metrics": "results/CastMe/retain_set_finetuning/metrics/forgetfulness_metrics.csv",
+    "forgetfulness_metric_comparison": "results/CastMe/retain_set_finetuning/metrics/forgetfulness_metric_comparison.csv",
+    "probability_gap_closure": "results/CastMe/retain_set_finetuning/tables/probability_gap_closure.csv",
+    "matched_test_behaviour": "results/CastMe/retain_set_finetuning/metrics/scenario_matched_test_behaviour.csv",
+    "runtime_comparison": "results/CastMe/retain_set_finetuning/tables/runtime_comparison.csv"
+  },
+  "figure_paths": [
+    "results/CastMe/retain_set_finetuning/figures/forget_quality_ks.png",
+    "results/CastMe/retain_set_finetuning/figures/fine_tuning_histories.png"
+  ],
+  "runtime_environment": {
+    "python": "3.12.13",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "pytorch": "2.12.1",
+    "device": "mps"
+  }
+}

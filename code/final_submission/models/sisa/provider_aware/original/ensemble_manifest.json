@@ -1,0 +1,31 @@
+{
+  "ensemble": "provider_original",
+  "aggregation": "unweighted_mean",
+  "models": [
+    {
+      "shard_id": 1,
+      "source": "provider_original",
+      "model_path": "models/sisa/provider_aware/original/shard_1_final.pt"
+    },
+    {
+      "shard_id": 2,
+      "source": "provider_original",
+      "model_path": "models/sisa/provider_aware/original/shard_2_final.pt"
+    },
+    {
+      "shard_id": 3,
+      "source": "provider_original",
+      "model_path": "models/sisa/provider_aware/original/shard_3_final.pt"
+    },
+    {
+      "shard_id": 4,
+      "source": "provider_original",
+      "model_path": "models/sisa/provider_aware/original/shard_4_final.pt"
+    },
+    {
+      "shard_id": 5,
+      "source": "provider_original",
+      "model_path": "models/sisa/provider_aware/original/shard_5_final.pt"
+    }
+  ]
+}

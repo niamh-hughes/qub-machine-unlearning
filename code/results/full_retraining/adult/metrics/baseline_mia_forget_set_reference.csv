@@ -1,0 +1,2 @@
+scenario,attack_accuracy,attack_auroc,member_count,non_member_count,attack_feature,attack_model,cv_folds,attack_auc_ci_low,attack_auc_ci_high,attack_auc_bootstrap_samples,attack_permutation_p_value,attack_permutation_count,tpr_at_fpr_0.001,tpr_at_fpr_0.01,tpr_at_fpr_0.05
+baseline_s1_forget_vs_test,0.38058875608676407,0.5022345352836639,1709,7327,model_loss,logistic_regression,5,0.48777074293750977,0.5171283345969859,500,0.4091816367265469,500,0.0,0.003510825043885313,0.05324751316559392

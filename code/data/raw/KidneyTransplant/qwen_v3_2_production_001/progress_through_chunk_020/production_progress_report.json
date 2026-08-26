@@ -1,0 +1,268 @@
+{
+  "run_id": "QWEN-V32-PROD-001",
+  "checkpoint": "through_chunk_020",
+  "status": "manual_review_required",
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-002",
+  "created_at_utc": "2026-08-16T22:59:30.734428+00:00",
+  "chunks_present": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "chunks_completed_this_execution": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "new_api_requests_attempted": 1000,
+  "new_api_requests_completed": 1000,
+  "new_retries": 0,
+  "new_token_usage": {
+    "prompt_tokens": 1075552,
+    "completion_tokens": 509730,
+    "total_tokens": 1585282
+  },
+  "cumulative_token_usage": {
+    "prompt_tokens": 2151173,
+    "completion_tokens": 1019534,
+    "total_tokens": 3170707
+  },
+  "new_chunk_elapsed_seconds": 3631.6242800825275,
+  "cumulative_chunk_elapsed_seconds": 7281.709038123721,
+  "aggregate_request_records": 2000,
+  "aggregate_response_records": 2000,
+  "aggregate_manifest_records": 8002,
+  "expected_extra_manifest_records": 2,
+  "aggregate_dimensions": [
+    12000,
+    31
+  ],
+  "target_count": 890,
+  "target_prevalence": 0.07416666666666667,
+  "per_chunk_target_prevalence": {
+    "001": {
+      "positive_assessments": 59,
+      "assessment_rows": 600,
+      "prevalence": 0.09833333333333333
+    },
+    "002": {
+      "positive_assessments": 41,
+      "assessment_rows": 600,
+      "prevalence": 0.06833333333333333
+    },
+    "003": {
+      "positive_assessments": 40,
+      "assessment_rows": 600,
+      "prevalence": 0.06666666666666667
+    },
+    "004": {
+      "positive_assessments": 43,
+      "assessment_rows": 600,
+      "prevalence": 0.07166666666666667
+    },
+    "005": {
+      "positive_assessments": 52,
+      "assessment_rows": 600,
+      "prevalence": 0.08666666666666667
+    },
+    "006": {
+      "positive_assessments": 48,
+      "assessment_rows": 600,
+      "prevalence": 0.08
+    },
+    "007": {
+      "positive_assessments": 52,
+      "assessment_rows": 600,
+      "prevalence": 0.08666666666666667
+    },
+    "008": {
+      "positive_assessments": 38,
+      "assessment_rows": 600,
+      "prevalence": 0.06333333333333334
+    },
+    "009": {
+      "positive_assessments": 53,
+      "assessment_rows": 600,
+      "prevalence": 0.08833333333333333
+    },
+    "010": {
+      "positive_assessments": 36,
+      "assessment_rows": 600,
+      "prevalence": 0.06
+    },
+    "011": {
+      "positive_assessments": 41,
+      "assessment_rows": 600,
+      "prevalence": 0.06833333333333333
+    },
+    "012": {
+      "positive_assessments": 42,
+      "assessment_rows": 600,
+      "prevalence": 0.07
+    },
+    "013": {
+      "positive_assessments": 49,
+      "assessment_rows": 600,
+      "prevalence": 0.08166666666666667
+    },
+    "014": {
+      "positive_assessments": 36,
+      "assessment_rows": 600,
+      "prevalence": 0.06
+    },
+    "015": {
+      "positive_assessments": 50,
+      "assessment_rows": 600,
+      "prevalence": 0.08333333333333333
+    },
+    "016": {
+      "positive_assessments": 55,
+      "assessment_rows": 600,
+      "prevalence": 0.09166666666666666
+    },
+    "017": {
+      "positive_assessments": 47,
+      "assessment_rows": 600,
+      "prevalence": 0.07833333333333334
+    },
+    "018": {
+      "positive_assessments": 39,
+      "assessment_rows": 600,
+      "prevalence": 0.065
+    },
+    "019": {
+      "positive_assessments": 34,
+      "assessment_rows": 600,
+      "prevalence": 0.056666666666666664
+    },
+    "020": {
+      "positive_assessments": 35,
+      "assessment_rows": 600,
+      "prevalence": 0.058333333333333334
+    }
+  },
+  "event_recipients": 674,
+  "non_event_recipients": 1326,
+  "anchor_deviation_warning_counts": {
+    "creatinine_mg_dl": 0,
+    "urine_output_ml_24h": 2,
+    "tacrolimus_level_ng_ml": 0,
+    "medication_adherence_pct": 1
+  },
+  "chunk_quality_gate_statuses": {
+    "chunk_001": "passed",
+    "chunk_002": "passed",
+    "chunk_003": "passed",
+    "chunk_004": "passed",
+    "chunk_005": "passed",
+    "chunk_006": "passed",
+    "chunk_007": "passed",
+    "chunk_008": "passed",
+    "chunk_009": "passed",
+    "chunk_010": "passed",
+    "chunk_011": "passed",
+    "chunk_012": "passed",
+    "chunk_013": "passed",
+    "chunk_014": "passed",
+    "chunk_015": "passed",
+    "chunk_016": "passed",
+    "chunk_017": "passed",
+    "chunk_018": "passed",
+    "chunk_019": "passed",
+    "chunk_020": "manual_review_required"
+  },
+  "repeated_value_diagnostics": [
+    "day 14 urine_output_ml_24h dominant value frequency is 0.228"
+  ],
+  "reconciliation_status": "passed",
+  "reconciliation_failures": [],
+  "quality_gate_failures": [
+    "all_chunk_quality_gates_pass"
+  ],
+  "integrity_after_aggregate_checkpoint": {
+    "protected_unchanged": true,
+    "previous_evidence_unchanged": true,
+    "notebooks_01_05_unchanged": true,
+    "production_design_unchanged": true,
+    "completed_chunks_001_010_and_progress_010_unchanged": true,
+    "validation_amendment_001_unchanged": true,
+    "validation_amendment_002_unchanged": true,
+    "progress_through_chunk_010_unchanged": true,
+    "chunks_021_100_absent": true,
+    "final_assembly_absent": true,
+    "chunk_001_unchanged": true,
+    "chunk_002_unchanged": true,
+    "chunk_003_unchanged": true,
+    "chunk_004_unchanged": true,
+    "chunk_005_unchanged": true,
+    "chunk_006_unchanged": true,
+    "chunk_007_unchanged": true,
+    "chunk_008_unchanged": true,
+    "chunk_009_unchanged": true,
+    "chunk_010_unchanged": true,
+    "chunk_011_unchanged": true,
+    "chunk_012_unchanged": true,
+    "chunk_013_unchanged": true,
+    "chunk_014_unchanged": true,
+    "chunk_015_unchanged": true,
+    "chunk_016_unchanged": true,
+    "chunk_017_unchanged": true,
+    "chunk_018_unchanged": true,
+    "chunk_019_unchanged": true,
+    "chunk_020_unchanged": true
+  },
+  "created_files": [
+    "production_progress_report.json",
+    "cross_chunk_reconciliation.json",
+    "cross_chunk_distribution_report.json",
+    "cross_chunk_integrity_report.json"
+  ],
+  "progress_file_fingerprints_excluding_self": {
+    "cross_chunk_distribution_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_020/cross_chunk_distribution_report.json",
+      "sha256": "1fd79a929e0d1cd0791348e5c83cd8c8435ce71bd638bf6b4e730bf029b3c53c",
+      "mtime_ns": 1786921170333438417,
+      "size_bytes": 279237
+    },
+    "cross_chunk_integrity_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_020/cross_chunk_integrity_report.json",
+      "sha256": "52b572facc23c10209b9a3c8802e9bc02ddb99c8d2a6175d0d456b8b7fb8b0bb",
+      "mtime_ns": 1786921170333850459,
+      "size_bytes": 7667
+    },
+    "cross_chunk_reconciliation.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_020/cross_chunk_reconciliation.json",
+      "sha256": "fb54c12f42dd2bf5b7b5c569ce312d668089f7b3483adbe66d708740b9dc176f",
+      "mtime_ns": 1786921170329266044,
+      "size_bytes": 1698
+    }
+  },
+  "chunks_021_to_100_started": false,
+  "final_dataset_assembly_started": false,
+  "classifier_trained": false,
+  "generator_tuned": false
+}

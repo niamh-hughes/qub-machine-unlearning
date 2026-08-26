@@ -1,0 +1,31 @@
+{
+  "ensemble": "original",
+  "aggregation": "unweighted_mean",
+  "models": [
+    {
+      "shard_id": 1,
+      "source": "original",
+      "model_path": "models/sisa/policy_aware/original/shard_1_slice_5.pt"
+    },
+    {
+      "shard_id": 2,
+      "source": "original",
+      "model_path": "models/sisa/policy_aware/original/shard_2_slice_5.pt"
+    },
+    {
+      "shard_id": 3,
+      "source": "original",
+      "model_path": "models/sisa/policy_aware/original/shard_3_slice_5.pt"
+    },
+    {
+      "shard_id": 4,
+      "source": "original",
+      "model_path": "models/sisa/policy_aware/original/shard_4_slice_5.pt"
+    },
+    {
+      "shard_id": 5,
+      "source": "original",
+      "model_path": "models/sisa/policy_aware/original/shard_5_slice_5.pt"
+    }
+  ]
+}

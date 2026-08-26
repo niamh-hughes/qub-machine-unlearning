@@ -1,0 +1,6 @@
+scenario,display_name,best_positive_gradient_ascent_epoch,best_positive_relative_entropy_improvement,selected_epoch,selected_relative_entropy_improvement,selected_entropy_mae_to_retraining,selected_entropy_wasserstein_to_retraining
+s1_random_1_percent,Random 1%,1,-0.024810696387692177,3,-0.10360150451862116,0.01976590055558492,0.00950088965260677
+s2_random_5_percent,Random 5%,2,0.04319189340690155,3,-0.019773470515295433,0.021420805793136006,0.0045058959785646766
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),1,-0.1712790101431847,3,-0.4786826838310605,0.03432277144698733,0.01794462629341828
+s4_random_10_percent,Random 10%,1,0.005301067374833157,3,-0.10910356500769369,0.02711427148522221,0.01712042616143092
+s5_retention_expiry,Simulated Retention Expiry,1,-0.052621786420700145,3,-0.7339674795645978,0.08843704102277429,0.03962343608262239

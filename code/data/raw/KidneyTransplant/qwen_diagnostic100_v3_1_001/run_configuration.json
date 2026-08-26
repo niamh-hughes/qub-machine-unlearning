@@ -1,0 +1,220 @@
+{
+  "run_id": "QWEN-DIAGNOSTIC100-V31-001",
+  "base_url": "https://resolution-andreas-alerts-blah.trycloudflare.com/v1",
+  "api_key": "REDACTED",
+  "prompt_version": "qwen-kidney-v3.1",
+  "prompt_sha256": "08f0c29bffb47af5036528ab87be8da548cef42e879295cbda371a9bb9aa0e65",
+  "api_configuration": {
+    "client": {
+      "max_retries": 0
+    },
+    "completion": {
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "presence_penalty": 1.5,
+      "extra_body": {
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "seed": "unique deterministic corrected_10_control_plan.request_seed",
+    "automatic_retry": false,
+    "response_order": [
+      "resp.model_dump_json(indent=2)",
+      "append complete response to immutable JSONL",
+      "extract final content",
+      "parse and validate"
+    ]
+  },
+  "api_configuration_sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+  "latent_controls_sha256": "b3d2e326dc85d38e3d996f5c7f3e1b1cb0546812baf2fe37d3834e63d94b4355",
+  "relationship_skeleton_sha256": "f9b25c57a659a6d7f56a29e5fb185798e497770be34cb60d02d86562a783acde",
+  "assessment_metadata_skeleton_sha256": "315a3543b45614d6159a17d97ca8807016e6921d1b9e0a68af0fc3ca5daa598d",
+  "corrected_10_assessment_sha256": "1f771b9876c08f8260b62cd354f0e9dba85904b63adb41717d06a3b0a6213590",
+  "corrected_10_identity_sha256": "7b14b65585add53eadc428b06ee76c506fb661168597e3fd965010b68bc89a17",
+  "corrected_10_responses_sha256": "0127feed25f3c3480b3f1be579ef21d21f7139a932f6fecc2f04d2cb85fed4de",
+  "expected_imported_recipients": 10,
+  "expected_missing_recipients": 90,
+  "maximum_new_api_requests": 90,
+  "automatic_retries": 0,
+  "one_time_gate": "RUN_QWEN_DIAGNOSTIC100_V31=QWEN-DIAGNOSTIC100-V31-001",
+  "local_only_validation": {
+    "status": "passed",
+    "contract_errors": [],
+    "import_errors": [],
+    "imported_recipient_ids": [
+      "V31-R000001",
+      "V31-R000002",
+      "V31-R000003",
+      "V31-R000004",
+      "V31-R000005",
+      "V31-R000006",
+      "V31-R000007",
+      "V31-R000008",
+      "V31-R000061",
+      "V31-R000062"
+    ],
+    "imported_recipient_count": 10,
+    "missing_recipient_ids": [
+      "V31-R000009",
+      "V31-R000010",
+      "V31-R000011",
+      "V31-R000012",
+      "V31-R000013",
+      "V31-R000014",
+      "V31-R000015",
+      "V31-R000016",
+      "V31-R000017",
+      "V31-R000018",
+      "V31-R000019",
+      "V31-R000020",
+      "V31-R000021",
+      "V31-R000022",
+      "V31-R000023",
+      "V31-R000024",
+      "V31-R000025",
+      "V31-R000026",
+      "V31-R000027",
+      "V31-R000028",
+      "V31-R000029",
+      "V31-R000030",
+      "V31-R000031",
+      "V31-R000032",
+      "V31-R000033",
+      "V31-R000034",
+      "V31-R000035",
+      "V31-R000036",
+      "V31-R000037",
+      "V31-R000038",
+      "V31-R000039",
+      "V31-R000040",
+      "V31-R000041",
+      "V31-R000042",
+      "V31-R000043",
+      "V31-R000044",
+      "V31-R000045",
+      "V31-R000046",
+      "V31-R000047",
+      "V31-R000048",
+      "V31-R000049",
+      "V31-R000050",
+      "V31-R000051",
+      "V31-R000052",
+      "V31-R000053",
+      "V31-R000054",
+      "V31-R000055",
+      "V31-R000056",
+      "V31-R000057",
+      "V31-R000058",
+      "V31-R000059",
+      "V31-R000060",
+      "V31-R000063",
+      "V31-R000064",
+      "V31-R000065",
+      "V31-R000066",
+      "V31-R000067",
+      "V31-R000068",
+      "V31-R000069",
+      "V31-R000070",
+      "V31-R000071",
+      "V31-R000072",
+      "V31-R000073",
+      "V31-R000074",
+      "V31-R000075",
+      "V31-R000076",
+      "V31-R000077",
+      "V31-R000078",
+      "V31-R000079",
+      "V31-R000080",
+      "V31-R000081",
+      "V31-R000082",
+      "V31-R000083",
+      "V31-R000084",
+      "V31-R000085",
+      "V31-R000086",
+      "V31-R000087",
+      "V31-R000088",
+      "V31-R000089",
+      "V31-R000090",
+      "V31-R000091",
+      "V31-R000092",
+      "V31-R000093",
+      "V31-R000094",
+      "V31-R000095",
+      "V31-R000096",
+      "V31-R000097",
+      "V31-R000098",
+      "V31-R000099",
+      "V31-R000100"
+    ],
+    "missing_recipient_count": 90,
+    "maximum_new_api_requests": 90,
+    "max_retries": 0,
+    "full_generation_flag": false,
+    "output_directory_absent": true,
+    "protected_fingerprint_matches": true,
+    "protected_before": {
+      "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+      "mtime_ns": 1786015387691857656,
+      "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+      "size_bytes": 19817033
+    }
+  },
+  "protected_before": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "immutable_evidence_before": {
+    "pilot": {
+      "file_count": 10,
+      "total_size_bytes": 20029,
+      "aggregate_sha256_with_metadata": "5b52742b31f21d31fef0c8af73bcb73e21d80ced3b7ca7a16071726aeccdf136"
+    },
+    "v2_batch": {
+      "file_count": 65,
+      "total_size_bytes": 148364,
+      "aggregate_sha256_with_metadata": "d3dc3fe5f53d61b9222f21c09bf0fe8520a7e5227d095003ed832b33ee6242a5"
+    },
+    "v3_design": {
+      "file_count": 18,
+      "total_size_bytes": 162898,
+      "aggregate_sha256_with_metadata": "116ca11f8548691a3c92a927ca9e14b629fe2f3e752a869ee255cf8920794ed7"
+    },
+    "v3_1_design": {
+      "file_count": 21,
+      "total_size_bytes": 210322,
+      "aggregate_sha256_with_metadata": "fada34a6567cf9e60c1dd42493ff804e3dbbd1074aed6b2247a6dc4ae5c7ab03"
+    },
+    "corrected_10": {
+      "file_count": 10,
+      "total_size_bytes": 96421,
+      "aggregate_sha256_with_metadata": "29fe6e834e09ce71b59d0b824bdcf56a053a4a4e210ad60032163f20a9b98ba0"
+    },
+    "processed": {
+      "file_count": 1,
+      "total_size_bytes": 19890283,
+      "aggregate_sha256_with_metadata": "ebd066af22ad05ba4d9105be3c6ee0de9632f8b00195728d50b9a25166036f4e"
+    },
+    "models": {
+      "file_count": 72,
+      "total_size_bytes": 582336,
+      "aggregate_sha256_with_metadata": "b0eb642eba17293e891bce95441acaba5541f242f88bf16d98942734af657893"
+    },
+    "results": {
+      "file_count": 131,
+      "total_size_bytes": 7239125,
+      "aggregate_sha256_with_metadata": "b7d147e6a68298e38d3c99c07ebd67b085145a0bf4a9ebaebd357e5323c04b18"
+    }
+  },
+  "persistent_generation_flags": {
+    "RUN_QWEN_DIAGNOSTIC100_V31": false,
+    "RUN_10000_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  }
+}

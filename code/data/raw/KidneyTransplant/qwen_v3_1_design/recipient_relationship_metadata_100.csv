@@ -1,0 +1,101 @@
+recipient_id,donor_id,hospital_id,recipient_age,donor_age,donor_type,kidney_failure_cause,previous_transplant,dialysis_months,donor_blood_group,recipient_blood_group,abo_compatibility_category,hla_mismatch_count,antibody_risk_score,cold_ischaemia_hours,recipient_sex,recipient_ethnicity,recipient_region,distance_to_transplant_centre_km,transplant_date
+V31-R000001,V31-DL000001,V31-H01,29,35,Living,Glomerulonephritis,0,14,A,O,Managed incompatibility,5,0.43,3.3,Male,Black,Scotland,12.31,2023-03-27
+V31-R000002,V31-DL000002,V31-H05,36,46,Living,Hypertensive kidney disease,0,25,B,AB,Standard compatible,3,0.8,4.6,Female,Mixed,Wales,19.62,2023-05-13
+V31-R000003,V31-DL000003,V31-H02,43,57,Living,Polycystic kidney disease,0,36,AB,B,Managed incompatibility,1,0.29,5.9,Male,Other,London,26.93,2023-03-21
+V31-R000004,V31-DL000004,V31-H06,50,68,Living,Other,0,47,O,A,Standard compatible,6,0.66,7.2,Female,White,North West,34.24,2023-05-21
+V31-R000005,V31-DL000005,V31-H08,57,32,Living,Diabetic kidney disease,0,58,A,O,Managed incompatibility,4,0.15,8.5,Male,Asian,Northern Ireland,41.55,2023-02-28
+V31-R000006,V31-DL000006,V31-H02,64,43,Living,Glomerulonephritis,0,69,B,AB,Standard compatible,2,0.52,9.8,Female,Black,Scotland,48.86,2023-05-12
+V31-R000007,V31-DL000007,V31-H03,71,54,Living,Hypertensive kidney disease,0,10,AB,B,Managed incompatibility,0,0.89,11.1,Male,Mixed,Wales,56.17,2023-04-22
+V31-R000008,V31-DL000008,V31-H07,78,65,Living,Polycystic kidney disease,1,21,O,A,Standard compatible,6,0.9,12.4,Female,Other,London,63.48,2023-05-20
+V31-R000009,V31-DL000009,V31-H02,28,29,Living,Other,1,32,A,O,Managed incompatibility,3,0.75,13.7,Male,White,North West,70.79,2023-01-29
+V31-R000010,V31-DL000010,V31-H08,35,40,Living,Diabetic kidney disease,0,43,B,AB,Standard compatible,1,0.24,15.0,Female,Asian,Northern Ireland,78.1,2023-01-09
+V31-R000011,V31-DL000011,V31-H10,42,51,Living,Glomerulonephritis,0,54,AB,B,Managed incompatibility,6,0.61,16.3,Male,Black,Scotland,85.41,2023-04-26
+V31-R000012,V31-DL000012,V31-H06,49,62,Living,Hypertensive kidney disease,0,65,O,A,Standard compatible,4,0.1,17.6,Female,Mixed,Wales,92.72,2023-04-10
+V31-R000013,V31-DL000013,V31-H03,56,26,Living,Polycystic kidney disease,0,6,A,O,Managed incompatibility,2,0.47,18.9,Male,Other,London,100.03,2023-01-26
+V31-R000014,V31-DL000014,V31-H03,63,37,Living,Other,0,17,B,AB,Standard compatible,0,0.84,20.2,Female,White,North West,107.34,2023-02-24
+V31-R000015,V31-DL000015,V31-H07,70,48,Living,Diabetic kidney disease,0,28,AB,B,Managed incompatibility,5,0.33,2.5,Male,Asian,Northern Ireland,114.65,2023-02-05
+V31-R000016,V31-DL000016,V31-H05,77,59,Living,Glomerulonephritis,0,39,O,A,Standard compatible,3,0.7,3.8,Female,Black,Scotland,121.96,2023-02-02
+V31-R000017,V31-DL000017,V31-H04,27,70,Living,Hypertensive kidney disease,0,50,A,O,Managed incompatibility,1,0.19,5.1,Male,Mixed,Wales,129.27,2023-02-01
+V31-R000018,V31-DL000018,V31-H06,34,34,Living,Polycystic kidney disease,1,61,B,AB,Standard compatible,6,0.56,6.4,Female,Other,London,136.58,2023-04-16
+V31-R000019,V31-DL000019,V31-H04,41,45,Living,Other,0,72,AB,B,Managed incompatibility,4,0.93,7.7,Male,White,North West,143.89,2023-01-13
+V31-R000020,V31-DL000020,V31-H04,48,56,Living,Diabetic kidney disease,0,13,O,A,Standard compatible,2,0.42,9.0,Female,Asian,Northern Ireland,11.2,2023-02-18
+V31-R000021,V31-DL000021,V31-H05,55,67,Living,Glomerulonephritis,0,24,A,O,Managed incompatibility,0,0.79,10.3,Male,Black,Scotland,18.51,2023-03-03
+V31-R000022,V31-DL000022,V31-H06,62,31,Living,Hypertensive kidney disease,0,35,B,AB,Standard compatible,5,0.28,11.6,Female,Mixed,Wales,25.82,2023-05-15
+V31-R000023,V31-DL000023,V31-H07,69,42,Living,Polycystic kidney disease,0,46,AB,B,Managed incompatibility,3,0.65,12.9,Male,Other,London,33.13,2023-03-11
+V31-R000024,V31-DL000024,V31-H10,76,53,Living,Other,0,57,O,A,Standard compatible,1,0.14,14.2,Female,White,North West,40.44,2023-03-09
+V31-R000025,V31-DL000025,V31-H01,26,64,Living,Diabetic kidney disease,0,68,A,O,Managed incompatibility,6,0.51,15.5,Male,Asian,Northern Ireland,47.75,2023-05-14
+V31-R000026,V31-DL000026,V31-H02,33,28,Living,Glomerulonephritis,0,9,B,AB,Standard compatible,4,0.88,16.8,Female,Black,Scotland,55.06,2023-03-12
+V31-R000027,V31-DL000027,V31-H02,40,39,Living,Hypertensive kidney disease,1,20,AB,B,Managed incompatibility,2,0.37,18.1,Male,Mixed,Wales,62.37,2023-02-09
+V31-R000028,V31-DL000028,V31-H03,47,50,Living,Polycystic kidney disease,0,31,O,A,Standard compatible,0,0.74,19.4,Female,Other,London,69.68,2023-05-06
+V31-R000029,V31-DL000029,V31-H05,54,61,Living,Other,0,42,A,O,Managed incompatibility,5,0.23,20.7,Male,White,North West,76.99,2023-02-27
+V31-R000030,V31-DL000030,V31-H02,61,25,Living,Diabetic kidney disease,0,53,B,AB,Standard compatible,3,0.6,3.0,Female,Asian,Northern Ireland,84.3,2023-01-25
+V31-R000031,V31-DL000031,V31-H01,68,36,Living,Glomerulonephritis,0,64,AB,B,Managed incompatibility,1,0.09,4.3,Male,Black,Scotland,91.61,2023-02-06
+V31-R000032,V31-DL000032,V31-H03,75,47,Living,Hypertensive kidney disease,0,5,O,A,Standard compatible,6,0.46,5.6,Female,Mixed,Wales,98.92,2023-05-17
+V31-R000033,V31-DL000033,V31-H08,25,58,Living,Polycystic kidney disease,0,16,A,O,Managed incompatibility,4,0.83,6.9,Male,Other,London,106.23,2023-04-30
+V31-R000034,V31-DL000034,V31-H02,32,69,Living,Other,0,27,B,AB,Standard compatible,2,0.32,8.2,Female,White,North West,113.54,2023-02-03
+V31-R000035,V31-DL000035,V31-H05,39,33,Living,Diabetic kidney disease,0,38,AB,B,Managed incompatibility,0,0.69,9.5,Male,Asian,Northern Ireland,120.85,2023-03-13
+V31-R000036,V31-DL000036,V31-H01,46,44,Living,Glomerulonephritis,1,49,O,A,Standard compatible,5,0.18,10.8,Female,Black,Scotland,128.16,2023-04-11
+V31-R000037,V31-DL000037,V31-H04,53,55,Living,Hypertensive kidney disease,0,60,A,O,Managed incompatibility,3,0.55,12.1,Male,Mixed,Wales,135.47,2023-01-28
+V31-R000038,V31-DL000038,V31-H06,60,66,Living,Polycystic kidney disease,0,71,B,AB,Standard compatible,1,0.92,13.4,Female,Other,London,142.78,2023-05-03
+V31-R000039,V31-DL000039,V31-H05,67,30,Living,Other,0,12,AB,B,Managed incompatibility,6,0.41,14.7,Male,White,North West,10.09,2023-01-22
+V31-R000040,V31-DL000040,V31-H01,74,41,Living,Diabetic kidney disease,0,23,O,A,Standard compatible,4,0.78,16.0,Female,Asian,Northern Ireland,17.4,2023-04-25
+V31-R000041,V31-DS000001,V31-H02,24,35,Deceased,Glomerulonephritis,0,34,A,O,Managed incompatibility,2,0.27,17.3,Male,Black,Scotland,24.71,2023-03-16
+V31-R000042,V31-DS000002,V31-H01,31,46,Deceased,Hypertensive kidney disease,0,45,B,AB,Standard compatible,0,0.64,18.6,Female,Mixed,Wales,32.02,2023-03-29
+V31-R000043,V31-DS000003,V31-H09,38,57,Deceased,Polycystic kidney disease,0,56,AB,B,Managed incompatibility,5,0.13,19.9,Male,Other,London,39.33,2023-04-23
+V31-R000044,V31-DS000004,V31-H02,45,68,Deceased,Other,0,67,O,A,Standard compatible,3,0.5,2.2,Female,White,North West,46.64,2023-05-18
+V31-R000045,V31-DS000005,V31-H03,52,32,Deceased,Diabetic kidney disease,1,8,A,O,Managed incompatibility,1,0.87,3.5,Male,Asian,Northern Ireland,53.95,2023-03-17
+V31-R000046,V31-DS000006,V31-H01,59,43,Deceased,Glomerulonephritis,0,19,B,AB,Standard compatible,6,0.36,4.8,Female,Black,Scotland,61.26,2023-03-08
+V31-R000047,V31-DS000007,V31-H07,66,54,Deceased,Hypertensive kidney disease,0,30,AB,B,Managed incompatibility,4,0.73,6.1,Male,Mixed,Wales,68.57,2023-01-10
+V31-R000048,V31-DS000008,V31-H06,73,65,Deceased,Polycystic kidney disease,0,41,O,A,Standard compatible,2,0.22,7.4,Female,Other,London,75.88,2023-05-16
+V31-R000049,V31-DS000009,V31-H05,23,29,Deceased,Other,0,52,A,O,Managed incompatibility,0,0.59,8.7,Male,White,North West,83.19,2023-01-14
+V31-R000050,V31-DS000010,V31-H01,30,40,Deceased,Diabetic kidney disease,0,63,B,AB,Standard compatible,5,0.08,10.0,Female,Asian,Northern Ireland,90.5,2023-03-24
+V31-R000051,V31-DS000011,V31-H06,37,51,Deceased,Glomerulonephritis,0,4,AB,B,Managed incompatibility,3,0.45,11.3,Male,Black,Scotland,97.81,2023-04-09
+V31-R000052,V31-DS000012,V31-H06,44,62,Deceased,Hypertensive kidney disease,0,15,O,A,Standard compatible,1,0.82,12.6,Female,Mixed,Wales,105.12,2023-04-27
+V31-R000053,V31-DS000013,V31-H02,51,26,Deceased,Polycystic kidney disease,0,26,A,O,Managed incompatibility,6,0.31,13.9,Male,Other,London,112.43,2023-03-25
+V31-R000054,V31-DS000014,V31-H08,58,37,Deceased,Other,1,37,B,AB,Standard compatible,4,0.68,15.2,Female,White,North West,119.74,2023-05-31
+V31-R000055,V31-DS000015,V31-H03,65,48,Deceased,Diabetic kidney disease,0,48,AB,B,Managed incompatibility,2,0.17,16.5,Male,Asian,Northern Ireland,127.05,2023-02-08
+V31-R000056,V31-DS000016,V31-H08,72,59,Deceased,Glomerulonephritis,0,59,O,A,Standard compatible,0,0.54,17.8,Female,Black,Scotland,134.36,2023-01-18
+V31-R000057,V31-DS000017,V31-H09,22,70,Deceased,Hypertensive kidney disease,0,70,A,O,Managed incompatibility,5,0.91,19.1,Male,Mixed,Wales,141.67,2023-01-08
+V31-R000058,V31-DS000018,V31-H03,29,34,Deceased,Polycystic kidney disease,0,11,B,AB,Standard compatible,3,0.4,20.4,Female,Other,London,8.98,2023-04-07
+V31-R000059,V31-DS000019,V31-H03,36,45,Deceased,Other,0,22,AB,B,Managed incompatibility,1,0.77,2.7,Male,White,North West,16.29,2023-05-04
+V31-R000060,V31-DS000020,V31-H07,43,56,Deceased,Diabetic kidney disease,0,33,O,A,Standard compatible,6,0.26,4.0,Female,Asian,Northern Ireland,23.6,2023-05-22
+V31-R000061,V31-DP000001,V31-H01,50,35,Deceased,Glomerulonephritis,0,44,A,O,Managed incompatibility,1,0.15,5.3,Male,Black,Scotland,30.91,2023-02-26
+V31-R000062,V31-DP000001,V31-H01,57,35,Deceased,Hypertensive kidney disease,0,55,A,AB,Standard compatible,2,0.12,6.6,Female,Mixed,Wales,38.22,2023-01-31
+V31-R000063,V31-DP000002,V31-H04,64,46,Deceased,Polycystic kidney disease,1,66,B,B,Standard compatible,0,0.49,7.9,Male,Other,London,45.53,2023-04-02
+V31-R000064,V31-DP000002,V31-H03,71,46,Deceased,Other,0,7,B,A,Managed incompatibility,5,0.86,9.2,Female,White,North West,52.84,2023-04-21
+V31-R000065,V31-DP000003,V31-H09,78,57,Deceased,Diabetic kidney disease,0,18,AB,O,Managed incompatibility,3,0.35,10.5,Male,Asian,Northern Ireland,60.15,2023-01-16
+V31-R000066,V31-DP000003,V31-H02,28,57,Deceased,Glomerulonephritis,0,29,AB,AB,Standard compatible,1,0.72,11.8,Female,Black,Scotland,67.46,2023-05-07
+V31-R000067,V31-DP000004,V31-H01,35,68,Deceased,Hypertensive kidney disease,0,40,O,B,Standard compatible,6,0.21,13.1,Male,Mixed,Wales,74.77,2023-03-22
+V31-R000068,V31-DP000004,V31-H01,42,68,Deceased,Polycystic kidney disease,0,51,O,A,Standard compatible,4,0.58,14.4,Female,Other,London,82.08,2023-03-04
+V31-R000069,V31-DP000005,V31-H04,49,32,Deceased,Other,0,62,A,O,Managed incompatibility,2,0.07,15.7,Male,White,North West,89.39,2023-02-11
+V31-R000070,V31-DP000005,V31-H02,56,32,Deceased,Diabetic kidney disease,0,3,A,AB,Standard compatible,0,0.44,17.0,Female,Asian,Northern Ireland,96.7,2023-04-15
+V31-R000071,V31-DP000006,V31-H08,63,43,Deceased,Glomerulonephritis,0,14,B,B,Standard compatible,5,0.81,18.3,Male,Black,Scotland,104.01,2023-02-19
+V31-R000072,V31-DP000006,V31-H01,70,43,Deceased,Hypertensive kidney disease,1,25,B,A,Managed incompatibility,3,0.3,19.6,Female,Mixed,Wales,111.32,2023-01-23
+V31-R000073,V31-DP000007,V31-H04,77,54,Deceased,Polycystic kidney disease,0,36,AB,O,Managed incompatibility,1,0.67,20.9,Male,Other,London,118.63,2023-01-06
+V31-R000074,V31-DP000007,V31-H04,27,54,Deceased,Other,0,47,AB,AB,Standard compatible,6,0.16,3.2,Female,White,North West,125.94,2023-02-07
+V31-R000075,V31-DP000008,V31-H05,34,65,Deceased,Diabetic kidney disease,0,58,O,B,Standard compatible,4,0.53,4.5,Male,Asian,Northern Ireland,133.25,2023-01-03
+V31-R000076,V31-DP000008,V31-H01,41,65,Deceased,Glomerulonephritis,0,69,O,A,Standard compatible,2,0.9,5.8,Female,Black,Scotland,140.56,2023-04-28
+V31-R000077,V31-DP000009,V31-H03,48,29,Deceased,Hypertensive kidney disease,0,10,A,O,Managed incompatibility,0,0.39,7.1,Male,Mixed,Wales,7.87,2023-02-20
+V31-R000078,V31-DP000009,V31-H07,55,29,Deceased,Polycystic kidney disease,0,21,A,AB,Standard compatible,5,0.76,8.4,Female,Other,London,15.18,2023-04-12
+V31-R000079,V31-DP000010,V31-H03,62,40,Deceased,Other,0,32,B,B,Standard compatible,3,0.25,9.7,Male,White,North West,22.49,2023-01-20
+V31-R000080,V31-DP000010,V31-H01,69,40,Deceased,Diabetic kidney disease,0,43,B,A,Managed incompatibility,1,0.62,11.0,Female,Asian,Northern Ireland,29.8,2023-05-29
+V31-R000081,V31-DP000011,V31-H04,76,51,Deceased,Glomerulonephritis,1,54,AB,O,Managed incompatibility,6,0.11,12.3,Male,Black,Scotland,37.11,2023-02-04
+V31-R000082,V31-DP000011,V31-H01,26,51,Deceased,Hypertensive kidney disease,0,65,AB,AB,Standard compatible,4,0.48,13.6,Female,Mixed,Wales,44.42,2023-02-23
+V31-R000083,V31-DP000012,V31-H04,33,62,Deceased,Polycystic kidney disease,0,6,O,B,Standard compatible,2,0.85,14.9,Male,Other,London,51.73,2023-02-13
+V31-R000084,V31-DP000012,V31-H04,40,62,Deceased,Other,0,17,O,A,Standard compatible,0,0.34,16.2,Female,White,North West,59.04,2023-05-05
+V31-R000085,V31-DP000013,V31-H05,47,26,Deceased,Diabetic kidney disease,0,28,A,O,Managed incompatibility,5,0.71,17.5,Male,Asian,Northern Ireland,66.35,2023-01-21
+V31-R000086,V31-DP000013,V31-H08,54,26,Deceased,Glomerulonephritis,0,39,A,AB,Standard compatible,3,0.2,18.8,Female,Black,Scotland,73.66,2023-04-05
+V31-R000087,V31-DP000014,V31-H02,61,37,Deceased,Hypertensive kidney disease,0,50,B,B,Standard compatible,1,0.57,20.1,Male,Mixed,Wales,80.97,2023-01-02
+V31-R000088,V31-DP000014,V31-H03,68,37,Deceased,Polycystic kidney disease,0,61,B,A,Managed incompatibility,6,0.06,2.4,Female,Other,London,88.28,2023-05-11
+V31-R000089,V31-DP000015,V31-H04,75,48,Deceased,Other,0,72,AB,O,Managed incompatibility,4,0.43,3.7,Male,White,North West,95.59,2023-02-15
+V31-R000090,V31-DP000015,V31-H09,25,48,Deceased,Diabetic kidney disease,1,13,AB,AB,Standard compatible,2,0.8,5.0,Female,Asian,Northern Ireland,102.9,2023-03-01
+V31-R000091,V31-DP000016,V31-H07,32,59,Deceased,Glomerulonephritis,0,24,O,B,Standard compatible,0,0.29,6.3,Male,Black,Scotland,110.21,2023-04-06
+V31-R000092,V31-DP000016,V31-H10,39,59,Deceased,Hypertensive kidney disease,0,35,O,A,Standard compatible,5,0.66,7.6,Female,Mixed,Wales,117.52,2023-03-10
+V31-R000093,V31-DP000017,V31-H01,46,70,Deceased,Polycystic kidney disease,0,46,A,O,Managed incompatibility,3,0.15,8.9,Male,Other,London,124.83,2023-04-20
+V31-R000094,V31-DP000017,V31-H05,53,70,Deceased,Other,0,57,A,AB,Standard compatible,1,0.52,10.2,Female,White,North West,132.14,2023-04-04
+V31-R000095,V31-DP000018,V31-H09,60,34,Deceased,Diabetic kidney disease,0,68,B,B,Standard compatible,6,0.89,11.5,Male,Asian,Northern Ireland,139.45,2023-01-12
+V31-R000096,V31-DP000018,V31-H07,67,34,Deceased,Glomerulonephritis,0,9,B,A,Managed incompatibility,4,0.38,12.8,Female,Black,Scotland,6.76,2023-05-01
+V31-R000097,V31-DP000019,V31-H01,74,45,Deceased,Hypertensive kidney disease,0,20,AB,O,Managed incompatibility,2,0.75,14.1,Male,Mixed,Wales,14.07,2023-01-04
+V31-R000098,V31-DP000019,V31-H06,24,45,Deceased,Polycystic kidney disease,0,31,AB,AB,Standard compatible,0,0.24,15.4,Female,Other,London,21.38,2023-01-05
+V31-R000099,V31-DP000020,V31-H02,31,56,Deceased,Other,1,42,O,B,Standard compatible,5,0.61,16.7,Male,White,North West,28.69,2023-04-13
+V31-R000100,V31-DP000020,V31-H02,38,56,Deceased,Diabetic kidney disease,0,53,O,A,Standard compatible,3,0.1,18.0,Female,Asian,Northern Ireland,36.0,2023-03-23

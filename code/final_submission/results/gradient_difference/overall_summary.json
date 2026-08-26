@@ -1,0 +1,41 @@
+{
+  "primary_epoch": 5,
+  "scenario_count": 5,
+  "mean_composite_model_utility": 0.34044442846602874,
+  "mean_ks_statistic": 0.05093699139701345,
+  "mean_speed_up_vs_full_retraining": 67.36615901083613,
+  "total_update_seconds": 0.5812203385867178,
+  "environment_warnings": [],
+  "scenario_results": {
+    "recipient_withdrawal": {
+      "utility": 0.3395015309402795,
+      "ks_statistic": 0.05868544600938967,
+      "ks_p_value": 0.45596277829687665,
+      "update_seconds": 0.018912211060523987
+    },
+    "donor_withdrawal": {
+      "utility": 0.3389179645405595,
+      "ks_statistic": 0.05923694779116466,
+      "ks_p_value": 0.00183786797300125,
+      "update_seconds": 0.059612000128254294
+    },
+    "hospital_removal": {
+      "utility": 0.3464993073233406,
+      "ks_statistic": 0.049142327306444133,
+      "ks_p_value": 5.959048328411823e-05,
+      "update_seconds": 0.1246533349622041
+    },
+    "invalid_consent": {
+      "utility": 0.3334392832222076,
+      "ks_statistic": 0.041947926711668276,
+      "ks_p_value": 0.001350806270333362,
+      "update_seconds": 0.12425412400625646
+    },
+    "retention_expiry": {
+      "utility": 0.3438640563037565,
+      "ks_statistic": 0.04567230916640051,
+      "ks_p_value": 4.232853301975625e-06,
+      "update_seconds": 0.253788668429479
+    }
+  }
+}

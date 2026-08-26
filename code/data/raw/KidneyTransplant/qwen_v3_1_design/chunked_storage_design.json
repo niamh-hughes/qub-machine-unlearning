@@ -1,0 +1,31 @@
+{
+  "responses": "complete serialized responses to immutable chunked JSONL before extraction",
+  "recipients_per_chunk": 100,
+  "chunk_size_status": "provisional until benchmarked",
+  "expected_api_requests": 10000,
+  "expected_output_rows": 60000,
+  "estimated_tokens_per_request_from_v2": 1145.2,
+  "estimated_total_tokens": 11452000,
+  "chunk_count": 100,
+  "authoritative_manifest": {
+    "format": "append-only JSONL",
+    "fields": [
+      "request_id",
+      "recipient_id",
+      "seed",
+      "status",
+      "token_usage",
+      "validation_result",
+      "response_chunk",
+      "line_number"
+    ]
+  },
+  "optional_manifest_snapshot": "derived CSV, never authoritative",
+  "resume": "skip completed request IDs from JSONL/checkpoints; never overwrite or retry automatically",
+  "primary_future_outputs": [
+    "identity table",
+    "assessment table"
+  ],
+  "audit_only_joined_42_column_export": "disabled by default",
+  "full_generation_executed": false
+}

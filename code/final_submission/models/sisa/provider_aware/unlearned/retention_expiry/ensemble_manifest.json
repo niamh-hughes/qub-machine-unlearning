@@ -1,0 +1,31 @@
+{
+  "scenario": "retention_expiry",
+  "aggregation": "unweighted_mean",
+  "models": [
+    {
+      "shard_id": 1,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/provider_aware/unlearned/retention_expiry/shard_1_model.pt"
+    },
+    {
+      "shard_id": 2,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/provider_aware/unlearned/retention_expiry/shard_2_model.pt"
+    },
+    {
+      "shard_id": 3,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/provider_aware/unlearned/retention_expiry/shard_3_model.pt"
+    },
+    {
+      "shard_id": 4,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/provider_aware/unlearned/retention_expiry/shard_4_model.pt"
+    },
+    {
+      "shard_id": 5,
+      "source": "updated_scenario",
+      "model_path": "models/sisa/provider_aware/unlearned/retention_expiry/shard_5_model.pt"
+    }
+  ]
+}

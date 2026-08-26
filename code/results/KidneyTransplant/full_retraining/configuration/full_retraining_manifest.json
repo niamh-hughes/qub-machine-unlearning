@@ -1,0 +1,166 @@
+{
+  "dataset_path": "data/processed/KidneyTransplant/kidney_transplant_assessments_clean.csv",
+  "dataset_hash": "053bb0f10cc8e34e61a9149221aef77575728a2df8879ce1a0326e5fa025e2d9",
+  "dataset_description": "Entirely synthetic longitudinal kidney-transplant follow-up assessments.",
+  "target": "acute_rejection_within_30_days",
+  "feature_list": [
+    "recipient_age",
+    "donor_age",
+    "donor_type",
+    "kidney_failure_cause",
+    "previous_transplant",
+    "dialysis_months",
+    "abo_compatibility_category",
+    "hla_mismatch_count",
+    "antibody_risk_score",
+    "cold_ischaemia_hours",
+    "days_since_transplant",
+    "creatinine_mg_dl",
+    "creatinine_change_pct",
+    "urine_output_ml_24h",
+    "tacrolimus_level_ng_ml",
+    "medication_adherence_pct",
+    "infection_indicator",
+    "previous_rejection"
+  ],
+  "excluded_audit_fields": [
+    "person_id",
+    "person_role",
+    "full_name",
+    "date_of_birth",
+    "email_address",
+    "postcode",
+    "hospital_number",
+    "training_consent_status",
+    "training_consent_version",
+    "consent_granted_date",
+    "consent_withdrawal_date",
+    "retention_expiry_date",
+    "assessment_id",
+    "recipient_id",
+    "donor_id",
+    "hospital_id",
+    "assessment_date",
+    "recipient_sex",
+    "recipient_ethnicity",
+    "recipient_region",
+    "distance_to_transplant_centre_km",
+    "recipient_blood_group",
+    "donor_blood_group"
+  ],
+  "split_strategy": "recipient-grouped hospital/consent/outcome-aware deterministic 70/15/15 split",
+  "group_key": "recipient_id",
+  "seed": 42,
+  "threshold": 0.07,
+  "threshold_label": "fixed_baseline_validation_threshold",
+  "loss_choice": "unweighted_bce",
+  "preprocessing_policy": "fresh retain-only preprocessor per scenario",
+  "optimizer_configuration": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001
+  },
+  "bootstrap_configuration": {
+    "unit": "recipient_id",
+    "seed": 2026,
+    "repetitions": 500,
+    "confidence_level": 0.95
+  },
+  "deletion_configuration": {
+    "s1_recipient_withdrawal": {
+      "display_name": "Recipient withdrawal \u2014 1%",
+      "reason": "A batch of recipients withdraws permission for secondary AI training.",
+      "rule": "recipient_id in 70 seed-42 IDs",
+      "requested": 0.01
+    },
+    "s2_living_donor_withdrawal": {
+      "display_name": "Living-donor withdrawal \u2014 5%",
+      "reason": "Living donors withdraw permission to use linked health and compatibility data.",
+      "rule": "donor_id in 350 eligible living-donor IDs",
+      "requested": 0.05
+    },
+    "s3_hospital_withdrawal": {
+      "display_name": "Hospital withdrawal \u2014 10%",
+      "reason": "One transplant centre terminates its data-sharing agreement.",
+      "rule": "hospital_id == 'H07'",
+      "requested": 0.1
+    },
+    "s4_invalid_consent": {
+      "display_name": "Invalid consent \u2014 10%",
+      "reason": "An audit determines that RECIPIENT_V3 did not authorise AI training.",
+      "rule": "training_consent_version == 'RECIPIENT_V3'",
+      "requested": 0.1
+    },
+    "s5_retention_expiry": {
+      "display_name": "Retention expiry \u2014 15%",
+      "reason": "The oldest transplant episodes reach the secondary-use retention limit.",
+      "rule": "recipient_id in 1,050 oldest derived episodes",
+      "requested": 0.15
+    }
+  },
+  "index_hashes": {
+    "s1_recipient_withdrawal": {
+      "forget": "2b86190c9c93cd88637c01106b38e9e9c8301d82bf7404b138981f7395fa3764",
+      "retain": "4e8c9cfdd638e5ecae389ad0b910cbc6694c363504ca15b486ab078228cd36d9"
+    },
+    "s2_living_donor_withdrawal": {
+      "forget": "9673fe9797117415ef641eee2f8cae8e7947a982a02e593f436b1b040327e9f0",
+      "retain": "d505e54adedae59993c210c7dda86b90be0a46065ea8e227bd64a6efda3e79c3"
+    },
+    "s3_hospital_withdrawal": {
+      "forget": "10576b28dfc55ba31f190e0a002b7641f010512c8af7298c33e4a43f017940f7",
+      "retain": "3cd5b36ddeb6ef1219e1cf4a901395aa883de39a6f92e3576c37a0d2288b1a46"
+    },
+    "s4_invalid_consent": {
+      "forget": "8ec7f2c9b328b2ec7d877103d3375a99791864be194e69051bbd6c865c10d8f7",
+      "retain": "132b176108d0ef5b286622a414d2f9a4db74db03295aa2139b7676f37873fb2c"
+    },
+    "s5_retention_expiry": {
+      "forget": "caf71cdc94f97e1f21c1e34aa14f6f7fac9ac9506442dbe2aecde008cb38638c",
+      "retain": "85d3079966f822a2df8fe6c7446ad9a29f1dc875a84da93d1da63a9e1afeb65f"
+    }
+  },
+  "runtime_environment": {
+    "python": "3.12.13",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "pytorch": "2.12.1",
+    "device": "mps"
+  },
+  "artifact_hashes": {
+    "results/KidneyTransplant/full_retraining/tables/scenario_summary.csv": "47bfd44be25978c6b16ca3c3251d3a011f530ff1793b2801837f1cd41a951fa5",
+    "results/KidneyTransplant/full_retraining/tables/assessment_stage_distribution.csv": "20600dc05fccfc25aad5fd717065206d6f61214c1dd097ee26c0c403f64b5b72",
+    "results/KidneyTransplant/full_retraining/tables/feature_distribution_shift.csv": "caa02377954cffa5517cc7fd90d6f50ffa3149ef39be8ba6a4d25f2dac6c9e4b",
+    "results/KidneyTransplant/full_retraining/tables/training_summary.csv": "602c9df3a2da1e4dfdbbc0772a017b39c538c6f40e54e39bcc54acc7f466368c",
+    "results/KidneyTransplant/full_retraining/metrics/retained_utility_metrics.csv": "3e65f43a6a121b56bdb53553489f59dca1b94b777ac3eb256bcf8101e4377262",
+    "results/KidneyTransplant/full_retraining/metrics/forget_reference_metrics.csv": "6a0ed7e953d654faa2e9f694663582acf197415bc9973e814a3fdac98e45a84f",
+    "results/KidneyTransplant/full_retraining/metrics/retained_utility_bootstrap_intervals.csv": "42d7f8c2fbb1997c260359e2f027b9e6d654f8ca5fb44cd191cf69d326b92f60",
+    "models/KidneyTransplant/full_retraining/s1_recipient_withdrawal/model.pt": "5c8abce7ffe3be666fe4551120e9bff0dfd582dfb3ed3444daf84c79c4845fca",
+    "models/KidneyTransplant/full_retraining/s2_living_donor_withdrawal/model.pt": "12e7741664e990fab2f6002bc155c349b7631b0b28e2cfe668b62258c3a09615",
+    "models/KidneyTransplant/full_retraining/s3_hospital_withdrawal/model.pt": "fc0b0413bbd682f8936657b4347c4631f1526b91e90c7d0c4cdc5aec8e95aa73",
+    "models/KidneyTransplant/full_retraining/s4_invalid_consent/model.pt": "403205e2383aff5188e2f47d53e02c0117cc4489da025995e99dab4bedd32e5f",
+    "models/KidneyTransplant/full_retraining/s5_retention_expiry/model.pt": "64c51f8f145e8e95128016bd77fdbfb26e130157b7f2ca2022835794632da159",
+    "models/KidneyTransplant/full_retraining/s1_recipient_withdrawal/preprocessor.joblib": "151fa162e2fa8d05302b5e1d9bac3bcc07bd95a3618031c1908e63044c5748db",
+    "models/KidneyTransplant/full_retraining/s2_living_donor_withdrawal/preprocessor.joblib": "013f3679008d8a235331d7d2efbfe80543468f6f56ff0c241e840cb8b0bb263e",
+    "models/KidneyTransplant/full_retraining/s3_hospital_withdrawal/preprocessor.joblib": "465fc46e7f38c9eae5ddd4420ddd49c62b7f789405e413adde1f5bb04ebb534c",
+    "models/KidneyTransplant/full_retraining/s4_invalid_consent/preprocessor.joblib": "4e7944c8225980512123ae8ad79edfdd4040915df93e63828d8a75fb5e315b7f",
+    "models/KidneyTransplant/full_retraining/s5_retention_expiry/preprocessor.joblib": "8b5859f0aae154d0a1ab2d4f2f03075ae0d6cad4483d7aebc24caeb6577d9dd0",
+    "results/KidneyTransplant/full_retraining/figures/full_retraining_comparison.png": "ced6cc3293b5437b84a4032e94aba31f63d81a6999afbcae1bdfebde3875c987",
+    "results/KidneyTransplant/full_retraining/figures/full_retraining_histories.png": "9928cce346035b49a1a5ce371e4e854ff1ca83b0fe28bd4eb3cdc4784cd9dbe1",
+    "results/KidneyTransplant/full_retraining/indices/s2_living_donor_withdrawal_retain_indices.npy": "8d12b8bbf65e5e81edcb8a1ae042ced010f36a361f2ffe8f948ae8311c069d3d",
+    "results/KidneyTransplant/full_retraining/indices/s5_retention_expiry_retain_indices.npy": "23a068271499741d0eb7c53fd4195126cfa79f141a64684629c362784e04a8c9",
+    "results/KidneyTransplant/full_retraining/indices/s4_invalid_consent_retain_indices.npy": "b7facd719d12c30e0fc8385eb0320f41a0fd4c456964bc9bdc046b7220e7d509",
+    "results/KidneyTransplant/full_retraining/indices/s1_recipient_withdrawal_forget_indices.npy": "5606202000e9149fd637832b13da15117a8b875822e15ce893d258a34739a7b3",
+    "results/KidneyTransplant/full_retraining/indices/s1_recipient_withdrawal_retain_indices.npy": "e93ccf96a8a500947a459206822bac8ccf73cea98fc467aa57447b7c8e559151",
+    "results/KidneyTransplant/full_retraining/indices/s4_invalid_consent_forget_indices.npy": "eee987f8ca058bb597c4583cc841998faafd23c84fc702efc4eb30e97e3572b7",
+    "results/KidneyTransplant/full_retraining/indices/s5_retention_expiry_forget_indices.npy": "de13b665cfd8cd3b5277ea1ee086b95d79550020c444d91b77a1e0d2c30a08d6",
+    "results/KidneyTransplant/full_retraining/indices/s2_living_donor_withdrawal_forget_indices.npy": "0efaf677a3e85a86c3c1a586fd27b5e386bedecd26b5236616cfbe8ec91d492b",
+    "results/KidneyTransplant/full_retraining/indices/s3_hospital_withdrawal_forget_indices.npy": "e857feb497842f5f83f121f5c20069e087212806def9c2eafcf6b83055926d43",
+    "results/KidneyTransplant/full_retraining/indices/s3_hospital_withdrawal_retain_indices.npy": "a5e234ed17810b621340f2271a4140ada40f3c4def4c487092e8dec1dd7f1342",
+    "results/KidneyTransplant/full_retraining/histories/s4_invalid_consent_history.csv": "2e5827279d8865b97ea20c5a27a7ef88ea3425c8a93604c3d9bec8496da9257a",
+    "results/KidneyTransplant/full_retraining/histories/s5_retention_expiry_history.csv": "ec014d5990977fb98375742ddbcec8cadb93afbf8bc79a3118be4f30900d18ab",
+    "results/KidneyTransplant/full_retraining/histories/s1_recipient_withdrawal_history.csv": "6335ea7a7cf60a62d10f044231daa78f6c7050a88be0f7a600d0c02bc737dd31",
+    "results/KidneyTransplant/full_retraining/histories/s3_hospital_withdrawal_history.csv": "5fb515440012c794f4a1db28eca1c5a7b5e9a63f84ac3a45fa4183ebca7a6061",
+    "results/KidneyTransplant/full_retraining/histories/s2_living_donor_withdrawal_history.csv": "64a6c29976a5006a27662cb7b8897a194cf451c3159542ad3c7a77a8216efbaf"
+  }
+}

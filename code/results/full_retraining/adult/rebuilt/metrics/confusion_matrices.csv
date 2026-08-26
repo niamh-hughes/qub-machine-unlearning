@@ -1,0 +1,16 @@
+scenario,seed,true_<=50K_pred_<=50K,true_<=50K_pred_>50K,true_>50K_pred_<=50K,true_>50K_pred_>50K
+s1_random_1_percent,42,5195,379,663,1090
+s1_random_1_percent,43,5192,382,647,1106
+s1_random_1_percent,44,5228,346,684,1069
+s2_random_5_percent,42,5178,396,656,1097
+s2_random_5_percent,43,5217,357,684,1069
+s2_random_5_percent,44,5215,359,675,1078
+s3_different_random_5_percent,42,5207,367,674,1079
+s3_different_random_5_percent,43,5263,311,724,1029
+s3_different_random_5_percent,44,5212,362,674,1079
+s4_random_10_percent,42,5174,400,659,1094
+s4_random_10_percent,43,5195,379,662,1091
+s4_random_10_percent,44,5195,379,660,1093
+s5_retention_expiry,42,5190,384,659,1094
+s5_retention_expiry,43,5192,382,653,1100
+s5_retention_expiry,44,5191,383,660,1093

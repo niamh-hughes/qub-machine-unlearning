@@ -1,0 +1,601 @@
+assessment_id,recipient_id,donor_id,hospital_id,days_since_transplant,assessment_date,retention_expiry_date,recipient_age,donor_age,donor_type,kidney_failure_cause,previous_transplant,dialysis_months,donor_blood_group,recipient_blood_group,abo_compatibility_category,hla_mismatch_count,antibody_risk_score,cold_ischaemia_hours,recipient_sex,recipient_ethnicity,recipient_region,distance_to_transplant_centre_km,training_consent_status,training_consent_version
+V31-A000001,V31-R000001,V31-DL000001,V31-H01,7,2023-04-03,2025-04-02,29,35,Living,Glomerulonephritis,0,14,A,O,Managed incompatibility,5,0.43,3.3,Male,Black,Scotland,12.31,Active,RECIPIENT_V4
+V31-A000002,V31-R000001,V31-DL000001,V31-H01,14,2023-04-10,2025-04-09,29,35,Living,Glomerulonephritis,0,14,A,O,Managed incompatibility,5,0.43,3.3,Male,Black,Scotland,12.31,Active,RECIPIENT_V4
+V31-A000003,V31-R000001,V31-DL000001,V31-H01,30,2023-04-26,2025-04-25,29,35,Living,Glomerulonephritis,0,14,A,O,Managed incompatibility,5,0.43,3.3,Male,Black,Scotland,12.31,Active,RECIPIENT_V4
+V31-A000004,V31-R000001,V31-DL000001,V31-H01,60,2023-05-26,2025-05-25,29,35,Living,Glomerulonephritis,0,14,A,O,Managed incompatibility,5,0.43,3.3,Male,Black,Scotland,12.31,Active,RECIPIENT_V4
+V31-A000005,V31-R000001,V31-DL000001,V31-H01,90,2023-06-25,2025-06-24,29,35,Living,Glomerulonephritis,0,14,A,O,Managed incompatibility,5,0.43,3.3,Male,Black,Scotland,12.31,Active,RECIPIENT_V4
+V31-A000006,V31-R000001,V31-DL000001,V31-H01,180,2023-09-23,2025-09-22,29,35,Living,Glomerulonephritis,0,14,A,O,Managed incompatibility,5,0.43,3.3,Male,Black,Scotland,12.31,Active,RECIPIENT_V4
+V31-A000007,V31-R000002,V31-DL000002,V31-H05,7,2023-05-20,2025-05-19,36,46,Living,Hypertensive kidney disease,0,25,B,AB,Standard compatible,3,0.8,4.6,Female,Mixed,Wales,19.62,Active,RECIPIENT_V4
+V31-A000008,V31-R000002,V31-DL000002,V31-H05,14,2023-05-27,2025-05-26,36,46,Living,Hypertensive kidney disease,0,25,B,AB,Standard compatible,3,0.8,4.6,Female,Mixed,Wales,19.62,Active,RECIPIENT_V4
+V31-A000009,V31-R000002,V31-DL000002,V31-H05,30,2023-06-12,2025-06-11,36,46,Living,Hypertensive kidney disease,0,25,B,AB,Standard compatible,3,0.8,4.6,Female,Mixed,Wales,19.62,Active,RECIPIENT_V4
+V31-A000010,V31-R000002,V31-DL000002,V31-H05,60,2023-07-12,2025-07-11,36,46,Living,Hypertensive kidney disease,0,25,B,AB,Standard compatible,3,0.8,4.6,Female,Mixed,Wales,19.62,Active,RECIPIENT_V4
+V31-A000011,V31-R000002,V31-DL000002,V31-H05,90,2023-08-11,2025-08-10,36,46,Living,Hypertensive kidney disease,0,25,B,AB,Standard compatible,3,0.8,4.6,Female,Mixed,Wales,19.62,Active,RECIPIENT_V4
+V31-A000012,V31-R000002,V31-DL000002,V31-H05,180,2023-11-09,2025-11-08,36,46,Living,Hypertensive kidney disease,0,25,B,AB,Standard compatible,3,0.8,4.6,Female,Mixed,Wales,19.62,Active,RECIPIENT_V4
+V31-A000013,V31-R000003,V31-DL000003,V31-H02,7,2023-03-28,2025-03-27,43,57,Living,Polycystic kidney disease,0,36,AB,B,Managed incompatibility,1,0.29,5.9,Male,Other,London,26.93,Active,RECIPIENT_V4
+V31-A000014,V31-R000003,V31-DL000003,V31-H02,14,2023-04-04,2025-04-03,43,57,Living,Polycystic kidney disease,0,36,AB,B,Managed incompatibility,1,0.29,5.9,Male,Other,London,26.93,Active,RECIPIENT_V4
+V31-A000015,V31-R000003,V31-DL000003,V31-H02,30,2023-04-20,2025-04-19,43,57,Living,Polycystic kidney disease,0,36,AB,B,Managed incompatibility,1,0.29,5.9,Male,Other,London,26.93,Active,RECIPIENT_V4
+V31-A000016,V31-R000003,V31-DL000003,V31-H02,60,2023-05-20,2025-05-19,43,57,Living,Polycystic kidney disease,0,36,AB,B,Managed incompatibility,1,0.29,5.9,Male,Other,London,26.93,Active,RECIPIENT_V4
+V31-A000017,V31-R000003,V31-DL000003,V31-H02,90,2023-06-19,2025-06-18,43,57,Living,Polycystic kidney disease,0,36,AB,B,Managed incompatibility,1,0.29,5.9,Male,Other,London,26.93,Active,RECIPIENT_V4
+V31-A000018,V31-R000003,V31-DL000003,V31-H02,180,2023-09-17,2025-09-16,43,57,Living,Polycystic kidney disease,0,36,AB,B,Managed incompatibility,1,0.29,5.9,Male,Other,London,26.93,Active,RECIPIENT_V4
+V31-A000019,V31-R000004,V31-DL000004,V31-H06,7,2023-05-28,2025-05-27,50,68,Living,Other,0,47,O,A,Standard compatible,6,0.66,7.2,Female,White,North West,34.24,Active,RECIPIENT_V4
+V31-A000020,V31-R000004,V31-DL000004,V31-H06,14,2023-06-04,2025-06-03,50,68,Living,Other,0,47,O,A,Standard compatible,6,0.66,7.2,Female,White,North West,34.24,Active,RECIPIENT_V4
+V31-A000021,V31-R000004,V31-DL000004,V31-H06,30,2023-06-20,2025-06-19,50,68,Living,Other,0,47,O,A,Standard compatible,6,0.66,7.2,Female,White,North West,34.24,Active,RECIPIENT_V4
+V31-A000022,V31-R000004,V31-DL000004,V31-H06,60,2023-07-20,2025-07-19,50,68,Living,Other,0,47,O,A,Standard compatible,6,0.66,7.2,Female,White,North West,34.24,Active,RECIPIENT_V4
+V31-A000023,V31-R000004,V31-DL000004,V31-H06,90,2023-08-19,2025-08-18,50,68,Living,Other,0,47,O,A,Standard compatible,6,0.66,7.2,Female,White,North West,34.24,Active,RECIPIENT_V4
+V31-A000024,V31-R000004,V31-DL000004,V31-H06,180,2023-11-17,2025-11-16,50,68,Living,Other,0,47,O,A,Standard compatible,6,0.66,7.2,Female,White,North West,34.24,Active,RECIPIENT_V4
+V31-A000025,V31-R000005,V31-DL000005,V31-H08,7,2023-03-07,2025-03-06,57,32,Living,Diabetic kidney disease,0,58,A,O,Managed incompatibility,4,0.15,8.5,Male,Asian,Northern Ireland,41.55,Active,RECIPIENT_V4
+V31-A000026,V31-R000005,V31-DL000005,V31-H08,14,2023-03-14,2025-03-13,57,32,Living,Diabetic kidney disease,0,58,A,O,Managed incompatibility,4,0.15,8.5,Male,Asian,Northern Ireland,41.55,Active,RECIPIENT_V4
+V31-A000027,V31-R000005,V31-DL000005,V31-H08,30,2023-03-30,2025-03-29,57,32,Living,Diabetic kidney disease,0,58,A,O,Managed incompatibility,4,0.15,8.5,Male,Asian,Northern Ireland,41.55,Active,RECIPIENT_V4
+V31-A000028,V31-R000005,V31-DL000005,V31-H08,60,2023-04-29,2025-04-28,57,32,Living,Diabetic kidney disease,0,58,A,O,Managed incompatibility,4,0.15,8.5,Male,Asian,Northern Ireland,41.55,Active,RECIPIENT_V4
+V31-A000029,V31-R000005,V31-DL000005,V31-H08,90,2023-05-29,2025-05-28,57,32,Living,Diabetic kidney disease,0,58,A,O,Managed incompatibility,4,0.15,8.5,Male,Asian,Northern Ireland,41.55,Active,RECIPIENT_V4
+V31-A000030,V31-R000005,V31-DL000005,V31-H08,180,2023-08-27,2025-08-26,57,32,Living,Diabetic kidney disease,0,58,A,O,Managed incompatibility,4,0.15,8.5,Male,Asian,Northern Ireland,41.55,Active,RECIPIENT_V4
+V31-A000031,V31-R000006,V31-DL000006,V31-H02,7,2023-05-19,2025-05-18,64,43,Living,Glomerulonephritis,0,69,B,AB,Standard compatible,2,0.52,9.8,Female,Black,Scotland,48.86,Active,RECIPIENT_V4
+V31-A000032,V31-R000006,V31-DL000006,V31-H02,14,2023-05-26,2025-05-25,64,43,Living,Glomerulonephritis,0,69,B,AB,Standard compatible,2,0.52,9.8,Female,Black,Scotland,48.86,Active,RECIPIENT_V4
+V31-A000033,V31-R000006,V31-DL000006,V31-H02,30,2023-06-11,2025-06-10,64,43,Living,Glomerulonephritis,0,69,B,AB,Standard compatible,2,0.52,9.8,Female,Black,Scotland,48.86,Active,RECIPIENT_V4
+V31-A000034,V31-R000006,V31-DL000006,V31-H02,60,2023-07-11,2025-07-10,64,43,Living,Glomerulonephritis,0,69,B,AB,Standard compatible,2,0.52,9.8,Female,Black,Scotland,48.86,Active,RECIPIENT_V4
+V31-A000035,V31-R000006,V31-DL000006,V31-H02,90,2023-08-10,2025-08-09,64,43,Living,Glomerulonephritis,0,69,B,AB,Standard compatible,2,0.52,9.8,Female,Black,Scotland,48.86,Active,RECIPIENT_V4
+V31-A000036,V31-R000006,V31-DL000006,V31-H02,180,2023-11-08,2025-11-07,64,43,Living,Glomerulonephritis,0,69,B,AB,Standard compatible,2,0.52,9.8,Female,Black,Scotland,48.86,Active,RECIPIENT_V4
+V31-A000037,V31-R000007,V31-DL000007,V31-H03,7,2023-04-29,2025-04-28,71,54,Living,Hypertensive kidney disease,0,10,AB,B,Managed incompatibility,0,0.89,11.1,Male,Mixed,Wales,56.17,Active,RECIPIENT_V4
+V31-A000038,V31-R000007,V31-DL000007,V31-H03,14,2023-05-06,2025-05-05,71,54,Living,Hypertensive kidney disease,0,10,AB,B,Managed incompatibility,0,0.89,11.1,Male,Mixed,Wales,56.17,Active,RECIPIENT_V4
+V31-A000039,V31-R000007,V31-DL000007,V31-H03,30,2023-05-22,2025-05-21,71,54,Living,Hypertensive kidney disease,0,10,AB,B,Managed incompatibility,0,0.89,11.1,Male,Mixed,Wales,56.17,Active,RECIPIENT_V4
+V31-A000040,V31-R000007,V31-DL000007,V31-H03,60,2023-06-21,2025-06-20,71,54,Living,Hypertensive kidney disease,0,10,AB,B,Managed incompatibility,0,0.89,11.1,Male,Mixed,Wales,56.17,Active,RECIPIENT_V4
+V31-A000041,V31-R000007,V31-DL000007,V31-H03,90,2023-07-21,2025-07-20,71,54,Living,Hypertensive kidney disease,0,10,AB,B,Managed incompatibility,0,0.89,11.1,Male,Mixed,Wales,56.17,Active,RECIPIENT_V4
+V31-A000042,V31-R000007,V31-DL000007,V31-H03,180,2023-10-19,2025-10-18,71,54,Living,Hypertensive kidney disease,0,10,AB,B,Managed incompatibility,0,0.89,11.1,Male,Mixed,Wales,56.17,Active,RECIPIENT_V4
+V31-A000043,V31-R000008,V31-DL000008,V31-H07,7,2023-05-27,2025-05-26,78,65,Living,Polycystic kidney disease,1,21,O,A,Standard compatible,6,0.9,12.4,Female,Other,London,63.48,Active,RECIPIENT_V4
+V31-A000044,V31-R000008,V31-DL000008,V31-H07,14,2023-06-03,2025-06-02,78,65,Living,Polycystic kidney disease,1,21,O,A,Standard compatible,6,0.9,12.4,Female,Other,London,63.48,Active,RECIPIENT_V4
+V31-A000045,V31-R000008,V31-DL000008,V31-H07,30,2023-06-19,2025-06-18,78,65,Living,Polycystic kidney disease,1,21,O,A,Standard compatible,6,0.9,12.4,Female,Other,London,63.48,Active,RECIPIENT_V4
+V31-A000046,V31-R000008,V31-DL000008,V31-H07,60,2023-07-19,2025-07-18,78,65,Living,Polycystic kidney disease,1,21,O,A,Standard compatible,6,0.9,12.4,Female,Other,London,63.48,Active,RECIPIENT_V4
+V31-A000047,V31-R000008,V31-DL000008,V31-H07,90,2023-08-18,2025-08-17,78,65,Living,Polycystic kidney disease,1,21,O,A,Standard compatible,6,0.9,12.4,Female,Other,London,63.48,Active,RECIPIENT_V4
+V31-A000048,V31-R000008,V31-DL000008,V31-H07,180,2023-11-16,2025-11-15,78,65,Living,Polycystic kidney disease,1,21,O,A,Standard compatible,6,0.9,12.4,Female,Other,London,63.48,Active,RECIPIENT_V4
+V31-A000049,V31-R000009,V31-DL000009,V31-H02,7,2023-02-05,2025-02-04,28,29,Living,Other,1,32,A,O,Managed incompatibility,3,0.75,13.7,Male,White,North West,70.79,Active,RECIPIENT_V2
+V31-A000050,V31-R000009,V31-DL000009,V31-H02,14,2023-02-12,2025-02-11,28,29,Living,Other,1,32,A,O,Managed incompatibility,3,0.75,13.7,Male,White,North West,70.79,Active,RECIPIENT_V3
+V31-A000051,V31-R000009,V31-DL000009,V31-H02,30,2023-02-28,2025-02-27,28,29,Living,Other,1,32,A,O,Managed incompatibility,3,0.75,13.7,Male,White,North West,70.79,Active,RECIPIENT_V3
+V31-A000052,V31-R000009,V31-DL000009,V31-H02,60,2023-03-30,2025-03-29,28,29,Living,Other,1,32,A,O,Managed incompatibility,3,0.75,13.7,Male,White,North West,70.79,Active,RECIPIENT_V4
+V31-A000053,V31-R000009,V31-DL000009,V31-H02,90,2023-04-29,2025-04-28,28,29,Living,Other,1,32,A,O,Managed incompatibility,3,0.75,13.7,Male,White,North West,70.79,Active,RECIPIENT_V4
+V31-A000054,V31-R000009,V31-DL000009,V31-H02,180,2023-07-28,2025-07-27,28,29,Living,Other,1,32,A,O,Managed incompatibility,3,0.75,13.7,Male,White,North West,70.79,Active,RECIPIENT_V4
+V31-A000055,V31-R000010,V31-DL000010,V31-H08,7,2023-01-16,2025-01-15,35,40,Living,Diabetic kidney disease,0,43,B,AB,Standard compatible,1,0.24,15.0,Female,Asian,Northern Ireland,78.1,Active,RECIPIENT_V2
+V31-A000056,V31-R000010,V31-DL000010,V31-H08,14,2023-01-23,2025-01-22,35,40,Living,Diabetic kidney disease,0,43,B,AB,Standard compatible,1,0.24,15.0,Female,Asian,Northern Ireland,78.1,Active,RECIPIENT_V2
+V31-A000057,V31-R000010,V31-DL000010,V31-H08,30,2023-02-08,2025-02-07,35,40,Living,Diabetic kidney disease,0,43,B,AB,Standard compatible,1,0.24,15.0,Female,Asian,Northern Ireland,78.1,Active,RECIPIENT_V2
+V31-A000058,V31-R000010,V31-DL000010,V31-H08,60,2023-03-10,2025-03-09,35,40,Living,Diabetic kidney disease,0,43,B,AB,Standard compatible,1,0.24,15.0,Female,Asian,Northern Ireland,78.1,Active,RECIPIENT_V4
+V31-A000059,V31-R000010,V31-DL000010,V31-H08,90,2023-04-09,2025-04-08,35,40,Living,Diabetic kidney disease,0,43,B,AB,Standard compatible,1,0.24,15.0,Female,Asian,Northern Ireland,78.1,Active,RECIPIENT_V4
+V31-A000060,V31-R000010,V31-DL000010,V31-H08,180,2023-07-08,2025-07-07,35,40,Living,Diabetic kidney disease,0,43,B,AB,Standard compatible,1,0.24,15.0,Female,Asian,Northern Ireland,78.1,Active,RECIPIENT_V4
+V31-A000061,V31-R000011,V31-DL000011,V31-H10,7,2023-05-03,2025-05-02,42,51,Living,Glomerulonephritis,0,54,AB,B,Managed incompatibility,6,0.61,16.3,Male,Black,Scotland,85.41,Active,RECIPIENT_V4
+V31-A000062,V31-R000011,V31-DL000011,V31-H10,14,2023-05-10,2025-05-09,42,51,Living,Glomerulonephritis,0,54,AB,B,Managed incompatibility,6,0.61,16.3,Male,Black,Scotland,85.41,Active,RECIPIENT_V4
+V31-A000063,V31-R000011,V31-DL000011,V31-H10,30,2023-05-26,2025-05-25,42,51,Living,Glomerulonephritis,0,54,AB,B,Managed incompatibility,6,0.61,16.3,Male,Black,Scotland,85.41,Active,RECIPIENT_V4
+V31-A000064,V31-R000011,V31-DL000011,V31-H10,60,2023-06-25,2025-06-24,42,51,Living,Glomerulonephritis,0,54,AB,B,Managed incompatibility,6,0.61,16.3,Male,Black,Scotland,85.41,Active,RECIPIENT_V4
+V31-A000065,V31-R000011,V31-DL000011,V31-H10,90,2023-07-25,2025-07-24,42,51,Living,Glomerulonephritis,0,54,AB,B,Managed incompatibility,6,0.61,16.3,Male,Black,Scotland,85.41,Active,RECIPIENT_V4
+V31-A000066,V31-R000011,V31-DL000011,V31-H10,180,2023-10-23,2025-10-22,42,51,Living,Glomerulonephritis,0,54,AB,B,Managed incompatibility,6,0.61,16.3,Male,Black,Scotland,85.41,Active,RECIPIENT_V4
+V31-A000067,V31-R000012,V31-DL000012,V31-H06,7,2023-04-17,2025-04-16,49,62,Living,Hypertensive kidney disease,0,65,O,A,Standard compatible,4,0.1,17.6,Female,Mixed,Wales,92.72,Active,RECIPIENT_V4
+V31-A000068,V31-R000012,V31-DL000012,V31-H06,14,2023-04-24,2025-04-23,49,62,Living,Hypertensive kidney disease,0,65,O,A,Standard compatible,4,0.1,17.6,Female,Mixed,Wales,92.72,Active,RECIPIENT_V4
+V31-A000069,V31-R000012,V31-DL000012,V31-H06,30,2023-05-10,2025-05-09,49,62,Living,Hypertensive kidney disease,0,65,O,A,Standard compatible,4,0.1,17.6,Female,Mixed,Wales,92.72,Active,RECIPIENT_V4
+V31-A000070,V31-R000012,V31-DL000012,V31-H06,60,2023-06-09,2025-06-08,49,62,Living,Hypertensive kidney disease,0,65,O,A,Standard compatible,4,0.1,17.6,Female,Mixed,Wales,92.72,Active,RECIPIENT_V4
+V31-A000071,V31-R000012,V31-DL000012,V31-H06,90,2023-07-09,2025-07-08,49,62,Living,Hypertensive kidney disease,0,65,O,A,Standard compatible,4,0.1,17.6,Female,Mixed,Wales,92.72,Active,RECIPIENT_V4
+V31-A000072,V31-R000012,V31-DL000012,V31-H06,180,2023-10-07,2025-10-06,49,62,Living,Hypertensive kidney disease,0,65,O,A,Standard compatible,4,0.1,17.6,Female,Mixed,Wales,92.72,Active,RECIPIENT_V4
+V31-A000073,V31-R000013,V31-DL000013,V31-H03,7,2023-02-02,2025-02-01,56,26,Living,Polycystic kidney disease,0,6,A,O,Managed incompatibility,2,0.47,18.9,Male,Other,London,100.03,Active,RECIPIENT_V2
+V31-A000074,V31-R000013,V31-DL000013,V31-H03,14,2023-02-09,2025-02-08,56,26,Living,Polycystic kidney disease,0,6,A,O,Managed incompatibility,2,0.47,18.9,Male,Other,London,100.03,Active,RECIPIENT_V3
+V31-A000075,V31-R000013,V31-DL000013,V31-H03,30,2023-02-25,2025-02-24,56,26,Living,Polycystic kidney disease,0,6,A,O,Managed incompatibility,2,0.47,18.9,Male,Other,London,100.03,Active,RECIPIENT_V3
+V31-A000076,V31-R000013,V31-DL000013,V31-H03,60,2023-03-27,2025-03-26,56,26,Living,Polycystic kidney disease,0,6,A,O,Managed incompatibility,2,0.47,18.9,Male,Other,London,100.03,Active,RECIPIENT_V4
+V31-A000077,V31-R000013,V31-DL000013,V31-H03,90,2023-04-26,2025-04-25,56,26,Living,Polycystic kidney disease,0,6,A,O,Managed incompatibility,2,0.47,18.9,Male,Other,London,100.03,Active,RECIPIENT_V4
+V31-A000078,V31-R000013,V31-DL000013,V31-H03,180,2023-07-25,2025-07-24,56,26,Living,Polycystic kidney disease,0,6,A,O,Managed incompatibility,2,0.47,18.9,Male,Other,London,100.03,Active,RECIPIENT_V4
+V31-A000079,V31-R000014,V31-DL000014,V31-H03,7,2023-03-03,2025-03-02,63,37,Living,Other,0,17,B,AB,Standard compatible,0,0.84,20.2,Female,White,North West,107.34,Active,RECIPIENT_V3
+V31-A000080,V31-R000014,V31-DL000014,V31-H03,14,2023-03-10,2025-03-09,63,37,Living,Other,0,17,B,AB,Standard compatible,0,0.84,20.2,Female,White,North West,107.34,Active,RECIPIENT_V4
+V31-A000081,V31-R000014,V31-DL000014,V31-H03,30,2023-03-26,2025-03-25,63,37,Living,Other,0,17,B,AB,Standard compatible,0,0.84,20.2,Female,White,North West,107.34,Active,RECIPIENT_V4
+V31-A000082,V31-R000014,V31-DL000014,V31-H03,60,2023-04-25,2025-04-24,63,37,Living,Other,0,17,B,AB,Standard compatible,0,0.84,20.2,Female,White,North West,107.34,Active,RECIPIENT_V4
+V31-A000083,V31-R000014,V31-DL000014,V31-H03,90,2023-05-25,2025-05-24,63,37,Living,Other,0,17,B,AB,Standard compatible,0,0.84,20.2,Female,White,North West,107.34,Active,RECIPIENT_V4
+V31-A000084,V31-R000014,V31-DL000014,V31-H03,180,2023-08-23,2025-08-22,63,37,Living,Other,0,17,B,AB,Standard compatible,0,0.84,20.2,Female,White,North West,107.34,Active,RECIPIENT_V4
+V31-A000085,V31-R000015,V31-DL000015,V31-H07,7,2023-02-12,2025-02-11,70,48,Living,Diabetic kidney disease,0,28,AB,B,Managed incompatibility,5,0.33,2.5,Male,Asian,Northern Ireland,114.65,Active,RECIPIENT_V3
+V31-A000086,V31-R000015,V31-DL000015,V31-H07,14,2023-02-19,2025-02-18,70,48,Living,Diabetic kidney disease,0,28,AB,B,Managed incompatibility,5,0.33,2.5,Male,Asian,Northern Ireland,114.65,Active,RECIPIENT_V3
+V31-A000087,V31-R000015,V31-DL000015,V31-H07,30,2023-03-07,2025-03-06,70,48,Living,Diabetic kidney disease,0,28,AB,B,Managed incompatibility,5,0.33,2.5,Male,Asian,Northern Ireland,114.65,Active,RECIPIENT_V4
+V31-A000088,V31-R000015,V31-DL000015,V31-H07,60,2023-04-06,2025-04-05,70,48,Living,Diabetic kidney disease,0,28,AB,B,Managed incompatibility,5,0.33,2.5,Male,Asian,Northern Ireland,114.65,Active,RECIPIENT_V4
+V31-A000089,V31-R000015,V31-DL000015,V31-H07,90,2023-05-06,2025-05-05,70,48,Living,Diabetic kidney disease,0,28,AB,B,Managed incompatibility,5,0.33,2.5,Male,Asian,Northern Ireland,114.65,Active,RECIPIENT_V4
+V31-A000090,V31-R000015,V31-DL000015,V31-H07,180,2023-08-04,2025-08-03,70,48,Living,Diabetic kidney disease,0,28,AB,B,Managed incompatibility,5,0.33,2.5,Male,Asian,Northern Ireland,114.65,Active,RECIPIENT_V4
+V31-A000091,V31-R000016,V31-DL000016,V31-H05,7,2023-02-09,2025-02-08,77,59,Living,Glomerulonephritis,0,39,O,A,Standard compatible,3,0.7,3.8,Female,Black,Scotland,121.96,Active,RECIPIENT_V3
+V31-A000092,V31-R000016,V31-DL000016,V31-H05,14,2023-02-16,2025-02-15,77,59,Living,Glomerulonephritis,0,39,O,A,Standard compatible,3,0.7,3.8,Female,Black,Scotland,121.96,Active,RECIPIENT_V3
+V31-A000093,V31-R000016,V31-DL000016,V31-H05,30,2023-03-04,2025-03-03,77,59,Living,Glomerulonephritis,0,39,O,A,Standard compatible,3,0.7,3.8,Female,Black,Scotland,121.96,Active,RECIPIENT_V3
+V31-A000094,V31-R000016,V31-DL000016,V31-H05,60,2023-04-03,2025-04-02,77,59,Living,Glomerulonephritis,0,39,O,A,Standard compatible,3,0.7,3.8,Female,Black,Scotland,121.96,Active,RECIPIENT_V4
+V31-A000095,V31-R000016,V31-DL000016,V31-H05,90,2023-05-03,2025-05-02,77,59,Living,Glomerulonephritis,0,39,O,A,Standard compatible,3,0.7,3.8,Female,Black,Scotland,121.96,Active,RECIPIENT_V4
+V31-A000096,V31-R000016,V31-DL000016,V31-H05,180,2023-08-01,2025-07-31,77,59,Living,Glomerulonephritis,0,39,O,A,Standard compatible,3,0.7,3.8,Female,Black,Scotland,121.96,Active,RECIPIENT_V4
+V31-A000097,V31-R000017,V31-DL000017,V31-H04,7,2023-02-08,2025-02-07,27,70,Living,Hypertensive kidney disease,0,50,A,O,Managed incompatibility,1,0.19,5.1,Male,Mixed,Wales,129.27,Active,RECIPIENT_V2
+V31-A000098,V31-R000017,V31-DL000017,V31-H04,14,2023-02-15,2025-02-14,27,70,Living,Hypertensive kidney disease,0,50,A,O,Managed incompatibility,1,0.19,5.1,Male,Mixed,Wales,129.27,Active,RECIPIENT_V3
+V31-A000099,V31-R000017,V31-DL000017,V31-H04,30,2023-03-03,2025-03-02,27,70,Living,Hypertensive kidney disease,0,50,A,O,Managed incompatibility,1,0.19,5.1,Male,Mixed,Wales,129.27,Active,RECIPIENT_V3
+V31-A000100,V31-R000017,V31-DL000017,V31-H04,60,2023-04-02,2025-04-01,27,70,Living,Hypertensive kidney disease,0,50,A,O,Managed incompatibility,1,0.19,5.1,Male,Mixed,Wales,129.27,Active,RECIPIENT_V4
+V31-A000101,V31-R000017,V31-DL000017,V31-H04,90,2023-05-02,2025-05-01,27,70,Living,Hypertensive kidney disease,0,50,A,O,Managed incompatibility,1,0.19,5.1,Male,Mixed,Wales,129.27,Active,RECIPIENT_V4
+V31-A000102,V31-R000017,V31-DL000017,V31-H04,180,2023-07-31,2025-07-30,27,70,Living,Hypertensive kidney disease,0,50,A,O,Managed incompatibility,1,0.19,5.1,Male,Mixed,Wales,129.27,Active,RECIPIENT_V4
+V31-A000103,V31-R000018,V31-DL000018,V31-H06,7,2023-04-23,2025-04-22,34,34,Living,Polycystic kidney disease,1,61,B,AB,Standard compatible,6,0.56,6.4,Female,Other,London,136.58,Active,RECIPIENT_V4
+V31-A000104,V31-R000018,V31-DL000018,V31-H06,14,2023-04-30,2025-04-29,34,34,Living,Polycystic kidney disease,1,61,B,AB,Standard compatible,6,0.56,6.4,Female,Other,London,136.58,Active,RECIPIENT_V4
+V31-A000105,V31-R000018,V31-DL000018,V31-H06,30,2023-05-16,2025-05-15,34,34,Living,Polycystic kidney disease,1,61,B,AB,Standard compatible,6,0.56,6.4,Female,Other,London,136.58,Active,RECIPIENT_V4
+V31-A000106,V31-R000018,V31-DL000018,V31-H06,60,2023-06-15,2025-06-14,34,34,Living,Polycystic kidney disease,1,61,B,AB,Standard compatible,6,0.56,6.4,Female,Other,London,136.58,Active,RECIPIENT_V4
+V31-A000107,V31-R000018,V31-DL000018,V31-H06,90,2023-07-15,2025-07-14,34,34,Living,Polycystic kidney disease,1,61,B,AB,Standard compatible,6,0.56,6.4,Female,Other,London,136.58,Active,RECIPIENT_V4
+V31-A000108,V31-R000018,V31-DL000018,V31-H06,180,2023-10-13,2025-10-12,34,34,Living,Polycystic kidney disease,1,61,B,AB,Standard compatible,6,0.56,6.4,Female,Other,London,136.58,Active,RECIPIENT_V4
+V31-A000109,V31-R000019,V31-DL000019,V31-H04,7,2023-01-20,2025-01-19,41,45,Living,Other,0,72,AB,B,Managed incompatibility,4,0.93,7.7,Male,White,North West,143.89,Active,RECIPIENT_V2
+V31-A000110,V31-R000019,V31-DL000019,V31-H04,14,2023-01-27,2025-01-26,41,45,Living,Other,0,72,AB,B,Managed incompatibility,4,0.93,7.7,Male,White,North West,143.89,Active,RECIPIENT_V2
+V31-A000111,V31-R000019,V31-DL000019,V31-H04,30,2023-02-12,2025-02-11,41,45,Living,Other,0,72,AB,B,Managed incompatibility,4,0.93,7.7,Male,White,North West,143.89,Active,RECIPIENT_V3
+V31-A000112,V31-R000019,V31-DL000019,V31-H04,60,2023-03-14,2025-03-13,41,45,Living,Other,0,72,AB,B,Managed incompatibility,4,0.93,7.7,Male,White,North West,143.89,Active,RECIPIENT_V4
+V31-A000113,V31-R000019,V31-DL000019,V31-H04,90,2023-04-13,2025-04-12,41,45,Living,Other,0,72,AB,B,Managed incompatibility,4,0.93,7.7,Male,White,North West,143.89,Active,RECIPIENT_V4
+V31-A000114,V31-R000019,V31-DL000019,V31-H04,180,2023-07-12,2025-07-11,41,45,Living,Other,0,72,AB,B,Managed incompatibility,4,0.93,7.7,Male,White,North West,143.89,Active,RECIPIENT_V4
+V31-A000115,V31-R000020,V31-DL000020,V31-H04,7,2023-02-25,2025-02-24,48,56,Living,Diabetic kidney disease,0,13,O,A,Standard compatible,2,0.42,9.0,Female,Asian,Northern Ireland,11.2,Active,RECIPIENT_V3
+V31-A000116,V31-R000020,V31-DL000020,V31-H04,14,2023-03-04,2025-03-03,48,56,Living,Diabetic kidney disease,0,13,O,A,Standard compatible,2,0.42,9.0,Female,Asian,Northern Ireland,11.2,Active,RECIPIENT_V3
+V31-A000117,V31-R000020,V31-DL000020,V31-H04,30,2023-03-20,2025-03-19,48,56,Living,Diabetic kidney disease,0,13,O,A,Standard compatible,2,0.42,9.0,Female,Asian,Northern Ireland,11.2,Active,RECIPIENT_V4
+V31-A000118,V31-R000020,V31-DL000020,V31-H04,60,2023-04-19,2025-04-18,48,56,Living,Diabetic kidney disease,0,13,O,A,Standard compatible,2,0.42,9.0,Female,Asian,Northern Ireland,11.2,Active,RECIPIENT_V4
+V31-A000119,V31-R000020,V31-DL000020,V31-H04,90,2023-05-19,2025-05-18,48,56,Living,Diabetic kidney disease,0,13,O,A,Standard compatible,2,0.42,9.0,Female,Asian,Northern Ireland,11.2,Active,RECIPIENT_V4
+V31-A000120,V31-R000020,V31-DL000020,V31-H04,180,2023-08-17,2025-08-16,48,56,Living,Diabetic kidney disease,0,13,O,A,Standard compatible,2,0.42,9.0,Female,Asian,Northern Ireland,11.2,Active,RECIPIENT_V4
+V31-A000121,V31-R000021,V31-DL000021,V31-H05,7,2023-03-10,2025-03-09,55,67,Living,Glomerulonephritis,0,24,A,O,Managed incompatibility,0,0.79,10.3,Male,Black,Scotland,18.51,Active,RECIPIENT_V4
+V31-A000122,V31-R000021,V31-DL000021,V31-H05,14,2023-03-17,2025-03-16,55,67,Living,Glomerulonephritis,0,24,A,O,Managed incompatibility,0,0.79,10.3,Male,Black,Scotland,18.51,Active,RECIPIENT_V4
+V31-A000123,V31-R000021,V31-DL000021,V31-H05,30,2023-04-02,2025-04-01,55,67,Living,Glomerulonephritis,0,24,A,O,Managed incompatibility,0,0.79,10.3,Male,Black,Scotland,18.51,Active,RECIPIENT_V4
+V31-A000124,V31-R000021,V31-DL000021,V31-H05,60,2023-05-02,2025-05-01,55,67,Living,Glomerulonephritis,0,24,A,O,Managed incompatibility,0,0.79,10.3,Male,Black,Scotland,18.51,Active,RECIPIENT_V4
+V31-A000125,V31-R000021,V31-DL000021,V31-H05,90,2023-06-01,2025-05-31,55,67,Living,Glomerulonephritis,0,24,A,O,Managed incompatibility,0,0.79,10.3,Male,Black,Scotland,18.51,Active,RECIPIENT_V4
+V31-A000126,V31-R000021,V31-DL000021,V31-H05,180,2023-08-30,2025-08-29,55,67,Living,Glomerulonephritis,0,24,A,O,Managed incompatibility,0,0.79,10.3,Male,Black,Scotland,18.51,Active,RECIPIENT_V4
+V31-A000127,V31-R000022,V31-DL000022,V31-H06,7,2023-05-22,2025-05-21,62,31,Living,Hypertensive kidney disease,0,35,B,AB,Standard compatible,5,0.28,11.6,Female,Mixed,Wales,25.82,Active,RECIPIENT_V4
+V31-A000128,V31-R000022,V31-DL000022,V31-H06,14,2023-05-29,2025-05-28,62,31,Living,Hypertensive kidney disease,0,35,B,AB,Standard compatible,5,0.28,11.6,Female,Mixed,Wales,25.82,Active,RECIPIENT_V4
+V31-A000129,V31-R000022,V31-DL000022,V31-H06,30,2023-06-14,2025-06-13,62,31,Living,Hypertensive kidney disease,0,35,B,AB,Standard compatible,5,0.28,11.6,Female,Mixed,Wales,25.82,Active,RECIPIENT_V4
+V31-A000130,V31-R000022,V31-DL000022,V31-H06,60,2023-07-14,2025-07-13,62,31,Living,Hypertensive kidney disease,0,35,B,AB,Standard compatible,5,0.28,11.6,Female,Mixed,Wales,25.82,Active,RECIPIENT_V4
+V31-A000131,V31-R000022,V31-DL000022,V31-H06,90,2023-08-13,2025-08-12,62,31,Living,Hypertensive kidney disease,0,35,B,AB,Standard compatible,5,0.28,11.6,Female,Mixed,Wales,25.82,Active,RECIPIENT_V4
+V31-A000132,V31-R000022,V31-DL000022,V31-H06,180,2023-11-11,2025-11-10,62,31,Living,Hypertensive kidney disease,0,35,B,AB,Standard compatible,5,0.28,11.6,Female,Mixed,Wales,25.82,Active,RECIPIENT_V4
+V31-A000133,V31-R000023,V31-DL000023,V31-H07,7,2023-03-18,2025-03-17,69,42,Living,Polycystic kidney disease,0,46,AB,B,Managed incompatibility,3,0.65,12.9,Male,Other,London,33.13,Active,RECIPIENT_V4
+V31-A000134,V31-R000023,V31-DL000023,V31-H07,14,2023-03-25,2025-03-24,69,42,Living,Polycystic kidney disease,0,46,AB,B,Managed incompatibility,3,0.65,12.9,Male,Other,London,33.13,Active,RECIPIENT_V4
+V31-A000135,V31-R000023,V31-DL000023,V31-H07,30,2023-04-10,2025-04-09,69,42,Living,Polycystic kidney disease,0,46,AB,B,Managed incompatibility,3,0.65,12.9,Male,Other,London,33.13,Active,RECIPIENT_V4
+V31-A000136,V31-R000023,V31-DL000023,V31-H07,60,2023-05-10,2025-05-09,69,42,Living,Polycystic kidney disease,0,46,AB,B,Managed incompatibility,3,0.65,12.9,Male,Other,London,33.13,Active,RECIPIENT_V4
+V31-A000137,V31-R000023,V31-DL000023,V31-H07,90,2023-06-09,2025-06-08,69,42,Living,Polycystic kidney disease,0,46,AB,B,Managed incompatibility,3,0.65,12.9,Male,Other,London,33.13,Active,RECIPIENT_V4
+V31-A000138,V31-R000023,V31-DL000023,V31-H07,180,2023-09-07,2025-09-06,69,42,Living,Polycystic kidney disease,0,46,AB,B,Managed incompatibility,3,0.65,12.9,Male,Other,London,33.13,Active,RECIPIENT_V4
+V31-A000139,V31-R000024,V31-DL000024,V31-H10,7,2023-03-16,2025-03-15,76,53,Living,Other,0,57,O,A,Standard compatible,1,0.14,14.2,Female,White,North West,40.44,Active,RECIPIENT_V4
+V31-A000140,V31-R000024,V31-DL000024,V31-H10,14,2023-03-23,2025-03-22,76,53,Living,Other,0,57,O,A,Standard compatible,1,0.14,14.2,Female,White,North West,40.44,Active,RECIPIENT_V4
+V31-A000141,V31-R000024,V31-DL000024,V31-H10,30,2023-04-08,2025-04-07,76,53,Living,Other,0,57,O,A,Standard compatible,1,0.14,14.2,Female,White,North West,40.44,Active,RECIPIENT_V4
+V31-A000142,V31-R000024,V31-DL000024,V31-H10,60,2023-05-08,2025-05-07,76,53,Living,Other,0,57,O,A,Standard compatible,1,0.14,14.2,Female,White,North West,40.44,Active,RECIPIENT_V4
+V31-A000143,V31-R000024,V31-DL000024,V31-H10,90,2023-06-07,2025-06-06,76,53,Living,Other,0,57,O,A,Standard compatible,1,0.14,14.2,Female,White,North West,40.44,Active,RECIPIENT_V4
+V31-A000144,V31-R000024,V31-DL000024,V31-H10,180,2023-09-05,2025-09-04,76,53,Living,Other,0,57,O,A,Standard compatible,1,0.14,14.2,Female,White,North West,40.44,Active,RECIPIENT_V4
+V31-A000145,V31-R000025,V31-DL000025,V31-H01,7,2023-05-21,2025-05-20,26,64,Living,Diabetic kidney disease,0,68,A,O,Managed incompatibility,6,0.51,15.5,Male,Asian,Northern Ireland,47.75,Active,RECIPIENT_V4
+V31-A000146,V31-R000025,V31-DL000025,V31-H01,14,2023-05-28,2025-05-27,26,64,Living,Diabetic kidney disease,0,68,A,O,Managed incompatibility,6,0.51,15.5,Male,Asian,Northern Ireland,47.75,Active,RECIPIENT_V4
+V31-A000147,V31-R000025,V31-DL000025,V31-H01,30,2023-06-13,2025-06-12,26,64,Living,Diabetic kidney disease,0,68,A,O,Managed incompatibility,6,0.51,15.5,Male,Asian,Northern Ireland,47.75,Active,RECIPIENT_V4
+V31-A000148,V31-R000025,V31-DL000025,V31-H01,60,2023-07-13,2025-07-12,26,64,Living,Diabetic kidney disease,0,68,A,O,Managed incompatibility,6,0.51,15.5,Male,Asian,Northern Ireland,47.75,Active,RECIPIENT_V4
+V31-A000149,V31-R000025,V31-DL000025,V31-H01,90,2023-08-12,2025-08-11,26,64,Living,Diabetic kidney disease,0,68,A,O,Managed incompatibility,6,0.51,15.5,Male,Asian,Northern Ireland,47.75,Active,RECIPIENT_V4
+V31-A000150,V31-R000025,V31-DL000025,V31-H01,180,2023-11-10,2025-11-09,26,64,Living,Diabetic kidney disease,0,68,A,O,Managed incompatibility,6,0.51,15.5,Male,Asian,Northern Ireland,47.75,Active,RECIPIENT_V4
+V31-A000151,V31-R000026,V31-DL000026,V31-H02,7,2023-03-19,2025-03-18,33,28,Living,Glomerulonephritis,0,9,B,AB,Standard compatible,4,0.88,16.8,Female,Black,Scotland,55.06,Active,RECIPIENT_V4
+V31-A000152,V31-R000026,V31-DL000026,V31-H02,14,2023-03-26,2025-03-25,33,28,Living,Glomerulonephritis,0,9,B,AB,Standard compatible,4,0.88,16.8,Female,Black,Scotland,55.06,Active,RECIPIENT_V4
+V31-A000153,V31-R000026,V31-DL000026,V31-H02,30,2023-04-11,2025-04-10,33,28,Living,Glomerulonephritis,0,9,B,AB,Standard compatible,4,0.88,16.8,Female,Black,Scotland,55.06,Active,RECIPIENT_V4
+V31-A000154,V31-R000026,V31-DL000026,V31-H02,60,2023-05-11,2025-05-10,33,28,Living,Glomerulonephritis,0,9,B,AB,Standard compatible,4,0.88,16.8,Female,Black,Scotland,55.06,Active,RECIPIENT_V4
+V31-A000155,V31-R000026,V31-DL000026,V31-H02,90,2023-06-10,2025-06-09,33,28,Living,Glomerulonephritis,0,9,B,AB,Standard compatible,4,0.88,16.8,Female,Black,Scotland,55.06,Active,RECIPIENT_V4
+V31-A000156,V31-R000026,V31-DL000026,V31-H02,180,2023-09-08,2025-09-07,33,28,Living,Glomerulonephritis,0,9,B,AB,Standard compatible,4,0.88,16.8,Female,Black,Scotland,55.06,Active,RECIPIENT_V4
+V31-A000157,V31-R000027,V31-DL000027,V31-H02,7,2023-02-16,2025-02-15,40,39,Living,Hypertensive kidney disease,1,20,AB,B,Managed incompatibility,2,0.37,18.1,Male,Mixed,Wales,62.37,Active,RECIPIENT_V3
+V31-A000158,V31-R000027,V31-DL000027,V31-H02,14,2023-02-23,2025-02-22,40,39,Living,Hypertensive kidney disease,1,20,AB,B,Managed incompatibility,2,0.37,18.1,Male,Mixed,Wales,62.37,Active,RECIPIENT_V3
+V31-A000159,V31-R000027,V31-DL000027,V31-H02,30,2023-03-11,2025-03-10,40,39,Living,Hypertensive kidney disease,1,20,AB,B,Managed incompatibility,2,0.37,18.1,Male,Mixed,Wales,62.37,Active,RECIPIENT_V4
+V31-A000160,V31-R000027,V31-DL000027,V31-H02,60,2023-04-10,2025-04-09,40,39,Living,Hypertensive kidney disease,1,20,AB,B,Managed incompatibility,2,0.37,18.1,Male,Mixed,Wales,62.37,Active,RECIPIENT_V4
+V31-A000161,V31-R000027,V31-DL000027,V31-H02,90,2023-05-10,2025-05-09,40,39,Living,Hypertensive kidney disease,1,20,AB,B,Managed incompatibility,2,0.37,18.1,Male,Mixed,Wales,62.37,Active,RECIPIENT_V4
+V31-A000162,V31-R000027,V31-DL000027,V31-H02,180,2023-08-08,2025-08-07,40,39,Living,Hypertensive kidney disease,1,20,AB,B,Managed incompatibility,2,0.37,18.1,Male,Mixed,Wales,62.37,Active,RECIPIENT_V4
+V31-A000163,V31-R000028,V31-DL000028,V31-H03,7,2023-05-13,2025-05-12,47,50,Living,Polycystic kidney disease,0,31,O,A,Standard compatible,0,0.74,19.4,Female,Other,London,69.68,Active,RECIPIENT_V4
+V31-A000164,V31-R000028,V31-DL000028,V31-H03,14,2023-05-20,2025-05-19,47,50,Living,Polycystic kidney disease,0,31,O,A,Standard compatible,0,0.74,19.4,Female,Other,London,69.68,Active,RECIPIENT_V4
+V31-A000165,V31-R000028,V31-DL000028,V31-H03,30,2023-06-05,2025-06-04,47,50,Living,Polycystic kidney disease,0,31,O,A,Standard compatible,0,0.74,19.4,Female,Other,London,69.68,Active,RECIPIENT_V4
+V31-A000166,V31-R000028,V31-DL000028,V31-H03,60,2023-07-05,2025-07-04,47,50,Living,Polycystic kidney disease,0,31,O,A,Standard compatible,0,0.74,19.4,Female,Other,London,69.68,Active,RECIPIENT_V4
+V31-A000167,V31-R000028,V31-DL000028,V31-H03,90,2023-08-04,2025-08-03,47,50,Living,Polycystic kidney disease,0,31,O,A,Standard compatible,0,0.74,19.4,Female,Other,London,69.68,Active,RECIPIENT_V4
+V31-A000168,V31-R000028,V31-DL000028,V31-H03,180,2023-11-02,2025-11-01,47,50,Living,Polycystic kidney disease,0,31,O,A,Standard compatible,0,0.74,19.4,Female,Other,London,69.68,Active,RECIPIENT_V4
+V31-A000169,V31-R000029,V31-DL000029,V31-H05,7,2023-03-06,2025-03-05,54,61,Living,Other,0,42,A,O,Managed incompatibility,5,0.23,20.7,Male,White,North West,76.99,Active,RECIPIENT_V3
+V31-A000170,V31-R000029,V31-DL000029,V31-H05,14,2023-03-13,2025-03-12,54,61,Living,Other,0,42,A,O,Managed incompatibility,5,0.23,20.7,Male,White,North West,76.99,Active,RECIPIENT_V4
+V31-A000171,V31-R000029,V31-DL000029,V31-H05,30,2023-03-29,2025-03-28,54,61,Living,Other,0,42,A,O,Managed incompatibility,5,0.23,20.7,Male,White,North West,76.99,Active,RECIPIENT_V4
+V31-A000172,V31-R000029,V31-DL000029,V31-H05,60,2023-04-28,2025-04-27,54,61,Living,Other,0,42,A,O,Managed incompatibility,5,0.23,20.7,Male,White,North West,76.99,Active,RECIPIENT_V4
+V31-A000173,V31-R000029,V31-DL000029,V31-H05,90,2023-05-28,2025-05-27,54,61,Living,Other,0,42,A,O,Managed incompatibility,5,0.23,20.7,Male,White,North West,76.99,Active,RECIPIENT_V4
+V31-A000174,V31-R000029,V31-DL000029,V31-H05,180,2023-08-26,2025-08-25,54,61,Living,Other,0,42,A,O,Managed incompatibility,5,0.23,20.7,Male,White,North West,76.99,Active,RECIPIENT_V4
+V31-A000175,V31-R000030,V31-DL000030,V31-H02,7,2023-02-01,2025-01-31,61,25,Living,Diabetic kidney disease,0,53,B,AB,Standard compatible,3,0.6,3.0,Female,Asian,Northern Ireland,84.3,Active,RECIPIENT_V2
+V31-A000176,V31-R000030,V31-DL000030,V31-H02,14,2023-02-08,2025-02-07,61,25,Living,Diabetic kidney disease,0,53,B,AB,Standard compatible,3,0.6,3.0,Female,Asian,Northern Ireland,84.3,Active,RECIPIENT_V2
+V31-A000177,V31-R000030,V31-DL000030,V31-H02,30,2023-02-24,2025-02-23,61,25,Living,Diabetic kidney disease,0,53,B,AB,Standard compatible,3,0.6,3.0,Female,Asian,Northern Ireland,84.3,Active,RECIPIENT_V3
+V31-A000178,V31-R000030,V31-DL000030,V31-H02,60,2023-03-26,2025-03-25,61,25,Living,Diabetic kidney disease,0,53,B,AB,Standard compatible,3,0.6,3.0,Female,Asian,Northern Ireland,84.3,Active,RECIPIENT_V4
+V31-A000179,V31-R000030,V31-DL000030,V31-H02,90,2023-04-25,2025-04-24,61,25,Living,Diabetic kidney disease,0,53,B,AB,Standard compatible,3,0.6,3.0,Female,Asian,Northern Ireland,84.3,Active,RECIPIENT_V4
+V31-A000180,V31-R000030,V31-DL000030,V31-H02,180,2023-07-24,2025-07-23,61,25,Living,Diabetic kidney disease,0,53,B,AB,Standard compatible,3,0.6,3.0,Female,Asian,Northern Ireland,84.3,Active,RECIPIENT_V4
+V31-A000181,V31-R000031,V31-DL000031,V31-H01,7,2023-02-13,2025-02-12,68,36,Living,Glomerulonephritis,0,64,AB,B,Managed incompatibility,1,0.09,4.3,Male,Black,Scotland,91.61,Active,RECIPIENT_V3
+V31-A000182,V31-R000031,V31-DL000031,V31-H01,14,2023-02-20,2025-02-19,68,36,Living,Glomerulonephritis,0,64,AB,B,Managed incompatibility,1,0.09,4.3,Male,Black,Scotland,91.61,Active,RECIPIENT_V3
+V31-A000183,V31-R000031,V31-DL000031,V31-H01,30,2023-03-08,2025-03-07,68,36,Living,Glomerulonephritis,0,64,AB,B,Managed incompatibility,1,0.09,4.3,Male,Black,Scotland,91.61,Active,RECIPIENT_V4
+V31-A000184,V31-R000031,V31-DL000031,V31-H01,60,2023-04-07,2025-04-06,68,36,Living,Glomerulonephritis,0,64,AB,B,Managed incompatibility,1,0.09,4.3,Male,Black,Scotland,91.61,Active,RECIPIENT_V4
+V31-A000185,V31-R000031,V31-DL000031,V31-H01,90,2023-05-07,2025-05-06,68,36,Living,Glomerulonephritis,0,64,AB,B,Managed incompatibility,1,0.09,4.3,Male,Black,Scotland,91.61,Active,RECIPIENT_V4
+V31-A000186,V31-R000031,V31-DL000031,V31-H01,180,2023-08-05,2025-08-04,68,36,Living,Glomerulonephritis,0,64,AB,B,Managed incompatibility,1,0.09,4.3,Male,Black,Scotland,91.61,Active,RECIPIENT_V4
+V31-A000187,V31-R000032,V31-DL000032,V31-H03,7,2023-05-24,2025-05-23,75,47,Living,Hypertensive kidney disease,0,5,O,A,Standard compatible,6,0.46,5.6,Female,Mixed,Wales,98.92,Active,RECIPIENT_V4
+V31-A000188,V31-R000032,V31-DL000032,V31-H03,14,2023-05-31,2025-05-30,75,47,Living,Hypertensive kidney disease,0,5,O,A,Standard compatible,6,0.46,5.6,Female,Mixed,Wales,98.92,Active,RECIPIENT_V4
+V31-A000189,V31-R000032,V31-DL000032,V31-H03,30,2023-06-16,2025-06-15,75,47,Living,Hypertensive kidney disease,0,5,O,A,Standard compatible,6,0.46,5.6,Female,Mixed,Wales,98.92,Active,RECIPIENT_V4
+V31-A000190,V31-R000032,V31-DL000032,V31-H03,60,2023-07-16,2025-07-15,75,47,Living,Hypertensive kidney disease,0,5,O,A,Standard compatible,6,0.46,5.6,Female,Mixed,Wales,98.92,Active,RECIPIENT_V4
+V31-A000191,V31-R000032,V31-DL000032,V31-H03,90,2023-08-15,2025-08-14,75,47,Living,Hypertensive kidney disease,0,5,O,A,Standard compatible,6,0.46,5.6,Female,Mixed,Wales,98.92,Active,RECIPIENT_V4
+V31-A000192,V31-R000032,V31-DL000032,V31-H03,180,2023-11-13,2025-11-12,75,47,Living,Hypertensive kidney disease,0,5,O,A,Standard compatible,6,0.46,5.6,Female,Mixed,Wales,98.92,Active,RECIPIENT_V4
+V31-A000193,V31-R000033,V31-DL000033,V31-H08,7,2023-05-07,2025-05-06,25,58,Living,Polycystic kidney disease,0,16,A,O,Managed incompatibility,4,0.83,6.9,Male,Other,London,106.23,Active,RECIPIENT_V4
+V31-A000194,V31-R000033,V31-DL000033,V31-H08,14,2023-05-14,2025-05-13,25,58,Living,Polycystic kidney disease,0,16,A,O,Managed incompatibility,4,0.83,6.9,Male,Other,London,106.23,Active,RECIPIENT_V4
+V31-A000195,V31-R000033,V31-DL000033,V31-H08,30,2023-05-30,2025-05-29,25,58,Living,Polycystic kidney disease,0,16,A,O,Managed incompatibility,4,0.83,6.9,Male,Other,London,106.23,Active,RECIPIENT_V4
+V31-A000196,V31-R000033,V31-DL000033,V31-H08,60,2023-06-29,2025-06-28,25,58,Living,Polycystic kidney disease,0,16,A,O,Managed incompatibility,4,0.83,6.9,Male,Other,London,106.23,Active,RECIPIENT_V4
+V31-A000197,V31-R000033,V31-DL000033,V31-H08,90,2023-07-29,2025-07-28,25,58,Living,Polycystic kidney disease,0,16,A,O,Managed incompatibility,4,0.83,6.9,Male,Other,London,106.23,Active,RECIPIENT_V4
+V31-A000198,V31-R000033,V31-DL000033,V31-H08,180,2023-10-27,2025-10-26,25,58,Living,Polycystic kidney disease,0,16,A,O,Managed incompatibility,4,0.83,6.9,Male,Other,London,106.23,Active,RECIPIENT_V4
+V31-A000199,V31-R000034,V31-DL000034,V31-H02,7,2023-02-10,2025-02-09,32,69,Living,Other,0,27,B,AB,Standard compatible,2,0.32,8.2,Female,White,North West,113.54,Active,RECIPIENT_V3
+V31-A000200,V31-R000034,V31-DL000034,V31-H02,14,2023-02-17,2025-02-16,32,69,Living,Other,0,27,B,AB,Standard compatible,2,0.32,8.2,Female,White,North West,113.54,Active,RECIPIENT_V3
+V31-A000201,V31-R000034,V31-DL000034,V31-H02,30,2023-03-05,2025-03-04,32,69,Living,Other,0,27,B,AB,Standard compatible,2,0.32,8.2,Female,White,North West,113.54,Active,RECIPIENT_V3
+V31-A000202,V31-R000034,V31-DL000034,V31-H02,60,2023-04-04,2025-04-03,32,69,Living,Other,0,27,B,AB,Standard compatible,2,0.32,8.2,Female,White,North West,113.54,Active,RECIPIENT_V4
+V31-A000203,V31-R000034,V31-DL000034,V31-H02,90,2023-05-04,2025-05-03,32,69,Living,Other,0,27,B,AB,Standard compatible,2,0.32,8.2,Female,White,North West,113.54,Active,RECIPIENT_V4
+V31-A000204,V31-R000034,V31-DL000034,V31-H02,180,2023-08-02,2025-08-01,32,69,Living,Other,0,27,B,AB,Standard compatible,2,0.32,8.2,Female,White,North West,113.54,Active,RECIPIENT_V4
+V31-A000205,V31-R000035,V31-DL000035,V31-H05,7,2023-03-20,2025-03-19,39,33,Living,Diabetic kidney disease,0,38,AB,B,Managed incompatibility,0,0.69,9.5,Male,Asian,Northern Ireland,120.85,Active,RECIPIENT_V4
+V31-A000206,V31-R000035,V31-DL000035,V31-H05,14,2023-03-27,2025-03-26,39,33,Living,Diabetic kidney disease,0,38,AB,B,Managed incompatibility,0,0.69,9.5,Male,Asian,Northern Ireland,120.85,Active,RECIPIENT_V4
+V31-A000207,V31-R000035,V31-DL000035,V31-H05,30,2023-04-12,2025-04-11,39,33,Living,Diabetic kidney disease,0,38,AB,B,Managed incompatibility,0,0.69,9.5,Male,Asian,Northern Ireland,120.85,Active,RECIPIENT_V4
+V31-A000208,V31-R000035,V31-DL000035,V31-H05,60,2023-05-12,2025-05-11,39,33,Living,Diabetic kidney disease,0,38,AB,B,Managed incompatibility,0,0.69,9.5,Male,Asian,Northern Ireland,120.85,Active,RECIPIENT_V4
+V31-A000209,V31-R000035,V31-DL000035,V31-H05,90,2023-06-11,2025-06-10,39,33,Living,Diabetic kidney disease,0,38,AB,B,Managed incompatibility,0,0.69,9.5,Male,Asian,Northern Ireland,120.85,Active,RECIPIENT_V4
+V31-A000210,V31-R000035,V31-DL000035,V31-H05,180,2023-09-09,2025-09-08,39,33,Living,Diabetic kidney disease,0,38,AB,B,Managed incompatibility,0,0.69,9.5,Male,Asian,Northern Ireland,120.85,Active,RECIPIENT_V4
+V31-A000211,V31-R000036,V31-DL000036,V31-H01,7,2023-04-18,2025-04-17,46,44,Living,Glomerulonephritis,1,49,O,A,Standard compatible,5,0.18,10.8,Female,Black,Scotland,128.16,Active,RECIPIENT_V4
+V31-A000212,V31-R000036,V31-DL000036,V31-H01,14,2023-04-25,2025-04-24,46,44,Living,Glomerulonephritis,1,49,O,A,Standard compatible,5,0.18,10.8,Female,Black,Scotland,128.16,Active,RECIPIENT_V4
+V31-A000213,V31-R000036,V31-DL000036,V31-H01,30,2023-05-11,2025-05-10,46,44,Living,Glomerulonephritis,1,49,O,A,Standard compatible,5,0.18,10.8,Female,Black,Scotland,128.16,Active,RECIPIENT_V4
+V31-A000214,V31-R000036,V31-DL000036,V31-H01,60,2023-06-10,2025-06-09,46,44,Living,Glomerulonephritis,1,49,O,A,Standard compatible,5,0.18,10.8,Female,Black,Scotland,128.16,Active,RECIPIENT_V4
+V31-A000215,V31-R000036,V31-DL000036,V31-H01,90,2023-07-10,2025-07-09,46,44,Living,Glomerulonephritis,1,49,O,A,Standard compatible,5,0.18,10.8,Female,Black,Scotland,128.16,Active,RECIPIENT_V4
+V31-A000216,V31-R000036,V31-DL000036,V31-H01,180,2023-10-08,2025-10-07,46,44,Living,Glomerulonephritis,1,49,O,A,Standard compatible,5,0.18,10.8,Female,Black,Scotland,128.16,Active,RECIPIENT_V4
+V31-A000217,V31-R000037,V31-DL000037,V31-H04,7,2023-02-04,2025-02-03,53,55,Living,Hypertensive kidney disease,0,60,A,O,Managed incompatibility,3,0.55,12.1,Male,Mixed,Wales,135.47,Active,RECIPIENT_V2
+V31-A000218,V31-R000037,V31-DL000037,V31-H04,14,2023-02-11,2025-02-10,53,55,Living,Hypertensive kidney disease,0,60,A,O,Managed incompatibility,3,0.55,12.1,Male,Mixed,Wales,135.47,Active,RECIPIENT_V3
+V31-A000219,V31-R000037,V31-DL000037,V31-H04,30,2023-02-27,2025-02-26,53,55,Living,Hypertensive kidney disease,0,60,A,O,Managed incompatibility,3,0.55,12.1,Male,Mixed,Wales,135.47,Active,RECIPIENT_V3
+V31-A000220,V31-R000037,V31-DL000037,V31-H04,60,2023-03-29,2025-03-28,53,55,Living,Hypertensive kidney disease,0,60,A,O,Managed incompatibility,3,0.55,12.1,Male,Mixed,Wales,135.47,Active,RECIPIENT_V4
+V31-A000221,V31-R000037,V31-DL000037,V31-H04,90,2023-04-28,2025-04-27,53,55,Living,Hypertensive kidney disease,0,60,A,O,Managed incompatibility,3,0.55,12.1,Male,Mixed,Wales,135.47,Active,RECIPIENT_V4
+V31-A000222,V31-R000037,V31-DL000037,V31-H04,180,2023-07-27,2025-07-26,53,55,Living,Hypertensive kidney disease,0,60,A,O,Managed incompatibility,3,0.55,12.1,Male,Mixed,Wales,135.47,Active,RECIPIENT_V4
+V31-A000223,V31-R000038,V31-DL000038,V31-H06,7,2023-05-10,2025-05-09,60,66,Living,Polycystic kidney disease,0,71,B,AB,Standard compatible,1,0.92,13.4,Female,Other,London,142.78,Active,RECIPIENT_V4
+V31-A000224,V31-R000038,V31-DL000038,V31-H06,14,2023-05-17,2025-05-16,60,66,Living,Polycystic kidney disease,0,71,B,AB,Standard compatible,1,0.92,13.4,Female,Other,London,142.78,Active,RECIPIENT_V4
+V31-A000225,V31-R000038,V31-DL000038,V31-H06,30,2023-06-02,2025-06-01,60,66,Living,Polycystic kidney disease,0,71,B,AB,Standard compatible,1,0.92,13.4,Female,Other,London,142.78,Active,RECIPIENT_V4
+V31-A000226,V31-R000038,V31-DL000038,V31-H06,60,2023-07-02,2025-07-01,60,66,Living,Polycystic kidney disease,0,71,B,AB,Standard compatible,1,0.92,13.4,Female,Other,London,142.78,Active,RECIPIENT_V4
+V31-A000227,V31-R000038,V31-DL000038,V31-H06,90,2023-08-01,2025-07-31,60,66,Living,Polycystic kidney disease,0,71,B,AB,Standard compatible,1,0.92,13.4,Female,Other,London,142.78,Active,RECIPIENT_V4
+V31-A000228,V31-R000038,V31-DL000038,V31-H06,180,2023-10-30,2025-10-29,60,66,Living,Polycystic kidney disease,0,71,B,AB,Standard compatible,1,0.92,13.4,Female,Other,London,142.78,Active,RECIPIENT_V4
+V31-A000229,V31-R000039,V31-DL000039,V31-H05,7,2023-01-29,2025-01-28,67,30,Living,Other,0,12,AB,B,Managed incompatibility,6,0.41,14.7,Male,White,North West,10.09,Active,RECIPIENT_V2
+V31-A000230,V31-R000039,V31-DL000039,V31-H05,14,2023-02-05,2025-02-04,67,30,Living,Other,0,12,AB,B,Managed incompatibility,6,0.41,14.7,Male,White,North West,10.09,Active,RECIPIENT_V2
+V31-A000231,V31-R000039,V31-DL000039,V31-H05,30,2023-02-21,2025-02-20,67,30,Living,Other,0,12,AB,B,Managed incompatibility,6,0.41,14.7,Male,White,North West,10.09,Active,RECIPIENT_V3
+V31-A000232,V31-R000039,V31-DL000039,V31-H05,60,2023-03-23,2025-03-22,67,30,Living,Other,0,12,AB,B,Managed incompatibility,6,0.41,14.7,Male,White,North West,10.09,Active,RECIPIENT_V4
+V31-A000233,V31-R000039,V31-DL000039,V31-H05,90,2023-04-22,2025-04-21,67,30,Living,Other,0,12,AB,B,Managed incompatibility,6,0.41,14.7,Male,White,North West,10.09,Active,RECIPIENT_V4
+V31-A000234,V31-R000039,V31-DL000039,V31-H05,180,2023-07-21,2025-07-20,67,30,Living,Other,0,12,AB,B,Managed incompatibility,6,0.41,14.7,Male,White,North West,10.09,Active,RECIPIENT_V4
+V31-A000235,V31-R000040,V31-DL000040,V31-H01,7,2023-05-02,2025-05-01,74,41,Living,Diabetic kidney disease,0,23,O,A,Standard compatible,4,0.78,16.0,Female,Asian,Northern Ireland,17.4,Active,RECIPIENT_V4
+V31-A000236,V31-R000040,V31-DL000040,V31-H01,14,2023-05-09,2025-05-08,74,41,Living,Diabetic kidney disease,0,23,O,A,Standard compatible,4,0.78,16.0,Female,Asian,Northern Ireland,17.4,Active,RECIPIENT_V4
+V31-A000237,V31-R000040,V31-DL000040,V31-H01,30,2023-05-25,2025-05-24,74,41,Living,Diabetic kidney disease,0,23,O,A,Standard compatible,4,0.78,16.0,Female,Asian,Northern Ireland,17.4,Active,RECIPIENT_V4
+V31-A000238,V31-R000040,V31-DL000040,V31-H01,60,2023-06-24,2025-06-23,74,41,Living,Diabetic kidney disease,0,23,O,A,Standard compatible,4,0.78,16.0,Female,Asian,Northern Ireland,17.4,Active,RECIPIENT_V4
+V31-A000239,V31-R000040,V31-DL000040,V31-H01,90,2023-07-24,2025-07-23,74,41,Living,Diabetic kidney disease,0,23,O,A,Standard compatible,4,0.78,16.0,Female,Asian,Northern Ireland,17.4,Active,RECIPIENT_V4
+V31-A000240,V31-R000040,V31-DL000040,V31-H01,180,2023-10-22,2025-10-21,74,41,Living,Diabetic kidney disease,0,23,O,A,Standard compatible,4,0.78,16.0,Female,Asian,Northern Ireland,17.4,Active,RECIPIENT_V4
+V31-A000241,V31-R000041,V31-DS000001,V31-H02,7,2023-03-23,2025-03-22,24,35,Deceased,Glomerulonephritis,0,34,A,O,Managed incompatibility,2,0.27,17.3,Male,Black,Scotland,24.71,Active,RECIPIENT_V4
+V31-A000242,V31-R000041,V31-DS000001,V31-H02,14,2023-03-30,2025-03-29,24,35,Deceased,Glomerulonephritis,0,34,A,O,Managed incompatibility,2,0.27,17.3,Male,Black,Scotland,24.71,Active,RECIPIENT_V4
+V31-A000243,V31-R000041,V31-DS000001,V31-H02,30,2023-04-15,2025-04-14,24,35,Deceased,Glomerulonephritis,0,34,A,O,Managed incompatibility,2,0.27,17.3,Male,Black,Scotland,24.71,Active,RECIPIENT_V4
+V31-A000244,V31-R000041,V31-DS000001,V31-H02,60,2023-05-15,2025-05-14,24,35,Deceased,Glomerulonephritis,0,34,A,O,Managed incompatibility,2,0.27,17.3,Male,Black,Scotland,24.71,Active,RECIPIENT_V4
+V31-A000245,V31-R000041,V31-DS000001,V31-H02,90,2023-06-14,2025-06-13,24,35,Deceased,Glomerulonephritis,0,34,A,O,Managed incompatibility,2,0.27,17.3,Male,Black,Scotland,24.71,Active,RECIPIENT_V4
+V31-A000246,V31-R000041,V31-DS000001,V31-H02,180,2023-09-12,2025-09-11,24,35,Deceased,Glomerulonephritis,0,34,A,O,Managed incompatibility,2,0.27,17.3,Male,Black,Scotland,24.71,Active,RECIPIENT_V4
+V31-A000247,V31-R000042,V31-DS000002,V31-H01,7,2023-04-05,2025-04-04,31,46,Deceased,Hypertensive kidney disease,0,45,B,AB,Standard compatible,0,0.64,18.6,Female,Mixed,Wales,32.02,Active,RECIPIENT_V4
+V31-A000248,V31-R000042,V31-DS000002,V31-H01,14,2023-04-12,2025-04-11,31,46,Deceased,Hypertensive kidney disease,0,45,B,AB,Standard compatible,0,0.64,18.6,Female,Mixed,Wales,32.02,Active,RECIPIENT_V4
+V31-A000249,V31-R000042,V31-DS000002,V31-H01,30,2023-04-28,2025-04-27,31,46,Deceased,Hypertensive kidney disease,0,45,B,AB,Standard compatible,0,0.64,18.6,Female,Mixed,Wales,32.02,Active,RECIPIENT_V4
+V31-A000250,V31-R000042,V31-DS000002,V31-H01,60,2023-05-28,2025-05-27,31,46,Deceased,Hypertensive kidney disease,0,45,B,AB,Standard compatible,0,0.64,18.6,Female,Mixed,Wales,32.02,Active,RECIPIENT_V4
+V31-A000251,V31-R000042,V31-DS000002,V31-H01,90,2023-06-27,2025-06-26,31,46,Deceased,Hypertensive kidney disease,0,45,B,AB,Standard compatible,0,0.64,18.6,Female,Mixed,Wales,32.02,Active,RECIPIENT_V4
+V31-A000252,V31-R000042,V31-DS000002,V31-H01,180,2023-09-25,2025-09-24,31,46,Deceased,Hypertensive kidney disease,0,45,B,AB,Standard compatible,0,0.64,18.6,Female,Mixed,Wales,32.02,Active,RECIPIENT_V4
+V31-A000253,V31-R000043,V31-DS000003,V31-H09,7,2023-04-30,2025-04-29,38,57,Deceased,Polycystic kidney disease,0,56,AB,B,Managed incompatibility,5,0.13,19.9,Male,Other,London,39.33,Active,RECIPIENT_V4
+V31-A000254,V31-R000043,V31-DS000003,V31-H09,14,2023-05-07,2025-05-06,38,57,Deceased,Polycystic kidney disease,0,56,AB,B,Managed incompatibility,5,0.13,19.9,Male,Other,London,39.33,Active,RECIPIENT_V4
+V31-A000255,V31-R000043,V31-DS000003,V31-H09,30,2023-05-23,2025-05-22,38,57,Deceased,Polycystic kidney disease,0,56,AB,B,Managed incompatibility,5,0.13,19.9,Male,Other,London,39.33,Active,RECIPIENT_V4
+V31-A000256,V31-R000043,V31-DS000003,V31-H09,60,2023-06-22,2025-06-21,38,57,Deceased,Polycystic kidney disease,0,56,AB,B,Managed incompatibility,5,0.13,19.9,Male,Other,London,39.33,Active,RECIPIENT_V4
+V31-A000257,V31-R000043,V31-DS000003,V31-H09,90,2023-07-22,2025-07-21,38,57,Deceased,Polycystic kidney disease,0,56,AB,B,Managed incompatibility,5,0.13,19.9,Male,Other,London,39.33,Active,RECIPIENT_V4
+V31-A000258,V31-R000043,V31-DS000003,V31-H09,180,2023-10-20,2025-10-19,38,57,Deceased,Polycystic kidney disease,0,56,AB,B,Managed incompatibility,5,0.13,19.9,Male,Other,London,39.33,Active,RECIPIENT_V4
+V31-A000259,V31-R000044,V31-DS000004,V31-H02,7,2023-05-25,2025-05-24,45,68,Deceased,Other,0,67,O,A,Standard compatible,3,0.5,2.2,Female,White,North West,46.64,Active,RECIPIENT_V4
+V31-A000260,V31-R000044,V31-DS000004,V31-H02,14,2023-06-01,2025-05-31,45,68,Deceased,Other,0,67,O,A,Standard compatible,3,0.5,2.2,Female,White,North West,46.64,Active,RECIPIENT_V4
+V31-A000261,V31-R000044,V31-DS000004,V31-H02,30,2023-06-17,2025-06-16,45,68,Deceased,Other,0,67,O,A,Standard compatible,3,0.5,2.2,Female,White,North West,46.64,Active,RECIPIENT_V4
+V31-A000262,V31-R000044,V31-DS000004,V31-H02,60,2023-07-17,2025-07-16,45,68,Deceased,Other,0,67,O,A,Standard compatible,3,0.5,2.2,Female,White,North West,46.64,Active,RECIPIENT_V4
+V31-A000263,V31-R000044,V31-DS000004,V31-H02,90,2023-08-16,2025-08-15,45,68,Deceased,Other,0,67,O,A,Standard compatible,3,0.5,2.2,Female,White,North West,46.64,Active,RECIPIENT_V4
+V31-A000264,V31-R000044,V31-DS000004,V31-H02,180,2023-11-14,2025-11-13,45,68,Deceased,Other,0,67,O,A,Standard compatible,3,0.5,2.2,Female,White,North West,46.64,Active,RECIPIENT_V4
+V31-A000265,V31-R000045,V31-DS000005,V31-H03,7,2023-03-24,2025-03-23,52,32,Deceased,Diabetic kidney disease,1,8,A,O,Managed incompatibility,1,0.87,3.5,Male,Asian,Northern Ireland,53.95,Active,RECIPIENT_V4
+V31-A000266,V31-R000045,V31-DS000005,V31-H03,14,2023-03-31,2025-03-30,52,32,Deceased,Diabetic kidney disease,1,8,A,O,Managed incompatibility,1,0.87,3.5,Male,Asian,Northern Ireland,53.95,Active,RECIPIENT_V4
+V31-A000267,V31-R000045,V31-DS000005,V31-H03,30,2023-04-16,2025-04-15,52,32,Deceased,Diabetic kidney disease,1,8,A,O,Managed incompatibility,1,0.87,3.5,Male,Asian,Northern Ireland,53.95,Active,RECIPIENT_V4
+V31-A000268,V31-R000045,V31-DS000005,V31-H03,60,2023-05-16,2025-05-15,52,32,Deceased,Diabetic kidney disease,1,8,A,O,Managed incompatibility,1,0.87,3.5,Male,Asian,Northern Ireland,53.95,Active,RECIPIENT_V4
+V31-A000269,V31-R000045,V31-DS000005,V31-H03,90,2023-06-15,2025-06-14,52,32,Deceased,Diabetic kidney disease,1,8,A,O,Managed incompatibility,1,0.87,3.5,Male,Asian,Northern Ireland,53.95,Active,RECIPIENT_V4
+V31-A000270,V31-R000045,V31-DS000005,V31-H03,180,2023-09-13,2025-09-12,52,32,Deceased,Diabetic kidney disease,1,8,A,O,Managed incompatibility,1,0.87,3.5,Male,Asian,Northern Ireland,53.95,Active,RECIPIENT_V4
+V31-A000271,V31-R000046,V31-DS000006,V31-H01,7,2023-03-15,2025-03-14,59,43,Deceased,Glomerulonephritis,0,19,B,AB,Standard compatible,6,0.36,4.8,Female,Black,Scotland,61.26,Active,RECIPIENT_V4
+V31-A000272,V31-R000046,V31-DS000006,V31-H01,14,2023-03-22,2025-03-21,59,43,Deceased,Glomerulonephritis,0,19,B,AB,Standard compatible,6,0.36,4.8,Female,Black,Scotland,61.26,Active,RECIPIENT_V4
+V31-A000273,V31-R000046,V31-DS000006,V31-H01,30,2023-04-07,2025-04-06,59,43,Deceased,Glomerulonephritis,0,19,B,AB,Standard compatible,6,0.36,4.8,Female,Black,Scotland,61.26,Active,RECIPIENT_V4
+V31-A000274,V31-R000046,V31-DS000006,V31-H01,60,2023-05-07,2025-05-06,59,43,Deceased,Glomerulonephritis,0,19,B,AB,Standard compatible,6,0.36,4.8,Female,Black,Scotland,61.26,Active,RECIPIENT_V4
+V31-A000275,V31-R000046,V31-DS000006,V31-H01,90,2023-06-06,2025-06-05,59,43,Deceased,Glomerulonephritis,0,19,B,AB,Standard compatible,6,0.36,4.8,Female,Black,Scotland,61.26,Active,RECIPIENT_V4
+V31-A000276,V31-R000046,V31-DS000006,V31-H01,180,2023-09-04,2025-09-03,59,43,Deceased,Glomerulonephritis,0,19,B,AB,Standard compatible,6,0.36,4.8,Female,Black,Scotland,61.26,Active,RECIPIENT_V4
+V31-A000277,V31-R000047,V31-DS000007,V31-H07,7,2023-01-17,2025-01-16,66,54,Deceased,Hypertensive kidney disease,0,30,AB,B,Managed incompatibility,4,0.73,6.1,Male,Mixed,Wales,68.57,Active,RECIPIENT_V2
+V31-A000278,V31-R000047,V31-DS000007,V31-H07,14,2023-01-24,2025-01-23,66,54,Deceased,Hypertensive kidney disease,0,30,AB,B,Managed incompatibility,4,0.73,6.1,Male,Mixed,Wales,68.57,Active,RECIPIENT_V2
+V31-A000279,V31-R000047,V31-DS000007,V31-H07,30,2023-02-09,2025-02-08,66,54,Deceased,Hypertensive kidney disease,0,30,AB,B,Managed incompatibility,4,0.73,6.1,Male,Mixed,Wales,68.57,Active,RECIPIENT_V3
+V31-A000280,V31-R000047,V31-DS000007,V31-H07,60,2023-03-11,2025-03-10,66,54,Deceased,Hypertensive kidney disease,0,30,AB,B,Managed incompatibility,4,0.73,6.1,Male,Mixed,Wales,68.57,Active,RECIPIENT_V4
+V31-A000281,V31-R000047,V31-DS000007,V31-H07,90,2023-04-10,2025-04-09,66,54,Deceased,Hypertensive kidney disease,0,30,AB,B,Managed incompatibility,4,0.73,6.1,Male,Mixed,Wales,68.57,Active,RECIPIENT_V4
+V31-A000282,V31-R000047,V31-DS000007,V31-H07,180,2023-07-09,2025-07-08,66,54,Deceased,Hypertensive kidney disease,0,30,AB,B,Managed incompatibility,4,0.73,6.1,Male,Mixed,Wales,68.57,Active,RECIPIENT_V4
+V31-A000283,V31-R000048,V31-DS000008,V31-H06,7,2023-05-23,2025-05-22,73,65,Deceased,Polycystic kidney disease,0,41,O,A,Standard compatible,2,0.22,7.4,Female,Other,London,75.88,Active,RECIPIENT_V4
+V31-A000284,V31-R000048,V31-DS000008,V31-H06,14,2023-05-30,2025-05-29,73,65,Deceased,Polycystic kidney disease,0,41,O,A,Standard compatible,2,0.22,7.4,Female,Other,London,75.88,Active,RECIPIENT_V4
+V31-A000285,V31-R000048,V31-DS000008,V31-H06,30,2023-06-15,2025-06-14,73,65,Deceased,Polycystic kidney disease,0,41,O,A,Standard compatible,2,0.22,7.4,Female,Other,London,75.88,Active,RECIPIENT_V4
+V31-A000286,V31-R000048,V31-DS000008,V31-H06,60,2023-07-15,2025-07-14,73,65,Deceased,Polycystic kidney disease,0,41,O,A,Standard compatible,2,0.22,7.4,Female,Other,London,75.88,Active,RECIPIENT_V4
+V31-A000287,V31-R000048,V31-DS000008,V31-H06,90,2023-08-14,2025-08-13,73,65,Deceased,Polycystic kidney disease,0,41,O,A,Standard compatible,2,0.22,7.4,Female,Other,London,75.88,Active,RECIPIENT_V4
+V31-A000288,V31-R000048,V31-DS000008,V31-H06,180,2023-11-12,2025-11-11,73,65,Deceased,Polycystic kidney disease,0,41,O,A,Standard compatible,2,0.22,7.4,Female,Other,London,75.88,Active,RECIPIENT_V4
+V31-A000289,V31-R000049,V31-DS000009,V31-H05,7,2023-01-21,2025-01-20,23,29,Deceased,Other,0,52,A,O,Managed incompatibility,0,0.59,8.7,Male,White,North West,83.19,Active,RECIPIENT_V2
+V31-A000290,V31-R000049,V31-DS000009,V31-H05,14,2023-01-28,2025-01-27,23,29,Deceased,Other,0,52,A,O,Managed incompatibility,0,0.59,8.7,Male,White,North West,83.19,Active,RECIPIENT_V2
+V31-A000291,V31-R000049,V31-DS000009,V31-H05,30,2023-02-13,2025-02-12,23,29,Deceased,Other,0,52,A,O,Managed incompatibility,0,0.59,8.7,Male,White,North West,83.19,Active,RECIPIENT_V3
+V31-A000292,V31-R000049,V31-DS000009,V31-H05,60,2023-03-15,2025-03-14,23,29,Deceased,Other,0,52,A,O,Managed incompatibility,0,0.59,8.7,Male,White,North West,83.19,Active,RECIPIENT_V4
+V31-A000293,V31-R000049,V31-DS000009,V31-H05,90,2023-04-14,2025-04-13,23,29,Deceased,Other,0,52,A,O,Managed incompatibility,0,0.59,8.7,Male,White,North West,83.19,Active,RECIPIENT_V4
+V31-A000294,V31-R000049,V31-DS000009,V31-H05,180,2023-07-13,2025-07-12,23,29,Deceased,Other,0,52,A,O,Managed incompatibility,0,0.59,8.7,Male,White,North West,83.19,Active,RECIPIENT_V4
+V31-A000295,V31-R000050,V31-DS000010,V31-H01,7,2023-03-31,2025-03-30,30,40,Deceased,Diabetic kidney disease,0,63,B,AB,Standard compatible,5,0.08,10.0,Female,Asian,Northern Ireland,90.5,Active,RECIPIENT_V4
+V31-A000296,V31-R000050,V31-DS000010,V31-H01,14,2023-04-07,2025-04-06,30,40,Deceased,Diabetic kidney disease,0,63,B,AB,Standard compatible,5,0.08,10.0,Female,Asian,Northern Ireland,90.5,Active,RECIPIENT_V4
+V31-A000297,V31-R000050,V31-DS000010,V31-H01,30,2023-04-23,2025-04-22,30,40,Deceased,Diabetic kidney disease,0,63,B,AB,Standard compatible,5,0.08,10.0,Female,Asian,Northern Ireland,90.5,Active,RECIPIENT_V4
+V31-A000298,V31-R000050,V31-DS000010,V31-H01,60,2023-05-23,2025-05-22,30,40,Deceased,Diabetic kidney disease,0,63,B,AB,Standard compatible,5,0.08,10.0,Female,Asian,Northern Ireland,90.5,Active,RECIPIENT_V4
+V31-A000299,V31-R000050,V31-DS000010,V31-H01,90,2023-06-22,2025-06-21,30,40,Deceased,Diabetic kidney disease,0,63,B,AB,Standard compatible,5,0.08,10.0,Female,Asian,Northern Ireland,90.5,Active,RECIPIENT_V4
+V31-A000300,V31-R000050,V31-DS000010,V31-H01,180,2023-09-20,2025-09-19,30,40,Deceased,Diabetic kidney disease,0,63,B,AB,Standard compatible,5,0.08,10.0,Female,Asian,Northern Ireland,90.5,Active,RECIPIENT_V4
+V31-A000301,V31-R000051,V31-DS000011,V31-H06,7,2023-04-16,2025-04-15,37,51,Deceased,Glomerulonephritis,0,4,AB,B,Managed incompatibility,3,0.45,11.3,Male,Black,Scotland,97.81,Active,RECIPIENT_V4
+V31-A000302,V31-R000051,V31-DS000011,V31-H06,14,2023-04-23,2025-04-22,37,51,Deceased,Glomerulonephritis,0,4,AB,B,Managed incompatibility,3,0.45,11.3,Male,Black,Scotland,97.81,Active,RECIPIENT_V4
+V31-A000303,V31-R000051,V31-DS000011,V31-H06,30,2023-05-09,2025-05-08,37,51,Deceased,Glomerulonephritis,0,4,AB,B,Managed incompatibility,3,0.45,11.3,Male,Black,Scotland,97.81,Active,RECIPIENT_V4
+V31-A000304,V31-R000051,V31-DS000011,V31-H06,60,2023-06-08,2025-06-07,37,51,Deceased,Glomerulonephritis,0,4,AB,B,Managed incompatibility,3,0.45,11.3,Male,Black,Scotland,97.81,Active,RECIPIENT_V4
+V31-A000305,V31-R000051,V31-DS000011,V31-H06,90,2023-07-08,2025-07-07,37,51,Deceased,Glomerulonephritis,0,4,AB,B,Managed incompatibility,3,0.45,11.3,Male,Black,Scotland,97.81,Active,RECIPIENT_V4
+V31-A000306,V31-R000051,V31-DS000011,V31-H06,180,2023-10-06,2025-10-05,37,51,Deceased,Glomerulonephritis,0,4,AB,B,Managed incompatibility,3,0.45,11.3,Male,Black,Scotland,97.81,Active,RECIPIENT_V4
+V31-A000307,V31-R000052,V31-DS000012,V31-H06,7,2023-05-04,2025-05-03,44,62,Deceased,Hypertensive kidney disease,0,15,O,A,Standard compatible,1,0.82,12.6,Female,Mixed,Wales,105.12,Active,RECIPIENT_V4
+V31-A000308,V31-R000052,V31-DS000012,V31-H06,14,2023-05-11,2025-05-10,44,62,Deceased,Hypertensive kidney disease,0,15,O,A,Standard compatible,1,0.82,12.6,Female,Mixed,Wales,105.12,Active,RECIPIENT_V4
+V31-A000309,V31-R000052,V31-DS000012,V31-H06,30,2023-05-27,2025-05-26,44,62,Deceased,Hypertensive kidney disease,0,15,O,A,Standard compatible,1,0.82,12.6,Female,Mixed,Wales,105.12,Active,RECIPIENT_V4
+V31-A000310,V31-R000052,V31-DS000012,V31-H06,60,2023-06-26,2025-06-25,44,62,Deceased,Hypertensive kidney disease,0,15,O,A,Standard compatible,1,0.82,12.6,Female,Mixed,Wales,105.12,Active,RECIPIENT_V4
+V31-A000311,V31-R000052,V31-DS000012,V31-H06,90,2023-07-26,2025-07-25,44,62,Deceased,Hypertensive kidney disease,0,15,O,A,Standard compatible,1,0.82,12.6,Female,Mixed,Wales,105.12,Active,RECIPIENT_V4
+V31-A000312,V31-R000052,V31-DS000012,V31-H06,180,2023-10-24,2025-10-23,44,62,Deceased,Hypertensive kidney disease,0,15,O,A,Standard compatible,1,0.82,12.6,Female,Mixed,Wales,105.12,Active,RECIPIENT_V4
+V31-A000313,V31-R000053,V31-DS000013,V31-H02,7,2023-04-01,2025-03-31,51,26,Deceased,Polycystic kidney disease,0,26,A,O,Managed incompatibility,6,0.31,13.9,Male,Other,London,112.43,Active,RECIPIENT_V4
+V31-A000314,V31-R000053,V31-DS000013,V31-H02,14,2023-04-08,2025-04-07,51,26,Deceased,Polycystic kidney disease,0,26,A,O,Managed incompatibility,6,0.31,13.9,Male,Other,London,112.43,Active,RECIPIENT_V4
+V31-A000315,V31-R000053,V31-DS000013,V31-H02,30,2023-04-24,2025-04-23,51,26,Deceased,Polycystic kidney disease,0,26,A,O,Managed incompatibility,6,0.31,13.9,Male,Other,London,112.43,Active,RECIPIENT_V4
+V31-A000316,V31-R000053,V31-DS000013,V31-H02,60,2023-05-24,2025-05-23,51,26,Deceased,Polycystic kidney disease,0,26,A,O,Managed incompatibility,6,0.31,13.9,Male,Other,London,112.43,Active,RECIPIENT_V4
+V31-A000317,V31-R000053,V31-DS000013,V31-H02,90,2023-06-23,2025-06-22,51,26,Deceased,Polycystic kidney disease,0,26,A,O,Managed incompatibility,6,0.31,13.9,Male,Other,London,112.43,Active,RECIPIENT_V4
+V31-A000318,V31-R000053,V31-DS000013,V31-H02,180,2023-09-21,2025-09-20,51,26,Deceased,Polycystic kidney disease,0,26,A,O,Managed incompatibility,6,0.31,13.9,Male,Other,London,112.43,Active,RECIPIENT_V4
+V31-A000319,V31-R000054,V31-DS000014,V31-H08,7,2023-06-07,2025-06-06,58,37,Deceased,Other,1,37,B,AB,Standard compatible,4,0.68,15.2,Female,White,North West,119.74,Active,RECIPIENT_V4
+V31-A000320,V31-R000054,V31-DS000014,V31-H08,14,2023-06-14,2025-06-13,58,37,Deceased,Other,1,37,B,AB,Standard compatible,4,0.68,15.2,Female,White,North West,119.74,Active,RECIPIENT_V4
+V31-A000321,V31-R000054,V31-DS000014,V31-H08,30,2023-06-30,2025-06-29,58,37,Deceased,Other,1,37,B,AB,Standard compatible,4,0.68,15.2,Female,White,North West,119.74,Active,RECIPIENT_V4
+V31-A000322,V31-R000054,V31-DS000014,V31-H08,60,2023-07-30,2025-07-29,58,37,Deceased,Other,1,37,B,AB,Standard compatible,4,0.68,15.2,Female,White,North West,119.74,Active,RECIPIENT_V4
+V31-A000323,V31-R000054,V31-DS000014,V31-H08,90,2023-08-29,2025-08-28,58,37,Deceased,Other,1,37,B,AB,Standard compatible,4,0.68,15.2,Female,White,North West,119.74,Active,RECIPIENT_V4
+V31-A000324,V31-R000054,V31-DS000014,V31-H08,180,2023-11-27,2025-11-26,58,37,Deceased,Other,1,37,B,AB,Standard compatible,4,0.68,15.2,Female,White,North West,119.74,Active,RECIPIENT_V4
+V31-A000325,V31-R000055,V31-DS000015,V31-H03,7,2023-02-15,2025-02-14,65,48,Deceased,Diabetic kidney disease,0,48,AB,B,Managed incompatibility,2,0.17,16.5,Male,Asian,Northern Ireland,127.05,Active,RECIPIENT_V3
+V31-A000326,V31-R000055,V31-DS000015,V31-H03,14,2023-02-22,2025-02-21,65,48,Deceased,Diabetic kidney disease,0,48,AB,B,Managed incompatibility,2,0.17,16.5,Male,Asian,Northern Ireland,127.05,Active,RECIPIENT_V3
+V31-A000327,V31-R000055,V31-DS000015,V31-H03,30,2023-03-10,2025-03-09,65,48,Deceased,Diabetic kidney disease,0,48,AB,B,Managed incompatibility,2,0.17,16.5,Male,Asian,Northern Ireland,127.05,Active,RECIPIENT_V4
+V31-A000328,V31-R000055,V31-DS000015,V31-H03,60,2023-04-09,2025-04-08,65,48,Deceased,Diabetic kidney disease,0,48,AB,B,Managed incompatibility,2,0.17,16.5,Male,Asian,Northern Ireland,127.05,Active,RECIPIENT_V4
+V31-A000329,V31-R000055,V31-DS000015,V31-H03,90,2023-05-09,2025-05-08,65,48,Deceased,Diabetic kidney disease,0,48,AB,B,Managed incompatibility,2,0.17,16.5,Male,Asian,Northern Ireland,127.05,Active,RECIPIENT_V4
+V31-A000330,V31-R000055,V31-DS000015,V31-H03,180,2023-08-07,2025-08-06,65,48,Deceased,Diabetic kidney disease,0,48,AB,B,Managed incompatibility,2,0.17,16.5,Male,Asian,Northern Ireland,127.05,Active,RECIPIENT_V4
+V31-A000331,V31-R000056,V31-DS000016,V31-H08,7,2023-01-25,2025-01-24,72,59,Deceased,Glomerulonephritis,0,59,O,A,Standard compatible,0,0.54,17.8,Female,Black,Scotland,134.36,Active,RECIPIENT_V2
+V31-A000332,V31-R000056,V31-DS000016,V31-H08,14,2023-02-01,2025-01-31,72,59,Deceased,Glomerulonephritis,0,59,O,A,Standard compatible,0,0.54,17.8,Female,Black,Scotland,134.36,Active,RECIPIENT_V2
+V31-A000333,V31-R000056,V31-DS000016,V31-H08,30,2023-02-17,2025-02-16,72,59,Deceased,Glomerulonephritis,0,59,O,A,Standard compatible,0,0.54,17.8,Female,Black,Scotland,134.36,Active,RECIPIENT_V3
+V31-A000334,V31-R000056,V31-DS000016,V31-H08,60,2023-03-19,2025-03-18,72,59,Deceased,Glomerulonephritis,0,59,O,A,Standard compatible,0,0.54,17.8,Female,Black,Scotland,134.36,Active,RECIPIENT_V4
+V31-A000335,V31-R000056,V31-DS000016,V31-H08,90,2023-04-18,2025-04-17,72,59,Deceased,Glomerulonephritis,0,59,O,A,Standard compatible,0,0.54,17.8,Female,Black,Scotland,134.36,Active,RECIPIENT_V4
+V31-A000336,V31-R000056,V31-DS000016,V31-H08,180,2023-07-17,2025-07-16,72,59,Deceased,Glomerulonephritis,0,59,O,A,Standard compatible,0,0.54,17.8,Female,Black,Scotland,134.36,Active,RECIPIENT_V4
+V31-A000337,V31-R000057,V31-DS000017,V31-H09,7,2023-01-15,2025-01-14,22,70,Deceased,Hypertensive kidney disease,0,70,A,O,Managed incompatibility,5,0.91,19.1,Male,Mixed,Wales,141.67,Active,RECIPIENT_V2
+V31-A000338,V31-R000057,V31-DS000017,V31-H09,14,2023-01-22,2025-01-21,22,70,Deceased,Hypertensive kidney disease,0,70,A,O,Managed incompatibility,5,0.91,19.1,Male,Mixed,Wales,141.67,Active,RECIPIENT_V2
+V31-A000339,V31-R000057,V31-DS000017,V31-H09,30,2023-02-07,2025-02-06,22,70,Deceased,Hypertensive kidney disease,0,70,A,O,Managed incompatibility,5,0.91,19.1,Male,Mixed,Wales,141.67,Active,RECIPIENT_V2
+V31-A000340,V31-R000057,V31-DS000017,V31-H09,60,2023-03-09,2025-03-08,22,70,Deceased,Hypertensive kidney disease,0,70,A,O,Managed incompatibility,5,0.91,19.1,Male,Mixed,Wales,141.67,Active,RECIPIENT_V4
+V31-A000341,V31-R000057,V31-DS000017,V31-H09,90,2023-04-08,2025-04-07,22,70,Deceased,Hypertensive kidney disease,0,70,A,O,Managed incompatibility,5,0.91,19.1,Male,Mixed,Wales,141.67,Active,RECIPIENT_V4
+V31-A000342,V31-R000057,V31-DS000017,V31-H09,180,2023-07-07,2025-07-06,22,70,Deceased,Hypertensive kidney disease,0,70,A,O,Managed incompatibility,5,0.91,19.1,Male,Mixed,Wales,141.67,Active,RECIPIENT_V4
+V31-A000343,V31-R000058,V31-DS000018,V31-H03,7,2023-04-14,2025-04-13,29,34,Deceased,Polycystic kidney disease,0,11,B,AB,Standard compatible,3,0.4,20.4,Female,Other,London,8.98,Active,RECIPIENT_V4
+V31-A000344,V31-R000058,V31-DS000018,V31-H03,14,2023-04-21,2025-04-20,29,34,Deceased,Polycystic kidney disease,0,11,B,AB,Standard compatible,3,0.4,20.4,Female,Other,London,8.98,Active,RECIPIENT_V4
+V31-A000345,V31-R000058,V31-DS000018,V31-H03,30,2023-05-07,2025-05-06,29,34,Deceased,Polycystic kidney disease,0,11,B,AB,Standard compatible,3,0.4,20.4,Female,Other,London,8.98,Active,RECIPIENT_V4
+V31-A000346,V31-R000058,V31-DS000018,V31-H03,60,2023-06-06,2025-06-05,29,34,Deceased,Polycystic kidney disease,0,11,B,AB,Standard compatible,3,0.4,20.4,Female,Other,London,8.98,Active,RECIPIENT_V4
+V31-A000347,V31-R000058,V31-DS000018,V31-H03,90,2023-07-06,2025-07-05,29,34,Deceased,Polycystic kidney disease,0,11,B,AB,Standard compatible,3,0.4,20.4,Female,Other,London,8.98,Active,RECIPIENT_V4
+V31-A000348,V31-R000058,V31-DS000018,V31-H03,180,2023-10-04,2025-10-03,29,34,Deceased,Polycystic kidney disease,0,11,B,AB,Standard compatible,3,0.4,20.4,Female,Other,London,8.98,Active,RECIPIENT_V4
+V31-A000349,V31-R000059,V31-DS000019,V31-H03,7,2023-05-11,2025-05-10,36,45,Deceased,Other,0,22,AB,B,Managed incompatibility,1,0.77,2.7,Male,White,North West,16.29,Active,RECIPIENT_V4
+V31-A000350,V31-R000059,V31-DS000019,V31-H03,14,2023-05-18,2025-05-17,36,45,Deceased,Other,0,22,AB,B,Managed incompatibility,1,0.77,2.7,Male,White,North West,16.29,Active,RECIPIENT_V4
+V31-A000351,V31-R000059,V31-DS000019,V31-H03,30,2023-06-03,2025-06-02,36,45,Deceased,Other,0,22,AB,B,Managed incompatibility,1,0.77,2.7,Male,White,North West,16.29,Active,RECIPIENT_V4
+V31-A000352,V31-R000059,V31-DS000019,V31-H03,60,2023-07-03,2025-07-02,36,45,Deceased,Other,0,22,AB,B,Managed incompatibility,1,0.77,2.7,Male,White,North West,16.29,Active,RECIPIENT_V4
+V31-A000353,V31-R000059,V31-DS000019,V31-H03,90,2023-08-02,2025-08-01,36,45,Deceased,Other,0,22,AB,B,Managed incompatibility,1,0.77,2.7,Male,White,North West,16.29,Active,RECIPIENT_V4
+V31-A000354,V31-R000059,V31-DS000019,V31-H03,180,2023-10-31,2025-10-30,36,45,Deceased,Other,0,22,AB,B,Managed incompatibility,1,0.77,2.7,Male,White,North West,16.29,Active,RECIPIENT_V4
+V31-A000355,V31-R000060,V31-DS000020,V31-H07,7,2023-05-29,2025-05-28,43,56,Deceased,Diabetic kidney disease,0,33,O,A,Standard compatible,6,0.26,4.0,Female,Asian,Northern Ireland,23.6,Active,RECIPIENT_V4
+V31-A000356,V31-R000060,V31-DS000020,V31-H07,14,2023-06-05,2025-06-04,43,56,Deceased,Diabetic kidney disease,0,33,O,A,Standard compatible,6,0.26,4.0,Female,Asian,Northern Ireland,23.6,Active,RECIPIENT_V4
+V31-A000357,V31-R000060,V31-DS000020,V31-H07,30,2023-06-21,2025-06-20,43,56,Deceased,Diabetic kidney disease,0,33,O,A,Standard compatible,6,0.26,4.0,Female,Asian,Northern Ireland,23.6,Active,RECIPIENT_V4
+V31-A000358,V31-R000060,V31-DS000020,V31-H07,60,2023-07-21,2025-07-20,43,56,Deceased,Diabetic kidney disease,0,33,O,A,Standard compatible,6,0.26,4.0,Female,Asian,Northern Ireland,23.6,Active,RECIPIENT_V4
+V31-A000359,V31-R000060,V31-DS000020,V31-H07,90,2023-08-20,2025-08-19,43,56,Deceased,Diabetic kidney disease,0,33,O,A,Standard compatible,6,0.26,4.0,Female,Asian,Northern Ireland,23.6,Active,RECIPIENT_V4
+V31-A000360,V31-R000060,V31-DS000020,V31-H07,180,2023-11-18,2025-11-17,43,56,Deceased,Diabetic kidney disease,0,33,O,A,Standard compatible,6,0.26,4.0,Female,Asian,Northern Ireland,23.6,Active,RECIPIENT_V4
+V31-A000361,V31-R000061,V31-DP000001,V31-H01,7,2023-03-05,2025-03-04,50,35,Deceased,Glomerulonephritis,0,44,A,O,Managed incompatibility,1,0.15,5.3,Male,Black,Scotland,30.91,Active,RECIPIENT_V3
+V31-A000362,V31-R000061,V31-DP000001,V31-H01,14,2023-03-12,2025-03-11,50,35,Deceased,Glomerulonephritis,0,44,A,O,Managed incompatibility,1,0.15,5.3,Male,Black,Scotland,30.91,Active,RECIPIENT_V4
+V31-A000363,V31-R000061,V31-DP000001,V31-H01,30,2023-03-28,2025-03-27,50,35,Deceased,Glomerulonephritis,0,44,A,O,Managed incompatibility,1,0.15,5.3,Male,Black,Scotland,30.91,Active,RECIPIENT_V4
+V31-A000364,V31-R000061,V31-DP000001,V31-H01,60,2023-04-27,2025-04-26,50,35,Deceased,Glomerulonephritis,0,44,A,O,Managed incompatibility,1,0.15,5.3,Male,Black,Scotland,30.91,Active,RECIPIENT_V4
+V31-A000365,V31-R000061,V31-DP000001,V31-H01,90,2023-05-27,2025-05-26,50,35,Deceased,Glomerulonephritis,0,44,A,O,Managed incompatibility,1,0.15,5.3,Male,Black,Scotland,30.91,Active,RECIPIENT_V4
+V31-A000366,V31-R000061,V31-DP000001,V31-H01,180,2023-08-25,2025-08-24,50,35,Deceased,Glomerulonephritis,0,44,A,O,Managed incompatibility,1,0.15,5.3,Male,Black,Scotland,30.91,Active,RECIPIENT_V4
+V31-A000367,V31-R000062,V31-DP000001,V31-H01,7,2023-02-07,2025-02-06,57,35,Deceased,Hypertensive kidney disease,0,55,A,AB,Standard compatible,2,0.12,6.6,Female,Mixed,Wales,38.22,Active,RECIPIENT_V2
+V31-A000368,V31-R000062,V31-DP000001,V31-H01,14,2023-02-14,2025-02-13,57,35,Deceased,Hypertensive kidney disease,0,55,A,AB,Standard compatible,2,0.12,6.6,Female,Mixed,Wales,38.22,Active,RECIPIENT_V3
+V31-A000369,V31-R000062,V31-DP000001,V31-H01,30,2023-03-02,2025-03-01,57,35,Deceased,Hypertensive kidney disease,0,55,A,AB,Standard compatible,2,0.12,6.6,Female,Mixed,Wales,38.22,Active,RECIPIENT_V3
+V31-A000370,V31-R000062,V31-DP000001,V31-H01,60,2023-04-01,2025-03-31,57,35,Deceased,Hypertensive kidney disease,0,55,A,AB,Standard compatible,2,0.12,6.6,Female,Mixed,Wales,38.22,Active,RECIPIENT_V4
+V31-A000371,V31-R000062,V31-DP000001,V31-H01,90,2023-05-01,2025-04-30,57,35,Deceased,Hypertensive kidney disease,0,55,A,AB,Standard compatible,2,0.12,6.6,Female,Mixed,Wales,38.22,Active,RECIPIENT_V4
+V31-A000372,V31-R000062,V31-DP000001,V31-H01,180,2023-07-30,2025-07-29,57,35,Deceased,Hypertensive kidney disease,0,55,A,AB,Standard compatible,2,0.12,6.6,Female,Mixed,Wales,38.22,Active,RECIPIENT_V4
+V31-A000373,V31-R000063,V31-DP000002,V31-H04,7,2023-04-09,2025-04-08,64,46,Deceased,Polycystic kidney disease,1,66,B,B,Standard compatible,0,0.49,7.9,Male,Other,London,45.53,Active,RECIPIENT_V4
+V31-A000374,V31-R000063,V31-DP000002,V31-H04,14,2023-04-16,2025-04-15,64,46,Deceased,Polycystic kidney disease,1,66,B,B,Standard compatible,0,0.49,7.9,Male,Other,London,45.53,Active,RECIPIENT_V4
+V31-A000375,V31-R000063,V31-DP000002,V31-H04,30,2023-05-02,2025-05-01,64,46,Deceased,Polycystic kidney disease,1,66,B,B,Standard compatible,0,0.49,7.9,Male,Other,London,45.53,Active,RECIPIENT_V4
+V31-A000376,V31-R000063,V31-DP000002,V31-H04,60,2023-06-01,2025-05-31,64,46,Deceased,Polycystic kidney disease,1,66,B,B,Standard compatible,0,0.49,7.9,Male,Other,London,45.53,Active,RECIPIENT_V4
+V31-A000377,V31-R000063,V31-DP000002,V31-H04,90,2023-07-01,2025-06-30,64,46,Deceased,Polycystic kidney disease,1,66,B,B,Standard compatible,0,0.49,7.9,Male,Other,London,45.53,Active,RECIPIENT_V4
+V31-A000378,V31-R000063,V31-DP000002,V31-H04,180,2023-09-29,2025-09-28,64,46,Deceased,Polycystic kidney disease,1,66,B,B,Standard compatible,0,0.49,7.9,Male,Other,London,45.53,Active,RECIPIENT_V4
+V31-A000379,V31-R000064,V31-DP000002,V31-H03,7,2023-04-28,2025-04-27,71,46,Deceased,Other,0,7,B,A,Managed incompatibility,5,0.86,9.2,Female,White,North West,52.84,Active,RECIPIENT_V4
+V31-A000380,V31-R000064,V31-DP000002,V31-H03,14,2023-05-05,2025-05-04,71,46,Deceased,Other,0,7,B,A,Managed incompatibility,5,0.86,9.2,Female,White,North West,52.84,Active,RECIPIENT_V4
+V31-A000381,V31-R000064,V31-DP000002,V31-H03,30,2023-05-21,2025-05-20,71,46,Deceased,Other,0,7,B,A,Managed incompatibility,5,0.86,9.2,Female,White,North West,52.84,Active,RECIPIENT_V4
+V31-A000382,V31-R000064,V31-DP000002,V31-H03,60,2023-06-20,2025-06-19,71,46,Deceased,Other,0,7,B,A,Managed incompatibility,5,0.86,9.2,Female,White,North West,52.84,Active,RECIPIENT_V4
+V31-A000383,V31-R000064,V31-DP000002,V31-H03,90,2023-07-20,2025-07-19,71,46,Deceased,Other,0,7,B,A,Managed incompatibility,5,0.86,9.2,Female,White,North West,52.84,Active,RECIPIENT_V4
+V31-A000384,V31-R000064,V31-DP000002,V31-H03,180,2023-10-18,2025-10-17,71,46,Deceased,Other,0,7,B,A,Managed incompatibility,5,0.86,9.2,Female,White,North West,52.84,Active,RECIPIENT_V4
+V31-A000385,V31-R000065,V31-DP000003,V31-H09,7,2023-01-23,2025-01-22,78,57,Deceased,Diabetic kidney disease,0,18,AB,O,Managed incompatibility,3,0.35,10.5,Male,Asian,Northern Ireland,60.15,Active,RECIPIENT_V2
+V31-A000386,V31-R000065,V31-DP000003,V31-H09,14,2023-01-30,2025-01-29,78,57,Deceased,Diabetic kidney disease,0,18,AB,O,Managed incompatibility,3,0.35,10.5,Male,Asian,Northern Ireland,60.15,Active,RECIPIENT_V2
+V31-A000387,V31-R000065,V31-DP000003,V31-H09,30,2023-02-15,2025-02-14,78,57,Deceased,Diabetic kidney disease,0,18,AB,O,Managed incompatibility,3,0.35,10.5,Male,Asian,Northern Ireland,60.15,Active,RECIPIENT_V3
+V31-A000388,V31-R000065,V31-DP000003,V31-H09,60,2023-03-17,2025-03-16,78,57,Deceased,Diabetic kidney disease,0,18,AB,O,Managed incompatibility,3,0.35,10.5,Male,Asian,Northern Ireland,60.15,Active,RECIPIENT_V4
+V31-A000389,V31-R000065,V31-DP000003,V31-H09,90,2023-04-16,2025-04-15,78,57,Deceased,Diabetic kidney disease,0,18,AB,O,Managed incompatibility,3,0.35,10.5,Male,Asian,Northern Ireland,60.15,Active,RECIPIENT_V4
+V31-A000390,V31-R000065,V31-DP000003,V31-H09,180,2023-07-15,2025-07-14,78,57,Deceased,Diabetic kidney disease,0,18,AB,O,Managed incompatibility,3,0.35,10.5,Male,Asian,Northern Ireland,60.15,Active,RECIPIENT_V4
+V31-A000391,V31-R000066,V31-DP000003,V31-H02,7,2023-05-14,2025-05-13,28,57,Deceased,Glomerulonephritis,0,29,AB,AB,Standard compatible,1,0.72,11.8,Female,Black,Scotland,67.46,Active,RECIPIENT_V4
+V31-A000392,V31-R000066,V31-DP000003,V31-H02,14,2023-05-21,2025-05-20,28,57,Deceased,Glomerulonephritis,0,29,AB,AB,Standard compatible,1,0.72,11.8,Female,Black,Scotland,67.46,Active,RECIPIENT_V4
+V31-A000393,V31-R000066,V31-DP000003,V31-H02,30,2023-06-06,2025-06-05,28,57,Deceased,Glomerulonephritis,0,29,AB,AB,Standard compatible,1,0.72,11.8,Female,Black,Scotland,67.46,Active,RECIPIENT_V4
+V31-A000394,V31-R000066,V31-DP000003,V31-H02,60,2023-07-06,2025-07-05,28,57,Deceased,Glomerulonephritis,0,29,AB,AB,Standard compatible,1,0.72,11.8,Female,Black,Scotland,67.46,Active,RECIPIENT_V4
+V31-A000395,V31-R000066,V31-DP000003,V31-H02,90,2023-08-05,2025-08-04,28,57,Deceased,Glomerulonephritis,0,29,AB,AB,Standard compatible,1,0.72,11.8,Female,Black,Scotland,67.46,Active,RECIPIENT_V4
+V31-A000396,V31-R000066,V31-DP000003,V31-H02,180,2023-11-03,2025-11-02,28,57,Deceased,Glomerulonephritis,0,29,AB,AB,Standard compatible,1,0.72,11.8,Female,Black,Scotland,67.46,Active,RECIPIENT_V4
+V31-A000397,V31-R000067,V31-DP000004,V31-H01,7,2023-03-29,2025-03-28,35,68,Deceased,Hypertensive kidney disease,0,40,O,B,Standard compatible,6,0.21,13.1,Male,Mixed,Wales,74.77,Active,RECIPIENT_V4
+V31-A000398,V31-R000067,V31-DP000004,V31-H01,14,2023-04-05,2025-04-04,35,68,Deceased,Hypertensive kidney disease,0,40,O,B,Standard compatible,6,0.21,13.1,Male,Mixed,Wales,74.77,Active,RECIPIENT_V4
+V31-A000399,V31-R000067,V31-DP000004,V31-H01,30,2023-04-21,2025-04-20,35,68,Deceased,Hypertensive kidney disease,0,40,O,B,Standard compatible,6,0.21,13.1,Male,Mixed,Wales,74.77,Active,RECIPIENT_V4
+V31-A000400,V31-R000067,V31-DP000004,V31-H01,60,2023-05-21,2025-05-20,35,68,Deceased,Hypertensive kidney disease,0,40,O,B,Standard compatible,6,0.21,13.1,Male,Mixed,Wales,74.77,Active,RECIPIENT_V4
+V31-A000401,V31-R000067,V31-DP000004,V31-H01,90,2023-06-20,2025-06-19,35,68,Deceased,Hypertensive kidney disease,0,40,O,B,Standard compatible,6,0.21,13.1,Male,Mixed,Wales,74.77,Active,RECIPIENT_V4
+V31-A000402,V31-R000067,V31-DP000004,V31-H01,180,2023-09-18,2025-09-17,35,68,Deceased,Hypertensive kidney disease,0,40,O,B,Standard compatible,6,0.21,13.1,Male,Mixed,Wales,74.77,Active,RECIPIENT_V4
+V31-A000403,V31-R000068,V31-DP000004,V31-H01,7,2023-03-11,2025-03-10,42,68,Deceased,Polycystic kidney disease,0,51,O,A,Standard compatible,4,0.58,14.4,Female,Other,London,82.08,Active,RECIPIENT_V4
+V31-A000404,V31-R000068,V31-DP000004,V31-H01,14,2023-03-18,2025-03-17,42,68,Deceased,Polycystic kidney disease,0,51,O,A,Standard compatible,4,0.58,14.4,Female,Other,London,82.08,Active,RECIPIENT_V4
+V31-A000405,V31-R000068,V31-DP000004,V31-H01,30,2023-04-03,2025-04-02,42,68,Deceased,Polycystic kidney disease,0,51,O,A,Standard compatible,4,0.58,14.4,Female,Other,London,82.08,Active,RECIPIENT_V4
+V31-A000406,V31-R000068,V31-DP000004,V31-H01,60,2023-05-03,2025-05-02,42,68,Deceased,Polycystic kidney disease,0,51,O,A,Standard compatible,4,0.58,14.4,Female,Other,London,82.08,Active,RECIPIENT_V4
+V31-A000407,V31-R000068,V31-DP000004,V31-H01,90,2023-06-02,2025-06-01,42,68,Deceased,Polycystic kidney disease,0,51,O,A,Standard compatible,4,0.58,14.4,Female,Other,London,82.08,Active,RECIPIENT_V4
+V31-A000408,V31-R000068,V31-DP000004,V31-H01,180,2023-08-31,2025-08-30,42,68,Deceased,Polycystic kidney disease,0,51,O,A,Standard compatible,4,0.58,14.4,Female,Other,London,82.08,Active,RECIPIENT_V4
+V31-A000409,V31-R000069,V31-DP000005,V31-H04,7,2023-02-18,2025-02-17,49,32,Deceased,Other,0,62,A,O,Managed incompatibility,2,0.07,15.7,Male,White,North West,89.39,Active,RECIPIENT_V3
+V31-A000410,V31-R000069,V31-DP000005,V31-H04,14,2023-02-25,2025-02-24,49,32,Deceased,Other,0,62,A,O,Managed incompatibility,2,0.07,15.7,Male,White,North West,89.39,Active,RECIPIENT_V3
+V31-A000411,V31-R000069,V31-DP000005,V31-H04,30,2023-03-13,2025-03-12,49,32,Deceased,Other,0,62,A,O,Managed incompatibility,2,0.07,15.7,Male,White,North West,89.39,Active,RECIPIENT_V4
+V31-A000412,V31-R000069,V31-DP000005,V31-H04,60,2023-04-12,2025-04-11,49,32,Deceased,Other,0,62,A,O,Managed incompatibility,2,0.07,15.7,Male,White,North West,89.39,Active,RECIPIENT_V4
+V31-A000413,V31-R000069,V31-DP000005,V31-H04,90,2023-05-12,2025-05-11,49,32,Deceased,Other,0,62,A,O,Managed incompatibility,2,0.07,15.7,Male,White,North West,89.39,Active,RECIPIENT_V4
+V31-A000414,V31-R000069,V31-DP000005,V31-H04,180,2023-08-10,2025-08-09,49,32,Deceased,Other,0,62,A,O,Managed incompatibility,2,0.07,15.7,Male,White,North West,89.39,Active,RECIPIENT_V4
+V31-A000415,V31-R000070,V31-DP000005,V31-H02,7,2023-04-22,2025-04-21,56,32,Deceased,Diabetic kidney disease,0,3,A,AB,Standard compatible,0,0.44,17.0,Female,Asian,Northern Ireland,96.7,Active,RECIPIENT_V4
+V31-A000416,V31-R000070,V31-DP000005,V31-H02,14,2023-04-29,2025-04-28,56,32,Deceased,Diabetic kidney disease,0,3,A,AB,Standard compatible,0,0.44,17.0,Female,Asian,Northern Ireland,96.7,Active,RECIPIENT_V4
+V31-A000417,V31-R000070,V31-DP000005,V31-H02,30,2023-05-15,2025-05-14,56,32,Deceased,Diabetic kidney disease,0,3,A,AB,Standard compatible,0,0.44,17.0,Female,Asian,Northern Ireland,96.7,Active,RECIPIENT_V4
+V31-A000418,V31-R000070,V31-DP000005,V31-H02,60,2023-06-14,2025-06-13,56,32,Deceased,Diabetic kidney disease,0,3,A,AB,Standard compatible,0,0.44,17.0,Female,Asian,Northern Ireland,96.7,Active,RECIPIENT_V4
+V31-A000419,V31-R000070,V31-DP000005,V31-H02,90,2023-07-14,2025-07-13,56,32,Deceased,Diabetic kidney disease,0,3,A,AB,Standard compatible,0,0.44,17.0,Female,Asian,Northern Ireland,96.7,Active,RECIPIENT_V4
+V31-A000420,V31-R000070,V31-DP000005,V31-H02,180,2023-10-12,2025-10-11,56,32,Deceased,Diabetic kidney disease,0,3,A,AB,Standard compatible,0,0.44,17.0,Female,Asian,Northern Ireland,96.7,Active,RECIPIENT_V4
+V31-A000421,V31-R000071,V31-DP000006,V31-H08,7,2023-02-26,2025-02-25,63,43,Deceased,Glomerulonephritis,0,14,B,B,Standard compatible,5,0.81,18.3,Male,Black,Scotland,104.01,Active,RECIPIENT_V3
+V31-A000422,V31-R000071,V31-DP000006,V31-H08,14,2023-03-05,2025-03-04,63,43,Deceased,Glomerulonephritis,0,14,B,B,Standard compatible,5,0.81,18.3,Male,Black,Scotland,104.01,Active,RECIPIENT_V3
+V31-A000423,V31-R000071,V31-DP000006,V31-H08,30,2023-03-21,2025-03-20,63,43,Deceased,Glomerulonephritis,0,14,B,B,Standard compatible,5,0.81,18.3,Male,Black,Scotland,104.01,Active,RECIPIENT_V4
+V31-A000424,V31-R000071,V31-DP000006,V31-H08,60,2023-04-20,2025-04-19,63,43,Deceased,Glomerulonephritis,0,14,B,B,Standard compatible,5,0.81,18.3,Male,Black,Scotland,104.01,Active,RECIPIENT_V4
+V31-A000425,V31-R000071,V31-DP000006,V31-H08,90,2023-05-20,2025-05-19,63,43,Deceased,Glomerulonephritis,0,14,B,B,Standard compatible,5,0.81,18.3,Male,Black,Scotland,104.01,Active,RECIPIENT_V4
+V31-A000426,V31-R000071,V31-DP000006,V31-H08,180,2023-08-18,2025-08-17,63,43,Deceased,Glomerulonephritis,0,14,B,B,Standard compatible,5,0.81,18.3,Male,Black,Scotland,104.01,Active,RECIPIENT_V4
+V31-A000427,V31-R000072,V31-DP000006,V31-H01,7,2023-01-30,2025-01-29,70,43,Deceased,Hypertensive kidney disease,1,25,B,A,Managed incompatibility,3,0.3,19.6,Female,Mixed,Wales,111.32,Active,RECIPIENT_V2
+V31-A000428,V31-R000072,V31-DP000006,V31-H01,14,2023-02-06,2025-02-05,70,43,Deceased,Hypertensive kidney disease,1,25,B,A,Managed incompatibility,3,0.3,19.6,Female,Mixed,Wales,111.32,Active,RECIPIENT_V2
+V31-A000429,V31-R000072,V31-DP000006,V31-H01,30,2023-02-22,2025-02-21,70,43,Deceased,Hypertensive kidney disease,1,25,B,A,Managed incompatibility,3,0.3,19.6,Female,Mixed,Wales,111.32,Active,RECIPIENT_V3
+V31-A000430,V31-R000072,V31-DP000006,V31-H01,60,2023-03-24,2025-03-23,70,43,Deceased,Hypertensive kidney disease,1,25,B,A,Managed incompatibility,3,0.3,19.6,Female,Mixed,Wales,111.32,Active,RECIPIENT_V4
+V31-A000431,V31-R000072,V31-DP000006,V31-H01,90,2023-04-23,2025-04-22,70,43,Deceased,Hypertensive kidney disease,1,25,B,A,Managed incompatibility,3,0.3,19.6,Female,Mixed,Wales,111.32,Active,RECIPIENT_V4
+V31-A000432,V31-R000072,V31-DP000006,V31-H01,180,2023-07-22,2025-07-21,70,43,Deceased,Hypertensive kidney disease,1,25,B,A,Managed incompatibility,3,0.3,19.6,Female,Mixed,Wales,111.32,Active,RECIPIENT_V4
+V31-A000433,V31-R000073,V31-DP000007,V31-H04,7,2023-01-13,2025-01-12,77,54,Deceased,Polycystic kidney disease,0,36,AB,O,Managed incompatibility,1,0.67,20.9,Male,Other,London,118.63,Active,RECIPIENT_V2
+V31-A000434,V31-R000073,V31-DP000007,V31-H04,14,2023-01-20,2025-01-19,77,54,Deceased,Polycystic kidney disease,0,36,AB,O,Managed incompatibility,1,0.67,20.9,Male,Other,London,118.63,Active,RECIPIENT_V2
+V31-A000435,V31-R000073,V31-DP000007,V31-H04,30,2023-02-05,2025-02-04,77,54,Deceased,Polycystic kidney disease,0,36,AB,O,Managed incompatibility,1,0.67,20.9,Male,Other,London,118.63,Active,RECIPIENT_V2
+V31-A000436,V31-R000073,V31-DP000007,V31-H04,60,2023-03-07,2025-03-06,77,54,Deceased,Polycystic kidney disease,0,36,AB,O,Managed incompatibility,1,0.67,20.9,Male,Other,London,118.63,Active,RECIPIENT_V4
+V31-A000437,V31-R000073,V31-DP000007,V31-H04,90,2023-04-06,2025-04-05,77,54,Deceased,Polycystic kidney disease,0,36,AB,O,Managed incompatibility,1,0.67,20.9,Male,Other,London,118.63,Active,RECIPIENT_V4
+V31-A000438,V31-R000073,V31-DP000007,V31-H04,180,2023-07-05,2025-07-04,77,54,Deceased,Polycystic kidney disease,0,36,AB,O,Managed incompatibility,1,0.67,20.9,Male,Other,London,118.63,Active,RECIPIENT_V4
+V31-A000439,V31-R000074,V31-DP000007,V31-H04,7,2023-02-14,2025-02-13,27,54,Deceased,Other,0,47,AB,AB,Standard compatible,6,0.16,3.2,Female,White,North West,125.94,Active,RECIPIENT_V3
+V31-A000440,V31-R000074,V31-DP000007,V31-H04,14,2023-02-21,2025-02-20,27,54,Deceased,Other,0,47,AB,AB,Standard compatible,6,0.16,3.2,Female,White,North West,125.94,Active,RECIPIENT_V3
+V31-A000441,V31-R000074,V31-DP000007,V31-H04,30,2023-03-09,2025-03-08,27,54,Deceased,Other,0,47,AB,AB,Standard compatible,6,0.16,3.2,Female,White,North West,125.94,Active,RECIPIENT_V4
+V31-A000442,V31-R000074,V31-DP000007,V31-H04,60,2023-04-08,2025-04-07,27,54,Deceased,Other,0,47,AB,AB,Standard compatible,6,0.16,3.2,Female,White,North West,125.94,Active,RECIPIENT_V4
+V31-A000443,V31-R000074,V31-DP000007,V31-H04,90,2023-05-08,2025-05-07,27,54,Deceased,Other,0,47,AB,AB,Standard compatible,6,0.16,3.2,Female,White,North West,125.94,Active,RECIPIENT_V4
+V31-A000444,V31-R000074,V31-DP000007,V31-H04,180,2023-08-06,2025-08-05,27,54,Deceased,Other,0,47,AB,AB,Standard compatible,6,0.16,3.2,Female,White,North West,125.94,Active,RECIPIENT_V4
+V31-A000445,V31-R000075,V31-DP000008,V31-H05,7,2023-01-10,2025-01-09,34,65,Deceased,Diabetic kidney disease,0,58,O,B,Standard compatible,4,0.53,4.5,Male,Asian,Northern Ireland,133.25,Active,RECIPIENT_V2
+V31-A000446,V31-R000075,V31-DP000008,V31-H05,14,2023-01-17,2025-01-16,34,65,Deceased,Diabetic kidney disease,0,58,O,B,Standard compatible,4,0.53,4.5,Male,Asian,Northern Ireland,133.25,Active,RECIPIENT_V2
+V31-A000447,V31-R000075,V31-DP000008,V31-H05,30,2023-02-02,2025-02-01,34,65,Deceased,Diabetic kidney disease,0,58,O,B,Standard compatible,4,0.53,4.5,Male,Asian,Northern Ireland,133.25,Active,RECIPIENT_V2
+V31-A000448,V31-R000075,V31-DP000008,V31-H05,60,2023-03-04,2025-03-03,34,65,Deceased,Diabetic kidney disease,0,58,O,B,Standard compatible,4,0.53,4.5,Male,Asian,Northern Ireland,133.25,Active,RECIPIENT_V3
+V31-A000449,V31-R000075,V31-DP000008,V31-H05,90,2023-04-03,2025-04-02,34,65,Deceased,Diabetic kidney disease,0,58,O,B,Standard compatible,4,0.53,4.5,Male,Asian,Northern Ireland,133.25,Active,RECIPIENT_V4
+V31-A000450,V31-R000075,V31-DP000008,V31-H05,180,2023-07-02,2025-07-01,34,65,Deceased,Diabetic kidney disease,0,58,O,B,Standard compatible,4,0.53,4.5,Male,Asian,Northern Ireland,133.25,Active,RECIPIENT_V4
+V31-A000451,V31-R000076,V31-DP000008,V31-H01,7,2023-05-05,2025-05-04,41,65,Deceased,Glomerulonephritis,0,69,O,A,Standard compatible,2,0.9,5.8,Female,Black,Scotland,140.56,Active,RECIPIENT_V4
+V31-A000452,V31-R000076,V31-DP000008,V31-H01,14,2023-05-12,2025-05-11,41,65,Deceased,Glomerulonephritis,0,69,O,A,Standard compatible,2,0.9,5.8,Female,Black,Scotland,140.56,Active,RECIPIENT_V4
+V31-A000453,V31-R000076,V31-DP000008,V31-H01,30,2023-05-28,2025-05-27,41,65,Deceased,Glomerulonephritis,0,69,O,A,Standard compatible,2,0.9,5.8,Female,Black,Scotland,140.56,Active,RECIPIENT_V4
+V31-A000454,V31-R000076,V31-DP000008,V31-H01,60,2023-06-27,2025-06-26,41,65,Deceased,Glomerulonephritis,0,69,O,A,Standard compatible,2,0.9,5.8,Female,Black,Scotland,140.56,Active,RECIPIENT_V4
+V31-A000455,V31-R000076,V31-DP000008,V31-H01,90,2023-07-27,2025-07-26,41,65,Deceased,Glomerulonephritis,0,69,O,A,Standard compatible,2,0.9,5.8,Female,Black,Scotland,140.56,Active,RECIPIENT_V4
+V31-A000456,V31-R000076,V31-DP000008,V31-H01,180,2023-10-25,2025-10-24,41,65,Deceased,Glomerulonephritis,0,69,O,A,Standard compatible,2,0.9,5.8,Female,Black,Scotland,140.56,Active,RECIPIENT_V4
+V31-A000457,V31-R000077,V31-DP000009,V31-H03,7,2023-02-27,2025-02-26,48,29,Deceased,Hypertensive kidney disease,0,10,A,O,Managed incompatibility,0,0.39,7.1,Male,Mixed,Wales,7.87,Active,RECIPIENT_V3
+V31-A000458,V31-R000077,V31-DP000009,V31-H03,14,2023-03-06,2025-03-05,48,29,Deceased,Hypertensive kidney disease,0,10,A,O,Managed incompatibility,0,0.39,7.1,Male,Mixed,Wales,7.87,Active,RECIPIENT_V3
+V31-A000459,V31-R000077,V31-DP000009,V31-H03,30,2023-03-22,2025-03-21,48,29,Deceased,Hypertensive kidney disease,0,10,A,O,Managed incompatibility,0,0.39,7.1,Male,Mixed,Wales,7.87,Active,RECIPIENT_V4
+V31-A000460,V31-R000077,V31-DP000009,V31-H03,60,2023-04-21,2025-04-20,48,29,Deceased,Hypertensive kidney disease,0,10,A,O,Managed incompatibility,0,0.39,7.1,Male,Mixed,Wales,7.87,Active,RECIPIENT_V4
+V31-A000461,V31-R000077,V31-DP000009,V31-H03,90,2023-05-21,2025-05-20,48,29,Deceased,Hypertensive kidney disease,0,10,A,O,Managed incompatibility,0,0.39,7.1,Male,Mixed,Wales,7.87,Active,RECIPIENT_V4
+V31-A000462,V31-R000077,V31-DP000009,V31-H03,180,2023-08-19,2025-08-18,48,29,Deceased,Hypertensive kidney disease,0,10,A,O,Managed incompatibility,0,0.39,7.1,Male,Mixed,Wales,7.87,Active,RECIPIENT_V4
+V31-A000463,V31-R000078,V31-DP000009,V31-H07,7,2023-04-19,2025-04-18,55,29,Deceased,Polycystic kidney disease,0,21,A,AB,Standard compatible,5,0.76,8.4,Female,Other,London,15.18,Active,RECIPIENT_V4
+V31-A000464,V31-R000078,V31-DP000009,V31-H07,14,2023-04-26,2025-04-25,55,29,Deceased,Polycystic kidney disease,0,21,A,AB,Standard compatible,5,0.76,8.4,Female,Other,London,15.18,Active,RECIPIENT_V4
+V31-A000465,V31-R000078,V31-DP000009,V31-H07,30,2023-05-12,2025-05-11,55,29,Deceased,Polycystic kidney disease,0,21,A,AB,Standard compatible,5,0.76,8.4,Female,Other,London,15.18,Active,RECIPIENT_V4
+V31-A000466,V31-R000078,V31-DP000009,V31-H07,60,2023-06-11,2025-06-10,55,29,Deceased,Polycystic kidney disease,0,21,A,AB,Standard compatible,5,0.76,8.4,Female,Other,London,15.18,Active,RECIPIENT_V4
+V31-A000467,V31-R000078,V31-DP000009,V31-H07,90,2023-07-11,2025-07-10,55,29,Deceased,Polycystic kidney disease,0,21,A,AB,Standard compatible,5,0.76,8.4,Female,Other,London,15.18,Active,RECIPIENT_V4
+V31-A000468,V31-R000078,V31-DP000009,V31-H07,180,2023-10-09,2025-10-08,55,29,Deceased,Polycystic kidney disease,0,21,A,AB,Standard compatible,5,0.76,8.4,Female,Other,London,15.18,Active,RECIPIENT_V4
+V31-A000469,V31-R000079,V31-DP000010,V31-H03,7,2023-01-27,2025-01-26,62,40,Deceased,Other,0,32,B,B,Standard compatible,3,0.25,9.7,Male,White,North West,22.49,Active,RECIPIENT_V2
+V31-A000470,V31-R000079,V31-DP000010,V31-H03,14,2023-02-03,2025-02-02,62,40,Deceased,Other,0,32,B,B,Standard compatible,3,0.25,9.7,Male,White,North West,22.49,Active,RECIPIENT_V2
+V31-A000471,V31-R000079,V31-DP000010,V31-H03,30,2023-02-19,2025-02-18,62,40,Deceased,Other,0,32,B,B,Standard compatible,3,0.25,9.7,Male,White,North West,22.49,Active,RECIPIENT_V3
+V31-A000472,V31-R000079,V31-DP000010,V31-H03,60,2023-03-21,2025-03-20,62,40,Deceased,Other,0,32,B,B,Standard compatible,3,0.25,9.7,Male,White,North West,22.49,Active,RECIPIENT_V4
+V31-A000473,V31-R000079,V31-DP000010,V31-H03,90,2023-04-20,2025-04-19,62,40,Deceased,Other,0,32,B,B,Standard compatible,3,0.25,9.7,Male,White,North West,22.49,Active,RECIPIENT_V4
+V31-A000474,V31-R000079,V31-DP000010,V31-H03,180,2023-07-19,2025-07-18,62,40,Deceased,Other,0,32,B,B,Standard compatible,3,0.25,9.7,Male,White,North West,22.49,Active,RECIPIENT_V4
+V31-A000475,V31-R000080,V31-DP000010,V31-H01,7,2023-06-05,2025-06-04,69,40,Deceased,Diabetic kidney disease,0,43,B,A,Managed incompatibility,1,0.62,11.0,Female,Asian,Northern Ireland,29.8,Active,RECIPIENT_V4
+V31-A000476,V31-R000080,V31-DP000010,V31-H01,14,2023-06-12,2025-06-11,69,40,Deceased,Diabetic kidney disease,0,43,B,A,Managed incompatibility,1,0.62,11.0,Female,Asian,Northern Ireland,29.8,Active,RECIPIENT_V4
+V31-A000477,V31-R000080,V31-DP000010,V31-H01,30,2023-06-28,2025-06-27,69,40,Deceased,Diabetic kidney disease,0,43,B,A,Managed incompatibility,1,0.62,11.0,Female,Asian,Northern Ireland,29.8,Active,RECIPIENT_V4
+V31-A000478,V31-R000080,V31-DP000010,V31-H01,60,2023-07-28,2025-07-27,69,40,Deceased,Diabetic kidney disease,0,43,B,A,Managed incompatibility,1,0.62,11.0,Female,Asian,Northern Ireland,29.8,Active,RECIPIENT_V4
+V31-A000479,V31-R000080,V31-DP000010,V31-H01,90,2023-08-27,2025-08-26,69,40,Deceased,Diabetic kidney disease,0,43,B,A,Managed incompatibility,1,0.62,11.0,Female,Asian,Northern Ireland,29.8,Active,RECIPIENT_V4
+V31-A000480,V31-R000080,V31-DP000010,V31-H01,180,2023-11-25,2025-11-24,69,40,Deceased,Diabetic kidney disease,0,43,B,A,Managed incompatibility,1,0.62,11.0,Female,Asian,Northern Ireland,29.8,Active,RECIPIENT_V4
+V31-A000481,V31-R000081,V31-DP000011,V31-H04,7,2023-02-11,2025-02-10,76,51,Deceased,Glomerulonephritis,1,54,AB,O,Managed incompatibility,6,0.11,12.3,Male,Black,Scotland,37.11,Active,RECIPIENT_V3
+V31-A000482,V31-R000081,V31-DP000011,V31-H04,14,2023-02-18,2025-02-17,76,51,Deceased,Glomerulonephritis,1,54,AB,O,Managed incompatibility,6,0.11,12.3,Male,Black,Scotland,37.11,Active,RECIPIENT_V3
+V31-A000483,V31-R000081,V31-DP000011,V31-H04,30,2023-03-06,2025-03-05,76,51,Deceased,Glomerulonephritis,1,54,AB,O,Managed incompatibility,6,0.11,12.3,Male,Black,Scotland,37.11,Active,RECIPIENT_V3
+V31-A000484,V31-R000081,V31-DP000011,V31-H04,60,2023-04-05,2025-04-04,76,51,Deceased,Glomerulonephritis,1,54,AB,O,Managed incompatibility,6,0.11,12.3,Male,Black,Scotland,37.11,Active,RECIPIENT_V4
+V31-A000485,V31-R000081,V31-DP000011,V31-H04,90,2023-05-05,2025-05-04,76,51,Deceased,Glomerulonephritis,1,54,AB,O,Managed incompatibility,6,0.11,12.3,Male,Black,Scotland,37.11,Active,RECIPIENT_V4
+V31-A000486,V31-R000081,V31-DP000011,V31-H04,180,2023-08-03,2025-08-02,76,51,Deceased,Glomerulonephritis,1,54,AB,O,Managed incompatibility,6,0.11,12.3,Male,Black,Scotland,37.11,Active,RECIPIENT_V4
+V31-A000487,V31-R000082,V31-DP000011,V31-H01,7,2023-03-02,2025-03-01,26,51,Deceased,Hypertensive kidney disease,0,65,AB,AB,Standard compatible,4,0.48,13.6,Female,Mixed,Wales,44.42,Active,RECIPIENT_V3
+V31-A000488,V31-R000082,V31-DP000011,V31-H01,14,2023-03-09,2025-03-08,26,51,Deceased,Hypertensive kidney disease,0,65,AB,AB,Standard compatible,4,0.48,13.6,Female,Mixed,Wales,44.42,Active,RECIPIENT_V4
+V31-A000489,V31-R000082,V31-DP000011,V31-H01,30,2023-03-25,2025-03-24,26,51,Deceased,Hypertensive kidney disease,0,65,AB,AB,Standard compatible,4,0.48,13.6,Female,Mixed,Wales,44.42,Active,RECIPIENT_V4
+V31-A000490,V31-R000082,V31-DP000011,V31-H01,60,2023-04-24,2025-04-23,26,51,Deceased,Hypertensive kidney disease,0,65,AB,AB,Standard compatible,4,0.48,13.6,Female,Mixed,Wales,44.42,Active,RECIPIENT_V4
+V31-A000491,V31-R000082,V31-DP000011,V31-H01,90,2023-05-24,2025-05-23,26,51,Deceased,Hypertensive kidney disease,0,65,AB,AB,Standard compatible,4,0.48,13.6,Female,Mixed,Wales,44.42,Active,RECIPIENT_V4
+V31-A000492,V31-R000082,V31-DP000011,V31-H01,180,2023-08-22,2025-08-21,26,51,Deceased,Hypertensive kidney disease,0,65,AB,AB,Standard compatible,4,0.48,13.6,Female,Mixed,Wales,44.42,Active,RECIPIENT_V4
+V31-A000493,V31-R000083,V31-DP000012,V31-H04,7,2023-02-20,2025-02-19,33,62,Deceased,Polycystic kidney disease,0,6,O,B,Standard compatible,2,0.85,14.9,Male,Other,London,51.73,Active,RECIPIENT_V3
+V31-A000494,V31-R000083,V31-DP000012,V31-H04,14,2023-02-27,2025-02-26,33,62,Deceased,Polycystic kidney disease,0,6,O,B,Standard compatible,2,0.85,14.9,Male,Other,London,51.73,Active,RECIPIENT_V3
+V31-A000495,V31-R000083,V31-DP000012,V31-H04,30,2023-03-15,2025-03-14,33,62,Deceased,Polycystic kidney disease,0,6,O,B,Standard compatible,2,0.85,14.9,Male,Other,London,51.73,Active,RECIPIENT_V4
+V31-A000496,V31-R000083,V31-DP000012,V31-H04,60,2023-04-14,2025-04-13,33,62,Deceased,Polycystic kidney disease,0,6,O,B,Standard compatible,2,0.85,14.9,Male,Other,London,51.73,Active,RECIPIENT_V4
+V31-A000497,V31-R000083,V31-DP000012,V31-H04,90,2023-05-14,2025-05-13,33,62,Deceased,Polycystic kidney disease,0,6,O,B,Standard compatible,2,0.85,14.9,Male,Other,London,51.73,Active,RECIPIENT_V4
+V31-A000498,V31-R000083,V31-DP000012,V31-H04,180,2023-08-12,2025-08-11,33,62,Deceased,Polycystic kidney disease,0,6,O,B,Standard compatible,2,0.85,14.9,Male,Other,London,51.73,Active,RECIPIENT_V4
+V31-A000499,V31-R000084,V31-DP000012,V31-H04,7,2023-05-12,2025-05-11,40,62,Deceased,Other,0,17,O,A,Standard compatible,0,0.34,16.2,Female,White,North West,59.04,Active,RECIPIENT_V4
+V31-A000500,V31-R000084,V31-DP000012,V31-H04,14,2023-05-19,2025-05-18,40,62,Deceased,Other,0,17,O,A,Standard compatible,0,0.34,16.2,Female,White,North West,59.04,Active,RECIPIENT_V4
+V31-A000501,V31-R000084,V31-DP000012,V31-H04,30,2023-06-04,2025-06-03,40,62,Deceased,Other,0,17,O,A,Standard compatible,0,0.34,16.2,Female,White,North West,59.04,Active,RECIPIENT_V4
+V31-A000502,V31-R000084,V31-DP000012,V31-H04,60,2023-07-04,2025-07-03,40,62,Deceased,Other,0,17,O,A,Standard compatible,0,0.34,16.2,Female,White,North West,59.04,Active,RECIPIENT_V4
+V31-A000503,V31-R000084,V31-DP000012,V31-H04,90,2023-08-03,2025-08-02,40,62,Deceased,Other,0,17,O,A,Standard compatible,0,0.34,16.2,Female,White,North West,59.04,Active,RECIPIENT_V4
+V31-A000504,V31-R000084,V31-DP000012,V31-H04,180,2023-11-01,2025-10-31,40,62,Deceased,Other,0,17,O,A,Standard compatible,0,0.34,16.2,Female,White,North West,59.04,Active,RECIPIENT_V4
+V31-A000505,V31-R000085,V31-DP000013,V31-H05,7,2023-01-28,2025-01-27,47,26,Deceased,Diabetic kidney disease,0,28,A,O,Managed incompatibility,5,0.71,17.5,Male,Asian,Northern Ireland,66.35,Active,RECIPIENT_V2
+V31-A000506,V31-R000085,V31-DP000013,V31-H05,14,2023-02-04,2025-02-03,47,26,Deceased,Diabetic kidney disease,0,28,A,O,Managed incompatibility,5,0.71,17.5,Male,Asian,Northern Ireland,66.35,Active,RECIPIENT_V2
+V31-A000507,V31-R000085,V31-DP000013,V31-H05,30,2023-02-20,2025-02-19,47,26,Deceased,Diabetic kidney disease,0,28,A,O,Managed incompatibility,5,0.71,17.5,Male,Asian,Northern Ireland,66.35,Active,RECIPIENT_V3
+V31-A000508,V31-R000085,V31-DP000013,V31-H05,60,2023-03-22,2025-03-21,47,26,Deceased,Diabetic kidney disease,0,28,A,O,Managed incompatibility,5,0.71,17.5,Male,Asian,Northern Ireland,66.35,Active,RECIPIENT_V4
+V31-A000509,V31-R000085,V31-DP000013,V31-H05,90,2023-04-21,2025-04-20,47,26,Deceased,Diabetic kidney disease,0,28,A,O,Managed incompatibility,5,0.71,17.5,Male,Asian,Northern Ireland,66.35,Active,RECIPIENT_V4
+V31-A000510,V31-R000085,V31-DP000013,V31-H05,180,2023-07-20,2025-07-19,47,26,Deceased,Diabetic kidney disease,0,28,A,O,Managed incompatibility,5,0.71,17.5,Male,Asian,Northern Ireland,66.35,Active,RECIPIENT_V4
+V31-A000511,V31-R000086,V31-DP000013,V31-H08,7,2023-04-12,2025-04-11,54,26,Deceased,Glomerulonephritis,0,39,A,AB,Standard compatible,3,0.2,18.8,Female,Black,Scotland,73.66,Active,RECIPIENT_V4
+V31-A000512,V31-R000086,V31-DP000013,V31-H08,14,2023-04-19,2025-04-18,54,26,Deceased,Glomerulonephritis,0,39,A,AB,Standard compatible,3,0.2,18.8,Female,Black,Scotland,73.66,Active,RECIPIENT_V4
+V31-A000513,V31-R000086,V31-DP000013,V31-H08,30,2023-05-05,2025-05-04,54,26,Deceased,Glomerulonephritis,0,39,A,AB,Standard compatible,3,0.2,18.8,Female,Black,Scotland,73.66,Active,RECIPIENT_V4
+V31-A000514,V31-R000086,V31-DP000013,V31-H08,60,2023-06-04,2025-06-03,54,26,Deceased,Glomerulonephritis,0,39,A,AB,Standard compatible,3,0.2,18.8,Female,Black,Scotland,73.66,Active,RECIPIENT_V4
+V31-A000515,V31-R000086,V31-DP000013,V31-H08,90,2023-07-04,2025-07-03,54,26,Deceased,Glomerulonephritis,0,39,A,AB,Standard compatible,3,0.2,18.8,Female,Black,Scotland,73.66,Active,RECIPIENT_V4
+V31-A000516,V31-R000086,V31-DP000013,V31-H08,180,2023-10-02,2025-10-01,54,26,Deceased,Glomerulonephritis,0,39,A,AB,Standard compatible,3,0.2,18.8,Female,Black,Scotland,73.66,Active,RECIPIENT_V4
+V31-A000517,V31-R000087,V31-DP000014,V31-H02,7,2023-01-09,2025-01-08,61,37,Deceased,Hypertensive kidney disease,0,50,B,B,Standard compatible,1,0.57,20.1,Male,Mixed,Wales,80.97,Active,RECIPIENT_V1
+V31-A000518,V31-R000087,V31-DP000014,V31-H02,14,2023-01-16,2025-01-15,61,37,Deceased,Hypertensive kidney disease,0,50,B,B,Standard compatible,1,0.57,20.1,Male,Mixed,Wales,80.97,Active,RECIPIENT_V2
+V31-A000519,V31-R000087,V31-DP000014,V31-H02,30,2023-02-01,2025-01-31,61,37,Deceased,Hypertensive kidney disease,0,50,B,B,Standard compatible,1,0.57,20.1,Male,Mixed,Wales,80.97,Active,RECIPIENT_V2
+V31-A000520,V31-R000087,V31-DP000014,V31-H02,60,2023-03-03,2025-03-02,61,37,Deceased,Hypertensive kidney disease,0,50,B,B,Standard compatible,1,0.57,20.1,Male,Mixed,Wales,80.97,Active,RECIPIENT_V3
+V31-A000521,V31-R000087,V31-DP000014,V31-H02,90,2023-04-02,2025-04-01,61,37,Deceased,Hypertensive kidney disease,0,50,B,B,Standard compatible,1,0.57,20.1,Male,Mixed,Wales,80.97,Active,RECIPIENT_V4
+V31-A000522,V31-R000087,V31-DP000014,V31-H02,180,2023-07-01,2025-06-30,61,37,Deceased,Hypertensive kidney disease,0,50,B,B,Standard compatible,1,0.57,20.1,Male,Mixed,Wales,80.97,Active,RECIPIENT_V4
+V31-A000523,V31-R000088,V31-DP000014,V31-H03,7,2023-05-18,2025-05-17,68,37,Deceased,Polycystic kidney disease,0,61,B,A,Managed incompatibility,6,0.06,2.4,Female,Other,London,88.28,Active,RECIPIENT_V4
+V31-A000524,V31-R000088,V31-DP000014,V31-H03,14,2023-05-25,2025-05-24,68,37,Deceased,Polycystic kidney disease,0,61,B,A,Managed incompatibility,6,0.06,2.4,Female,Other,London,88.28,Active,RECIPIENT_V4
+V31-A000525,V31-R000088,V31-DP000014,V31-H03,30,2023-06-10,2025-06-09,68,37,Deceased,Polycystic kidney disease,0,61,B,A,Managed incompatibility,6,0.06,2.4,Female,Other,London,88.28,Active,RECIPIENT_V4
+V31-A000526,V31-R000088,V31-DP000014,V31-H03,60,2023-07-10,2025-07-09,68,37,Deceased,Polycystic kidney disease,0,61,B,A,Managed incompatibility,6,0.06,2.4,Female,Other,London,88.28,Active,RECIPIENT_V4
+V31-A000527,V31-R000088,V31-DP000014,V31-H03,90,2023-08-09,2025-08-08,68,37,Deceased,Polycystic kidney disease,0,61,B,A,Managed incompatibility,6,0.06,2.4,Female,Other,London,88.28,Active,RECIPIENT_V4
+V31-A000528,V31-R000088,V31-DP000014,V31-H03,180,2023-11-07,2025-11-06,68,37,Deceased,Polycystic kidney disease,0,61,B,A,Managed incompatibility,6,0.06,2.4,Female,Other,London,88.28,Active,RECIPIENT_V4
+V31-A000529,V31-R000089,V31-DP000015,V31-H04,7,2023-02-22,2025-02-21,75,48,Deceased,Other,0,72,AB,O,Managed incompatibility,4,0.43,3.7,Male,White,North West,95.59,Active,RECIPIENT_V3
+V31-A000530,V31-R000089,V31-DP000015,V31-H04,14,2023-03-01,2025-02-28,75,48,Deceased,Other,0,72,AB,O,Managed incompatibility,4,0.43,3.7,Male,White,North West,95.59,Active,RECIPIENT_V3
+V31-A000531,V31-R000089,V31-DP000015,V31-H04,30,2023-03-17,2025-03-16,75,48,Deceased,Other,0,72,AB,O,Managed incompatibility,4,0.43,3.7,Male,White,North West,95.59,Active,RECIPIENT_V4
+V31-A000532,V31-R000089,V31-DP000015,V31-H04,60,2023-04-16,2025-04-15,75,48,Deceased,Other,0,72,AB,O,Managed incompatibility,4,0.43,3.7,Male,White,North West,95.59,Active,RECIPIENT_V4
+V31-A000533,V31-R000089,V31-DP000015,V31-H04,90,2023-05-16,2025-05-15,75,48,Deceased,Other,0,72,AB,O,Managed incompatibility,4,0.43,3.7,Male,White,North West,95.59,Active,RECIPIENT_V4
+V31-A000534,V31-R000089,V31-DP000015,V31-H04,180,2023-08-14,2025-08-13,75,48,Deceased,Other,0,72,AB,O,Managed incompatibility,4,0.43,3.7,Male,White,North West,95.59,Active,RECIPIENT_V4
+V31-A000535,V31-R000090,V31-DP000015,V31-H09,7,2023-03-08,2025-03-07,25,48,Deceased,Diabetic kidney disease,1,13,AB,AB,Standard compatible,2,0.8,5.0,Female,Asian,Northern Ireland,102.9,Active,RECIPIENT_V4
+V31-A000536,V31-R000090,V31-DP000015,V31-H09,14,2023-03-15,2025-03-14,25,48,Deceased,Diabetic kidney disease,1,13,AB,AB,Standard compatible,2,0.8,5.0,Female,Asian,Northern Ireland,102.9,Active,RECIPIENT_V4
+V31-A000537,V31-R000090,V31-DP000015,V31-H09,30,2023-03-31,2025-03-30,25,48,Deceased,Diabetic kidney disease,1,13,AB,AB,Standard compatible,2,0.8,5.0,Female,Asian,Northern Ireland,102.9,Active,RECIPIENT_V4
+V31-A000538,V31-R000090,V31-DP000015,V31-H09,60,2023-04-30,2025-04-29,25,48,Deceased,Diabetic kidney disease,1,13,AB,AB,Standard compatible,2,0.8,5.0,Female,Asian,Northern Ireland,102.9,Active,RECIPIENT_V4
+V31-A000539,V31-R000090,V31-DP000015,V31-H09,90,2023-05-30,2025-05-29,25,48,Deceased,Diabetic kidney disease,1,13,AB,AB,Standard compatible,2,0.8,5.0,Female,Asian,Northern Ireland,102.9,Active,RECIPIENT_V4
+V31-A000540,V31-R000090,V31-DP000015,V31-H09,180,2023-08-28,2025-08-27,25,48,Deceased,Diabetic kidney disease,1,13,AB,AB,Standard compatible,2,0.8,5.0,Female,Asian,Northern Ireland,102.9,Active,RECIPIENT_V4
+V31-A000541,V31-R000091,V31-DP000016,V31-H07,7,2023-04-13,2025-04-12,32,59,Deceased,Glomerulonephritis,0,24,O,B,Standard compatible,0,0.29,6.3,Male,Black,Scotland,110.21,Active,RECIPIENT_V4
+V31-A000542,V31-R000091,V31-DP000016,V31-H07,14,2023-04-20,2025-04-19,32,59,Deceased,Glomerulonephritis,0,24,O,B,Standard compatible,0,0.29,6.3,Male,Black,Scotland,110.21,Active,RECIPIENT_V4
+V31-A000543,V31-R000091,V31-DP000016,V31-H07,30,2023-05-06,2025-05-05,32,59,Deceased,Glomerulonephritis,0,24,O,B,Standard compatible,0,0.29,6.3,Male,Black,Scotland,110.21,Active,RECIPIENT_V4
+V31-A000544,V31-R000091,V31-DP000016,V31-H07,60,2023-06-05,2025-06-04,32,59,Deceased,Glomerulonephritis,0,24,O,B,Standard compatible,0,0.29,6.3,Male,Black,Scotland,110.21,Active,RECIPIENT_V4
+V31-A000545,V31-R000091,V31-DP000016,V31-H07,90,2023-07-05,2025-07-04,32,59,Deceased,Glomerulonephritis,0,24,O,B,Standard compatible,0,0.29,6.3,Male,Black,Scotland,110.21,Active,RECIPIENT_V4
+V31-A000546,V31-R000091,V31-DP000016,V31-H07,180,2023-10-03,2025-10-02,32,59,Deceased,Glomerulonephritis,0,24,O,B,Standard compatible,0,0.29,6.3,Male,Black,Scotland,110.21,Active,RECIPIENT_V4
+V31-A000547,V31-R000092,V31-DP000016,V31-H10,7,2023-03-17,2025-03-16,39,59,Deceased,Hypertensive kidney disease,0,35,O,A,Standard compatible,5,0.66,7.6,Female,Mixed,Wales,117.52,Active,RECIPIENT_V4
+V31-A000548,V31-R000092,V31-DP000016,V31-H10,14,2023-03-24,2025-03-23,39,59,Deceased,Hypertensive kidney disease,0,35,O,A,Standard compatible,5,0.66,7.6,Female,Mixed,Wales,117.52,Active,RECIPIENT_V4
+V31-A000549,V31-R000092,V31-DP000016,V31-H10,30,2023-04-09,2025-04-08,39,59,Deceased,Hypertensive kidney disease,0,35,O,A,Standard compatible,5,0.66,7.6,Female,Mixed,Wales,117.52,Active,RECIPIENT_V4
+V31-A000550,V31-R000092,V31-DP000016,V31-H10,60,2023-05-09,2025-05-08,39,59,Deceased,Hypertensive kidney disease,0,35,O,A,Standard compatible,5,0.66,7.6,Female,Mixed,Wales,117.52,Active,RECIPIENT_V4
+V31-A000551,V31-R000092,V31-DP000016,V31-H10,90,2023-06-08,2025-06-07,39,59,Deceased,Hypertensive kidney disease,0,35,O,A,Standard compatible,5,0.66,7.6,Female,Mixed,Wales,117.52,Active,RECIPIENT_V4
+V31-A000552,V31-R000092,V31-DP000016,V31-H10,180,2023-09-06,2025-09-05,39,59,Deceased,Hypertensive kidney disease,0,35,O,A,Standard compatible,5,0.66,7.6,Female,Mixed,Wales,117.52,Active,RECIPIENT_V4
+V31-A000553,V31-R000093,V31-DP000017,V31-H01,7,2023-04-27,2025-04-26,46,70,Deceased,Polycystic kidney disease,0,46,A,O,Managed incompatibility,3,0.15,8.9,Male,Other,London,124.83,Active,RECIPIENT_V4
+V31-A000554,V31-R000093,V31-DP000017,V31-H01,14,2023-05-04,2025-05-03,46,70,Deceased,Polycystic kidney disease,0,46,A,O,Managed incompatibility,3,0.15,8.9,Male,Other,London,124.83,Active,RECIPIENT_V4
+V31-A000555,V31-R000093,V31-DP000017,V31-H01,30,2023-05-20,2025-05-19,46,70,Deceased,Polycystic kidney disease,0,46,A,O,Managed incompatibility,3,0.15,8.9,Male,Other,London,124.83,Active,RECIPIENT_V4
+V31-A000556,V31-R000093,V31-DP000017,V31-H01,60,2023-06-19,2025-06-18,46,70,Deceased,Polycystic kidney disease,0,46,A,O,Managed incompatibility,3,0.15,8.9,Male,Other,London,124.83,Active,RECIPIENT_V4
+V31-A000557,V31-R000093,V31-DP000017,V31-H01,90,2023-07-19,2025-07-18,46,70,Deceased,Polycystic kidney disease,0,46,A,O,Managed incompatibility,3,0.15,8.9,Male,Other,London,124.83,Active,RECIPIENT_V4
+V31-A000558,V31-R000093,V31-DP000017,V31-H01,180,2023-10-17,2025-10-16,46,70,Deceased,Polycystic kidney disease,0,46,A,O,Managed incompatibility,3,0.15,8.9,Male,Other,London,124.83,Active,RECIPIENT_V4
+V31-A000559,V31-R000094,V31-DP000017,V31-H05,7,2023-04-11,2025-04-10,53,70,Deceased,Other,0,57,A,AB,Standard compatible,1,0.52,10.2,Female,White,North West,132.14,Active,RECIPIENT_V4
+V31-A000560,V31-R000094,V31-DP000017,V31-H05,14,2023-04-18,2025-04-17,53,70,Deceased,Other,0,57,A,AB,Standard compatible,1,0.52,10.2,Female,White,North West,132.14,Active,RECIPIENT_V4
+V31-A000561,V31-R000094,V31-DP000017,V31-H05,30,2023-05-04,2025-05-03,53,70,Deceased,Other,0,57,A,AB,Standard compatible,1,0.52,10.2,Female,White,North West,132.14,Active,RECIPIENT_V4
+V31-A000562,V31-R000094,V31-DP000017,V31-H05,60,2023-06-03,2025-06-02,53,70,Deceased,Other,0,57,A,AB,Standard compatible,1,0.52,10.2,Female,White,North West,132.14,Active,RECIPIENT_V4
+V31-A000563,V31-R000094,V31-DP000017,V31-H05,90,2023-07-03,2025-07-02,53,70,Deceased,Other,0,57,A,AB,Standard compatible,1,0.52,10.2,Female,White,North West,132.14,Active,RECIPIENT_V4
+V31-A000564,V31-R000094,V31-DP000017,V31-H05,180,2023-10-01,2025-09-30,53,70,Deceased,Other,0,57,A,AB,Standard compatible,1,0.52,10.2,Female,White,North West,132.14,Active,RECIPIENT_V4
+V31-A000565,V31-R000095,V31-DP000018,V31-H09,7,2023-01-19,2025-01-18,60,34,Deceased,Diabetic kidney disease,0,68,B,B,Standard compatible,6,0.89,11.5,Male,Asian,Northern Ireland,139.45,Active,RECIPIENT_V2
+V31-A000566,V31-R000095,V31-DP000018,V31-H09,14,2023-01-26,2025-01-25,60,34,Deceased,Diabetic kidney disease,0,68,B,B,Standard compatible,6,0.89,11.5,Male,Asian,Northern Ireland,139.45,Active,RECIPIENT_V2
+V31-A000567,V31-R000095,V31-DP000018,V31-H09,30,2023-02-11,2025-02-10,60,34,Deceased,Diabetic kidney disease,0,68,B,B,Standard compatible,6,0.89,11.5,Male,Asian,Northern Ireland,139.45,Active,RECIPIENT_V3
+V31-A000568,V31-R000095,V31-DP000018,V31-H09,60,2023-03-13,2025-03-12,60,34,Deceased,Diabetic kidney disease,0,68,B,B,Standard compatible,6,0.89,11.5,Male,Asian,Northern Ireland,139.45,Active,RECIPIENT_V4
+V31-A000569,V31-R000095,V31-DP000018,V31-H09,90,2023-04-12,2025-04-11,60,34,Deceased,Diabetic kidney disease,0,68,B,B,Standard compatible,6,0.89,11.5,Male,Asian,Northern Ireland,139.45,Active,RECIPIENT_V4
+V31-A000570,V31-R000095,V31-DP000018,V31-H09,180,2023-07-11,2025-07-10,60,34,Deceased,Diabetic kidney disease,0,68,B,B,Standard compatible,6,0.89,11.5,Male,Asian,Northern Ireland,139.45,Active,RECIPIENT_V4
+V31-A000571,V31-R000096,V31-DP000018,V31-H07,7,2023-05-08,2025-05-07,67,34,Deceased,Glomerulonephritis,0,9,B,A,Managed incompatibility,4,0.38,12.8,Female,Black,Scotland,6.76,Active,RECIPIENT_V4
+V31-A000572,V31-R000096,V31-DP000018,V31-H07,14,2023-05-15,2025-05-14,67,34,Deceased,Glomerulonephritis,0,9,B,A,Managed incompatibility,4,0.38,12.8,Female,Black,Scotland,6.76,Active,RECIPIENT_V4
+V31-A000573,V31-R000096,V31-DP000018,V31-H07,30,2023-05-31,2025-05-30,67,34,Deceased,Glomerulonephritis,0,9,B,A,Managed incompatibility,4,0.38,12.8,Female,Black,Scotland,6.76,Active,RECIPIENT_V4
+V31-A000574,V31-R000096,V31-DP000018,V31-H07,60,2023-06-30,2025-06-29,67,34,Deceased,Glomerulonephritis,0,9,B,A,Managed incompatibility,4,0.38,12.8,Female,Black,Scotland,6.76,Active,RECIPIENT_V4
+V31-A000575,V31-R000096,V31-DP000018,V31-H07,90,2023-07-30,2025-07-29,67,34,Deceased,Glomerulonephritis,0,9,B,A,Managed incompatibility,4,0.38,12.8,Female,Black,Scotland,6.76,Active,RECIPIENT_V4
+V31-A000576,V31-R000096,V31-DP000018,V31-H07,180,2023-10-28,2025-10-27,67,34,Deceased,Glomerulonephritis,0,9,B,A,Managed incompatibility,4,0.38,12.8,Female,Black,Scotland,6.76,Active,RECIPIENT_V4
+V31-A000577,V31-R000097,V31-DP000019,V31-H01,7,2023-01-11,2025-01-10,74,45,Deceased,Hypertensive kidney disease,0,20,AB,O,Managed incompatibility,2,0.75,14.1,Male,Mixed,Wales,14.07,Active,RECIPIENT_V2
+V31-A000578,V31-R000097,V31-DP000019,V31-H01,14,2023-01-18,2025-01-17,74,45,Deceased,Hypertensive kidney disease,0,20,AB,O,Managed incompatibility,2,0.75,14.1,Male,Mixed,Wales,14.07,Active,RECIPIENT_V2
+V31-A000579,V31-R000097,V31-DP000019,V31-H01,30,2023-02-03,2025-02-02,74,45,Deceased,Hypertensive kidney disease,0,20,AB,O,Managed incompatibility,2,0.75,14.1,Male,Mixed,Wales,14.07,Active,RECIPIENT_V2
+V31-A000580,V31-R000097,V31-DP000019,V31-H01,60,2023-03-05,2025-03-04,74,45,Deceased,Hypertensive kidney disease,0,20,AB,O,Managed incompatibility,2,0.75,14.1,Male,Mixed,Wales,14.07,Active,RECIPIENT_V3
+V31-A000581,V31-R000097,V31-DP000019,V31-H01,90,2023-04-04,2025-04-03,74,45,Deceased,Hypertensive kidney disease,0,20,AB,O,Managed incompatibility,2,0.75,14.1,Male,Mixed,Wales,14.07,Active,RECIPIENT_V4
+V31-A000582,V31-R000097,V31-DP000019,V31-H01,180,2023-07-03,2025-07-02,74,45,Deceased,Hypertensive kidney disease,0,20,AB,O,Managed incompatibility,2,0.75,14.1,Male,Mixed,Wales,14.07,Active,RECIPIENT_V4
+V31-A000583,V31-R000098,V31-DP000019,V31-H06,7,2023-01-12,2025-01-11,24,45,Deceased,Polycystic kidney disease,0,31,AB,AB,Standard compatible,0,0.24,15.4,Female,Other,London,21.38,Active,RECIPIENT_V2
+V31-A000584,V31-R000098,V31-DP000019,V31-H06,14,2023-01-19,2025-01-18,24,45,Deceased,Polycystic kidney disease,0,31,AB,AB,Standard compatible,0,0.24,15.4,Female,Other,London,21.38,Active,RECIPIENT_V2
+V31-A000585,V31-R000098,V31-DP000019,V31-H06,30,2023-02-04,2025-02-03,24,45,Deceased,Polycystic kidney disease,0,31,AB,AB,Standard compatible,0,0.24,15.4,Female,Other,London,21.38,Active,RECIPIENT_V2
+V31-A000586,V31-R000098,V31-DP000019,V31-H06,60,2023-03-06,2025-03-05,24,45,Deceased,Polycystic kidney disease,0,31,AB,AB,Standard compatible,0,0.24,15.4,Female,Other,London,21.38,Active,RECIPIENT_V3
+V31-A000587,V31-R000098,V31-DP000019,V31-H06,90,2023-04-05,2025-04-04,24,45,Deceased,Polycystic kidney disease,0,31,AB,AB,Standard compatible,0,0.24,15.4,Female,Other,London,21.38,Active,RECIPIENT_V4
+V31-A000588,V31-R000098,V31-DP000019,V31-H06,180,2023-07-04,2025-07-03,24,45,Deceased,Polycystic kidney disease,0,31,AB,AB,Standard compatible,0,0.24,15.4,Female,Other,London,21.38,Active,RECIPIENT_V4
+V31-A000589,V31-R000099,V31-DP000020,V31-H02,7,2023-04-20,2025-04-19,31,56,Deceased,Other,1,42,O,B,Standard compatible,5,0.61,16.7,Male,White,North West,28.69,Active,RECIPIENT_V4
+V31-A000590,V31-R000099,V31-DP000020,V31-H02,14,2023-04-27,2025-04-26,31,56,Deceased,Other,1,42,O,B,Standard compatible,5,0.61,16.7,Male,White,North West,28.69,Active,RECIPIENT_V4
+V31-A000591,V31-R000099,V31-DP000020,V31-H02,30,2023-05-13,2025-05-12,31,56,Deceased,Other,1,42,O,B,Standard compatible,5,0.61,16.7,Male,White,North West,28.69,Active,RECIPIENT_V4
+V31-A000592,V31-R000099,V31-DP000020,V31-H02,60,2023-06-12,2025-06-11,31,56,Deceased,Other,1,42,O,B,Standard compatible,5,0.61,16.7,Male,White,North West,28.69,Active,RECIPIENT_V4
+V31-A000593,V31-R000099,V31-DP000020,V31-H02,90,2023-07-12,2025-07-11,31,56,Deceased,Other,1,42,O,B,Standard compatible,5,0.61,16.7,Male,White,North West,28.69,Active,RECIPIENT_V4
+V31-A000594,V31-R000099,V31-DP000020,V31-H02,180,2023-10-10,2025-10-09,31,56,Deceased,Other,1,42,O,B,Standard compatible,5,0.61,16.7,Male,White,North West,28.69,Active,RECIPIENT_V4
+V31-A000595,V31-R000100,V31-DP000020,V31-H02,7,2023-03-30,2025-03-29,38,56,Deceased,Diabetic kidney disease,0,53,O,A,Standard compatible,3,0.1,18.0,Female,Asian,Northern Ireland,36.0,Active,RECIPIENT_V4
+V31-A000596,V31-R000100,V31-DP000020,V31-H02,14,2023-04-06,2025-04-05,38,56,Deceased,Diabetic kidney disease,0,53,O,A,Standard compatible,3,0.1,18.0,Female,Asian,Northern Ireland,36.0,Active,RECIPIENT_V4
+V31-A000597,V31-R000100,V31-DP000020,V31-H02,30,2023-04-22,2025-04-21,38,56,Deceased,Diabetic kidney disease,0,53,O,A,Standard compatible,3,0.1,18.0,Female,Asian,Northern Ireland,36.0,Active,RECIPIENT_V4
+V31-A000598,V31-R000100,V31-DP000020,V31-H02,60,2023-05-22,2025-05-21,38,56,Deceased,Diabetic kidney disease,0,53,O,A,Standard compatible,3,0.1,18.0,Female,Asian,Northern Ireland,36.0,Active,RECIPIENT_V4
+V31-A000599,V31-R000100,V31-DP000020,V31-H02,90,2023-06-21,2025-06-20,38,56,Deceased,Diabetic kidney disease,0,53,O,A,Standard compatible,3,0.1,18.0,Female,Asian,Northern Ireland,36.0,Active,RECIPIENT_V4
+V31-A000600,V31-R000100,V31-DP000020,V31-H02,180,2023-09-19,2025-09-18,38,56,Deceased,Diabetic kidney disease,0,53,O,A,Standard compatible,3,0.1,18.0,Female,Asian,Northern Ireland,36.0,Active,RECIPIENT_V4

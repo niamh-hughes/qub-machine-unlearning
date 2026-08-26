@@ -1,0 +1,26 @@
+{
+  "client": {
+    "max_retries": 0
+  },
+  "completion": {
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "max_tokens": 8192,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "presence_penalty": 1.5,
+    "extra_body": {
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "seed": "unique deterministic corrected_10_control_plan.request_seed",
+  "automatic_retry": false,
+  "response_order": [
+    "resp.model_dump_json(indent=2)",
+    "append complete response to immutable JSONL",
+    "extract final content",
+    "parse and validate"
+  ]
+}

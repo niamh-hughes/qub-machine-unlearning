@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "protected_file_count": 680,
+  "changed_protected_files": [],
+  "missing_protected_files": [],
+  "unexpected_files_outside_isolated_paths": [],
+  "benchmark_sha256_before": "95f5f2904b7e8e079e5d06409100f1525a2e0598466282ae06b2840fc74bd7ce",
+  "benchmark_sha256_after": "95f5f2904b7e8e079e5d06409100f1525a2e0598466282ae06b2840fc74bd7ce",
+  "benchmark_unchanged": true,
+  "prompt_hashes": {
+    "zero_shot": "7573be667626a9e9d9bc1993afc371733b91a01a4779a9a978ded811b4ccde98",
+    "few_shot": "540f2354710a9c4fa5dc1a1fdf44847b32d9d03ccbf4957389ecfc9e68e5d9e6"
+  },
+  "all_csv_readable": true,
+  "figure_count": 6,
+  "existing_models_modified": false,
+  "existing_results_modified": false,
+  "existing_datasets_modified": false,
+  "existing_notebooks_modified": false,
+  "llm_generated_code_executed": false,
+  "records_deleted": 0,
+  "classifier_or_unlearning_models_trained": 0
+}

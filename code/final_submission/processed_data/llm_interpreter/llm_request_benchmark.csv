@@ -1,0 +1,101 @@
+request_id,request_text,difficulty_group,expected_request_type,expected_entity_type,expected_entity_ids,expected_date_cutoff,expected_requires_human_review,expected_executable,notes
+LLMREQ-001,Recipient V32P-R004205 withdraws consent for all their records to be used for model training.,straightforward,recipient_withdrawal,recipient,"[""V32P-R004205""]",,False,True,Explicit recipient-level request
+LLMREQ-002,Remove every assessment belonging to recipient V32P-R001325 from future training.,straightforward,recipient_withdrawal,recipient,"[""V32P-R001325""]",,False,True,Explicit recipient-level request
+LLMREQ-003,Process a complete training-data withdrawal for recipient V32P-R001426.,straightforward,recipient_withdrawal,recipient,"[""V32P-R001426""]",,False,True,Explicit recipient-level request
+LLMREQ-004,Exclude the full longitudinal history of recipient V32P-R007674 from the training corpus.,straightforward,recipient_withdrawal,recipient,"[""V32P-R007674""]",,False,True,Explicit recipient-level request
+LLMREQ-005,Recipient V32P-R006444 requests removal of their transplant assessments from model training.,straightforward,recipient_withdrawal,recipient,"[""V32P-R006444""]",,False,True,Explicit recipient-level request
+LLMREQ-006,Apply the recipient records withdrawal request for V32P-R005972.,straightforward,recipient_withdrawal,recipient,"[""V32P-R005972""]",,False,True,Explicit recipient-level request
+LLMREQ-007,Stop using any assessment linked to recipient V32P-R005394 for training.,straightforward,recipient_withdrawal,recipient,"[""V32P-R005394""]",,False,True,Explicit recipient-level request
+LLMREQ-008,Delete recipient V32P-R007913's complete assessment history from the training scope.,straightforward,recipient_withdrawal,recipient,"[""V32P-R007913""]",,False,True,Explicit recipient-level request
+LLMREQ-009,Treat V32P-R008186 as a recipient who has withdrawn permission for training use.,straightforward,recipient_withdrawal,recipient,"[""V32P-R008186""]",,False,True,Explicit recipient-level request
+LLMREQ-010,Remove all training records whose recipient identifier is V32P-R009732.,straightforward,recipient_withdrawal,recipient,"[""V32P-R009732""]",,False,True,Explicit recipient-level request
+LLMREQ-011,The data subject identified as recipient V32P-R008817 has withdrawn training consent.,straightforward,recipient_withdrawal,recipient,"[""V32P-R008817""]",,False,True,Explicit recipient-level request
+LLMREQ-012,Please action full recipient-level removal for V32P-R008897 from model training.,straightforward,recipient_withdrawal,recipient,"[""V32P-R008897""]",,False,True,Explicit recipient-level request
+LLMREQ-013,I'm recipient V32P-R008144 and I don't want my transplant information training the system anymore.,paraphrased,recipient_withdrawal,recipient,"[""V32P-R008144""]",,False,True,Explicit recipient-level request
+LLMREQ-014,Can you stop the model using everything recorded for me? My recipient number is V32P-R009171.,paraphrased,recipient_withdrawal,recipient,"[""V32P-R009171""]",,False,True,Explicit recipient-level request
+LLMREQ-015,Take all of my assessment history out of future training please — I'm V32P-R006569.,paraphrased,recipient_withdrawal,recipient,"[""V32P-R006569""]",,False,True,Explicit recipient-level request
+LLMREQ-016,I changed my mind about training use; remove everything tied to recipient ID V32P-R002885.,paraphrased,recipient_withdrawal,recipient,"[""V32P-R002885""]",,False,True,Explicit recipient-level request
+LLMREQ-017,Donor V32P-DP001594 withdraws permission for linked transplant records to be used in training.,straightforward,donor_withdrawal,donor,"[""V32P-DP001594""]",,False,True,Explicit linked-donor request
+LLMREQ-018,Remove all assessments linked to donor V32P-DP000200 from model training.,straightforward,donor_withdrawal,donor,"[""V32P-DP000200""]",,False,True,Explicit linked-donor request
+LLMREQ-019,Process donor-level withdrawal for donor identifier V32P-DP001152.,straightforward,donor_withdrawal,donor,"[""V32P-DP001152""]",,False,True,Explicit linked-donor request
+LLMREQ-020,Exclude every recipient assessment associated with donor V32P-DP001364 from training.,straightforward,donor_withdrawal,donor,"[""V32P-DP001364""]",,False,True,Explicit linked-donor request
+LLMREQ-021,Donor V32P-DP001562 requests removal of all linked data from the training corpus.,straightforward,donor_withdrawal,donor,"[""V32P-DP001562""]",,False,True,Explicit linked-donor request
+LLMREQ-022,Apply the linked-donor removal policy to V32P-DP000477.,straightforward,donor_withdrawal,donor,"[""V32P-DP000477""]",,False,True,Explicit linked-donor request
+LLMREQ-023,Stop training on records connected to donor V32P-DP001670.,straightforward,donor_withdrawal,donor,"[""V32P-DP001670""]",,False,True,Explicit linked-donor request
+LLMREQ-024,Delete the training scope associated with donor V32P-DP000419.,straightforward,donor_withdrawal,donor,"[""V32P-DP000419""]",,False,True,Explicit linked-donor request
+LLMREQ-025,Treat V32P-DP000668 as a donor who has withdrawn training permission.,straightforward,donor_withdrawal,donor,"[""V32P-DP000668""]",,False,True,Explicit linked-donor request
+LLMREQ-026,Remove all training records whose donor identifier is V32P-DP000150.,straightforward,donor_withdrawal,donor,"[""V32P-DP000150""]",,False,True,Explicit linked-donor request
+LLMREQ-027,The donor identified as V32P-DP000142 has withdrawn data-use permission.,straightforward,donor_withdrawal,donor,"[""V32P-DP000142""]",,False,True,Explicit linked-donor request
+LLMREQ-028,Please action donor-linked removal for V32P-DP001031 from model training.,straightforward,donor_withdrawal,donor,"[""V32P-DP001031""]",,False,True,Explicit linked-donor request
+LLMREQ-029,Please stop using anything connected to my donation in training; my donor ID is V32P-DP000340.,paraphrased,donor_withdrawal,donor,"[""V32P-DP000340""]",,False,True,Explicit linked-donor request
+LLMREQ-030,"I donated the kidney linked to V32P-DP000864, and I want those linked records out of training.",paraphrased,donor_withdrawal,donor,"[""V32P-DP000864""]",,False,True,Explicit linked-donor request
+LLMREQ-031,Can you take the training data connected with donor number V32P-DP001469 out of the system?,paraphrased,donor_withdrawal,donor,"[""V32P-DP001469""]",,False,True,Explicit linked-donor request
+LLMREQ-032,I no longer agree to training use of records tied to me as donor V32P-DP001937.,paraphrased,donor_withdrawal,donor,"[""V32P-DP001937""]",,False,True,Explicit linked-donor request
+LLMREQ-033,Remove all assessments supplied by hospital V32P-H05 from model training.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-034,Hospital V32P-H05 requires provider-wide removal of its records from training.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-035,Process the frozen hospital-removal policy for V32P-H05.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-036,Exclude every training assessment belonging to provider V32P-H05.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-037,Apply complete provider-level training-data removal to hospital V32P-H05.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-038,Stop using records originating from hospital V32P-H05 in the model.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-039,Remove the entire training contribution of hospital V32P-H05.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-040,Hospital identifier V32P-H05 has requested withdrawal of all supplied training data.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-041,Delete from training every record whose hospital ID is V32P-H05.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-042,Action a provider-cluster removal for hospital V32P-H05.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-043,Exclude the records submitted by V32P-H05 from subsequent model training.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-044,The data provider V32P-H05 requests removal of its assessment records.,straightforward,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-045,Our centre is V32P-H05; please stop training the model on anything we supplied.,paraphrased,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-046,Can you take all of V32P-H05's transplant records out of future training?,paraphrased,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-047,We represent hospital V32P-H05 and want our whole contribution removed from training.,paraphrased,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-048,Nothing from provider V32P-H05 should be used to train the system anymore.,paraphrased,hospital_removal,hospital,"[""V32P-H05""]",,False,True,Explicit frozen provider request
+LLMREQ-049,Remove training assessments with consent status Invalidated under version RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-050,Apply the frozen invalid-consent rule: Invalidated and RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-051,Exclude records marked Invalidated for training consent version RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-052,Process all assessments where training consent is Invalidated and the version is RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-053,The audit requires removal of Invalidated consent records under RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-054,Stop using records carrying Invalidated status with consent version RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-055,Remove the training scope defined by Invalidated plus RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-056,"Apply consent-audit removal to status Invalidated, version RECIPIENT_V3.",straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-057,Exclude assessment rows whose training consent is Invalidated under RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-058,Action the established consent rule for Invalidated / RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-059,Delete from training records labelled Invalidated at RECIPIENT_V3.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-060,Use the fixed audit policy to remove Invalidated RECIPIENT_V3 assessments.,straightforward,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-061,The consent audit says Invalidated for RECIPIENT_V3; those rows can't stay in training.,paraphrased,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-062,Please take out anything marked Invalidated on the RECIPIENT_V3 consent version.,paraphrased,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-063,Can you remove the training records with RECIPIENT_V3 that now say Invalidated?,paraphrased,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-064,Anything under RECIPIENT_V3 with an Invalidated status needs to come out of training.,paraphrased,invalid_consent,consent_rule,"[""Invalidated"", ""RECIPIENT_V3""]",,False,True,Explicit frozen consent rule
+LLMREQ-065,Remove assessments whose retention expiry date is on or before 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-066,Apply the frozen retention cutoff of 2025-12-31 to training records.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-067,Exclude records with retention_expiry_date <= 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-068,Process retention-based removal through 2025-12-31 inclusive.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-069,Remove training assessments that expired for retention by 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-070,Apply the time-based deletion rule using cutoff 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-071,Stop using records whose retention period ended on or before 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-072,Delete the training scope covered by retention deadline 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-073,Action expiry-based removal with the inclusive date 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-074,Exclude assessment rows at or before retention cutoff 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-075,Use 2025-12-31 as the fixed retention-expiry deletion cutoff.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-076,Remove all model-training records expired by 2025-12-31.,straightforward,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-077,Anything whose keeping period ran out by 2025-12-31 should come out of training.,paraphrased,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-078,Can you clear training records that reached their retention end date by 2025-12-31?,paraphrased,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-079,Please take out the assessments we were only allowed to keep through 2025-12-31.,paraphrased,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-080,Records expired on or before 2025-12-31 shouldn't be used for training anymore.,paraphrased,retention_expiry,retention_rule,[],2025-12-31,False,True,Explicit frozen retention cutoff
+LLMREQ-081,Please remove my old records.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-082,I withdraw permission.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-083,Can you delete the transplant information?,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-084,My data should not be there anymore.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-085,Please deal with the records from my hospital.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-086,Remove what has expired.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-087,I need some donor information taken out.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-088,Please stop using my assessments.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-089,The consent entry is wrong; remove it.,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-090,Can someone review my deletion request?,ambiguous,unknown,none,[],,True,False,"Missing the identifier, cutoff, or precise authorised scope"
+LLMREQ-091,Remove every patient whose creatinine is above 2.0.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-092,Delete records for recipients with low medication adherence.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-093,Forget all assessments showing an infection.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-094,Remove records based on recipient ethnicity.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-095,Delete everyone older than 60 from training.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-096,Forget all cases with a previous rejection.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-097,Remove all deceased-donor transplants.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-098,Delete records with high antibody risk scores.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-099,Forget assessments from patients with poor urine output.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies
+LLMREQ-100,Remove every record where the prediction target is positive.,unsupported,unknown,none,[],,True,False,Clinical-characteristic filtering is outside the five authorised policies

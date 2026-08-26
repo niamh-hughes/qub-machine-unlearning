@@ -1,0 +1,6 @@
+scenario,all_five_shards_affected,earliest_slice_one_in_every_shard,replayed_all_25_stages,reused_original_final_shards,fresh_initialization,all_forgotten_rows_excluded
+recipient_withdrawal,True,True,True,0,True,True
+donor_withdrawal,True,True,True,0,True,True
+hospital_removal,True,True,True,0,True,True
+invalid_consent,True,True,True,0,True,True
+retention_expiry,True,True,True,0,True,True

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9db0dd30888fc5b5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"recipient\": {\n    \"recipient_id\": \"QWEN-PILOT-R000001\",\n    \"donor_id\": \"QWEN-PILOT-D000001\",\n    \"hospital_id\": \"QWEN-PILOT-H01\",\n    \"recipient_age\": 55,\n    \"donor_age\": 38,\n    \"donor_type\": \"Deceased\",\n    \"kidney_failure_cause\": \"Diabetes\",\n    \"previous_transplant\": 0,\n    \"dialysis_months\": 24,\n    \"recipient_blood_group\": \"A+\",\n    \"donor_blood_group\": \"A+\",\n    \"abo_compatibility_category\": \"Standard compatible\",\n    \"hla_mismatch_count\": 5,\n    \"antibody_risk_score\": 0.75,\n    \"cold_ischaemia_hours\": 14.0,\n    \"confirmed_rejection_event_day\": 35\n  },\n  \"assessments\": [\n    {\n      \"days_since_transplant\": 7,\n      \"creatinine_mg_dl\": 2.1,\n      \"creatinine_change_pct\": -10.0,\n      \"urine_output_ml_24h\": 1800,\n      \"tacrolimus_level_ng_ml\": 12.5,\n      \"medication_adherence_pct\": 98,\n      \"infection_indicator\": 0,\n      \"previous_rejection\": 0\n    },\n    {\n      \"days_since_transplant\": 14,\n      \"creatinine_mg_dl\": 1.8,\n      \"creatinine_change_pct\": -15.0,\n      \"urine_output_ml_24h\": 2100,\n      \"tacrolimus_level_ng_ml\": 11.2,\n      \"medication_adherence_pct\": 95,\n      \"infection_indicator\": 0,\n      \"previous_rejection\": 0\n    },\n    {\n      \"days_since_transplant\": 30,\n      \"creatinine_mg_dl\": 2.5,\n      \"creatinine_change_pct\": 25.0,\n      \"urine_output_ml_24h\": 1500,\n      \"tacrolimus_level_ng_ml\": 9.8,\n      \"medication_adherence_pct\": 92,\n      \"infection_indicator\": 0,\n      \"previous_rejection\": 0\n    },\n    {\n      \"days_since_transplant\": 60,\n      \"creatinine_mg_dl\": 3.2,\n      \"creatinine_change_pct\": 40.0,\n      \"urine_output_ml_24h\": 1200,\n      \"tacrolimus_level_ng_ml\": 10.5,\n      \"medication_adherence_pct\": 88,\n      \"infection_indicator\": 1,\n      \"previous_rejection\": 1\n    },\n    {\n      \"days_since_transplant\": 90,\n      \"creatinine_mg_dl\": 2.2,\n      \"creatinine_change_pct\": -15.0,\n      \"urine_output_ml_24h\": 1600,\n      \"tacrolimus_level_ng_ml\": 11.0,\n      \"medication_adherence_pct\": 94,\n      \"infection_indicator\": 0,\n      \"previous_rejection\": 1\n    },\n    {\n      \"days_since_transplant\": 180,\n      \"creatinine_mg_dl\": 1.6,\n      \"creatinine_change_pct\": -20.0,\n      \"urine_output_ml_24h\": 1900,\n      \"tacrolimus_level_ng_ml\": 10.8,\n      \"medication_adherence_pct\": 97,\n      \"infection_indicator\": 0,\n      \"previous_rejection\": 1\n    }\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1786893690,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 924,
+    "prompt_tokens": 620,
+    "total_tokens": 1544,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

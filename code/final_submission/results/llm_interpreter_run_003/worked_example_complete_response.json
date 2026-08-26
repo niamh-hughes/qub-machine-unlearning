@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-af1e2deec68c56fe",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"request_type\": \"recipient_withdrawal\",\n  \"entity_type\": \"recipient\",\n  \"entity_ids\": [\n    \"V32P-R000207\"\n  ],\n  \"date_cutoff\": null,\n  \"requires_human_review\": false,\n  \"reason\": \"Recipient withdrawal request with valid ID provided.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787408560,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 358,
+    "total_tokens": 439,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

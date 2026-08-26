@@ -1,0 +1,6 @@
+scenario,display_name,probability_status,loss_status,forget_agreement_status,relative_probability_improvement,relative_loss_improvement,forget_agreement_with_retraining
+s1_random_1_percent,Random 1%,away or unchanged,away or unchanged,not improved,-0.08902022952268873,-0.06984436649936132,0.97953216374269
+s2_random_5_percent,Random 5%,away or unchanged,away or unchanged,not improved,-0.029207404473830856,-0.05852329443557269,0.9801053247513165
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),away or unchanged,away or unchanged,not improved,-0.42495699346691196,-0.3686553206262362,0.9823321554770318
+s4_random_10_percent,Random 10%,away or unchanged,away or unchanged,not improved,-0.06144432602941263,-0.06415347690053164,0.9839134249780638
+s5_retention_expiry,Simulated Retention Expiry,away or unchanged,away or unchanged,not improved,-0.6654056271990916,-0.5794058057122677,0.9136974037600716

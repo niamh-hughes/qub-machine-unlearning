@@ -1,0 +1,6 @@
+scenario,gradient_ascent_runtime_seconds,full_retraining_runtime_seconds,absolute_time_saved_seconds,speed_up_ratio_full_over_gradient_ascent,gradient_ascent_epochs,full_retraining_epochs,gradient_ascent_device,full_retraining_device
+s1_actor_withdrawal,1.3859963750001043,45.933064833050594,44.54706845805049,33.14082609562896,5,18,mps,mps
+s2_submission_withdrawal,1.7954991250298917,51.71436691703275,49.91886779200286,28.802223401903245,5,21,mps,mps
+s3_agency_withdrawal,2.5362263749120757,50.00206874997821,47.46584237506613,19.71514421764171,5,22,mps,mps
+s4_project_closure,3.1197286249371246,61.14175854099449,58.02202991605736,19.598422135908294,5,29,mps,mps
+s5_retention_expiry,3.2251884168945253,51.32607337506488,48.100884958170354,15.914131746909167,5,24,mps,mps

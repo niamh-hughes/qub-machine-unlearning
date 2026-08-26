@@ -1,0 +1,6 @@
+scenario,retained_training_rows,positive_class_weight,epochs_executed,best_epoch,best_validation_weighted_bce,training_seconds,early_stopping_status
+recipient_withdrawal,41598,12.319884300231934,6,1,1.0599953495802799,0.96151295793242753,patience_reached
+donor_withdrawal,40032,12.198813438415527,6,1,1.060775497254614,1.0127937500365078,patience_reached
+hospital_removal,37710,12.296896934509277,6,1,1.0581209835047352,0.9082323748152703,patience_reached
+invalid_consent,37876,12.914768218994141,9,4,1.0473111551880037,1.3737953749950975,patience_reached
+retention_expiry,35762,13.900833129882812,22,17,1.0661292529556459,3.1942441668361425,patience_reached

@@ -1,0 +1,6 @@
+scenario,baseline_threshold,full_retraining_threshold,gradient_difference_threshold
+recipient_withdrawal,0.63,0.62,0.63
+donor_withdrawal,0.63,0.54,0.63
+hospital_removal,0.63,0.57,0.63
+invalid_consent,0.63,0.56,0.63
+retention_expiry,0.63,0.53,0.63

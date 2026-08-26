@@ -1,0 +1,6 @@
+scenario,forget_rows,retain_rows,retained_validation_rows,retained_test_rows,indices_verified
+s1_recipient_withdrawal,420,41580,9000,9000,True
+s2_living_donor_withdrawal,2100,39900,9000,9000,True
+s3_hospital_withdrawal,4200,37800,8100,8100,True
+s4_invalid_consent,4200,37800,8100,8100,True
+s5_retention_expiry,6300,35700,7704,7692,True

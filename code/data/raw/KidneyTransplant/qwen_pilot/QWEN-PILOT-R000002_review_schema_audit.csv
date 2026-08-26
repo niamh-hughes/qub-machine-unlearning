@@ -1,0 +1,55 @@
+field_name,definition_and_unit,source,temporal_role,model_role,required_by_deletion_scenario,present_in_pilot,present_in_canonical_schema,recommended_action
+person_id,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+person_role,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+full_name,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+date_of_birth,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+email_address,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+postcode,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+hospital_number,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+training_consent_status,Training-consent validity/status (audit),project/audit source,static,audit-only,invalid-consent batch,False,True,keep
+training_consent_version,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,invalid consent (current rule),False,True,keep
+consent_granted_date,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+consent_withdrawal_date,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+retention_expiry_date,Retention expiry date (audit),project/audit source,static,audit-only,retention expiry,False,True,keep
+assessment_id,Canonical field; retain definition or clarify unit,Python-derived,static,identifier,none,True,True,keep
+recipient_id,Canonical field; retain definition or clarify unit,API-generated,static,identifier,recipient withdrawal,True,True,keep
+donor_id,Canonical field; retain definition or clarify unit,API-generated,static,identifier,donor withdrawal,True,True,keep
+hospital_id,Canonical field; retain definition or clarify unit,API-generated,static,identifier,hospital removal,True,True,keep
+assessment_date,Assessment date (ISO 8601),Python-derived,static,audit-only,retention expiry,False,True,add
+recipient_sex,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+recipient_ethnicity,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+recipient_region,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+distance_to_transplant_centre_km,Canonical field; retain definition or clarify unit,project/audit source,static,audit-only,none,False,True,keep
+recipient_blood_group,Recipient ABO group A/B/AB/O (audit only; no Rh suffix),API-generated,static,audit-only,none,True,True,keep
+donor_blood_group,Donor ABO group A/B/AB/O (audit only; no Rh suffix),API-generated,static,audit-only,none,True,True,keep
+recipient_age,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+donor_age,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+donor_type,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+kidney_failure_cause,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+previous_transplant,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+dialysis_months,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+abo_compatibility_category,Python-derived ABO compatibility category,Python-derived,static,classifier input,none,True,True,derive
+hla_mismatch_count,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+antibody_risk_score,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+cold_ischaemia_hours,Canonical field; retain definition or clarify unit,API-generated,static,classifier input,none,True,True,keep
+days_since_transplant,Canonical field; retain definition or clarify unit,API-generated,time-varying,classifier input,none,True,True,keep
+creatinine_mg_dl,Serum creatinine (mg/dL; canonical unit),API-generated,time-varying,classifier input,none,True,True,keep
+creatinine_change_pct,Python-derived prior-measurement change (%),Python-derived,time-varying,classifier input,none,True,True,derive
+urine_output_ml_24h,Urine output (mL/24h),API-generated,time-varying,classifier input,none,True,True,keep
+tacrolimus_level_ng_ml,Canonical field; retain definition or clarify unit,API-generated,time-varying,classifier input,none,True,True,keep
+medication_adherence_pct,Synthetic adherence estimate (%),API-generated,time-varying,classifier input,none,True,True,keep
+infection_indicator,Synthetic infection indicator,API-generated,time-varying,classifier input,none,True,True,keep
+previous_rejection,Python-derived past-event indicator,Python-derived,time-varying,classifier input,none,True,True,derive
+acute_rejection_within_30_days,Python-derived event in following 30 days,Python-derived,time-varying,target,none,True,True,derive
+baseline_creatinine_mg_dl,Most recent pre-first-assessment creatinine (mg/dL),project/audit source,time-varying,audit-only,none,False,False,add
+confirmed_rejection_event_days,Python-controlled event-day list (audit),project/audit source,time-varying,audit-only,none,False,False,add
+consent_batch_id,Synthetic consent-batch ID (audit),project/audit source,time-varying,decision required,invalid-consent batch,False,False,clarify
+egfr_ml_min_1_73m2,eGFR (mL/min/1.73m2),project/audit source,time-varying,decision required,none,False,False,clarify
+proteinuria_mg_g,Proteinuria ratio (mg/g; candidate),project/audit source,time-varying,decision required,none,False,False,clarify
+systolic_bp_mm_hg,Systolic BP (mmHg),project/audit source,time-varying,decision required,none,False,False,clarify
+diastolic_bp_mm_hg,Diastolic BP (mmHg),project/audit source,time-varying,decision required,none,False,False,clarify
+donor_specific_antibody_indicator,DSA indicator; assay unresolved,project/audit source,time-varying,decision required,none,False,False,clarify
+crp_mg_l,CRP (mg/L),project/audit source,time-varying,decision required,none,False,False,clarify
+white_cell_count_10e9_l,White-cell count (10^9/L),project/audit source,time-varying,decision required,none,False,False,clarify
+temperature_c,Temperature (deg C),project/audit source,time-varying,decision required,none,False,False,clarify
+clinic_visit_type,Clinic encounter type,project/audit source,time-varying,decision required,none,False,False,clarify

@@ -1,0 +1,20 @@
+{
+  "run_id": "QWEN-CORRECTED10-V31-001",
+  "base_url": "https://resolution-andreas-alerts-blah.trycloudflare.com/v1",
+  "api_key": "REDACTED",
+  "prompt_sha256": "08f0c29bffb47af5036528ab87be8da548cef42e879295cbda371a9bb9aa0e65",
+  "api_configuration_sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+  "control_plan_sha256": "4fe23a191ab5c0b4ce03952ba0af9536d981a6f2b825fbf6153b51a643feed94",
+  "protected_before": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "defaults": {
+    "RUN_CORRECTED_10": false,
+    "RUN_100_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  },
+  "one_time_gate": "RUN_QWEN_CORRECTED10_V31=QWEN-CORRECTED10-V31-001"
+}

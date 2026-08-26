@@ -1,0 +1,239 @@
+{
+  "method": "sisa",
+  "created_before_deletion_processing": true,
+  "master_seed": 42,
+  "number_of_shards": 5,
+  "number_of_slices": 5,
+  "assignment_strategy": "nested deterministic stratified five-fold assignment",
+  "assignment_path": "results/CastMe/sisa/assignments/shard_slice_assignments.csv",
+  "assignment_file_hash": "60edca9d196e5fe6b8390f849b97f63eb579a46e45d5ffa86fe7a286032f0456",
+  "assignment_logical_hash": "4c8865d1b1b270668a76121996452b386275eb480da3d9f62bf5ac58ead4f1a2",
+  "training_row_count": 42000,
+  "composition": [
+    {
+      "shard": 1,
+      "slice": 1,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1621,
+      "repeated_actor_role_pairs": 49,
+      "additional_round_rows": 59
+    },
+    {
+      "shard": 1,
+      "slice": 2,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1616,
+      "repeated_actor_role_pairs": 55,
+      "additional_round_rows": 64
+    },
+    {
+      "shard": 1,
+      "slice": 3,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1617,
+      "repeated_actor_role_pairs": 53,
+      "additional_round_rows": 63
+    },
+    {
+      "shard": 1,
+      "slice": 4,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1610,
+      "repeated_actor_role_pairs": 55,
+      "additional_round_rows": 70
+    },
+    {
+      "shard": 1,
+      "slice": 5,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1620,
+      "repeated_actor_role_pairs": 51,
+      "additional_round_rows": 60
+    },
+    {
+      "shard": 2,
+      "slice": 1,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1626,
+      "repeated_actor_role_pairs": 46,
+      "additional_round_rows": 54
+    },
+    {
+      "shard": 2,
+      "slice": 2,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1611,
+      "repeated_actor_role_pairs": 54,
+      "additional_round_rows": 69
+    },
+    {
+      "shard": 2,
+      "slice": 3,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1604,
+      "repeated_actor_role_pairs": 61,
+      "additional_round_rows": 76
+    },
+    {
+      "shard": 2,
+      "slice": 4,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1619,
+      "repeated_actor_role_pairs": 50,
+      "additional_round_rows": 61
+    },
+    {
+      "shard": 2,
+      "slice": 5,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1603,
+      "repeated_actor_role_pairs": 59,
+      "additional_round_rows": 77
+    },
+    {
+      "shard": 3,
+      "slice": 1,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1595,
+      "repeated_actor_role_pairs": 69,
+      "additional_round_rows": 85
+    },
+    {
+      "shard": 3,
+      "slice": 2,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1601,
+      "repeated_actor_role_pairs": 58,
+      "additional_round_rows": 79
+    },
+    {
+      "shard": 3,
+      "slice": 3,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1609,
+      "repeated_actor_role_pairs": 57,
+      "additional_round_rows": 71
+    },
+    {
+      "shard": 3,
+      "slice": 4,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1608,
+      "repeated_actor_role_pairs": 58,
+      "additional_round_rows": 72
+    },
+    {
+      "shard": 3,
+      "slice": 5,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1612,
+      "repeated_actor_role_pairs": 58,
+      "additional_round_rows": 68
+    },
+    {
+      "shard": 4,
+      "slice": 1,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1593,
+      "repeated_actor_role_pairs": 69,
+      "additional_round_rows": 87
+    },
+    {
+      "shard": 4,
+      "slice": 2,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1618,
+      "repeated_actor_role_pairs": 55,
+      "additional_round_rows": 62
+    },
+    {
+      "shard": 4,
+      "slice": 3,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1610,
+      "repeated_actor_role_pairs": 58,
+      "additional_round_rows": 70
+    },
+    {
+      "shard": 4,
+      "slice": 4,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1608,
+      "repeated_actor_role_pairs": 64,
+      "additional_round_rows": 72
+    },
+    {
+      "shard": 4,
+      "slice": 5,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1612,
+      "repeated_actor_role_pairs": 57,
+      "additional_round_rows": 68
+    },
+    {
+      "shard": 5,
+      "slice": 1,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1595,
+      "repeated_actor_role_pairs": 69,
+      "additional_round_rows": 85
+    },
+    {
+      "shard": 5,
+      "slice": 2,
+      "rows": 1680,
+      "callback_rate": 0.3607142857,
+      "unique_actor_role_pairs": 1596,
+      "repeated_actor_role_pairs": 70,
+      "additional_round_rows": 84
+    },
+    {
+      "shard": 5,
+      "slice": 3,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1608,
+      "repeated_actor_role_pairs": 60,
+      "additional_round_rows": 72
+    },
+    {
+      "shard": 5,
+      "slice": 4,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1617,
+      "repeated_actor_role_pairs": 53,
+      "additional_round_rows": 63
+    },
+    {
+      "shard": 5,
+      "slice": 5,
+      "rows": 1680,
+      "callback_rate": 0.3613095238,
+      "unique_actor_role_pairs": 1598,
+      "repeated_actor_role_pairs": 70,
+      "additional_round_rows": 82
+    }
+  ]
+}

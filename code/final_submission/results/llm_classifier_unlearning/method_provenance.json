@@ -1,0 +1,26 @@
+{
+  "model_name": "google/bert_uncased_L-2_H-128_A-2",
+  "parameter_count": 4386178,
+  "baseline_source": "models/llm_classifier",
+  "scenarios_source": "processed_data/deletion_scenario_membership.csv",
+  "full_retraining": {
+    "epochs": 3,
+    "learning_rate": 3e-05,
+    "batch_size": 64,
+    "checkpoint_selection": "maximum retained-validation PR-AUC",
+    "threshold": "retained validation only"
+  },
+  "gradient_difference": {
+    "objective": "retain weighted cross-entropy - forget weighted cross-entropy",
+    "epochs": 5,
+    "primary_epoch": 5,
+    "learning_rate": 5e-06,
+    "batch_size": 64,
+    "weight_decay": 0.0,
+    "gradient_clip_norm": 1.0,
+    "paired_sampling": "one deterministic retained-training sample per forget row",
+    "threshold": 0.63
+  },
+  "timing": "model loading, tokenisation, prediction evaluation and artifact saving excluded",
+  "claim_boundary": "behavioural comparison; not proof of erasure, equivalence or privacy"
+}

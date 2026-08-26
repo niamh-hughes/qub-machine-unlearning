@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a42fc0f1b89c7758",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"response\": \"Deletion of donor V32P-DL001389 confirmed. The system will now process the unlearning request.\",\n  \"action\": \"forget\",\n  \"parameters\": {\n    \"field\": \"donor_id\",\n    \"operation\": \"exact_match\",\n    \"value\": \"V32P-DL001389\"\n  }\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787607702,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 573,
+    "total_tokens": 666,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

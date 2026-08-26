@@ -1,0 +1,2594 @@
+{
+  "design_id": "QWEN-V32-PRODUCTION-DESIGN-001",
+  "status": "completed",
+  "error": null,
+  "local_only": true,
+  "api_requests_made": 0,
+  "network_requests_made": 0,
+  "production_chunk_started": false,
+  "full_generation_enabled": false,
+  "protected_before": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "immutable_evidence_before": {
+    "data/raw/.DS_Store": {
+      "path": "data/raw/.DS_Store",
+      "file_count": 1,
+      "total_size_bytes": 6148,
+      "aggregate_sha256_with_metadata": "97986cba3c2cc5ab60c4a1e8500620d037824dbfc743a79d5958bb87c1dcfdb6"
+    },
+    "data/raw/EchoForge_Synthetic_Dataset.xlsx": {
+      "path": "data/raw/EchoForge_Synthetic_Dataset.xlsx",
+      "file_count": 1,
+      "total_size_bytes": 535984,
+      "aggregate_sha256_with_metadata": "327b56f718644b22918d3c4aa9adcc7d763ec992f55c8543ad3b292a327563fa"
+    },
+    "data/raw/KidneyTransplant/qwen_batch10_v2_001": {
+      "path": "data/raw/KidneyTransplant/qwen_batch10_v2_001",
+      "file_count": 65,
+      "total_size_bytes": 148364,
+      "aggregate_sha256_with_metadata": "76aa8b0dee496882ebd56b3d3ca563a686465ed389af0ad612ea00fde72ac998"
+    },
+    "data/raw/KidneyTransplant/qwen_corrected10_v3_1_001": {
+      "path": "data/raw/KidneyTransplant/qwen_corrected10_v3_1_001",
+      "file_count": 10,
+      "total_size_bytes": 96421,
+      "aggregate_sha256_with_metadata": "361e60987406408100478bc443d31a172be97d286598c06e2e59603551eae301"
+    },
+    "data/raw/KidneyTransplant/qwen_diagnostic100_v3_1_001": {
+      "path": "data/raw/KidneyTransplant/qwen_diagnostic100_v3_1_001",
+      "file_count": 11,
+      "total_size_bytes": 740646,
+      "aggregate_sha256_with_metadata": "a22902d7957623085615af35f440ac74a4ab31c29321058a7734bfdb1799ed79"
+    },
+    "data/raw/KidneyTransplant/qwen_pilot": {
+      "path": "data/raw/KidneyTransplant/qwen_pilot",
+      "file_count": 10,
+      "total_size_bytes": 20029,
+      "aggregate_sha256_with_metadata": "15a4798dd65a6988f06511fab3d2d02a5063d476ebb42f371a81b24199d5ab58"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design",
+      "file_count": 21,
+      "total_size_bytes": 210322,
+      "aggregate_sha256_with_metadata": "25a8aac3fe8c20fc9a0d8730cd6a15119a811c4439193dbc1ef480e8ea13f40e"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001",
+      "file_count": 10,
+      "total_size_bytes": 166328,
+      "aggregate_sha256_with_metadata": "b4ecfd4725d7c37696254267b823a097ebf0c7c7ccf2e7d0134914f2488485f3"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001",
+      "file_count": 5,
+      "total_size_bytes": 48956,
+      "aggregate_sha256_with_metadata": "4b582d114df95c0f44c7f93dfeb0fdda8a66b545921245237992f41a4338fd8b"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design",
+      "file_count": 9,
+      "total_size_bytes": 29171,
+      "aggregate_sha256_with_metadata": "e126ff686bfa4e6719fcbdc58332f6711ec99f9fb158e35a49feda06381bea0a"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_design",
+      "file_count": 18,
+      "total_size_bytes": 162898,
+      "aggregate_sha256_with_metadata": "3adadaeb6597eff142ff7daf34ec464d9aa609ddfac6b849fd088808eb5e9a73"
+    },
+    "data/raw/adult.csv": {
+      "path": "data/raw/adult.csv",
+      "file_count": 1,
+      "total_size_bytes": 5326368,
+      "aggregate_sha256_with_metadata": "830cec6682c20539486ad8d420fab3d11e95d257e12ccd31ae3a4bab2a8bba15"
+    },
+    "data/raw/castme": {
+      "path": "data/raw/castme",
+      "file_count": 1,
+      "total_size_bytes": 5986851,
+      "aggregate_sha256_with_metadata": "80f98decd833ff15765af6906ca95a5e4d74be9dced50dce549e70d43753d38a"
+    },
+    "data/raw/kidney_transplant_unlearning_dataset.csv": {
+      "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+      "file_count": 1,
+      "total_size_bytes": 19817033,
+      "aggregate_sha256_with_metadata": "6bdee49351527869ab53080470e1f4d2d0fbf241a96f8dd527c329611e273764"
+    },
+    "data/processed": {
+      "path": "data/processed",
+      "file_count": 23,
+      "total_size_bytes": 91091874,
+      "aggregate_sha256_with_metadata": "5ea1792f6f14d6c2a56562e125bccad3c2a728836634c747de4de3643c932437"
+    },
+    "models": {
+      "path": "models",
+      "file_count": 185,
+      "total_size_bytes": 1493884,
+      "aggregate_sha256_with_metadata": "d8908202e90fdfa54f33aae23e54512417c2d722e3ae0494e1bab0adc55bcf62"
+    },
+    "results": {
+      "path": "results",
+      "file_count": 754,
+      "total_size_bytes": 308475322,
+      "aggregate_sha256_with_metadata": "7ea005ce5c7c5511c102f3b92c29d5cdefe6d893dbc958fac6283b6bf402f21b"
+    }
+  },
+  "input_evidence_fingerprints_before": {
+    "data/raw/KidneyTransplant/qwen_v3_1_design/api_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/api_configuration.json",
+      "sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+      "mtime_ns": 1786898234495445053,
+      "size_bytes": 587
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_metadata_skeleton_600.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_metadata_skeleton_600.csv",
+      "sha256": "315a3543b45614d6159a17d97ca8807016e6921d1b9e0a68af0fc3ca5daa598d",
+      "mtime_ns": 1786898234493993593,
+      "size_bytes": 117850
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_table_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_table_schema.csv",
+      "sha256": "4fbc55d3d62b1b6c9953f5304d4314a0567e006b58c500809f77ee629583ba30",
+      "mtime_ns": 1786898234488933755,
+      "size_bytes": 1644
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/canonical_qwen_ranges.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/canonical_qwen_ranges.json",
+      "sha256": "bafb98d5e3d0dcd10639979348306b5397d3b5ee2e8e50e86102285d73eaad92",
+      "mtime_ns": 1786898234489458589,
+      "size_bytes": 1024
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/chunked_storage_design.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/chunked_storage_design.json",
+      "sha256": "606ffc617c7976d4bb81beee0e102e302d8fe70c0e423e7356b09d239224c2ab",
+      "mtime_ns": 1786898234495760344,
+      "size_bytes": 969
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.csv",
+      "sha256": "4fe23a191ab5c0b4ce03952ba0af9536d981a6f2b825fbf6153b51a643feed94",
+      "mtime_ns": 1786898234496075887,
+      "size_bytes": 2402
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.json",
+      "sha256": "6746c172c4a8cae897724433d6cdafdbd193a37afd9e4b17c9ab901e6e531f93",
+      "mtime_ns": 1786898234497908346,
+      "size_bytes": 8250
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_audit.csv",
+      "sha256": "1016839e7b4a69d8ccf914a1320b973168281dc4b7d9f48e86217164527d2b43",
+      "mtime_ns": 1786898234494829344,
+      "size_bytes": 577
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_config.json",
+      "sha256": "40eadd6580746c7e24a294e6687290b2817e2e594ab24de4bfdb521f7de56fa9",
+      "mtime_ns": 1786898234495206094,
+      "size_bytes": 716
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_overlap.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_overlap.csv",
+      "sha256": "64eacd976c4544929e23336c557c6ea2656caa6729e22157aad2cf72a4d97c79",
+      "mtime_ns": 1786898234495058011,
+      "size_bytes": 251
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/distribution_quality_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/distribution_quality_config.json",
+      "sha256": "663ca7eb8e2ca2f71542f980161810dc0f153a33e1c44b04c03d64ead79385eb",
+      "mtime_ns": 1786898234495649886,
+      "size_bytes": 499
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/field_lists.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/field_lists.json",
+      "sha256": "a33c1701cc92150f9bfb2fba531bde177c8d6aab63759a092d2947b8cd6578fb",
+      "mtime_ns": 1786898234489339047,
+      "size_bytes": 1998
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/hard_validation_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/hard_validation_config.json",
+      "sha256": "256863abd83f5f5c9770bf73c64d4b8437c60e34db91db0882ea0a5c8a70684a",
+      "mtime_ns": 1786898234495550053,
+      "size_bytes": 553
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/identity_skeleton_180_people.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/identity_skeleton_180_people.csv",
+      "sha256": "591c36b5122175b31e51c3daa026ef04fa8c1d841ad979ee68288393f8146749",
+      "mtime_ns": 1786898234490134214,
+      "size_bytes": 28867
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/identity_table_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/identity_table_schema.csv",
+      "sha256": "b119190e3b44c60138e649a4c7d93ccd61a1c63d48bc63c179b8a76ab888ca43",
+      "mtime_ns": 1786898234488602505,
+      "size_bytes": 616
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/joined_42_column_audit_only_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/joined_42_column_audit_only_schema.csv",
+      "sha256": "aa61ff26e43bc65caa4d8e19f013ca520b5af965c4e7c471baa50ef1ad3fcfa6",
+      "mtime_ns": 1786898234489211713,
+      "size_bytes": 2676
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/latent_controls_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/latent_controls_100.csv",
+      "sha256": "b3d2e326dc85d38e3d996f5c7f3e1b1cb0546812baf2fe37d3834e63d94b4355",
+      "mtime_ns": 1786898234494577760,
+      "size_bytes": 10589
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/local_v3_1_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/local_v3_1_validation_report.json",
+      "sha256": "65701458a7dabc5096c862bf0224198552ed7d3cf75a60d9be452c1a679dd034",
+      "mtime_ns": 1786898234499858765,
+      "size_bytes": 9891
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/qwen_kidney_v3_1_prompt_template.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/qwen_kidney_v3_1_prompt_template.txt",
+      "sha256": "08f0c29bffb47af5036528ab87be8da548cef42e879295cbda371a9bb9aa0e65",
+      "mtime_ns": 1786898234495321594,
+      "size_bytes": 3132
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/recipient_relationship_metadata_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/recipient_relationship_metadata_100.csv",
+      "sha256": "f9b25c57a659a6d7f56a29e5fb185798e497770be34cb60d02d86562a783acde",
+      "mtime_ns": 1786898234490993257,
+      "size_bytes": 15318
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/v2_evidence_reference.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/v2_evidence_reference.json",
+      "sha256": "faea2e41474ca079ac196c0aebad6356f1d91210e44977bbfad147f1d0817fa3",
+      "mtime_ns": 1786898234498062930,
+      "size_bytes": 1913
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/anchor_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/anchor_audit.csv",
+      "sha256": "15aec2f842e83d094f2c5f481e6b726119c92e587b8b11ac2c817ce9c272713d",
+      "mtime_ns": 1786901201868886889,
+      "size_bytes": 5543
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv",
+      "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+      "mtime_ns": 1786901201867289505,
+      "size_bytes": 31232
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/completion_state.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/completion_state.json",
+      "sha256": "1d690e8acc7a6872132df8772d24dacaa7a9665cc4f3f59d7a8adf816ffb7aef",
+      "mtime_ns": 1786901201869364308,
+      "size_bytes": 312
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/diagnostic_quality_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/diagnostic_quality_report.json",
+      "sha256": "3ebfce521de681730ce47c5da891d65f8d63c39cbeea4cc7efe95fcffb728f00",
+      "mtime_ns": 1786901201869161890,
+      "size_bytes": 5546
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv",
+      "sha256": "c8acff1228625f9428cbf0b319b19377024a20151d6769d1b630ab556565944e",
+      "mtime_ns": 1786901201868164302,
+      "size_bytes": 6527
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl",
+      "sha256": "5bc125fc795b9e573afd006732f5662a8b57979ee7f68223955a41ed1581ad12",
+      "mtime_ns": 1786901201810275290,
+      "size_bytes": 19267
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl",
+      "sha256": "89cb4f30fb4d8b5446352141ad66367b3bbf3199dc799dc414cb6cc25e7a58b0",
+      "mtime_ns": 1786901201806326103,
+      "size_bytes": 41017
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_configuration.json",
+      "sha256": "b55bdc4487178daa34a0428248189a87a1eaac134ff7101a1fa99245171797de",
+      "mtime_ns": 1786901129917981348,
+      "size_bytes": 2320
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json",
+      "sha256": "e1068f639f0d1c0f134ffd6fb7f48d0299fafe945dbe5a47536f038cfdfa4954",
+      "mtime_ns": 1786901201992795412,
+      "size_bytes": 23332
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/validated_recipient_checkpoint.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/validated_recipient_checkpoint.csv",
+      "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+      "mtime_ns": 1786901201809885330,
+      "size_bytes": 31232
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/addendum_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/addendum_validation_report.json",
+      "sha256": "643b9c2a83b2801c68b899268b3550b5ad5efffa618b5fda3642595c15bfd386",
+      "mtime_ns": 1786902091938987196,
+      "size_bytes": 28631
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/anchor_conditioning_scope_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/anchor_conditioning_scope_report.json",
+      "sha256": "3693d27cc4b9f93a6665a713c7551a172c10e759f35ff33fd0718ce638fffa49",
+      "mtime_ns": 1786902091812711589,
+      "size_bytes": 3994
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/api_conformance_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/api_conformance_report.json",
+      "sha256": "07ae8269d795a65e72b6e3982e14eecfb5ece435735107a3cf519bd98921ea56",
+      "mtime_ns": 1786902091811241707,
+      "size_bytes": 4865
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/event_to_target_coverage_audit_enhanced.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/event_to_target_coverage_audit_enhanced.csv",
+      "sha256": "d4a013e7b3ed50d9f658286ad20a807d9dff4b657f70c94d94715712c1d4bb16",
+      "mtime_ns": 1786902091812503963,
+      "size_bytes": 7933
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/tofu_synthesis_method_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/tofu_synthesis_method_report.json",
+      "sha256": "1ebf9f85d116f1572cc787a3e6179bd8d3fa833d25d6e79f98f2cf3ceaa85e3d",
+      "mtime_ns": 1786902091811481458,
+      "size_bytes": 3533
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_generation_specification.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_generation_specification.json",
+      "sha256": "683fb983fcbb0183d5324d30badf993cd6961a5978ad39905398090abcbd1c99",
+      "mtime_ns": 1786901129913151865,
+      "size_bytes": 2004
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_100.csv",
+      "sha256": "ac429bbebafc704f4ada07327899bcd5403c04032d2cd52c017cc49e041b48c7",
+      "mtime_ns": 1786901129916228089,
+      "size_bytes": 12620
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_schema.csv",
+      "sha256": "35051cc69e5d2a2d4b484d8cb2af7a6c25b7fbc6395aa1baf50a8e954148644d",
+      "mtime_ns": 1786901129915316251,
+      "size_bytes": 1218
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/api_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/api_configuration.json",
+      "sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+      "mtime_ns": 1786901129917104010,
+      "size_bytes": 587
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/confirmation_acceptance_criteria.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/confirmation_acceptance_criteria.json",
+      "sha256": "e9a2120a26323ac64ee39df6dfc6fea76ef9ce261c8e1586d8aaf986d0ae7f7b",
+      "mtime_ns": 1786901129917265386,
+      "size_bytes": 416
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_audit.csv",
+      "sha256": "061868b7bf288b106f722dac4164edb3b133bb7465f030f6563ddaa4d7177536",
+      "mtime_ns": 1786901129916725508,
+      "size_bytes": 5053
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_summary.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_summary.json",
+      "sha256": "f9bef0177219e04a12acea68e528d4d19a96459304ed105f5399956e980126ef",
+      "mtime_ns": 1786901129916916468,
+      "size_bytes": 836
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/local_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/local_validation_report.json",
+      "sha256": "c87881b350c611dc89804fc3e9a732a3271ecd121146e2871268668189a0d3df",
+      "mtime_ns": 1786901129917445929,
+      "size_bytes": 2371
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/qwen_kidney_v3_2_prompt_template.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/qwen_kidney_v3_2_prompt_template.txt",
+      "sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+      "mtime_ns": 1786901129912884572,
+      "size_bytes": 4066
+    }
+  },
+  "notebooks_01_05_before": {
+    "notebooks/KidneyTransplant/01_kidney_transplant_baseline.ipynb": {
+      "path": "notebooks/KidneyTransplant/01_kidney_transplant_baseline.ipynb",
+      "sha256": "ba2c509ba0ddee4121ae95f9e8a5ecc0c7e7666532d6dde9e4c793bc4557d149",
+      "mtime_ns": 1786447680871966165,
+      "size_bytes": 485233
+    },
+    "notebooks/KidneyTransplant/02_kidney_transplant_forget_sets_and_full_retraining.ipynb": {
+      "path": "notebooks/KidneyTransplant/02_kidney_transplant_forget_sets_and_full_retraining.ipynb",
+      "sha256": "9c343dfe1d53dd36dcc9ac99ebd3ec43288b487a5cbaa4b063bcdd7899b1e896",
+      "mtime_ns": 1786892444537158299,
+      "size_bytes": 300435
+    },
+    "notebooks/KidneyTransplant/03_kidney_transplant_retain_set_finetuning.ipynb": {
+      "path": "notebooks/KidneyTransplant/03_kidney_transplant_retain_set_finetuning.ipynb",
+      "sha256": "180332d1fac31273169f4da3dba99d3fd4c2d511149de13638b8df99fda66b10",
+      "mtime_ns": 1786032522141294049,
+      "size_bytes": 399814
+    },
+    "notebooks/KidneyTransplant/04_kidney_transplant_gradient_ascent.ipynb": {
+      "path": "notebooks/KidneyTransplant/04_kidney_transplant_gradient_ascent.ipynb",
+      "sha256": "b500fb1f3dbf55a8e24456fcef73268c99d9430966b3c8a47857459927a4b486",
+      "mtime_ns": 1786032554013251670,
+      "size_bytes": 394086
+    },
+    "notebooks/KidneyTransplant/05_kidney_transplant_sisa.ipynb": {
+      "path": "notebooks/KidneyTransplant/05_kidney_transplant_sisa.ipynb",
+      "sha256": "b48e9fb931cbf717d8fc07fbdae642ff5acf66dfa272b5129d47dfc57a593036",
+      "mtime_ns": 1786033098001648943,
+      "size_bytes": 832634
+    }
+  },
+  "preproduction_notebook_sha256": "5d54472adcecbbe2a7e69edd7e8fb72b3a9b8202769160b972c743bd475efc6d",
+  "validation_checks": {
+    "recipient_metadata_dimensions": true,
+    "assessment_metadata_dimensions": true,
+    "identity_dimensions": true,
+    "anchor_dimensions": true,
+    "event_target_audit_dimensions": true,
+    "unique_production_recipient_ids": true,
+    "unique_request_ids": true,
+    "unique_request_seeds": true,
+    "unique_assessment_ids": true,
+    "six_assessments_per_recipient": true,
+    "assessment_days_exact": true,
+    "no_duplicate_assessment_metadata": true,
+    "new_recipient_namespace": true,
+    "no_v31_recipient_reuse": true,
+    "donor_count": true,
+    "shared_donors_have_constant_attributes": true,
+    "abo_derived_exactly": true,
+    "direct_identifiers_only_in_identity": true,
+    "classifier_excludes_ids_consent_events_dates_anchors": true,
+    "target_audit_matches_assessment_metadata": true,
+    "consent_versions_monotonic": true,
+    "probabilistic_event_draws_match_stored_probabilities": true,
+    "recipient_deletion_exact": true,
+    "donor_deletion_exact": true,
+    "hospital_deletion_exact": true,
+    "invalid_consent_exact": true,
+    "retention_expiry_exact": true,
+    "record_level_deletions_not_complete_histories": true,
+    "all_anchors_non_material_suffix_correlation": true,
+    "target_rule_preserved": true,
+    "production_flags_disabled": true,
+    "api_requests_zero": true
+  },
+  "validation_failures": [],
+  "skeleton_dimensions": {
+    "recipient_metadata": [
+      10000,
+      36
+    ],
+    "assessment_metadata": [
+      60000,
+      28
+    ],
+    "identity_skeleton": [
+      18000,
+      12
+    ],
+    "anchor_metadata": [
+      10000,
+      16
+    ],
+    "event_target_audit": [
+      60000,
+      8
+    ]
+  },
+  "identity_counts": {
+    "recipients": 10000,
+    "donors": 8000,
+    "unique_donors": 8000,
+    "shared_donors": 2000
+  },
+  "target_results": {
+    "target_rule": "assessment_day < event_day <= assessment_day + 30",
+    "controlled_rejection_event_recipients": 3400,
+    "recipients_with_at_least_one_positive_assessment": 2473,
+    "positive_assessment_rows": 4494,
+    "assessment_level_target_prevalence": 0.0749,
+    "recipient_level_event_prevalence": 0.34,
+    "events_without_scheduled_assessment_in_preceding_30_days": 927,
+    "uncovered_event_day_counts": {
+      "150": 927
+    },
+    "event_day_counts": {
+      "20": 283,
+      "35": 869,
+      "75": 490,
+      "110": 831,
+      "150": 927
+    },
+    "six_assessment_target_sequence_counts": {
+      "[0,0,0,0,0,0]": 7527,
+      "[0,0,0,0,1,0]": 831,
+      "[0,0,0,1,0,0]": 490,
+      "[1,1,0,0,0,0]": 283,
+      "[1,1,1,0,0,0]": 869
+    }
+  },
+  "deletion_results": {
+    "status": "passed",
+    "assessment_rows": 60000,
+    "scenarios": {
+      "recipient_withdrawal": {
+        "matched_assessment_rows": 600,
+        "matched_fraction": 0.01,
+        "affected_recipients": 100,
+        "affected_donors": 100,
+        "affected_hospitals": 10,
+        "complete_recipient_histories": 100,
+        "records_per_recipient_distribution": {
+          "6": 100
+        },
+        "assessment_days": [
+          7,
+          14,
+          30,
+          60,
+          90,
+          180
+        ],
+        "selection_key": "recipient_id"
+      },
+      "donor_withdrawal": {
+        "matched_assessment_rows": 3000,
+        "matched_fraction": 0.05,
+        "affected_recipients": 500,
+        "affected_donors": 250,
+        "affected_hospitals": 10,
+        "complete_recipient_histories": 500,
+        "records_per_recipient_distribution": {
+          "6": 500
+        },
+        "assessment_days": [
+          7,
+          14,
+          30,
+          60,
+          90,
+          180
+        ],
+        "selection_key": "donor_id (250 shared deceased donors covering 500 recipients)"
+      },
+      "hospital_removal": {
+        "matched_assessment_rows": 6000,
+        "matched_fraction": 0.1,
+        "affected_recipients": 1000,
+        "affected_donors": 982,
+        "affected_hospitals": 1,
+        "complete_recipient_histories": 1000,
+        "records_per_recipient_distribution": {
+          "6": 1000
+        },
+        "assessment_days": [
+          7,
+          14,
+          30,
+          60,
+          90,
+          180
+        ],
+        "selection_key": "hospital_id=V32P-H05"
+      },
+      "invalid_consent": {
+        "matched_assessment_rows": 6000,
+        "matched_fraction": 0.1,
+        "affected_recipients": 3800,
+        "affected_donors": 3516,
+        "affected_hospitals": 10,
+        "complete_recipient_histories": 0,
+        "records_per_recipient_distribution": {
+          "1": 1900,
+          "2": 1600,
+          "3": 300
+        },
+        "assessment_days": [
+          7,
+          14,
+          30
+        ],
+        "selection_key": "training_consent_status=Invalidated and training_consent_version=RECIPIENT_V3"
+      },
+      "retention_expiry": {
+        "matched_assessment_rows": 9000,
+        "matched_fraction": 0.15,
+        "affected_recipients": 3700,
+        "affected_donors": 3408,
+        "affected_hospitals": 10,
+        "complete_recipient_histories": 0,
+        "records_per_recipient_distribution": {
+          "1": 400,
+          "2": 1300,
+          "3": 2000
+        },
+        "assessment_days": [
+          7,
+          14,
+          30
+        ],
+        "selection_key": "retention_expiry_date <= 2025-12-31"
+      }
+    },
+    "pairwise_assessment_row_overlap": {
+      "recipient_withdrawal": {
+        "recipient_withdrawal": 600,
+        "donor_withdrawal": 24,
+        "hospital_removal": 42,
+        "invalid_consent": 57,
+        "retention_expiry": 88
+      },
+      "donor_withdrawal": {
+        "recipient_withdrawal": 24,
+        "donor_withdrawal": 3000,
+        "hospital_removal": 282,
+        "invalid_consent": 304,
+        "retention_expiry": 455
+      },
+      "hospital_removal": {
+        "recipient_withdrawal": 42,
+        "donor_withdrawal": 282,
+        "hospital_removal": 6000,
+        "invalid_consent": 602,
+        "retention_expiry": 950
+      },
+      "invalid_consent": {
+        "recipient_withdrawal": 57,
+        "donor_withdrawal": 304,
+        "hospital_removal": 602,
+        "invalid_consent": 6000,
+        "retention_expiry": 1429
+      },
+      "retention_expiry": {
+        "recipient_withdrawal": 88,
+        "donor_withdrawal": 455,
+        "hospital_removal": 950,
+        "invalid_consent": 1429,
+        "retention_expiry": 9000
+      }
+    },
+    "mutual_exclusivity_forced": false,
+    "complete_history_rule": "Recipient, donor and hospital selections remove complete histories by design; invalid-consent and retention-expiry remain record-level and remove no complete history."
+  },
+  "anchor_diversity_results": {
+    "day7_creatinine_anchor_mg_dl": {
+      "minimum": 0.65,
+      "maximum": 2.159,
+      "dominant_values": [
+        0.65
+      ],
+      "dominant_value_count": 107,
+      "dominant_fraction": 0.0107,
+      "mode_is_tied": false,
+      "unique_value_count": 1411,
+      "pearson_correlation_with_recipient_numeric_suffix": -0.00464241950587193,
+      "absolute_suffix_correlation": 0.00464241950587193,
+      "material_monotonic_association": false,
+      "clipped_at_approved_minimum": 107,
+      "clipped_at_approved_maximum": 0,
+      "approved_bounds": {
+        "minimum": 0.65,
+        "maximum": 2.91,
+        "unit": "mg/dL",
+        "reference_observed_min": 0.65,
+        "reference_observed_max": 2.91,
+        "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+      },
+      "distribution_by_control_pattern": {
+        "recovery_pattern": {
+          "gradual": {
+            "count": 3300,
+            "minimum": 0.65,
+            "maximum": 1.97,
+            "mean": 1.268801212121212,
+            "median": 1.265,
+            "standard_deviation": 0.32168841766395184,
+            "unique_value_count": 1133
+          },
+          "partial": {
+            "count": 3100,
+            "minimum": 0.662,
+            "maximum": 2.159,
+            "mean": 1.428341612903226,
+            "median": 1.44,
+            "standard_deviation": 0.3564206608688287,
+            "unique_value_count": 1229
+          },
+          "rapid": {
+            "count": 3600,
+            "minimum": 0.65,
+            "maximum": 1.759,
+            "mean": 1.126503611111111,
+            "median": 1.116,
+            "standard_deviation": 0.2817919928052999,
+            "unique_value_count": 995
+          }
+        },
+        "adherence_pattern": {
+          "high": {
+            "count": 4800,
+            "minimum": 0.65,
+            "maximum": 2.159,
+            "mean": 1.2634335416666667,
+            "median": 1.251,
+            "standard_deviation": 0.3432385452081724,
+            "unique_value_count": 1301
+          },
+          "low": {
+            "count": 1300,
+            "minimum": 0.65,
+            "maximum": 2.124,
+            "mean": 1.2904115384615384,
+            "median": 1.2745,
+            "standard_deviation": 0.3329073153838688,
+            "unique_value_count": 822
+          },
+          "variable": {
+            "count": 3900,
+            "minimum": 0.65,
+            "maximum": 2.154,
+            "mean": 1.2636666666666665,
+            "median": 1.242,
+            "standard_deviation": 0.34438546928259195,
+            "unique_value_count": 1264
+          }
+        },
+        "tacrolimus_exposure_pattern": {
+          "high": {
+            "count": 2700,
+            "minimum": 0.65,
+            "maximum": 2.159,
+            "mean": 1.2729414814814815,
+            "median": 1.26,
+            "standard_deviation": 0.34073068911019627,
+            "unique_value_count": 1129
+          },
+          "in_range": {
+            "count": 3900,
+            "minimum": 0.65,
+            "maximum": 2.124,
+            "mean": 1.2634407692307692,
+            "median": 1.251,
+            "standard_deviation": 0.3445633309796892,
+            "unique_value_count": 1255
+          },
+          "variable": {
+            "count": 3400,
+            "minimum": 0.65,
+            "maximum": 2.154,
+            "mean": 1.2664573529411765,
+            "median": 1.245,
+            "standard_deviation": 0.3414100233789005,
+            "unique_value_count": 1217
+          }
+        },
+        "infection_episode_days": {
+          "[14]": {
+            "count": 700,
+            "minimum": 0.65,
+            "maximum": 2.155,
+            "mean": 1.3354357142857143,
+            "median": 1.321,
+            "standard_deviation": 0.35869170627861086,
+            "unique_value_count": 547
+          },
+          "[30]": {
+            "count": 1000,
+            "minimum": 0.65,
+            "maximum": 2.139,
+            "mean": 1.331033,
+            "median": 1.326,
+            "standard_deviation": 0.34640288958234755,
+            "unique_value_count": 695
+          },
+          "[60]": {
+            "count": 300,
+            "minimum": 0.65,
+            "maximum": 2.135,
+            "mean": 1.22926,
+            "median": 1.1875,
+            "standard_deviation": 0.3416536829402936,
+            "unique_value_count": 268
+          },
+          "[90]": {
+            "count": 600,
+            "minimum": 0.65,
+            "maximum": 2.06,
+            "mean": 1.2699416666666665,
+            "median": 1.2385000000000002,
+            "standard_deviation": 0.3285626651501286,
+            "unique_value_count": 473
+          },
+          "[]": {
+            "count": 7400,
+            "minimum": 0.65,
+            "maximum": 2.159,
+            "mean": 1.2532074324324323,
+            "median": 1.239,
+            "standard_deviation": 0.33968839866560546,
+            "unique_value_count": 1359
+          }
+        },
+        "non_rejection_confounders": {
+          "dehydration": {
+            "count": 3700,
+            "minimum": 0.65,
+            "maximum": 2.155,
+            "mean": 1.2967764864864866,
+            "median": 1.288,
+            "standard_deviation": 0.3382611305990416,
+            "unique_value_count": 1255
+          },
+          "high_creatinine": {
+            "count": 100,
+            "minimum": 0.815,
+            "maximum": 2.159,
+            "mean": 1.40261,
+            "median": 1.4169999999999998,
+            "standard_deviation": 0.32940448979939546,
+            "unique_value_count": 95
+          },
+          "infection": {
+            "count": 100,
+            "minimum": 0.8,
+            "maximum": 2.118,
+            "mean": 1.39453,
+            "median": 1.3925,
+            "standard_deviation": 0.3567406187974674,
+            "unique_value_count": 96
+          },
+          "none": {
+            "count": 3000,
+            "minimum": 0.65,
+            "maximum": 2.041,
+            "mean": 1.1987489999999998,
+            "median": 1.1745,
+            "standard_deviation": 0.336264532769961,
+            "unique_value_count": 1127
+          },
+          "tacrolimus_exposure": {
+            "count": 3100,
+            "minimum": 0.65,
+            "maximum": 2.154,
+            "mean": 1.2891232258064516,
+            "median": 1.2734999999999999,
+            "standard_deviation": 0.34292196748406645,
+            "unique_value_count": 1182
+          }
+        }
+      },
+      "distribution_by_event_status": {
+        "0": {
+          "count": 6600,
+          "minimum": 0.65,
+          "maximum": 2.159,
+          "mean": 1.2576784848484848,
+          "median": 1.242,
+          "standard_deviation": 0.34217726748804317,
+          "unique_value_count": 1345
+        },
+        "1": {
+          "count": 3400,
+          "minimum": 0.65,
+          "maximum": 2.155,
+          "mean": 1.2851876470588235,
+          "median": 1.2705,
+          "standard_deviation": 0.3423438150890967,
+          "unique_value_count": 1242
+        }
+      }
+    },
+    "day7_urine_output_anchor_ml_24h": {
+      "minimum": 1361.4,
+      "maximum": 2917.0,
+      "dominant_values": [
+        2256.7
+      ],
+      "dominant_value_count": 8,
+      "dominant_fraction": 0.0008,
+      "mode_is_tied": false,
+      "unique_value_count": 6285,
+      "pearson_correlation_with_recipient_numeric_suffix": -0.002415255618747954,
+      "absolute_suffix_correlation": 0.002415255618747954,
+      "material_monotonic_association": false,
+      "clipped_at_approved_minimum": 0,
+      "clipped_at_approved_maximum": 0,
+      "approved_bounds": {
+        "minimum": 755.0,
+        "maximum": 3200.0,
+        "unit": "mL/24h",
+        "reference_observed_min": 755.0,
+        "reference_observed_max": 3200.0,
+        "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+      },
+      "distribution_by_control_pattern": {
+        "recovery_pattern": {
+          "gradual": {
+            "count": 3300,
+            "minimum": 1620.6,
+            "maximum": 2793.2,
+            "mean": 2227.172787878788,
+            "median": 2236.1499999999996,
+            "standard_deviation": 209.23126059701377,
+            "unique_value_count": 2678
+          },
+          "partial": {
+            "count": 3100,
+            "minimum": 1361.4,
+            "maximum": 2620.9,
+            "mean": 2006.9089032258064,
+            "median": 2005.95,
+            "standard_deviation": 210.37229775488035,
+            "unique_value_count": 2554
+          },
+          "rapid": {
+            "count": 3600,
+            "minimum": 1825.5,
+            "maximum": 2917.0,
+            "mean": 2419.7163611111105,
+            "median": 2423.75,
+            "standard_deviation": 195.06993470030363,
+            "unique_value_count": 2826
+          }
+        },
+        "adherence_pattern": {
+          "high": {
+            "count": 4800,
+            "minimum": 1361.4,
+            "maximum": 2917.0,
+            "mean": 2236.8687291666665,
+            "median": 2244.3500000000004,
+            "standard_deviation": 264.887545918172,
+            "unique_value_count": 3738
+          },
+          "low": {
+            "count": 1300,
+            "minimum": 1372.0,
+            "maximum": 2915.1,
+            "mean": 2212.4685384615386,
+            "median": 2228.45,
+            "standard_deviation": 259.8307412428078,
+            "unique_value_count": 1208
+          },
+          "variable": {
+            "count": 3900,
+            "minimum": 1409.1,
+            "maximum": 2905.0,
+            "mean": 2222.7917179487176,
+            "median": 2236.3500000000004,
+            "standard_deviation": 266.5766418790481,
+            "unique_value_count": 3181
+          }
+        },
+        "tacrolimus_exposure_pattern": {
+          "high": {
+            "count": 2700,
+            "minimum": 1361.4,
+            "maximum": 2907.3,
+            "mean": 2222.9483333333333,
+            "median": 2238.3,
+            "standard_deviation": 265.3015641243975,
+            "unique_value_count": 2361
+          },
+          "in_range": {
+            "count": 3900,
+            "minimum": 1409.1,
+            "maximum": 2915.1,
+            "mean": 2232.701871794872,
+            "median": 2240.95,
+            "standard_deviation": 266.0437393652982,
+            "unique_value_count": 3214
+          },
+          "variable": {
+            "count": 3400,
+            "minimum": 1423.1,
+            "maximum": 2917.0,
+            "mean": 2227.2261470588237,
+            "median": 2239.4,
+            "standard_deviation": 263.6101382085509,
+            "unique_value_count": 2884
+          }
+        },
+        "infection_episode_days": {
+          "[14]": {
+            "count": 700,
+            "minimum": 1372.0,
+            "maximum": 2775.8,
+            "mean": 2108.016,
+            "median": 2109.35,
+            "standard_deviation": 275.7008521692618,
+            "unique_value_count": 670
+          },
+          "[30]": {
+            "count": 1000,
+            "minimum": 1361.4,
+            "maximum": 2772.2,
+            "mean": 2104.0657,
+            "median": 2104.25,
+            "standard_deviation": 264.0506364573091,
+            "unique_value_count": 946
+          },
+          "[60]": {
+            "count": 300,
+            "minimum": 1513.0,
+            "maximum": 2818.0,
+            "mean": 2258.2229999999995,
+            "median": 2271.5,
+            "standard_deviation": 252.04012730317368,
+            "unique_value_count": 295
+          },
+          "[90]": {
+            "count": 600,
+            "minimum": 1580.8,
+            "maximum": 2878.5,
+            "mean": 2245.3908333333334,
+            "median": 2255.45,
+            "standard_deviation": 254.67759271800676,
+            "unique_value_count": 580
+          },
+          "[]": {
+            "count": 7400,
+            "minimum": 1395.0,
+            "maximum": 2917.0,
+            "mean": 2253.7416756756757,
+            "median": 2263.2,
+            "standard_deviation": 257.5357612079852,
+            "unique_value_count": 5155
+          }
+        },
+        "non_rejection_confounders": {
+          "dehydration": {
+            "count": 3700,
+            "minimum": 1361.4,
+            "maximum": 2698.6,
+            "mean": 2110.9124594594596,
+            "median": 2123.9,
+            "standard_deviation": 241.9151200237662,
+            "unique_value_count": 3022
+          },
+          "high_creatinine": {
+            "count": 100,
+            "minimum": 1604.3,
+            "maximum": 2601.6,
+            "mean": 2139.127,
+            "median": 2144.2,
+            "standard_deviation": 213.3247692392986,
+            "unique_value_count": 100
+          },
+          "infection": {
+            "count": 100,
+            "minimum": 1512.8,
+            "maximum": 2512.7,
+            "mean": 2035.1049999999993,
+            "median": 2055.75,
+            "standard_deviation": 238.0415372891882,
+            "unique_value_count": 100
+          },
+          "none": {
+            "count": 3000,
+            "minimum": 1615.5,
+            "maximum": 2917.0,
+            "mean": 2367.823566666667,
+            "median": 2388.8999999999996,
+            "standard_deviation": 240.5102758746055,
+            "unique_value_count": 2511
+          },
+          "tacrolimus_exposure": {
+            "count": 3100,
+            "minimum": 1457.6,
+            "maximum": 2815.1,
+            "mean": 2242.1924838709683,
+            "median": 2259.3,
+            "standard_deviation": 246.0677781889831,
+            "unique_value_count": 2620
+          }
+        }
+      },
+      "distribution_by_event_status": {
+        "0": {
+          "count": 6600,
+          "minimum": 1423.1,
+          "maximum": 2917.0,
+          "mean": 2243.732803030303,
+          "median": 2253.3999999999996,
+          "standard_deviation": 262.34568112371267,
+          "unique_value_count": 4782
+        },
+        "1": {
+          "count": 3400,
+          "minimum": 1361.4,
+          "maximum": 2915.1,
+          "mean": 2198.067705882353,
+          "median": 2208.25,
+          "standard_deviation": 267.6565520203888,
+          "unique_value_count": 2868
+        }
+      }
+    },
+    "day7_tacrolimus_anchor_ng_ml": {
+      "minimum": 6.32,
+      "maximum": 13.42,
+      "dominant_values": [
+        9.58
+      ],
+      "dominant_value_count": 39,
+      "dominant_fraction": 0.0039,
+      "mode_is_tied": false,
+      "unique_value_count": 701,
+      "pearson_correlation_with_recipient_numeric_suffix": -0.005949496051650136,
+      "absolute_suffix_correlation": 0.005949496051650136,
+      "material_monotonic_association": false,
+      "clipped_at_approved_minimum": 0,
+      "clipped_at_approved_maximum": 0,
+      "approved_bounds": {
+        "minimum": 2.9,
+        "maximum": 13.5,
+        "unit": "ng/mL",
+        "reference_observed_min": 2.9,
+        "reference_observed_max": 13.5,
+        "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+      },
+      "distribution_by_control_pattern": {
+        "recovery_pattern": {
+          "gradual": {
+            "count": 3300,
+            "minimum": 6.32,
+            "maximum": 13.4,
+            "mean": 9.797057575757576,
+            "median": 9.67,
+            "standard_deviation": 1.5996957219251544,
+            "unique_value_count": 660
+          },
+          "partial": {
+            "count": 3100,
+            "minimum": 6.34,
+            "maximum": 13.34,
+            "mean": 9.781912903225807,
+            "median": 9.63,
+            "standard_deviation": 1.6222310360579437,
+            "unique_value_count": 643
+          },
+          "rapid": {
+            "count": 3600,
+            "minimum": 6.33,
+            "maximum": 13.42,
+            "mean": 9.737213888888888,
+            "median": 9.575,
+            "standard_deviation": 1.6094395466284335,
+            "unique_value_count": 660
+          }
+        },
+        "adherence_pattern": {
+          "high": {
+            "count": 4800,
+            "minimum": 6.32,
+            "maximum": 13.42,
+            "mean": 9.736977083333334,
+            "median": 9.57,
+            "standard_deviation": 1.6094810652737788,
+            "unique_value_count": 680
+          },
+          "low": {
+            "count": 1300,
+            "minimum": 6.34,
+            "maximum": 13.38,
+            "mean": 9.854546153846155,
+            "median": 9.75,
+            "standard_deviation": 1.6206781183364085,
+            "unique_value_count": 546
+          },
+          "variable": {
+            "count": 3900,
+            "minimum": 6.34,
+            "maximum": 13.34,
+            "mean": 9.784561538461539,
+            "median": 9.67,
+            "standard_deviation": 1.6069280894534594,
+            "unique_value_count": 662
+          }
+        },
+        "tacrolimus_exposure_pattern": {
+          "high": {
+            "count": 2700,
+            "minimum": 10.51,
+            "maximum": 13.42,
+            "mean": 11.769529629629629,
+            "median": 11.765,
+            "standard_deviation": 0.6664778906698362,
+            "unique_value_count": 282
+          },
+          "in_range": {
+            "count": 3900,
+            "minimum": 7.41,
+            "maximum": 11.03,
+            "mean": 8.998,
+            "median": 9.004999999999999,
+            "standard_deviation": 0.8385431200019272,
+            "unique_value_count": 352
+          },
+          "variable": {
+            "count": 3400,
+            "minimum": 6.32,
+            "maximum": 12.17,
+            "mean": 9.070076470588235,
+            "median": 9.07,
+            "standard_deviation": 1.4560344594457313,
+            "unique_value_count": 573
+          }
+        },
+        "infection_episode_days": {
+          "[14]": {
+            "count": 700,
+            "minimum": 6.48,
+            "maximum": 13.34,
+            "mean": 9.8925,
+            "median": 9.73,
+            "standard_deviation": 1.5832762257871682,
+            "unique_value_count": 412
+          },
+          "[30]": {
+            "count": 1000,
+            "minimum": 6.47,
+            "maximum": 13.34,
+            "mean": 9.789759999999998,
+            "median": 9.614999999999998,
+            "standard_deviation": 1.5797592672302954,
+            "unique_value_count": 495
+          },
+          "[60]": {
+            "count": 300,
+            "minimum": 6.35,
+            "maximum": 12.96,
+            "mean": 9.634333333333334,
+            "median": 9.48,
+            "standard_deviation": 1.626661987698189,
+            "unique_value_count": 238
+          },
+          "[90]": {
+            "count": 600,
+            "minimum": 6.34,
+            "maximum": 13.2,
+            "mean": 9.773733333333332,
+            "median": 9.58,
+            "standard_deviation": 1.60001501937395,
+            "unique_value_count": 377
+          },
+          "[]": {
+            "count": 7400,
+            "minimum": 6.32,
+            "maximum": 13.42,
+            "mean": 9.762045945945946,
+            "median": 9.62,
+            "standard_deviation": 1.6165335211235208,
+            "unique_value_count": 691
+          }
+        },
+        "non_rejection_confounders": {
+          "dehydration": {
+            "count": 3700,
+            "minimum": 6.32,
+            "maximum": 12.64,
+            "mean": 9.543251351351351,
+            "median": 9.41,
+            "standard_deviation": 1.5825568079332897,
+            "unique_value_count": 615
+          },
+          "high_creatinine": {
+            "count": 100,
+            "minimum": 6.48,
+            "maximum": 12.25,
+            "mean": 9.5204,
+            "median": 9.49,
+            "standard_deviation": 1.600852223036218,
+            "unique_value_count": 96
+          },
+          "infection": {
+            "count": 100,
+            "minimum": 6.56,
+            "maximum": 12.55,
+            "mean": 9.8095,
+            "median": 9.594999999999999,
+            "standard_deviation": 1.649984469623881,
+            "unique_value_count": 93
+          },
+          "none": {
+            "count": 3000,
+            "minimum": 6.33,
+            "maximum": 12.62,
+            "mean": 9.458096666666666,
+            "median": 9.33,
+            "standard_deviation": 1.5231967953361183,
+            "unique_value_count": 595
+          },
+          "tacrolimus_exposure": {
+            "count": 3100,
+            "minimum": 7.13,
+            "maximum": 13.42,
+            "mean": 10.351896774193548,
+            "median": 10.23,
+            "standard_deviation": 1.5699799923697133,
+            "unique_value_count": 603
+          }
+        }
+      },
+      "distribution_by_event_status": {
+        "0": {
+          "count": 6600,
+          "minimum": 6.33,
+          "maximum": 13.34,
+          "mean": 9.729860606060607,
+          "median": 9.58,
+          "standard_deviation": 1.600882780699139,
+          "unique_value_count": 687
+        },
+        "1": {
+          "count": 3400,
+          "minimum": 6.32,
+          "maximum": 13.42,
+          "mean": 9.850326470588236,
+          "median": 9.73,
+          "standard_deviation": 1.6258409532244096,
+          "unique_value_count": 655
+        }
+      }
+    },
+    "day7_medication_adherence_anchor_pct": {
+      "minimum": 54.92,
+      "maximum": 99.91,
+      "dominant_values": [
+        96.21
+      ],
+      "dominant_value_count": 24,
+      "dominant_fraction": 0.0024,
+      "mode_is_tied": false,
+      "unique_value_count": 2886,
+      "pearson_correlation_with_recipient_numeric_suffix": -0.011777167029743536,
+      "absolute_suffix_correlation": 0.011777167029743536,
+      "material_monotonic_association": false,
+      "clipped_at_approved_minimum": 0,
+      "clipped_at_approved_maximum": 0,
+      "approved_bounds": {
+        "minimum": 0.0,
+        "maximum": 100.0,
+        "unit": "percent",
+        "reference_observed_min": 73.3,
+        "reference_observed_max": 100.0,
+        "source": "protected canonical dataset; adherence uses project hard bound 0-100"
+      },
+      "distribution_by_control_pattern": {
+        "recovery_pattern": {
+          "gradual": {
+            "count": 3300,
+            "minimum": 55.28,
+            "maximum": 99.91,
+            "mean": 89.62070303030303,
+            "median": 93.985,
+            "standard_deviation": 10.603192531939834,
+            "unique_value_count": 1701
+          },
+          "partial": {
+            "count": 3100,
+            "minimum": 55.59,
+            "maximum": 99.9,
+            "mean": 89.82386451612902,
+            "median": 94.405,
+            "standard_deviation": 10.429900075343202,
+            "unique_value_count": 1637
+          },
+          "rapid": {
+            "count": 3600,
+            "minimum": 54.92,
+            "maximum": 99.9,
+            "mean": 90.04527222222222,
+            "median": 94.78,
+            "standard_deviation": 10.25211011522915,
+            "unique_value_count": 1766
+          }
+        },
+        "adherence_pattern": {
+          "high": {
+            "count": 4800,
+            "minimum": 94.7,
+            "maximum": 99.91,
+            "mean": 97.85812083333333,
+            "median": 97.86,
+            "standard_deviation": 1.154786979807377,
+            "unique_value_count": 474
+          },
+          "low": {
+            "count": 1300,
+            "minimum": 54.92,
+            "maximum": 81.53,
+            "mean": 68.70467692307693,
+            "median": 68.775,
+            "standard_deviation": 7.437579287970783,
+            "unique_value_count": 1020
+          },
+          "variable": {
+            "count": 3900,
+            "minimum": 77.81,
+            "maximum": 95.46,
+            "mean": 87.00774871794872,
+            "median": 86.95,
+            "standard_deviation": 4.750873270164662,
+            "unique_value_count": 1526
+          }
+        },
+        "tacrolimus_exposure_pattern": {
+          "high": {
+            "count": 2700,
+            "minimum": 55.59,
+            "maximum": 99.91,
+            "mean": 89.52264074074074,
+            "median": 93.95,
+            "standard_deviation": 10.648170019643233,
+            "unique_value_count": 1499
+          },
+          "in_range": {
+            "count": 3900,
+            "minimum": 55.28,
+            "maximum": 99.9,
+            "mean": 90.51375128205129,
+            "median": 95.7,
+            "standard_deviation": 10.109911927622978,
+            "unique_value_count": 1781
+          },
+          "variable": {
+            "count": 3400,
+            "minimum": 54.92,
+            "maximum": 99.9,
+            "mean": 89.30897647058823,
+            "median": 93.33,
+            "standard_deviation": 10.560375929668274,
+            "unique_value_count": 1773
+          }
+        },
+        "infection_episode_days": {
+          "[14]": {
+            "count": 700,
+            "minimum": 55.29,
+            "maximum": 99.01,
+            "mean": 89.2293,
+            "median": 93.65,
+            "standard_deviation": 10.360344971986766,
+            "unique_value_count": 564
+          },
+          "[30]": {
+            "count": 1000,
+            "minimum": 54.92,
+            "maximum": 98.99,
+            "mean": 88.6712,
+            "median": 93.315,
+            "standard_deviation": 10.862885664500025,
+            "unique_value_count": 759
+          },
+          "[60]": {
+            "count": 300,
+            "minimum": 56.53,
+            "maximum": 99.86,
+            "mean": 90.1034,
+            "median": 95.03999999999999,
+            "standard_deviation": 10.320283706048654,
+            "unique_value_count": 266
+          },
+          "[90]": {
+            "count": 600,
+            "minimum": 56.34,
+            "maximum": 99.86,
+            "mean": 89.55333333333333,
+            "median": 94.055,
+            "standard_deviation": 10.753250681641445,
+            "unique_value_count": 492
+          },
+          "[]": {
+            "count": 7400,
+            "minimum": 55.7,
+            "maximum": 99.91,
+            "mean": 90.06358783783784,
+            "median": 94.66,
+            "standard_deviation": 10.334885224345413,
+            "unique_value_count": 2470
+          }
+        },
+        "non_rejection_confounders": {
+          "dehydration": {
+            "count": 3700,
+            "minimum": 55.28,
+            "maximum": 99.91,
+            "mean": 89.56403513513513,
+            "median": 93.685,
+            "standard_deviation": 10.503155547139848,
+            "unique_value_count": 1833
+          },
+          "high_creatinine": {
+            "count": 100,
+            "minimum": 62.57,
+            "maximum": 99.85,
+            "mean": 91.70069999999998,
+            "median": 96.19999999999999,
+            "standard_deviation": 8.745224097185847,
+            "unique_value_count": 99
+          },
+          "infection": {
+            "count": 100,
+            "minimum": 57.86,
+            "maximum": 98.12,
+            "mean": 88.54729999999999,
+            "median": 94.745,
+            "standard_deviation": 10.535428881160938,
+            "unique_value_count": 97
+          },
+          "none": {
+            "count": 3000,
+            "minimum": 54.92,
+            "maximum": 99.88,
+            "mean": 90.32448,
+            "median": 95.72,
+            "standard_deviation": 10.307171710170229,
+            "unique_value_count": 1542
+          },
+          "tacrolimus_exposure": {
+            "count": 3100,
+            "minimum": 55.59,
+            "maximum": 99.9,
+            "mean": 89.67100322580644,
+            "median": 94.03,
+            "standard_deviation": 10.46825060068296,
+            "unique_value_count": 1643
+          }
+        }
+      },
+      "distribution_by_event_status": {
+        "0": {
+          "count": 6600,
+          "minimum": 55.28,
+          "maximum": 99.9,
+          "mean": 90.1612015151515,
+          "median": 95.11,
+          "standard_deviation": 10.257770495639347,
+          "unique_value_count": 2386
+        },
+        "1": {
+          "count": 3400,
+          "minimum": 54.92,
+          "maximum": 99.91,
+          "mean": 89.2062794117647,
+          "median": 93.11,
+          "standard_deviation": 10.715840894161682,
+          "unique_value_count": 1768
+        }
+      }
+    }
+  },
+  "prompt_contract_finding": "The exact render_prompt function constructs a static_fields dictionary and includes a replacement for {static_clinical_fields}, but the saved v3.2 template contains no such placeholder. The replacement is therefore a no-op. Explicit static clinical field names and values were not inserted into the confirmed Qwen prompts.",
+  "request_ledger_mock_validation": {
+    "status": "passed",
+    "mock_record_count": 1,
+    "round_trip_exact": true,
+    "rendered_prompt_hash_verified": true,
+    "pre_network_status_verified": true,
+    "attempt_number_verified_as_one": true,
+    "direct_identifier_fields_absent": true,
+    "api_requests": 0,
+    "network_requests": 0,
+    "append_only_file_test": "passed",
+    "flush_and_fsync_completed": true,
+    "persisted_line_number": 1
+  },
+  "token_storage_estimate": {
+    "status": "provisional_planning_estimate",
+    "initial_tokens_per_recipient": 1582,
+    "estimated_total_tokens": 15820000,
+    "v3_2_confirmation_observed": {
+      "recipients": 20,
+      "prompt_tokens": 21488,
+      "completion_tokens": 10146,
+      "total_tokens": 31634,
+      "observed_total_tokens_per_recipient": 1581.7
+    },
+    "provisional_note": "1,582 tokens per recipient is the initial rounded estimate from the 20-recipient confirmation and must be updated after an authorised first-chunk benchmark.",
+    "storage_estimates_bytes": {
+      "responses_jsonl": 20508500,
+      "future_manifest_or_status_jsonl_at_confirmation_density": 9633500,
+      "validated_assessment_csv_at_confirmation_density": 15616000,
+      "identity_csv_at_confirmation_density": 2937150,
+      "prospective_requests_jsonl_using_mock_line_size": 49680000
+    },
+    "estimation_basis_fingerprints": {
+      "responses.jsonl": {
+        "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl",
+        "sha256": "89cb4f30fb4d8b5446352141ad66367b3bbf3199dc799dc414cb6cc25e7a58b0",
+        "mtime_ns": 1786901201806326103,
+        "size_bytes": 41017
+      },
+      "manifest.jsonl": {
+        "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl",
+        "sha256": "5bc125fc795b9e573afd006732f5662a8b57979ee7f68223955a41ed1581ad12",
+        "mtime_ns": 1786901201810275290,
+        "size_bytes": 19267
+      },
+      "assessment_table.csv": {
+        "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv",
+        "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+        "mtime_ns": 1786901201867289505,
+        "size_bytes": 31232
+      },
+      "identity_table.csv": {
+        "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv",
+        "sha256": "c8acff1228625f9428cbf0b319b19377024a20151d6769d1b630ab556565944e",
+        "mtime_ns": 1786901201868164302,
+        "size_bytes": 6527
+      },
+      "run_report.json": {
+        "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json",
+        "sha256": "e1068f639f0d1c0f134ffd6fb7f48d0299fafe945dbe5a47536f038cfdfa4954",
+        "mtime_ns": 1786901201992795412,
+        "size_bytes": 23332
+      }
+    }
+  },
+  "created_files": [
+    "actual_prompt_contract_audit.json",
+    "mock_requests.jsonl",
+    "production_anchor_metadata.csv",
+    "production_assessment_metadata.csv",
+    "production_chunk_plan.json",
+    "production_deletion_scenario_audit.json",
+    "production_distribution_report.json",
+    "production_event_target_audit.csv",
+    "production_freeze_report.json",
+    "production_identity_skeleton.csv",
+    "production_recipient_metadata.csv",
+    "production_storage_and_token_estimate.json",
+    "production_validation_report.json",
+    "rendered_prompt_preview_V31-R000009.txt",
+    "rendered_prompt_preview_V31-R000018.txt",
+    "rendered_prompt_preview_V31-R000028.txt",
+    "request_ledger_schema.json"
+  ],
+  "production_chunk_plan_prepared": true,
+  "production_chunk_1_executed": false,
+  "proposed_chunk_1_gate": "RUN_QWEN_V32_PRODUCTION_CHUNK_001=QWEN-V32-PROD-001-CHUNK-001",
+  "proposed_chunk_1_gate_enabled": false,
+  "protected_in_finally": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "protected_integrity_in_finally": true,
+  "immutable_evidence_in_finally": {
+    "data/raw/.DS_Store": {
+      "path": "data/raw/.DS_Store",
+      "file_count": 1,
+      "total_size_bytes": 6148,
+      "aggregate_sha256_with_metadata": "97986cba3c2cc5ab60c4a1e8500620d037824dbfc743a79d5958bb87c1dcfdb6"
+    },
+    "data/raw/EchoForge_Synthetic_Dataset.xlsx": {
+      "path": "data/raw/EchoForge_Synthetic_Dataset.xlsx",
+      "file_count": 1,
+      "total_size_bytes": 535984,
+      "aggregate_sha256_with_metadata": "327b56f718644b22918d3c4aa9adcc7d763ec992f55c8543ad3b292a327563fa"
+    },
+    "data/raw/KidneyTransplant/qwen_batch10_v2_001": {
+      "path": "data/raw/KidneyTransplant/qwen_batch10_v2_001",
+      "file_count": 65,
+      "total_size_bytes": 148364,
+      "aggregate_sha256_with_metadata": "76aa8b0dee496882ebd56b3d3ca563a686465ed389af0ad612ea00fde72ac998"
+    },
+    "data/raw/KidneyTransplant/qwen_corrected10_v3_1_001": {
+      "path": "data/raw/KidneyTransplant/qwen_corrected10_v3_1_001",
+      "file_count": 10,
+      "total_size_bytes": 96421,
+      "aggregate_sha256_with_metadata": "361e60987406408100478bc443d31a172be97d286598c06e2e59603551eae301"
+    },
+    "data/raw/KidneyTransplant/qwen_diagnostic100_v3_1_001": {
+      "path": "data/raw/KidneyTransplant/qwen_diagnostic100_v3_1_001",
+      "file_count": 11,
+      "total_size_bytes": 740646,
+      "aggregate_sha256_with_metadata": "a22902d7957623085615af35f440ac74a4ab31c29321058a7734bfdb1799ed79"
+    },
+    "data/raw/KidneyTransplant/qwen_pilot": {
+      "path": "data/raw/KidneyTransplant/qwen_pilot",
+      "file_count": 10,
+      "total_size_bytes": 20029,
+      "aggregate_sha256_with_metadata": "15a4798dd65a6988f06511fab3d2d02a5063d476ebb42f371a81b24199d5ab58"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design",
+      "file_count": 21,
+      "total_size_bytes": 210322,
+      "aggregate_sha256_with_metadata": "25a8aac3fe8c20fc9a0d8730cd6a15119a811c4439193dbc1ef480e8ea13f40e"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001",
+      "file_count": 10,
+      "total_size_bytes": 166328,
+      "aggregate_sha256_with_metadata": "b4ecfd4725d7c37696254267b823a097ebf0c7c7ccf2e7d0134914f2488485f3"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001",
+      "file_count": 5,
+      "total_size_bytes": 48956,
+      "aggregate_sha256_with_metadata": "4b582d114df95c0f44c7f93dfeb0fdda8a66b545921245237992f41a4338fd8b"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design",
+      "file_count": 9,
+      "total_size_bytes": 29171,
+      "aggregate_sha256_with_metadata": "e126ff686bfa4e6719fcbdc58332f6711ec99f9fb158e35a49feda06381bea0a"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_design",
+      "file_count": 18,
+      "total_size_bytes": 162898,
+      "aggregate_sha256_with_metadata": "3adadaeb6597eff142ff7daf34ec464d9aa609ddfac6b849fd088808eb5e9a73"
+    },
+    "data/raw/adult.csv": {
+      "path": "data/raw/adult.csv",
+      "file_count": 1,
+      "total_size_bytes": 5326368,
+      "aggregate_sha256_with_metadata": "830cec6682c20539486ad8d420fab3d11e95d257e12ccd31ae3a4bab2a8bba15"
+    },
+    "data/raw/castme": {
+      "path": "data/raw/castme",
+      "file_count": 1,
+      "total_size_bytes": 5986851,
+      "aggregate_sha256_with_metadata": "80f98decd833ff15765af6906ca95a5e4d74be9dced50dce549e70d43753d38a"
+    },
+    "data/raw/kidney_transplant_unlearning_dataset.csv": {
+      "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+      "file_count": 1,
+      "total_size_bytes": 19817033,
+      "aggregate_sha256_with_metadata": "6bdee49351527869ab53080470e1f4d2d0fbf241a96f8dd527c329611e273764"
+    },
+    "data/processed": {
+      "path": "data/processed",
+      "file_count": 23,
+      "total_size_bytes": 91091874,
+      "aggregate_sha256_with_metadata": "5ea1792f6f14d6c2a56562e125bccad3c2a728836634c747de4de3643c932437"
+    },
+    "models": {
+      "path": "models",
+      "file_count": 185,
+      "total_size_bytes": 1493884,
+      "aggregate_sha256_with_metadata": "d8908202e90fdfa54f33aae23e54512417c2d722e3ae0494e1bab0adc55bcf62"
+    },
+    "results": {
+      "path": "results",
+      "file_count": 754,
+      "total_size_bytes": 308475322,
+      "aggregate_sha256_with_metadata": "7ea005ce5c7c5511c102f3b92c29d5cdefe6d893dbc958fac6283b6bf402f21b"
+    }
+  },
+  "immutable_evidence_unchanged_in_finally": true,
+  "notebooks_01_05_in_finally": {
+    "notebooks/KidneyTransplant/01_kidney_transplant_baseline.ipynb": {
+      "path": "notebooks/KidneyTransplant/01_kidney_transplant_baseline.ipynb",
+      "sha256": "ba2c509ba0ddee4121ae95f9e8a5ecc0c7e7666532d6dde9e4c793bc4557d149",
+      "mtime_ns": 1786447680871966165,
+      "size_bytes": 485233
+    },
+    "notebooks/KidneyTransplant/02_kidney_transplant_forget_sets_and_full_retraining.ipynb": {
+      "path": "notebooks/KidneyTransplant/02_kidney_transplant_forget_sets_and_full_retraining.ipynb",
+      "sha256": "9c343dfe1d53dd36dcc9ac99ebd3ec43288b487a5cbaa4b063bcdd7899b1e896",
+      "mtime_ns": 1786892444537158299,
+      "size_bytes": 300435
+    },
+    "notebooks/KidneyTransplant/03_kidney_transplant_retain_set_finetuning.ipynb": {
+      "path": "notebooks/KidneyTransplant/03_kidney_transplant_retain_set_finetuning.ipynb",
+      "sha256": "180332d1fac31273169f4da3dba99d3fd4c2d511149de13638b8df99fda66b10",
+      "mtime_ns": 1786032522141294049,
+      "size_bytes": 399814
+    },
+    "notebooks/KidneyTransplant/04_kidney_transplant_gradient_ascent.ipynb": {
+      "path": "notebooks/KidneyTransplant/04_kidney_transplant_gradient_ascent.ipynb",
+      "sha256": "b500fb1f3dbf55a8e24456fcef73268c99d9430966b3c8a47857459927a4b486",
+      "mtime_ns": 1786032554013251670,
+      "size_bytes": 394086
+    },
+    "notebooks/KidneyTransplant/05_kidney_transplant_sisa.ipynb": {
+      "path": "notebooks/KidneyTransplant/05_kidney_transplant_sisa.ipynb",
+      "sha256": "b48e9fb931cbf717d8fc07fbdae642ff5acf66dfa272b5129d47dfc57a593036",
+      "mtime_ns": 1786033098001648943,
+      "size_bytes": 832634
+    }
+  },
+  "notebooks_01_05_unchanged_in_finally": true,
+  "input_evidence_fingerprints_in_finally": {
+    "data/raw/KidneyTransplant/qwen_v3_1_design/api_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/api_configuration.json",
+      "sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+      "mtime_ns": 1786898234495445053,
+      "size_bytes": 587
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_metadata_skeleton_600.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_metadata_skeleton_600.csv",
+      "sha256": "315a3543b45614d6159a17d97ca8807016e6921d1b9e0a68af0fc3ca5daa598d",
+      "mtime_ns": 1786898234493993593,
+      "size_bytes": 117850
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_table_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_table_schema.csv",
+      "sha256": "4fbc55d3d62b1b6c9953f5304d4314a0567e006b58c500809f77ee629583ba30",
+      "mtime_ns": 1786898234488933755,
+      "size_bytes": 1644
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/canonical_qwen_ranges.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/canonical_qwen_ranges.json",
+      "sha256": "bafb98d5e3d0dcd10639979348306b5397d3b5ee2e8e50e86102285d73eaad92",
+      "mtime_ns": 1786898234489458589,
+      "size_bytes": 1024
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/chunked_storage_design.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/chunked_storage_design.json",
+      "sha256": "606ffc617c7976d4bb81beee0e102e302d8fe70c0e423e7356b09d239224c2ab",
+      "mtime_ns": 1786898234495760344,
+      "size_bytes": 969
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.csv",
+      "sha256": "4fe23a191ab5c0b4ce03952ba0af9536d981a6f2b825fbf6153b51a643feed94",
+      "mtime_ns": 1786898234496075887,
+      "size_bytes": 2402
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.json",
+      "sha256": "6746c172c4a8cae897724433d6cdafdbd193a37afd9e4b17c9ab901e6e531f93",
+      "mtime_ns": 1786898234497908346,
+      "size_bytes": 8250
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_audit.csv",
+      "sha256": "1016839e7b4a69d8ccf914a1320b973168281dc4b7d9f48e86217164527d2b43",
+      "mtime_ns": 1786898234494829344,
+      "size_bytes": 577
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_config.json",
+      "sha256": "40eadd6580746c7e24a294e6687290b2817e2e594ab24de4bfdb521f7de56fa9",
+      "mtime_ns": 1786898234495206094,
+      "size_bytes": 716
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_overlap.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_overlap.csv",
+      "sha256": "64eacd976c4544929e23336c557c6ea2656caa6729e22157aad2cf72a4d97c79",
+      "mtime_ns": 1786898234495058011,
+      "size_bytes": 251
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/distribution_quality_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/distribution_quality_config.json",
+      "sha256": "663ca7eb8e2ca2f71542f980161810dc0f153a33e1c44b04c03d64ead79385eb",
+      "mtime_ns": 1786898234495649886,
+      "size_bytes": 499
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/field_lists.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/field_lists.json",
+      "sha256": "a33c1701cc92150f9bfb2fba531bde177c8d6aab63759a092d2947b8cd6578fb",
+      "mtime_ns": 1786898234489339047,
+      "size_bytes": 1998
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/hard_validation_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/hard_validation_config.json",
+      "sha256": "256863abd83f5f5c9770bf73c64d4b8437c60e34db91db0882ea0a5c8a70684a",
+      "mtime_ns": 1786898234495550053,
+      "size_bytes": 553
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/identity_skeleton_180_people.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/identity_skeleton_180_people.csv",
+      "sha256": "591c36b5122175b31e51c3daa026ef04fa8c1d841ad979ee68288393f8146749",
+      "mtime_ns": 1786898234490134214,
+      "size_bytes": 28867
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/identity_table_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/identity_table_schema.csv",
+      "sha256": "b119190e3b44c60138e649a4c7d93ccd61a1c63d48bc63c179b8a76ab888ca43",
+      "mtime_ns": 1786898234488602505,
+      "size_bytes": 616
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/joined_42_column_audit_only_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/joined_42_column_audit_only_schema.csv",
+      "sha256": "aa61ff26e43bc65caa4d8e19f013ca520b5af965c4e7c471baa50ef1ad3fcfa6",
+      "mtime_ns": 1786898234489211713,
+      "size_bytes": 2676
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/latent_controls_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/latent_controls_100.csv",
+      "sha256": "b3d2e326dc85d38e3d996f5c7f3e1b1cb0546812baf2fe37d3834e63d94b4355",
+      "mtime_ns": 1786898234494577760,
+      "size_bytes": 10589
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/local_v3_1_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/local_v3_1_validation_report.json",
+      "sha256": "65701458a7dabc5096c862bf0224198552ed7d3cf75a60d9be452c1a679dd034",
+      "mtime_ns": 1786898234499858765,
+      "size_bytes": 9891
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/qwen_kidney_v3_1_prompt_template.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/qwen_kidney_v3_1_prompt_template.txt",
+      "sha256": "08f0c29bffb47af5036528ab87be8da548cef42e879295cbda371a9bb9aa0e65",
+      "mtime_ns": 1786898234495321594,
+      "size_bytes": 3132
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/recipient_relationship_metadata_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/recipient_relationship_metadata_100.csv",
+      "sha256": "f9b25c57a659a6d7f56a29e5fb185798e497770be34cb60d02d86562a783acde",
+      "mtime_ns": 1786898234490993257,
+      "size_bytes": 15318
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/v2_evidence_reference.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/v2_evidence_reference.json",
+      "sha256": "faea2e41474ca079ac196c0aebad6356f1d91210e44977bbfad147f1d0817fa3",
+      "mtime_ns": 1786898234498062930,
+      "size_bytes": 1913
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/anchor_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/anchor_audit.csv",
+      "sha256": "15aec2f842e83d094f2c5f481e6b726119c92e587b8b11ac2c817ce9c272713d",
+      "mtime_ns": 1786901201868886889,
+      "size_bytes": 5543
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv",
+      "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+      "mtime_ns": 1786901201867289505,
+      "size_bytes": 31232
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/completion_state.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/completion_state.json",
+      "sha256": "1d690e8acc7a6872132df8772d24dacaa7a9665cc4f3f59d7a8adf816ffb7aef",
+      "mtime_ns": 1786901201869364308,
+      "size_bytes": 312
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/diagnostic_quality_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/diagnostic_quality_report.json",
+      "sha256": "3ebfce521de681730ce47c5da891d65f8d63c39cbeea4cc7efe95fcffb728f00",
+      "mtime_ns": 1786901201869161890,
+      "size_bytes": 5546
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv",
+      "sha256": "c8acff1228625f9428cbf0b319b19377024a20151d6769d1b630ab556565944e",
+      "mtime_ns": 1786901201868164302,
+      "size_bytes": 6527
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl",
+      "sha256": "5bc125fc795b9e573afd006732f5662a8b57979ee7f68223955a41ed1581ad12",
+      "mtime_ns": 1786901201810275290,
+      "size_bytes": 19267
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl",
+      "sha256": "89cb4f30fb4d8b5446352141ad66367b3bbf3199dc799dc414cb6cc25e7a58b0",
+      "mtime_ns": 1786901201806326103,
+      "size_bytes": 41017
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_configuration.json",
+      "sha256": "b55bdc4487178daa34a0428248189a87a1eaac134ff7101a1fa99245171797de",
+      "mtime_ns": 1786901129917981348,
+      "size_bytes": 2320
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json",
+      "sha256": "e1068f639f0d1c0f134ffd6fb7f48d0299fafe945dbe5a47536f038cfdfa4954",
+      "mtime_ns": 1786901201992795412,
+      "size_bytes": 23332
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/validated_recipient_checkpoint.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/validated_recipient_checkpoint.csv",
+      "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+      "mtime_ns": 1786901201809885330,
+      "size_bytes": 31232
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/addendum_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/addendum_validation_report.json",
+      "sha256": "643b9c2a83b2801c68b899268b3550b5ad5efffa618b5fda3642595c15bfd386",
+      "mtime_ns": 1786902091938987196,
+      "size_bytes": 28631
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/anchor_conditioning_scope_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/anchor_conditioning_scope_report.json",
+      "sha256": "3693d27cc4b9f93a6665a713c7551a172c10e759f35ff33fd0718ce638fffa49",
+      "mtime_ns": 1786902091812711589,
+      "size_bytes": 3994
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/api_conformance_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/api_conformance_report.json",
+      "sha256": "07ae8269d795a65e72b6e3982e14eecfb5ece435735107a3cf519bd98921ea56",
+      "mtime_ns": 1786902091811241707,
+      "size_bytes": 4865
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/event_to_target_coverage_audit_enhanced.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/event_to_target_coverage_audit_enhanced.csv",
+      "sha256": "d4a013e7b3ed50d9f658286ad20a807d9dff4b657f70c94d94715712c1d4bb16",
+      "mtime_ns": 1786902091812503963,
+      "size_bytes": 7933
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/tofu_synthesis_method_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/tofu_synthesis_method_report.json",
+      "sha256": "1ebf9f85d116f1572cc787a3e6179bd8d3fa833d25d6e79f98f2cf3ceaa85e3d",
+      "mtime_ns": 1786902091811481458,
+      "size_bytes": 3533
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_generation_specification.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_generation_specification.json",
+      "sha256": "683fb983fcbb0183d5324d30badf993cd6961a5978ad39905398090abcbd1c99",
+      "mtime_ns": 1786901129913151865,
+      "size_bytes": 2004
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_100.csv",
+      "sha256": "ac429bbebafc704f4ada07327899bcd5403c04032d2cd52c017cc49e041b48c7",
+      "mtime_ns": 1786901129916228089,
+      "size_bytes": 12620
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_schema.csv",
+      "sha256": "35051cc69e5d2a2d4b484d8cb2af7a6c25b7fbc6395aa1baf50a8e954148644d",
+      "mtime_ns": 1786901129915316251,
+      "size_bytes": 1218
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/api_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/api_configuration.json",
+      "sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+      "mtime_ns": 1786901129917104010,
+      "size_bytes": 587
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/confirmation_acceptance_criteria.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/confirmation_acceptance_criteria.json",
+      "sha256": "e9a2120a26323ac64ee39df6dfc6fea76ef9ce261c8e1586d8aaf986d0ae7f7b",
+      "mtime_ns": 1786901129917265386,
+      "size_bytes": 416
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_audit.csv",
+      "sha256": "061868b7bf288b106f722dac4164edb3b133bb7465f030f6563ddaa4d7177536",
+      "mtime_ns": 1786901129916725508,
+      "size_bytes": 5053
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_summary.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_summary.json",
+      "sha256": "f9bef0177219e04a12acea68e528d4d19a96459304ed105f5399956e980126ef",
+      "mtime_ns": 1786901129916916468,
+      "size_bytes": 836
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/local_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/local_validation_report.json",
+      "sha256": "c87881b350c611dc89804fc3e9a732a3271ecd121146e2871268668189a0d3df",
+      "mtime_ns": 1786901129917445929,
+      "size_bytes": 2371
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/qwen_kidney_v3_2_prompt_template.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/qwen_kidney_v3_2_prompt_template.txt",
+      "sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+      "mtime_ns": 1786901129912884572,
+      "size_bytes": 4066
+    }
+  },
+  "input_evidence_unchanged_in_finally": true,
+  "protected_after_execution": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "protected_integrity_after_execution": true,
+  "immutable_evidence_after_execution": {
+    "data/raw/.DS_Store": {
+      "path": "data/raw/.DS_Store",
+      "file_count": 1,
+      "total_size_bytes": 6148,
+      "aggregate_sha256_with_metadata": "97986cba3c2cc5ab60c4a1e8500620d037824dbfc743a79d5958bb87c1dcfdb6"
+    },
+    "data/raw/EchoForge_Synthetic_Dataset.xlsx": {
+      "path": "data/raw/EchoForge_Synthetic_Dataset.xlsx",
+      "file_count": 1,
+      "total_size_bytes": 535984,
+      "aggregate_sha256_with_metadata": "327b56f718644b22918d3c4aa9adcc7d763ec992f55c8543ad3b292a327563fa"
+    },
+    "data/raw/KidneyTransplant/qwen_batch10_v2_001": {
+      "path": "data/raw/KidneyTransplant/qwen_batch10_v2_001",
+      "file_count": 65,
+      "total_size_bytes": 148364,
+      "aggregate_sha256_with_metadata": "76aa8b0dee496882ebd56b3d3ca563a686465ed389af0ad612ea00fde72ac998"
+    },
+    "data/raw/KidneyTransplant/qwen_corrected10_v3_1_001": {
+      "path": "data/raw/KidneyTransplant/qwen_corrected10_v3_1_001",
+      "file_count": 10,
+      "total_size_bytes": 96421,
+      "aggregate_sha256_with_metadata": "361e60987406408100478bc443d31a172be97d286598c06e2e59603551eae301"
+    },
+    "data/raw/KidneyTransplant/qwen_diagnostic100_v3_1_001": {
+      "path": "data/raw/KidneyTransplant/qwen_diagnostic100_v3_1_001",
+      "file_count": 11,
+      "total_size_bytes": 740646,
+      "aggregate_sha256_with_metadata": "a22902d7957623085615af35f440ac74a4ab31c29321058a7734bfdb1799ed79"
+    },
+    "data/raw/KidneyTransplant/qwen_pilot": {
+      "path": "data/raw/KidneyTransplant/qwen_pilot",
+      "file_count": 10,
+      "total_size_bytes": 20029,
+      "aggregate_sha256_with_metadata": "15a4798dd65a6988f06511fab3d2d02a5063d476ebb42f371a81b24199d5ab58"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design",
+      "file_count": 21,
+      "total_size_bytes": 210322,
+      "aggregate_sha256_with_metadata": "25a8aac3fe8c20fc9a0d8730cd6a15119a811c4439193dbc1ef480e8ea13f40e"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001",
+      "file_count": 10,
+      "total_size_bytes": 166328,
+      "aggregate_sha256_with_metadata": "b4ecfd4725d7c37696254267b823a097ebf0c7c7ccf2e7d0134914f2488485f3"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001",
+      "file_count": 5,
+      "total_size_bytes": 48956,
+      "aggregate_sha256_with_metadata": "4b582d114df95c0f44c7f93dfeb0fdda8a66b545921245237992f41a4338fd8b"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design",
+      "file_count": 9,
+      "total_size_bytes": 29171,
+      "aggregate_sha256_with_metadata": "e126ff686bfa4e6719fcbdc58332f6711ec99f9fb158e35a49feda06381bea0a"
+    },
+    "data/raw/KidneyTransplant/qwen_v3_design": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_design",
+      "file_count": 18,
+      "total_size_bytes": 162898,
+      "aggregate_sha256_with_metadata": "3adadaeb6597eff142ff7daf34ec464d9aa609ddfac6b849fd088808eb5e9a73"
+    },
+    "data/raw/adult.csv": {
+      "path": "data/raw/adult.csv",
+      "file_count": 1,
+      "total_size_bytes": 5326368,
+      "aggregate_sha256_with_metadata": "830cec6682c20539486ad8d420fab3d11e95d257e12ccd31ae3a4bab2a8bba15"
+    },
+    "data/raw/castme": {
+      "path": "data/raw/castme",
+      "file_count": 1,
+      "total_size_bytes": 5986851,
+      "aggregate_sha256_with_metadata": "80f98decd833ff15765af6906ca95a5e4d74be9dced50dce549e70d43753d38a"
+    },
+    "data/raw/kidney_transplant_unlearning_dataset.csv": {
+      "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+      "file_count": 1,
+      "total_size_bytes": 19817033,
+      "aggregate_sha256_with_metadata": "6bdee49351527869ab53080470e1f4d2d0fbf241a96f8dd527c329611e273764"
+    },
+    "data/processed": {
+      "path": "data/processed",
+      "file_count": 23,
+      "total_size_bytes": 91091874,
+      "aggregate_sha256_with_metadata": "5ea1792f6f14d6c2a56562e125bccad3c2a728836634c747de4de3643c932437"
+    },
+    "models": {
+      "path": "models",
+      "file_count": 185,
+      "total_size_bytes": 1493884,
+      "aggregate_sha256_with_metadata": "d8908202e90fdfa54f33aae23e54512417c2d722e3ae0494e1bab0adc55bcf62"
+    },
+    "results": {
+      "path": "results",
+      "file_count": 754,
+      "total_size_bytes": 308475322,
+      "aggregate_sha256_with_metadata": "7ea005ce5c7c5511c102f3b92c29d5cdefe6d893dbc958fac6283b6bf402f21b"
+    }
+  },
+  "immutable_evidence_unchanged_after_execution": true,
+  "notebooks_01_05_after_execution": {
+    "notebooks/KidneyTransplant/01_kidney_transplant_baseline.ipynb": {
+      "path": "notebooks/KidneyTransplant/01_kidney_transplant_baseline.ipynb",
+      "sha256": "ba2c509ba0ddee4121ae95f9e8a5ecc0c7e7666532d6dde9e4c793bc4557d149",
+      "mtime_ns": 1786447680871966165,
+      "size_bytes": 485233
+    },
+    "notebooks/KidneyTransplant/02_kidney_transplant_forget_sets_and_full_retraining.ipynb": {
+      "path": "notebooks/KidneyTransplant/02_kidney_transplant_forget_sets_and_full_retraining.ipynb",
+      "sha256": "9c343dfe1d53dd36dcc9ac99ebd3ec43288b487a5cbaa4b063bcdd7899b1e896",
+      "mtime_ns": 1786892444537158299,
+      "size_bytes": 300435
+    },
+    "notebooks/KidneyTransplant/03_kidney_transplant_retain_set_finetuning.ipynb": {
+      "path": "notebooks/KidneyTransplant/03_kidney_transplant_retain_set_finetuning.ipynb",
+      "sha256": "180332d1fac31273169f4da3dba99d3fd4c2d511149de13638b8df99fda66b10",
+      "mtime_ns": 1786032522141294049,
+      "size_bytes": 399814
+    },
+    "notebooks/KidneyTransplant/04_kidney_transplant_gradient_ascent.ipynb": {
+      "path": "notebooks/KidneyTransplant/04_kidney_transplant_gradient_ascent.ipynb",
+      "sha256": "b500fb1f3dbf55a8e24456fcef73268c99d9430966b3c8a47857459927a4b486",
+      "mtime_ns": 1786032554013251670,
+      "size_bytes": 394086
+    },
+    "notebooks/KidneyTransplant/05_kidney_transplant_sisa.ipynb": {
+      "path": "notebooks/KidneyTransplant/05_kidney_transplant_sisa.ipynb",
+      "sha256": "b48e9fb931cbf717d8fc07fbdae642ff5acf66dfa272b5129d47dfc57a593036",
+      "mtime_ns": 1786033098001648943,
+      "size_bytes": 832634
+    }
+  },
+  "notebooks_01_05_unchanged_after_execution": true,
+  "input_evidence_fingerprints_after_execution": {
+    "data/raw/KidneyTransplant/qwen_v3_1_design/api_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/api_configuration.json",
+      "sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+      "mtime_ns": 1786898234495445053,
+      "size_bytes": 587
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_metadata_skeleton_600.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_metadata_skeleton_600.csv",
+      "sha256": "315a3543b45614d6159a17d97ca8807016e6921d1b9e0a68af0fc3ca5daa598d",
+      "mtime_ns": 1786898234493993593,
+      "size_bytes": 117850
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_table_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/assessment_table_schema.csv",
+      "sha256": "4fbc55d3d62b1b6c9953f5304d4314a0567e006b58c500809f77ee629583ba30",
+      "mtime_ns": 1786898234488933755,
+      "size_bytes": 1644
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/canonical_qwen_ranges.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/canonical_qwen_ranges.json",
+      "sha256": "bafb98d5e3d0dcd10639979348306b5397d3b5ee2e8e50e86102285d73eaad92",
+      "mtime_ns": 1786898234489458589,
+      "size_bytes": 1024
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/chunked_storage_design.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/chunked_storage_design.json",
+      "sha256": "606ffc617c7976d4bb81beee0e102e302d8fe70c0e423e7356b09d239224c2ab",
+      "mtime_ns": 1786898234495760344,
+      "size_bytes": 969
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.csv",
+      "sha256": "4fe23a191ab5c0b4ce03952ba0af9536d981a6f2b825fbf6153b51a643feed94",
+      "mtime_ns": 1786898234496075887,
+      "size_bytes": 2402
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/corrected_10_control_plan.json",
+      "sha256": "6746c172c4a8cae897724433d6cdafdbd193a37afd9e4b17c9ab901e6e531f93",
+      "mtime_ns": 1786898234497908346,
+      "size_bytes": 8250
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_audit.csv",
+      "sha256": "1016839e7b4a69d8ccf914a1320b973168281dc4b7d9f48e86217164527d2b43",
+      "mtime_ns": 1786898234494829344,
+      "size_bytes": 577
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_config.json",
+      "sha256": "40eadd6580746c7e24a294e6687290b2817e2e594ab24de4bfdb521f7de56fa9",
+      "mtime_ns": 1786898234495206094,
+      "size_bytes": 716
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_overlap.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/deletion_scenario_overlap.csv",
+      "sha256": "64eacd976c4544929e23336c557c6ea2656caa6729e22157aad2cf72a4d97c79",
+      "mtime_ns": 1786898234495058011,
+      "size_bytes": 251
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/distribution_quality_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/distribution_quality_config.json",
+      "sha256": "663ca7eb8e2ca2f71542f980161810dc0f153a33e1c44b04c03d64ead79385eb",
+      "mtime_ns": 1786898234495649886,
+      "size_bytes": 499
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/field_lists.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/field_lists.json",
+      "sha256": "a33c1701cc92150f9bfb2fba531bde177c8d6aab63759a092d2947b8cd6578fb",
+      "mtime_ns": 1786898234489339047,
+      "size_bytes": 1998
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/hard_validation_config.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/hard_validation_config.json",
+      "sha256": "256863abd83f5f5c9770bf73c64d4b8437c60e34db91db0882ea0a5c8a70684a",
+      "mtime_ns": 1786898234495550053,
+      "size_bytes": 553
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/identity_skeleton_180_people.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/identity_skeleton_180_people.csv",
+      "sha256": "591c36b5122175b31e51c3daa026ef04fa8c1d841ad979ee68288393f8146749",
+      "mtime_ns": 1786898234490134214,
+      "size_bytes": 28867
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/identity_table_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/identity_table_schema.csv",
+      "sha256": "b119190e3b44c60138e649a4c7d93ccd61a1c63d48bc63c179b8a76ab888ca43",
+      "mtime_ns": 1786898234488602505,
+      "size_bytes": 616
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/joined_42_column_audit_only_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/joined_42_column_audit_only_schema.csv",
+      "sha256": "aa61ff26e43bc65caa4d8e19f013ca520b5af965c4e7c471baa50ef1ad3fcfa6",
+      "mtime_ns": 1786898234489211713,
+      "size_bytes": 2676
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/latent_controls_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/latent_controls_100.csv",
+      "sha256": "b3d2e326dc85d38e3d996f5c7f3e1b1cb0546812baf2fe37d3834e63d94b4355",
+      "mtime_ns": 1786898234494577760,
+      "size_bytes": 10589
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/local_v3_1_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/local_v3_1_validation_report.json",
+      "sha256": "65701458a7dabc5096c862bf0224198552ed7d3cf75a60d9be452c1a679dd034",
+      "mtime_ns": 1786898234499858765,
+      "size_bytes": 9891
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/qwen_kidney_v3_1_prompt_template.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/qwen_kidney_v3_1_prompt_template.txt",
+      "sha256": "08f0c29bffb47af5036528ab87be8da548cef42e879295cbda371a9bb9aa0e65",
+      "mtime_ns": 1786898234495321594,
+      "size_bytes": 3132
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/recipient_relationship_metadata_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/recipient_relationship_metadata_100.csv",
+      "sha256": "f9b25c57a659a6d7f56a29e5fb185798e497770be34cb60d02d86562a783acde",
+      "mtime_ns": 1786898234490993257,
+      "size_bytes": 15318
+    },
+    "data/raw/KidneyTransplant/qwen_v3_1_design/v2_evidence_reference.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_1_design/v2_evidence_reference.json",
+      "sha256": "faea2e41474ca079ac196c0aebad6356f1d91210e44977bbfad147f1d0817fa3",
+      "mtime_ns": 1786898234498062930,
+      "size_bytes": 1913
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/anchor_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/anchor_audit.csv",
+      "sha256": "15aec2f842e83d094f2c5f481e6b726119c92e587b8b11ac2c817ce9c272713d",
+      "mtime_ns": 1786901201868886889,
+      "size_bytes": 5543
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/assessment_table.csv",
+      "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+      "mtime_ns": 1786901201867289505,
+      "size_bytes": 31232
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/completion_state.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/completion_state.json",
+      "sha256": "1d690e8acc7a6872132df8772d24dacaa7a9665cc4f3f59d7a8adf816ffb7aef",
+      "mtime_ns": 1786901201869364308,
+      "size_bytes": 312
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/diagnostic_quality_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/diagnostic_quality_report.json",
+      "sha256": "3ebfce521de681730ce47c5da891d65f8d63c39cbeea4cc7efe95fcffb728f00",
+      "mtime_ns": 1786901201869161890,
+      "size_bytes": 5546
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/identity_table.csv",
+      "sha256": "c8acff1228625f9428cbf0b319b19377024a20151d6769d1b630ab556565944e",
+      "mtime_ns": 1786901201868164302,
+      "size_bytes": 6527
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/manifest.jsonl",
+      "sha256": "5bc125fc795b9e573afd006732f5662a8b57979ee7f68223955a41ed1581ad12",
+      "mtime_ns": 1786901201810275290,
+      "size_bytes": 19267
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/responses.jsonl",
+      "sha256": "89cb4f30fb4d8b5446352141ad66367b3bbf3199dc799dc414cb6cc25e7a58b0",
+      "mtime_ns": 1786901201806326103,
+      "size_bytes": 41017
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_configuration.json",
+      "sha256": "b55bdc4487178daa34a0428248189a87a1eaac134ff7101a1fa99245171797de",
+      "mtime_ns": 1786901129917981348,
+      "size_bytes": 2320
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/run_report.json",
+      "sha256": "e1068f639f0d1c0f134ffd6fb7f48d0299fafe945dbe5a47536f038cfdfa4954",
+      "mtime_ns": 1786901201992795412,
+      "size_bytes": 23332
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/validated_recipient_checkpoint.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_confirm20_001/validated_recipient_checkpoint.csv",
+      "sha256": "c0167dbcb457f7ce35e6fd85c2320178d01ad06c5f5cd361b2588f5445f989ee",
+      "mtime_ns": 1786901201809885330,
+      "size_bytes": 31232
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/addendum_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/addendum_validation_report.json",
+      "sha256": "643b9c2a83b2801c68b899268b3550b5ad5efffa618b5fda3642595c15bfd386",
+      "mtime_ns": 1786902091938987196,
+      "size_bytes": 28631
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/anchor_conditioning_scope_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/anchor_conditioning_scope_report.json",
+      "sha256": "3693d27cc4b9f93a6665a713c7551a172c10e759f35ff33fd0718ce638fffa49",
+      "mtime_ns": 1786902091812711589,
+      "size_bytes": 3994
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/api_conformance_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/api_conformance_report.json",
+      "sha256": "07ae8269d795a65e72b6e3982e14eecfb5ece435735107a3cf519bd98921ea56",
+      "mtime_ns": 1786902091811241707,
+      "size_bytes": 4865
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/event_to_target_coverage_audit_enhanced.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/event_to_target_coverage_audit_enhanced.csv",
+      "sha256": "d4a013e7b3ed50d9f658286ad20a807d9dff4b657f70c94d94715712c1d4bb16",
+      "mtime_ns": 1786902091812503963,
+      "size_bytes": 7933
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/tofu_synthesis_method_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_conformance_addendum_001/tofu_synthesis_method_report.json",
+      "sha256": "1ebf9f85d116f1572cc787a3e6179bd8d3fa833d25d6e79f98f2cf3ceaa85e3d",
+      "mtime_ns": 1786902091811481458,
+      "size_bytes": 3533
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_generation_specification.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_generation_specification.json",
+      "sha256": "683fb983fcbb0183d5324d30badf993cd6961a5978ad39905398090abcbd1c99",
+      "mtime_ns": 1786901129913151865,
+      "size_bytes": 2004
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_100.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_100.csv",
+      "sha256": "ac429bbebafc704f4ada07327899bcd5403c04032d2cd52c017cc49e041b48c7",
+      "mtime_ns": 1786901129916228089,
+      "size_bytes": 12620
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_schema.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/anchor_metadata_schema.csv",
+      "sha256": "35051cc69e5d2a2d4b484d8cb2af7a6c25b7fbc6395aa1baf50a8e954148644d",
+      "mtime_ns": 1786901129915316251,
+      "size_bytes": 1218
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/api_configuration.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/api_configuration.json",
+      "sha256": "863bebc186826de71221aeb6991acf363c7136f7974387d4d8ee1e6c8a24d973",
+      "mtime_ns": 1786901129917104010,
+      "size_bytes": 587
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/confirmation_acceptance_criteria.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/confirmation_acceptance_criteria.json",
+      "sha256": "e9a2120a26323ac64ee39df6dfc6fea76ef9ce261c8e1586d8aaf986d0ae7f7b",
+      "mtime_ns": 1786901129917265386,
+      "size_bytes": 416
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_audit.csv",
+      "sha256": "061868b7bf288b106f722dac4164edb3b133bb7465f030f6563ddaa4d7177536",
+      "mtime_ns": 1786901129916725508,
+      "size_bytes": 5053
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_summary.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/event_to_target_coverage_summary.json",
+      "sha256": "f9bef0177219e04a12acea68e528d4d19a96459304ed105f5399956e980126ef",
+      "mtime_ns": 1786901129916916468,
+      "size_bytes": 836
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/local_validation_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/local_validation_report.json",
+      "sha256": "c87881b350c611dc89804fc3e9a732a3271ecd121146e2871268668189a0d3df",
+      "mtime_ns": 1786901129917445929,
+      "size_bytes": 2371
+    },
+    "data/raw/KidneyTransplant/qwen_v3_2_design/qwen_kidney_v3_2_prompt_template.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_design/qwen_kidney_v3_2_prompt_template.txt",
+      "sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+      "mtime_ns": 1786901129912884572,
+      "size_bytes": 4066
+    }
+  },
+  "input_evidence_unchanged_after_execution": true,
+  "created_file_fingerprints_excluding_self": {
+    "actual_prompt_contract_audit.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/actual_prompt_contract_audit.json",
+      "sha256": "287615d16479a6a2716f2d01623f50283b5d7821987b8cd37c7832016ed75695",
+      "mtime_ns": 1786903801277056878,
+      "size_bytes": 3163
+    },
+    "mock_requests.jsonl": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/mock_requests.jsonl",
+      "sha256": "f4ebe7bbfb44c0f97c3cf9bbfb65c2c258b81ab2798d586fb11946cf0652361c",
+      "mtime_ns": 1786903801277364586,
+      "size_bytes": 4968
+    },
+    "production_anchor_metadata.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_anchor_metadata.csv",
+      "sha256": "d09d836685fe0451ece3015da53d23eceb00a186edd43214e64986dfbd934dd6",
+      "mtime_ns": 1786903801729031514,
+      "size_bytes": 1273967
+    },
+    "production_assessment_metadata.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_assessment_metadata.csv",
+      "sha256": "83d4968fca50904dd3457dff9ea16bc9c2e5840bd7ea804acc1954e1324abe4e",
+      "mtime_ns": 1786903801647552012,
+      "size_bytes": 12483410
+    },
+    "production_chunk_plan.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_chunk_plan.json",
+      "sha256": "cf1193903aea7651fdf63c06994cc087b6d88dbe66c66f1451626e116d11834b",
+      "mtime_ns": 1786903801819324774,
+      "size_bytes": 26780
+    },
+    "production_deletion_scenario_audit.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_deletion_scenario_audit.json",
+      "sha256": "30bb7dc0d9ba0235afe74eac37be30f7888a54523819ddc9affc11ad61337a6d",
+      "mtime_ns": 1786903801819116649,
+      "size_bytes": 3752
+    },
+    "production_distribution_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_distribution_report.json",
+      "sha256": "f35ddc7ab61e00f67fa99b422a3a27f158275c1dfce2b3984c73f17edfeea4e6",
+      "mtime_ns": 1786903801818896524,
+      "size_bytes": 235946
+    },
+    "production_event_target_audit.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_event_target_audit.csv",
+      "sha256": "f984758c35027e2dc718432cdeed5ce4c6afa4856c3c6f59d825cdc4105cefdc",
+      "mtime_ns": 1786903801815927895,
+      "size_bytes": 5401331
+    },
+    "production_freeze_report.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_freeze_report.json",
+      "sha256": "c77cf50f4c256fddfdfcd79fcf3ff125f9168f58b01e4fa6474f4f70f113f578",
+      "mtime_ns": 1786903801276925878,
+      "size_bytes": 3100
+    },
+    "production_identity_skeleton.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_identity_skeleton.csv",
+      "sha256": "e882db1dc1f33542754bcfa663647ef36ecb8d7019cf81d3412ee59bc31fc817",
+      "mtime_ns": 1786903801692249309,
+      "size_bytes": 3174187
+    },
+    "production_recipient_metadata.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_recipient_metadata.csv",
+      "sha256": "daf109ce4b30b77fffc6a4ff19fc68d65629fad6fc7d1fe1e12b61fec12e84b6",
+      "mtime_ns": 1786903801352089622,
+      "size_bytes": 3189321
+    },
+    "production_storage_and_token_estimate.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/production_storage_and_token_estimate.json",
+      "sha256": "a49eef932bc2817509dc484c282ceae131633286b695eb4c9b993fc42b00c4c9",
+      "mtime_ns": 1786903801819451566,
+      "size_bytes": 2204
+    },
+    "rendered_prompt_preview_V31-R000009.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/rendered_prompt_preview_V31-R000009.txt",
+      "sha256": "76059dafe3f66734daa69736fec5c9eb933312799ea7f89a26c257d0dbda352c",
+      "mtime_ns": 1786903801276554669,
+      "size_bytes": 3823
+    },
+    "rendered_prompt_preview_V31-R000018.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/rendered_prompt_preview_V31-R000018.txt",
+      "sha256": "16439b75ef21e14c5764ed621027d5753e4fe8c96e00232cd66c8596278feb8e",
+      "mtime_ns": 1786903801276684586,
+      "size_bytes": 3812
+    },
+    "rendered_prompt_preview_V31-R000028.txt": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/rendered_prompt_preview_V31-R000028.txt",
+      "sha256": "b02eead3328c497713e6fde49ab8afaeb72c300bb15366004459d1118737efc7",
+      "mtime_ns": 1786903801276784794,
+      "size_bytes": 3806
+    },
+    "request_ledger_schema.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_design_001/request_ledger_schema.json",
+      "sha256": "f82115f26361c6aea69027ab158d2b11a02846984be4af33218483ad32a64f59",
+      "mtime_ns": 1786903801277176670,
+      "size_bytes": 2925
+    }
+  }
+}

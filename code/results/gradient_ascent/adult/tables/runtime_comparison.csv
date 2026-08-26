@@ -1,0 +1,6 @@
+scenario,display_name,selected_method,configured_max_epochs,actual_epochs_completed,selected_epoch,optimizer_steps,runtime_seconds_gradient_ascent,selection_valid,early_stopping_reason,complete_forget_set_coverage,runtime_seconds_retrained,runtime_difference_seconds,runtime_ratio_gradient_ascent_to_retrained
+s1_random_1_percent,Random 1%,NegGrad,10,3,3,6,0.0251715830527246,True,no_validation_acceptable_forget_loss_improvement,True,6.158162959036417,-6.132991375983693,0.004087514932645313
+s2_random_5_percent,Random 5%,NegGrad,10,3,3,21,0.08394387492444366,True,no_validation_acceptable_forget_loss_improvement,True,6.309742750017904,-6.22579887509346,0.01330385060852211
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),NegGrad,10,3,3,21,0.08355404192116112,True,no_validation_acceptable_forget_loss_improvement,True,4.582675707992166,-4.499121666071005,0.018232588829151325
+s4_random_10_percent,Random 10%,NegGrad,10,3,3,42,0.15383245807606727,True,no_validation_acceptable_forget_loss_improvement,True,5.082447624998167,-4.9286151669221,0.030267396621942118
+s5_retention_expiry,Simulated Retention Expiry,NegGrad,10,3,3,66,0.23419558291789144,True,no_validation_acceptable_forget_loss_improvement,True,5.083568624977488,-4.849373042059597,0.046069129817034496

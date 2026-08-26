@@ -1,0 +1,11 @@
+check,pass
+no scenario increases affected shards,True
+total affected shards decreases,True
+total projected replay stages decreases,True
+every training recipient exactly once,True
+six assessments remain together,True
+all 25 shard-slices populated,True
+validation and test excluded,True
+donor components intact,True
+maximum shard imbalance at most 10%,True
+assignment used no target/features/predictions/results,True

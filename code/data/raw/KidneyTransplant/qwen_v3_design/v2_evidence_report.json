@@ -1,0 +1,72 @@
+{
+  "rows": 60,
+  "recipients": 10,
+  "positive_targets": 11,
+  "repeated_continuous_day_field_cells": 41,
+  "recipients_per_hospital": {
+    "H01": 1,
+    "H02": 1,
+    "H03": 1,
+    "H04": 1,
+    "H05": 1,
+    "H06": 1,
+    "H07": 1,
+    "H08": 1,
+    "H09": 1,
+    "H10": 1
+  },
+  "recipients_per_donor": {
+    "QWEN-BATCH10-D000001": 1,
+    "QWEN-BATCH10-D000002": 1,
+    "QWEN-BATCH10-D000003": 1,
+    "QWEN-BATCH10-D000004": 1,
+    "QWEN-BATCH10-D000005": 1,
+    "QWEN-BATCH10-D000006": 1,
+    "QWEN-BATCH10-D000007": 1,
+    "QWEN-BATCH10-D000008": 1,
+    "QWEN-BATCH10-D000009": 1,
+    "QWEN-BATCH10-D000010": 1
+  },
+  "one_recipient_per_hospital": true,
+  "one_recipient_per_donor": true,
+  "deletion_scenarios": [
+    {
+      "scenario": "recipient_withdrawal",
+      "matched_rows": 6,
+      "affected_recipients": 1,
+      "all_affected_histories_complete": true
+    },
+    {
+      "scenario": "donor_withdrawal",
+      "matched_rows": 6,
+      "affected_recipients": 1,
+      "all_affected_histories_complete": true
+    },
+    {
+      "scenario": "hospital_removal",
+      "matched_rows": 6,
+      "affected_recipients": 1,
+      "all_affected_histories_complete": true
+    },
+    {
+      "scenario": "invalid_consent",
+      "matched_rows": 24,
+      "affected_recipients": 4,
+      "all_affected_histories_complete": true
+    },
+    {
+      "scenario": "retention_expiry",
+      "matched_rows": 12,
+      "affected_recipients": 2,
+      "all_affected_histories_complete": true
+    }
+  ],
+  "exploratory_grouped_classifier": {
+    "method": "leave-one-recipient-out logistic diagnostic; not formal performance",
+    "auroc": 0.9907235621521335,
+    "accuracy_at_0_5": 0.9666666666666667,
+    "f1_at_0_5": 0.9166666666666666
+  },
+  "maximum_univariate_auroc": 0.9025974025974026,
+  "exploratory_warning": "Classifier and univariate metrics are diagnostic only and are not formal model performance."
+}

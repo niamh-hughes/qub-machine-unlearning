@@ -1,0 +1,13 @@
+path,readable,rows
+processed_data/llm_interpreter_run_006/llm_request_benchmark.csv,True,100
+results/llm_interpreter_run_006/failure_analysis.csv,True,300
+results/llm_interpreter_run_006/failure_type_counts.csv,True,14
+results/llm_interpreter_run_006/few_shot_predictions.csv,True,100
+results/llm_interpreter_run_006/llm_parsed_predictions.csv,True,200
+results/llm_interpreter_run_006/overall_interpreter_comparison.csv,True,3
+results/llm_interpreter_run_006/performance_by_difficulty.csv,True,12
+results/llm_interpreter_run_006/performance_by_policy.csv,True,15
+results/llm_interpreter_run_006/representative_failure_examples.csv,True,14
+results/llm_interpreter_run_006/request_level_evaluation.csv,True,300
+results/llm_interpreter_run_006/rule_baseline_predictions.csv,True,100
+results/llm_interpreter_run_006/zero_shot_predictions.csv,True,100

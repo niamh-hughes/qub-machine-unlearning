@@ -1,0 +1,28 @@
+{
+  "responses": "append complete serialized responses to immutable chunked JSONL",
+  "recipients_per_chunk": 100,
+  "expected_api_requests": 10000,
+  "expected_output_rows": 60000,
+  "estimated_tokens_per_request_from_v2": 1145.2,
+  "estimated_total_tokens": 11452000,
+  "chunk_count": 100,
+  "manifest": {
+    "format": "single append-only manifest JSONL/CSV",
+    "fields": [
+      "request_id",
+      "recipient_id",
+      "seed",
+      "status",
+      "token_usage",
+      "validation_result",
+      "response_chunk",
+      "line_number"
+    ]
+  },
+  "checkpoints": "one validated assessment checkpoint and one completion-state checkpoint per chunk",
+  "resume": "read manifest and checkpoints; skip completed request IDs; never overwrite or automatically retry",
+  "finalization": "write final identity, assessment, and optional audit-only joined CSV only after all recipients pass",
+  "approximate_artifact_count": 308,
+  "artifact_count_basis": "per chunk: response JSONL + validated checkpoint + state checkpoint; plus manifest/config/schemas/final outputs/report",
+  "full_generation_executed": false
+}

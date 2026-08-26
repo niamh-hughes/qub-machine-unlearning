@@ -1,0 +1,94 @@
+{
+  "status": "frozen_local_design",
+  "design_id": "QWEN-V32-PRODUCTION-DESIGN-001",
+  "production_run_id": "QWEN-V32-PROD-001",
+  "generator_version": "qwen-kidney-v3.2",
+  "prompt_template_sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+  "anchor_algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+  "prompt_behavior_changed": false,
+  "production_dimensions": {
+    "recipients": 10000,
+    "assessments_per_recipient": 6,
+    "assessment_metadata_rows": 60000,
+    "identity_rows": 18000,
+    "unique_donors": 8000,
+    "hospitals": 10
+  },
+  "new_namespaces": {
+    "recipient": "V32P-R######",
+    "assessment": "V32P-A######",
+    "donor": [
+      "V32P-DL######",
+      "V32P-DD######",
+      "V32P-DP######"
+    ],
+    "request": "QWEN-V32-PROD-REQ######"
+  },
+  "no_diagnostic_or_confirmation_recipient_reuse": true,
+  "independent_generation": "Every recipient has a unique deterministic request seed. Exact scaled categorical allocations are ordered by seed-derived SHA-256 scores; continuous values, event draws and anchors use recipient-specific random generators. The 100-recipient block is not copied or repeated.",
+  "target_summary": {
+    "target_rule": "assessment_day < event_day <= assessment_day + 30",
+    "controlled_rejection_event_recipients": 3400,
+    "recipients_with_at_least_one_positive_assessment": 2473,
+    "positive_assessment_rows": 4494,
+    "assessment_level_target_prevalence": 0.0749,
+    "recipient_level_event_prevalence": 0.34,
+    "events_without_scheduled_assessment_in_preceding_30_days": 927,
+    "uncovered_event_day_counts": {
+      "150": 927
+    },
+    "event_day_counts": {
+      "20": 283,
+      "35": 869,
+      "75": 490,
+      "110": 831,
+      "150": 927
+    },
+    "six_assessment_target_sequence_counts": {
+      "[0,0,0,0,0,0]": 7527,
+      "[0,0,0,0,1,0]": 831,
+      "[0,0,0,1,0,0]": 490,
+      "[1,1,0,0,0,0]": 283,
+      "[1,1,1,0,0,0]": 869
+    }
+  },
+  "deletion_summary": {
+    "recipient_withdrawal": 600,
+    "donor_withdrawal": 3000,
+    "hospital_removal": 6000,
+    "invalid_consent": 6000,
+    "retention_expiry": 9000
+  },
+  "classifier_feature_contract": {
+    "features": [
+      "recipient_age",
+      "donor_age",
+      "donor_type",
+      "kidney_failure_cause",
+      "previous_transplant",
+      "dialysis_months",
+      "abo_compatibility_category",
+      "hla_mismatch_count",
+      "antibody_risk_score",
+      "cold_ischaemia_hours",
+      "days_since_transplant",
+      "creatinine_mg_dl",
+      "creatinine_change_pct",
+      "urine_output_ml_24h",
+      "tacrolimus_level_ng_ml",
+      "medication_adherence_pct",
+      "infection_indicator",
+      "previous_rejection"
+    ],
+    "target": [
+      "acute_rejection_within_30_days"
+    ],
+    "identifiers_consent_event_schedules_dates_and_anchors_excluded": true,
+    "anchors_generation_only": true
+  },
+  "proposed_first_chunk_gate": "RUN_QWEN_V32_PRODUCTION_CHUNK_001=QWEN-V32-PROD-001-CHUNK-001",
+  "proposed_first_chunk_gate_enabled": false,
+  "api_requests": 0,
+  "network_requests": 0,
+  "full_production_enabled": false
+}

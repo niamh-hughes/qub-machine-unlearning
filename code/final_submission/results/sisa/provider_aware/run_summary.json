@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "task": "Provider-Aware SISA",
+  "seed": 42,
+  "threshold": 0.62,
+  "preparation_seconds": 3.6897356249392033,
+  "affected_shards": {
+    "recipient_withdrawal": 5,
+    "donor_withdrawal": 5,
+    "hospital_removal": 5,
+    "invalid_consent": 5,
+    "retention_expiry": 5
+  },
+  "replayed_stages": {
+    "recipient_withdrawal": 25,
+    "donor_withdrawal": 25,
+    "hospital_removal": 25,
+    "invalid_consent": 25,
+    "retention_expiry": 25
+  },
+  "deletion_seconds": {
+    "recipient_withdrawal": 3.593850248726085,
+    "donor_withdrawal": 3.451577665982768,
+    "hospital_removal": 3.44594483403489,
+    "invalid_consent": 3.3419440409634262,
+    "retention_expiry": 3.2367810828145593
+  },
+  "mean_utility": 0.3301826353437643,
+  "mean_ks_statistic": 0.09515395060403033,
+  "mean_runtime_seconds": 3.4140195745043456,
+  "original_cumulative_stage_pass": true,
+  "replay_cumulative_stage_pass": true,
+  "total_deletion_seconds": 17.07009787252173,
+  "hospital_fragmentation_count": 9,
+  "cross_hospital_spillover_rows": 6630,
+  "all_verification_checks_pass": true,
+  "protected_inputs_unchanged": true,
+  "network_requests": 0
+}

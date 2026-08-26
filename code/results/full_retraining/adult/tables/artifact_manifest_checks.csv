@@ -1,0 +1,6 @@
+scenario,forget_indices_match_memory,retain_indices_match_memory,checkpoint_exists,baseline_mia_scores_exist,mia_record_scores_exist,mia_shadow_logistic_exists,mia_shadow_random_forest_exists,mia_attack_metadata_exists,no_retain_forget_overlap,reconstructs_training_indices,passed
+s1_random_1_percent,True,True,True,True,True,True,True,True,True,True,True
+s2_random_5_percent,True,True,True,True,True,True,True,True,True,True,True
+s3_simulated_data_provider_withdrawal,True,True,True,True,True,True,True,True,True,True,True
+s4_random_10_percent,True,True,True,True,True,True,True,True,True,True,True
+s5_retention_expiry,True,True,True,True,True,True,True,True,True,True,True

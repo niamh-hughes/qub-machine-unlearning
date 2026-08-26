@@ -1,0 +1,6 @@
+scenario,retained_test_max_abs_difference,training_forget_max_abs_difference,metadata_pass,retained_test_probability_pass,training_forget_probability_pass
+recipient_withdrawal,1.1102230246251565e-16,1.1102230246251565e-16,True,True,True
+donor_withdrawal,1.1102230246251565e-16,1.1102230246251565e-16,True,True,True
+hospital_removal,1.1102230246251565e-16,1.1102230246251565e-16,True,True,True
+invalid_consent,2.2204460492503131e-16,1.1102230246251565e-16,True,True,True
+retention_expiry,1.1102230246251565e-16,2.2204460492503131e-16,True,True,True

@@ -1,0 +1,6 @@
+scenario,forget_matches_memory,retain_matches_memory,no_forget_in_retain,reconstructs_training,all_checkpoints_exist,passed
+s1_random_1_percent,True,True,True,True,True,True
+s2_random_5_percent,True,True,True,True,True,True
+s3_different_random_5_percent,True,True,True,True,True,True
+s4_random_10_percent,True,True,True,True,True,True
+s5_retention_expiry,True,True,True,True,True,True

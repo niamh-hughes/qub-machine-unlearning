@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-bca7181184ddb154",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "```json\n{\n  \"predictions\": [\n    {\n      \"row_key\": \"row_01475\",\n      \"positive_class_score\": 0.05\n    },\n    {\n      \"row_key\": \"row_01476\",\n      \"positive_class_score\": 0.85\n    },\n    {\n      \"row_key\": \"row_01477\",\n      \"positive_class_score\": 0.75\n    },\n    {\n      \"row_key\": \"row_01478\",\n      \"positive_class_score\": 0.45\n    },\n    {\n      \"row_key\": \"row_01479\",\n      \"positive_class_score\": 0.35\n    },\n    {\n      \"row_key\": \"row_01480\",\n      \"positive_class_score\": 0.30\n    },\n    {\n      \"row_key\": \"row_01481\",\n      \"positive_class_score\": 0.15\n    },\n    {\n      \"row_key\": \"row_01482\",\n      \"positive_class_score\": 0.10\n    },\n    {\n      \"row_key\": \"row_01483\",\n      \"positive_class_score\": 0.08\n    },\n    {\n      \"row_key\": \"row_01484\",\n      \"positive_class_score\": 0.05\n    },\n    {\n      \"row_key\": \"row_01485\",\n      \"positive_class_score\": 0.05\n    },\n    {\n      \"row_key\": \"row_01486\",\n      \"positive_class_score\": 0.10\n    },\n    {\n      \"row_key\": \"row_01487\",\n      \"positive_class_score\": 0.05\n    },\n    {\n      \"row_key\": \"row_01488\",\n      \"positive_class_score\": 0.65\n    },\n    {\n      \"row_key\": \"row_01489\",\n      \"positive_class_score\": 0.30\n    },\n    {\n      \"row_key\": \"row_01490\",\n      \"positive_class_score\": 0.20\n    },\n    {\n      \"row_key\": \"row_01491\",\n      \"positive_class_score\": 0.25\n    },\n    {\n      \"row_key\": \"row_01492\",\n      \"positive_class_score\": 0.55\n    },\n    {\n      \"row_key\": \"row_01493\",\n      \"positive_class_score\": 0.15\n    },\n    {\n      \"row_key\": \"row_01494\",\n      \"positive_class_score\": 0.70\n    },\n    {\n      \"row_key\": \"row_01495\",\n      \"positive_class_score\": 0.40\n    },\n    {\n      \"row_key\": \"row_01496\",\n      \"positive_class_score\": 0.20\n    },\n    {\n      \"row_key\": \"row_01497\",\n      \"positive_class_score\": 0.15\n    },\n    {\n      \"row_key\": \"row_01498\",\n      \"positive_class_score\": 0.10\n    },\n    {\n      \"row_key\": \"row_01499\",\n      \"positive_class_score\": 0.10\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787672075,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 843,
+    "prompt_tokens": 4890,
+    "total_tokens": 5733,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

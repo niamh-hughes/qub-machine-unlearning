@@ -1,0 +1,444 @@
+{
+  "status": "passed",
+  "hard_validation_checks": {
+    "assessment_dimensions_60000_by_31": true,
+    "approved_assessment_schema_exact": true,
+    "recipients_10000": true,
+    "six_assessments_each": true,
+    "ordered_days_exact": true,
+    "no_missing_assessment_values": true,
+    "no_duplicate_rows": true,
+    "assessment_ids_unique": true,
+    "recipient_day_unique": true,
+    "identity_dimensions_18000_by_12": true,
+    "approved_identity_schema_exact": true,
+    "identity_entity_ids_unique": true,
+    "identity_duplicate_records_consistent": true,
+    "identity_recipients_10000": true,
+    "identity_donors_8000": true,
+    "assessment_donors_8000": true,
+    "static_fields_constant_within_recipient": true,
+    "shared_donor_relationships_preserved": true,
+    "recipient_identity_links_complete": true,
+    "python_controlled_and_derived_metadata_exact": true,
+    "identity_skeleton_exact": true,
+    "abo_compatibility_independently_derived": true,
+    "assessment_dates_and_chronology_valid": true,
+    "retention_dates_valid": true,
+    "infection_indicators_exact": true,
+    "creatinine_percentage_changes_exact": true,
+    "previous_rejection_independently_derived": true,
+    "target_independently_derived": true,
+    "positive_targets_4494": true,
+    "no_identical_complete_recipient_trajectories": true,
+    "direct_identifiers_and_generation_controls_absent": true,
+    "classifier_feature_contract_exact": true,
+    "classifier_leakage_absent": true,
+    "canonical_range_creatinine_mg_dl": true,
+    "canonical_range_urine_output_ml_24h": true,
+    "canonical_range_tacrolimus_level_ng_ml": true,
+    "canonical_range_medication_adherence_pct": true,
+    "raw_response_records_10000": true,
+    "all_300000_qwen_fields_reconciled": true
+  },
+  "readback_checks": {
+    "assessment_readback_exact_shape": true,
+    "assessment_readback_columns_exact": true,
+    "assessment_readback_values_equal": true,
+    "identity_readback_exact_shape": true,
+    "identity_readback_columns_exact": true,
+    "identity_readback_values_equal": true,
+    "data_dictionary_43_fields": true,
+    "deletion_scenarios_five": true
+  },
+  "dimensions": {
+    "assessment_rows": 60000,
+    "assessment_columns": 31,
+    "recipients": 10000,
+    "assessments_per_recipient": 6,
+    "identity_rows": 18000,
+    "donors": 8000
+  },
+  "target_distribution": {
+    "positive": 4494,
+    "negative": 55506,
+    "prevalence": 0.0749,
+    "target_sequence_counts": {
+      "[0,0,0,0,0,0]": 7527,
+      "[0,0,0,0,1,0]": 831,
+      "[0,0,0,1,0,0]": 490,
+      "[1,1,0,0,0,0]": 283,
+      "[1,1,1,0,0,0]": 869
+    }
+  },
+  "event_distribution": {
+    "event_recipients": 3400,
+    "non_event_recipients": 6600,
+    "event_day_counts": {
+      "35": 869,
+      "150": 927,
+      "110": 831,
+      "75": 490,
+      "20": 283
+    }
+  },
+  "clinical_numerical_ranges": {
+    "recipient_age": {
+      "minimum": 22.0,
+      "maximum": 78.0,
+      "mean": 50.0055,
+      "median": 50.0
+    },
+    "donor_age": {
+      "minimum": 25.0,
+      "maximum": 70.0,
+      "mean": 47.5799,
+      "median": 48.0
+    },
+    "previous_transplant": {
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "mean": 0.12,
+      "median": 0.0
+    },
+    "dialysis_months": {
+      "minimum": 3.0,
+      "maximum": 72.0,
+      "mean": 37.4239,
+      "median": 38.0
+    },
+    "hla_mismatch_count": {
+      "minimum": 0.0,
+      "maximum": 6.0,
+      "mean": 3.0,
+      "median": 3.0
+    },
+    "antibody_risk_score": {
+      "minimum": 0.06,
+      "maximum": 0.93,
+      "mean": 0.4961444,
+      "median": 0.499
+    },
+    "cold_ischaemia_hours": {
+      "minimum": 2.2,
+      "maximum": 20.9,
+      "mean": 11.431754999999999,
+      "median": 11.3
+    },
+    "days_since_transplant": {
+      "minimum": 7.0,
+      "maximum": 180.0,
+      "mean": 63.5,
+      "median": 45.0
+    },
+    "creatinine_mg_dl": {
+      "minimum": 0.65,
+      "maximum": 2.72,
+      "mean": 1.17257055,
+      "median": 1.15
+    },
+    "creatinine_change_pct": {
+      "minimum": -36.55172413793103,
+      "maximum": 70.58823529411765,
+      "mean": -0.7704736878714243,
+      "median": -2.77777777777778
+    },
+    "urine_output_ml_24h": {
+      "minimum": 1200.0,
+      "maximum": 3150.0,
+      "mean": 2115.33473,
+      "median": 2100.0
+    },
+    "tacrolimus_level_ng_ml": {
+      "minimum": 4.5,
+      "maximum": 13.5,
+      "mean": 8.698363166666667,
+      "median": 8.5
+    },
+    "medication_adherence_pct": {
+      "minimum": 45.0,
+      "maximum": 100.0,
+      "mean": 91.11001200000001,
+      "median": 94.5
+    },
+    "infection_indicator": {
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "mean": 0.043333333333333335,
+      "median": 0.0
+    },
+    "previous_rejection": {
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "mean": 0.10795,
+      "median": 0.0
+    }
+  },
+  "categorical_distributions": {
+    "donor_type": {
+      "Deceased": 36000,
+      "Living": 24000
+    },
+    "kidney_failure_cause": {
+      "Diabetic kidney disease": 12000,
+      "Glomerulonephritis": 12000,
+      "Hypertensive kidney disease": 12000,
+      "Other": 12000,
+      "Polycystic kidney disease": 12000
+    },
+    "abo_compatibility_category": {
+      "Managed incompatibility": 27000,
+      "Standard compatible": 33000
+    }
+  },
+  "anchor_warnings": {
+    "creatinine_mg_dl": 0,
+    "urine_output_ml_24h": 13,
+    "tacrolimus_level_ng_ml": 0,
+    "medication_adherence_pct": 7
+  },
+  "aggregate_generation_quality": {
+    "scope": "chunks_001_100",
+    "status": "passed",
+    "policy": "chunk_level_generation_quality_gate_not_individual_record_rejection",
+    "original_prompt_tolerances": {
+      "creatinine_mg_dl": 0.12,
+      "urine_output_ml_24h": 120.0,
+      "tacrolimus_level_ng_ml": 0.6,
+      "medication_adherence_pct": 1.5
+    },
+    "identifier_materiality_absolute_correlation_threshold": 0.2,
+    "anchor_output_and_recipient_suffix_correlations": {
+      "creatinine_mg_dl": {
+        "anchor_output_correlation": 0.9985332508603497,
+        "output_recipient_suffix_correlation": -0.005028808221402397,
+        "anchor_recipient_suffix_correlation": -0.00464241950587193,
+        "anchor_minimum": 0.65,
+        "anchor_maximum": 2.159,
+        "anchor_unique_values": 1411
+      },
+      "urine_output_ml_24h": {
+        "anchor_output_correlation": 0.9946324897028366,
+        "output_recipient_suffix_correlation": -0.0014620607887353906,
+        "anchor_recipient_suffix_correlation": -0.002415255618747954,
+        "anchor_minimum": 1361.4,
+        "anchor_maximum": 2917.0,
+        "anchor_unique_values": 6285
+      },
+      "tacrolimus_level_ng_ml": {
+        "anchor_output_correlation": 0.9987838815022343,
+        "output_recipient_suffix_correlation": -0.00637744571096124,
+        "anchor_recipient_suffix_correlation": -0.005949496051650136,
+        "anchor_minimum": 6.32,
+        "anchor_maximum": 13.42,
+        "anchor_unique_values": 701
+      },
+      "medication_adherence_pct": {
+        "anchor_output_correlation": 0.9996404798705035,
+        "output_recipient_suffix_correlation": -0.011471051757214922,
+        "anchor_recipient_suffix_correlation": -0.011777167029743536,
+        "anchor_minimum": 54.92,
+        "anchor_maximum": 99.91,
+        "anchor_unique_values": 2886
+      }
+    },
+    "anchor_difference_distributions": {
+      "creatinine_mg_dl": {
+        "count": 10000,
+        "minimum": 0.0,
+        "maximum": 0.12,
+        "mean": 0.010868300000000003,
+        "standard_deviation": 0.01580779412536776,
+        "median": 0.0030000000000001137,
+        "p90": 0.03400000000000003,
+        "p95": 0.04699999999999993,
+        "p99": 0.06800000000000006
+      },
+      "urine_output_ml_24h": {
+        "count": 10000,
+        "minimum": 0.0,
+        "maximum": 141.4000000000001,
+        "mean": 15.70084,
+        "standard_deviation": 22.834652686090685,
+        "median": 3.099999999999909,
+        "p90": 52.80000000000018,
+        "p95": 66.20499999999976,
+        "p99": 85.40000000000009
+      },
+      "tacrolimus_level_ng_ml": {
+        "count": 10000,
+        "minimum": 0.0,
+        "maximum": 0.5199999999999996,
+        "mean": 0.04526200000000001,
+        "standard_deviation": 0.06556211830012845,
+        "median": 0.019999999999999574,
+        "p90": 0.129999999999999,
+        "p95": 0.17999999999999972,
+        "p99": 0.3000000000000007
+      },
+      "medication_adherence_pct": {
+        "count": 10000,
+        "minimum": 0.0,
+        "maximum": 1.8400000000000034,
+        "mean": 0.14451599999999998,
+        "standard_deviation": 0.23933910199548108,
+        "median": 0.030000000000001137,
+        "p90": 0.45000000000000284,
+        "p95": 0.6400000000000006,
+        "p99": 1.2000000000000028
+      }
+    },
+    "anchor_deviation_warning_counts": {
+      "creatinine_mg_dl": 0,
+      "urine_output_ml_24h": 13,
+      "tacrolimus_level_ng_ml": 0,
+      "medication_adherence_pct": 7
+    },
+    "day7_unique_values_and_tied_modes": {
+      "creatinine_mg_dl": {
+        "dominant_values": [
+          1.25
+        ],
+        "dominant_count": 341,
+        "dominant_fraction": 0.0341,
+        "mode_is_tied": false,
+        "unique_values": 881
+      },
+      "urine_output_ml_24h": {
+        "dominant_values": [
+          2350.0
+        ],
+        "dominant_count": 500,
+        "dominant_fraction": 0.05,
+        "mode_is_tied": false,
+        "unique_values": 3122
+      },
+      "tacrolimus_level_ng_ml": {
+        "dominant_values": [
+          9.8
+        ],
+        "dominant_count": 236,
+        "dominant_fraction": 0.0236,
+        "mode_is_tied": false,
+        "unique_values": 664
+      },
+      "medication_adherence_pct": {
+        "dominant_values": [
+          98.5
+        ],
+        "dominant_count": 424,
+        "dominant_fraction": 0.0424,
+        "mode_is_tied": false,
+        "unique_values": 1974
+      }
+    },
+    "identical_complete_trajectories": {
+      "identical_trajectory_groups": 0,
+      "recipients_in_identical_trajectory_groups": 0,
+      "maximum_identical_group_size": 1
+    },
+    "anchor_clipping_counts": {
+      "creatinine_mg_dl": {
+        "at_minimum": 107,
+        "at_maximum": 0
+      },
+      "urine_output_ml_24h": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      },
+      "tacrolimus_level_ng_ml": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      },
+      "medication_adherence_pct": {
+        "at_minimum": 0,
+        "at_maximum": 0
+      }
+    },
+    "later_day_repetition_warnings": [
+      "day 14 urine_output_ml_24h dominant value frequency is 0.215"
+    ],
+    "gates": {
+      "creatinine_mg_dl_anchor_output_correlation_at_least_0_90": true,
+      "urine_output_ml_24h_anchor_output_correlation_at_least_0_90": true,
+      "tacrolimus_level_ng_ml_anchor_output_correlation_at_least_0_90": true,
+      "medication_adherence_pct_anchor_output_correlation_at_least_0_90": true,
+      "day7_urine_unique_values_at_least_30": true,
+      "day7_adherence_unique_values_at_least_30": true,
+      "day7_urine_dominant_fraction_at_most_0_20": true,
+      "day7_adherence_dominant_fraction_at_most_0_20": true,
+      "no_identical_complete_trajectories": true,
+      "isolated_identifier_order_correlation_is_diagnostic_only": true,
+      "cumulative_identifier_order_correlations_below_0_20": true,
+      "full_frozen_anchor_correlations_below_0_20": true,
+      "no_additional_systematic_identifier_dependence_evidence": true
+    },
+    "failed_gates": [],
+    "identifier_order_quality_policy": {
+      "policy_id": "QWEN-V32-IDENTIFIER-ORDER-QUALITY-POLICY-001",
+      "manual_review_id": "QWEN-V32-PROD-001-MANUAL-QUALITY-REVIEW-001",
+      "isolated_original_gate_passed": true,
+      "isolated_correlations": {
+        "creatinine_mg_dl": {
+          "anchor_recipient_order_correlation": -0.00464241950587193,
+          "qwen_output_recipient_order_correlation": -0.005028808221402397
+        },
+        "urine_output_ml_24h": {
+          "anchor_recipient_order_correlation": -0.002415255618747954,
+          "qwen_output_recipient_order_correlation": -0.0014620607887353906
+        },
+        "tacrolimus_level_ng_ml": {
+          "anchor_recipient_order_correlation": -0.005949496051650136,
+          "qwen_output_recipient_order_correlation": -0.00637744571096124
+        },
+        "medication_adherence_pct": {
+          "anchor_recipient_order_correlation": -0.011777167029743536,
+          "qwen_output_recipient_order_correlation": -0.011471051757214922
+        }
+      },
+      "isolated_diagnostic_warnings": [],
+      "cumulative_scope_recipients": 10000,
+      "cumulative_correlations": {
+        "creatinine_mg_dl": {
+          "anchor_recipient_order_correlation": -0.00464241950587193,
+          "qwen_output_recipient_order_correlation": -0.005028808221402397
+        },
+        "urine_output_ml_24h": {
+          "anchor_recipient_order_correlation": -0.002415255618747954,
+          "qwen_output_recipient_order_correlation": -0.0014620607887353906
+        },
+        "tacrolimus_level_ng_ml": {
+          "anchor_recipient_order_correlation": -0.005949496051650136,
+          "qwen_output_recipient_order_correlation": -0.00637744571096124
+        },
+        "medication_adherence_pct": {
+          "anchor_recipient_order_correlation": -0.011777167029743536,
+          "qwen_output_recipient_order_correlation": -0.011471051757214922
+        }
+      },
+      "full_frozen_10000_anchor_correlations": {
+        "creatinine_mg_dl": -0.0046424195058719295,
+        "urine_output_ml_24h": -0.002415255618747954,
+        "tacrolimus_level_ng_ml": -0.005949496051650136,
+        "medication_adherence_pct": -0.011777167029743536
+      },
+      "authoritative_cumulative_check_passed": true,
+      "authoritative_full_skeleton_check_passed": true,
+      "additional_systematic_identifier_dependence_evidence": false,
+      "action": "continue"
+    }
+  },
+  "validation_amendments": [
+    "PROD-VALIDATION-AMENDMENT-001",
+    "PROD-VALIDATION-AMENDMENT-002"
+  ],
+  "manual_quality_review": "QWEN-V32-PROD-001-MANUAL-QUALITY-REVIEW-001",
+  "important_limitations": [
+    "Entirely synthetic data; not real patient data.",
+    "Controlled event schedules and targets are suitable for pipeline experiments, not prevalence estimation.",
+    "Qwen measurements were conditioned by the frozen v3.2 prompt and anchors and are not independently observed clinical measurements.",
+    "Individual anchor-proximity exceedances are warnings under amendment 002.",
+    "Sensitive audit attributes are excluded from classifier inputs and should not influence clinical measurements without explicit justification.",
+    "No external clinical validation, train/validation/test split, unlearning dataset, or trained classifier is created here."
+  ]
+}

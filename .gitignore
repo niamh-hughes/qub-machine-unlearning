@@ -1,0 +1,62 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+credentials*.json
+service-account*.json
+
+# Python, test and notebook caches
+**/__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Local environments and downloaded caches
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+**/.cache/
+**/huggingface/
+**/.huggingface/
+**/transformers_cache/
+**/colab_cache/
+**/wandb/
+
+# Operating-system, editor and temporary files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+~$*
+**/~$*
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+
+# Large model weights and training checkpoints
+*.safetensors
+*.ckpt
+*.pth
+*.gguf
+pytorch_model*.bin
+model*.bin
+**/checkpoints/
+**/trainer_checkpoints/
+**/full_retraining_checkpoints/
+
+# New Qwen3.5 runs persist in Google Drive and must not enter Git accidentally.
+code/final_submission/models/qwen35_classifier_colab/
+code/final_submission/results/qwen35_classifier_colab/
+
+# Existing packaged Qwen weights/tokenizers are local research artefacts.
+code/final_submission/models/qwen_classifier*/
+code/final_submission/models/llm_classifier*/
+

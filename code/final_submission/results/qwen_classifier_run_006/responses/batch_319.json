@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-bc9dc2dca985478a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "```json\n{\"predictions\":[{\"row_key\":\"row_07950\",\"positive_class_score\":0.45},{\"row_key\":\"row_07951\",\"positive_class_score\":0.15},{\"row_key\":\"row_07952\",\"positive_class_score\":0.25},{\"row_key\":\"row_07953\",\"positive_class_score\":0.1},{\"row_key\":\"row_07954\",\"positive_class_score\":0.05},{\"row_key\":\"row_07955\",\"positive_class_score\":0.05},{\"row_key\":\"row_07956\",\"positive_class_score\":0.65},{\"row_key\":\"row_07957\",\"positive_class_score\":0.2},{\"row_key\":\"row_07958\",\"positive_class_score\":0.35},{\"row_key\":\"row_07959\",\"positive_class_score\":0.4},{\"row_key\":\"row_07960\",\"positive_class_score\":0.15},{\"row_key\":\"row_07961\",\"positive_class_score\":0.1},{\"row_key\":\"row_07962\",\"positive_class_score\":0.55},{\"row_key\":\"row_07963\",\"positive_class_score\":0.3},{\"row_key\":\"row_07964\",\"positive_class_score\":0.45},{\"row_key\":\"row_07965\",\"positive_class_score\":0.5},{\"row_key\":\"row_07966\",\"positive_class_score\":0.35},{\"row_key\":\"row_07967\",\"positive_class_score\":0.2},{\"row_key\":\"row_07968\",\"positive_class_score\":0.25},{\"row_key\":\"row_07969\",\"positive_class_score\":0.3},{\"row_key\":\"row_07970\",\"positive_class_score\":0.4},{\"row_key\":\"row_07971\",\"positive_class_score\":0.2},{\"row_key\":\"row_07972\",\"positive_class_score\":0.15},{\"row_key\":\"row_07973\",\"positive_class_score\":0.1},{\"row_key\":\"row_07974\",\"positive_class_score\":0.6}]}\n```",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787675233,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 498,
+    "prompt_tokens": 4893,
+    "total_tokens": 5391,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

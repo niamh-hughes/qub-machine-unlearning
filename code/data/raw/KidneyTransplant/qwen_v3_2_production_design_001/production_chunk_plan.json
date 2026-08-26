@@ -1,0 +1,923 @@
+{
+  "status": "prepared_not_executed",
+  "run_id": "QWEN-V32-PROD-001",
+  "recipient_count": 10000,
+  "recipients_per_chunk": 100,
+  "chunk_count": 100,
+  "maximum_total_api_calls": 10000,
+  "request_execution": "sequential unless separately authorised",
+  "max_retries": 0,
+  "failure_policy": "stop on first failure; preserve all partial request, response and checkpoint evidence",
+  "resume_policy": "manual and explicitly gated; skip validated request IDs; never overwrite requests or responses",
+  "requests_ledger": "append-only requests.jsonl preserved before each network submission",
+  "responses_ledger": "separate append-only responses.jsonl; preserve complete model_dump_json before extraction",
+  "proposed_first_chunk_gate": "RUN_QWEN_V32_PRODUCTION_CHUNK_001=QWEN-V32-PROD-001-CHUNK-001",
+  "first_chunk_gate_enabled": false,
+  "all_api_and_generation_flags": {
+    "RUN_PRODUCTION_CHUNK_001": false,
+    "RUN_10000_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  },
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "QWEN-V32-PROD-CHUNK001",
+      "recipient_sequence_start": 1,
+      "recipient_sequence_end": 100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "QWEN-V32-PROD-CHUNK002",
+      "recipient_sequence_start": 101,
+      "recipient_sequence_end": 200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "QWEN-V32-PROD-CHUNK003",
+      "recipient_sequence_start": 201,
+      "recipient_sequence_end": 300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "QWEN-V32-PROD-CHUNK004",
+      "recipient_sequence_start": 301,
+      "recipient_sequence_end": 400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "QWEN-V32-PROD-CHUNK005",
+      "recipient_sequence_start": 401,
+      "recipient_sequence_end": 500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 6,
+      "chunk_id": "QWEN-V32-PROD-CHUNK006",
+      "recipient_sequence_start": 501,
+      "recipient_sequence_end": 600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 7,
+      "chunk_id": "QWEN-V32-PROD-CHUNK007",
+      "recipient_sequence_start": 601,
+      "recipient_sequence_end": 700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 8,
+      "chunk_id": "QWEN-V32-PROD-CHUNK008",
+      "recipient_sequence_start": 701,
+      "recipient_sequence_end": 800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 9,
+      "chunk_id": "QWEN-V32-PROD-CHUNK009",
+      "recipient_sequence_start": 801,
+      "recipient_sequence_end": 900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 10,
+      "chunk_id": "QWEN-V32-PROD-CHUNK010",
+      "recipient_sequence_start": 901,
+      "recipient_sequence_end": 1000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 11,
+      "chunk_id": "QWEN-V32-PROD-CHUNK011",
+      "recipient_sequence_start": 1001,
+      "recipient_sequence_end": 1100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 12,
+      "chunk_id": "QWEN-V32-PROD-CHUNK012",
+      "recipient_sequence_start": 1101,
+      "recipient_sequence_end": 1200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 13,
+      "chunk_id": "QWEN-V32-PROD-CHUNK013",
+      "recipient_sequence_start": 1201,
+      "recipient_sequence_end": 1300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 14,
+      "chunk_id": "QWEN-V32-PROD-CHUNK014",
+      "recipient_sequence_start": 1301,
+      "recipient_sequence_end": 1400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 15,
+      "chunk_id": "QWEN-V32-PROD-CHUNK015",
+      "recipient_sequence_start": 1401,
+      "recipient_sequence_end": 1500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 16,
+      "chunk_id": "QWEN-V32-PROD-CHUNK016",
+      "recipient_sequence_start": 1501,
+      "recipient_sequence_end": 1600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 17,
+      "chunk_id": "QWEN-V32-PROD-CHUNK017",
+      "recipient_sequence_start": 1601,
+      "recipient_sequence_end": 1700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 18,
+      "chunk_id": "QWEN-V32-PROD-CHUNK018",
+      "recipient_sequence_start": 1701,
+      "recipient_sequence_end": 1800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 19,
+      "chunk_id": "QWEN-V32-PROD-CHUNK019",
+      "recipient_sequence_start": 1801,
+      "recipient_sequence_end": 1900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 20,
+      "chunk_id": "QWEN-V32-PROD-CHUNK020",
+      "recipient_sequence_start": 1901,
+      "recipient_sequence_end": 2000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 21,
+      "chunk_id": "QWEN-V32-PROD-CHUNK021",
+      "recipient_sequence_start": 2001,
+      "recipient_sequence_end": 2100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 22,
+      "chunk_id": "QWEN-V32-PROD-CHUNK022",
+      "recipient_sequence_start": 2101,
+      "recipient_sequence_end": 2200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 23,
+      "chunk_id": "QWEN-V32-PROD-CHUNK023",
+      "recipient_sequence_start": 2201,
+      "recipient_sequence_end": 2300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 24,
+      "chunk_id": "QWEN-V32-PROD-CHUNK024",
+      "recipient_sequence_start": 2301,
+      "recipient_sequence_end": 2400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 25,
+      "chunk_id": "QWEN-V32-PROD-CHUNK025",
+      "recipient_sequence_start": 2401,
+      "recipient_sequence_end": 2500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 26,
+      "chunk_id": "QWEN-V32-PROD-CHUNK026",
+      "recipient_sequence_start": 2501,
+      "recipient_sequence_end": 2600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 27,
+      "chunk_id": "QWEN-V32-PROD-CHUNK027",
+      "recipient_sequence_start": 2601,
+      "recipient_sequence_end": 2700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 28,
+      "chunk_id": "QWEN-V32-PROD-CHUNK028",
+      "recipient_sequence_start": 2701,
+      "recipient_sequence_end": 2800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 29,
+      "chunk_id": "QWEN-V32-PROD-CHUNK029",
+      "recipient_sequence_start": 2801,
+      "recipient_sequence_end": 2900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 30,
+      "chunk_id": "QWEN-V32-PROD-CHUNK030",
+      "recipient_sequence_start": 2901,
+      "recipient_sequence_end": 3000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 31,
+      "chunk_id": "QWEN-V32-PROD-CHUNK031",
+      "recipient_sequence_start": 3001,
+      "recipient_sequence_end": 3100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 32,
+      "chunk_id": "QWEN-V32-PROD-CHUNK032",
+      "recipient_sequence_start": 3101,
+      "recipient_sequence_end": 3200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 33,
+      "chunk_id": "QWEN-V32-PROD-CHUNK033",
+      "recipient_sequence_start": 3201,
+      "recipient_sequence_end": 3300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 34,
+      "chunk_id": "QWEN-V32-PROD-CHUNK034",
+      "recipient_sequence_start": 3301,
+      "recipient_sequence_end": 3400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 35,
+      "chunk_id": "QWEN-V32-PROD-CHUNK035",
+      "recipient_sequence_start": 3401,
+      "recipient_sequence_end": 3500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 36,
+      "chunk_id": "QWEN-V32-PROD-CHUNK036",
+      "recipient_sequence_start": 3501,
+      "recipient_sequence_end": 3600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 37,
+      "chunk_id": "QWEN-V32-PROD-CHUNK037",
+      "recipient_sequence_start": 3601,
+      "recipient_sequence_end": 3700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 38,
+      "chunk_id": "QWEN-V32-PROD-CHUNK038",
+      "recipient_sequence_start": 3701,
+      "recipient_sequence_end": 3800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 39,
+      "chunk_id": "QWEN-V32-PROD-CHUNK039",
+      "recipient_sequence_start": 3801,
+      "recipient_sequence_end": 3900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 40,
+      "chunk_id": "QWEN-V32-PROD-CHUNK040",
+      "recipient_sequence_start": 3901,
+      "recipient_sequence_end": 4000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 41,
+      "chunk_id": "QWEN-V32-PROD-CHUNK041",
+      "recipient_sequence_start": 4001,
+      "recipient_sequence_end": 4100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 42,
+      "chunk_id": "QWEN-V32-PROD-CHUNK042",
+      "recipient_sequence_start": 4101,
+      "recipient_sequence_end": 4200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 43,
+      "chunk_id": "QWEN-V32-PROD-CHUNK043",
+      "recipient_sequence_start": 4201,
+      "recipient_sequence_end": 4300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 44,
+      "chunk_id": "QWEN-V32-PROD-CHUNK044",
+      "recipient_sequence_start": 4301,
+      "recipient_sequence_end": 4400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 45,
+      "chunk_id": "QWEN-V32-PROD-CHUNK045",
+      "recipient_sequence_start": 4401,
+      "recipient_sequence_end": 4500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 46,
+      "chunk_id": "QWEN-V32-PROD-CHUNK046",
+      "recipient_sequence_start": 4501,
+      "recipient_sequence_end": 4600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 47,
+      "chunk_id": "QWEN-V32-PROD-CHUNK047",
+      "recipient_sequence_start": 4601,
+      "recipient_sequence_end": 4700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 48,
+      "chunk_id": "QWEN-V32-PROD-CHUNK048",
+      "recipient_sequence_start": 4701,
+      "recipient_sequence_end": 4800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 49,
+      "chunk_id": "QWEN-V32-PROD-CHUNK049",
+      "recipient_sequence_start": 4801,
+      "recipient_sequence_end": 4900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 50,
+      "chunk_id": "QWEN-V32-PROD-CHUNK050",
+      "recipient_sequence_start": 4901,
+      "recipient_sequence_end": 5000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 51,
+      "chunk_id": "QWEN-V32-PROD-CHUNK051",
+      "recipient_sequence_start": 5001,
+      "recipient_sequence_end": 5100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 52,
+      "chunk_id": "QWEN-V32-PROD-CHUNK052",
+      "recipient_sequence_start": 5101,
+      "recipient_sequence_end": 5200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 53,
+      "chunk_id": "QWEN-V32-PROD-CHUNK053",
+      "recipient_sequence_start": 5201,
+      "recipient_sequence_end": 5300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 54,
+      "chunk_id": "QWEN-V32-PROD-CHUNK054",
+      "recipient_sequence_start": 5301,
+      "recipient_sequence_end": 5400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 55,
+      "chunk_id": "QWEN-V32-PROD-CHUNK055",
+      "recipient_sequence_start": 5401,
+      "recipient_sequence_end": 5500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 56,
+      "chunk_id": "QWEN-V32-PROD-CHUNK056",
+      "recipient_sequence_start": 5501,
+      "recipient_sequence_end": 5600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 57,
+      "chunk_id": "QWEN-V32-PROD-CHUNK057",
+      "recipient_sequence_start": 5601,
+      "recipient_sequence_end": 5700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 58,
+      "chunk_id": "QWEN-V32-PROD-CHUNK058",
+      "recipient_sequence_start": 5701,
+      "recipient_sequence_end": 5800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 59,
+      "chunk_id": "QWEN-V32-PROD-CHUNK059",
+      "recipient_sequence_start": 5801,
+      "recipient_sequence_end": 5900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 60,
+      "chunk_id": "QWEN-V32-PROD-CHUNK060",
+      "recipient_sequence_start": 5901,
+      "recipient_sequence_end": 6000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 61,
+      "chunk_id": "QWEN-V32-PROD-CHUNK061",
+      "recipient_sequence_start": 6001,
+      "recipient_sequence_end": 6100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 62,
+      "chunk_id": "QWEN-V32-PROD-CHUNK062",
+      "recipient_sequence_start": 6101,
+      "recipient_sequence_end": 6200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 63,
+      "chunk_id": "QWEN-V32-PROD-CHUNK063",
+      "recipient_sequence_start": 6201,
+      "recipient_sequence_end": 6300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 64,
+      "chunk_id": "QWEN-V32-PROD-CHUNK064",
+      "recipient_sequence_start": 6301,
+      "recipient_sequence_end": 6400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 65,
+      "chunk_id": "QWEN-V32-PROD-CHUNK065",
+      "recipient_sequence_start": 6401,
+      "recipient_sequence_end": 6500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 66,
+      "chunk_id": "QWEN-V32-PROD-CHUNK066",
+      "recipient_sequence_start": 6501,
+      "recipient_sequence_end": 6600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 67,
+      "chunk_id": "QWEN-V32-PROD-CHUNK067",
+      "recipient_sequence_start": 6601,
+      "recipient_sequence_end": 6700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 68,
+      "chunk_id": "QWEN-V32-PROD-CHUNK068",
+      "recipient_sequence_start": 6701,
+      "recipient_sequence_end": 6800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 69,
+      "chunk_id": "QWEN-V32-PROD-CHUNK069",
+      "recipient_sequence_start": 6801,
+      "recipient_sequence_end": 6900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 70,
+      "chunk_id": "QWEN-V32-PROD-CHUNK070",
+      "recipient_sequence_start": 6901,
+      "recipient_sequence_end": 7000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 71,
+      "chunk_id": "QWEN-V32-PROD-CHUNK071",
+      "recipient_sequence_start": 7001,
+      "recipient_sequence_end": 7100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 72,
+      "chunk_id": "QWEN-V32-PROD-CHUNK072",
+      "recipient_sequence_start": 7101,
+      "recipient_sequence_end": 7200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 73,
+      "chunk_id": "QWEN-V32-PROD-CHUNK073",
+      "recipient_sequence_start": 7201,
+      "recipient_sequence_end": 7300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 74,
+      "chunk_id": "QWEN-V32-PROD-CHUNK074",
+      "recipient_sequence_start": 7301,
+      "recipient_sequence_end": 7400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 75,
+      "chunk_id": "QWEN-V32-PROD-CHUNK075",
+      "recipient_sequence_start": 7401,
+      "recipient_sequence_end": 7500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 76,
+      "chunk_id": "QWEN-V32-PROD-CHUNK076",
+      "recipient_sequence_start": 7501,
+      "recipient_sequence_end": 7600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 77,
+      "chunk_id": "QWEN-V32-PROD-CHUNK077",
+      "recipient_sequence_start": 7601,
+      "recipient_sequence_end": 7700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 78,
+      "chunk_id": "QWEN-V32-PROD-CHUNK078",
+      "recipient_sequence_start": 7701,
+      "recipient_sequence_end": 7800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 79,
+      "chunk_id": "QWEN-V32-PROD-CHUNK079",
+      "recipient_sequence_start": 7801,
+      "recipient_sequence_end": 7900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 80,
+      "chunk_id": "QWEN-V32-PROD-CHUNK080",
+      "recipient_sequence_start": 7901,
+      "recipient_sequence_end": 8000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 81,
+      "chunk_id": "QWEN-V32-PROD-CHUNK081",
+      "recipient_sequence_start": 8001,
+      "recipient_sequence_end": 8100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 82,
+      "chunk_id": "QWEN-V32-PROD-CHUNK082",
+      "recipient_sequence_start": 8101,
+      "recipient_sequence_end": 8200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 83,
+      "chunk_id": "QWEN-V32-PROD-CHUNK083",
+      "recipient_sequence_start": 8201,
+      "recipient_sequence_end": 8300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 84,
+      "chunk_id": "QWEN-V32-PROD-CHUNK084",
+      "recipient_sequence_start": 8301,
+      "recipient_sequence_end": 8400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 85,
+      "chunk_id": "QWEN-V32-PROD-CHUNK085",
+      "recipient_sequence_start": 8401,
+      "recipient_sequence_end": 8500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 86,
+      "chunk_id": "QWEN-V32-PROD-CHUNK086",
+      "recipient_sequence_start": 8501,
+      "recipient_sequence_end": 8600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 87,
+      "chunk_id": "QWEN-V32-PROD-CHUNK087",
+      "recipient_sequence_start": 8601,
+      "recipient_sequence_end": 8700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 88,
+      "chunk_id": "QWEN-V32-PROD-CHUNK088",
+      "recipient_sequence_start": 8701,
+      "recipient_sequence_end": 8800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 89,
+      "chunk_id": "QWEN-V32-PROD-CHUNK089",
+      "recipient_sequence_start": 8801,
+      "recipient_sequence_end": 8900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 90,
+      "chunk_id": "QWEN-V32-PROD-CHUNK090",
+      "recipient_sequence_start": 8901,
+      "recipient_sequence_end": 9000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 91,
+      "chunk_id": "QWEN-V32-PROD-CHUNK091",
+      "recipient_sequence_start": 9001,
+      "recipient_sequence_end": 9100,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 92,
+      "chunk_id": "QWEN-V32-PROD-CHUNK092",
+      "recipient_sequence_start": 9101,
+      "recipient_sequence_end": 9200,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 93,
+      "chunk_id": "QWEN-V32-PROD-CHUNK093",
+      "recipient_sequence_start": 9201,
+      "recipient_sequence_end": 9300,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 94,
+      "chunk_id": "QWEN-V32-PROD-CHUNK094",
+      "recipient_sequence_start": 9301,
+      "recipient_sequence_end": 9400,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 95,
+      "chunk_id": "QWEN-V32-PROD-CHUNK095",
+      "recipient_sequence_start": 9401,
+      "recipient_sequence_end": 9500,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 96,
+      "chunk_id": "QWEN-V32-PROD-CHUNK096",
+      "recipient_sequence_start": 9501,
+      "recipient_sequence_end": 9600,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 97,
+      "chunk_id": "QWEN-V32-PROD-CHUNK097",
+      "recipient_sequence_start": 9601,
+      "recipient_sequence_end": 9700,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 98,
+      "chunk_id": "QWEN-V32-PROD-CHUNK098",
+      "recipient_sequence_start": 9701,
+      "recipient_sequence_end": 9800,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 99,
+      "chunk_id": "QWEN-V32-PROD-CHUNK099",
+      "recipient_sequence_start": 9801,
+      "recipient_sequence_end": 9900,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    },
+    {
+      "chunk_number": 100,
+      "chunk_id": "QWEN-V32-PROD-CHUNK100",
+      "recipient_sequence_start": 9901,
+      "recipient_sequence_end": 10000,
+      "recipient_count": 100,
+      "maximum_api_calls": 100,
+      "status": "planned_disabled"
+    }
+  ]
+}

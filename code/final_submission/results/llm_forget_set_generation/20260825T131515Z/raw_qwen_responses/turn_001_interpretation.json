@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-928f7e31dd57ae6f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"response\": \"I will remove all data associated with donor V32P-DP000308.\",\n  \"action\": \"forget\",\n  \"parameters\": {\n    \"field\": \"donor_id\",\n    \"operation\": \"exact_match\",\n    \"value\": \"V32P-DP000308\"\n  }\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787663737,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 357,
+    "total_tokens": 443,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

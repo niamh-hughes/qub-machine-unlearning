@@ -1,0 +1,14 @@
+{
+  "controlled_event_recipient_count": 34,
+  "controlled_event_count": 34,
+  "recipients_with_at_least_one_target_positive_assessment": 25,
+  "event_recipients_without_target_positive_assessment": 9,
+  "events_without_target_positive_assessment": 9,
+  "event_days_without_coverage": [
+    150
+  ],
+  "explanation": "There are 34 recipients with a controlled rejection event, but only 25 have at least one target-positive assessment. The remaining 9 events occur without a scheduled assessment in the preceding 30-day prediction window; under the frozen rule assessment_day < event_day <= assessment_day + 30, those events validly create no positive assessment. No event schedule was changed.",
+  "target_rule": "assessment_day < event_day <= assessment_day + 30",
+  "event_schedule_modified": false,
+  "api_requests_during_audit": 0
+}

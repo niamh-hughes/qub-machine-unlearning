@@ -1,0 +1,28 @@
+{
+  "experiment": "provider-aware SISA",
+  "n_shards": 5,
+  "n_slices": 5,
+  "seed": 42,
+  "threshold": 0.62,
+  "architecture": [
+    24,
+    64,
+    32,
+    1
+  ],
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "maximum_epochs_per_slice": 12,
+  "early_stopping_patience": 3,
+  "assignment_inputs": [
+    "recipient_id",
+    "donor_id",
+    "hospital_id",
+    "assessment_id",
+    "assessment_date"
+  ],
+  "slice_training_data": "cumulative shard rows with slice_id <= current slice",
+  "class_weight_scope": "same cumulative rows used at each stage",
+  "deletion_membership_used_for_assignment": false
+}

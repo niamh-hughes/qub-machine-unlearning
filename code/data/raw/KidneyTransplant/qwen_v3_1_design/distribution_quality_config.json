@@ -1,0 +1,17 @@
+{
+  "status": "diagnostic only; not formal performance",
+  "checks": [
+    "repeated continuous values",
+    "univariate AUROC",
+    "grouped exploratory classification",
+    "outcome-exclusive categorical values",
+    "subgroup prevalence",
+    "positive/negative overlap"
+  ],
+  "ten_recipient_policy": "warnings only; no production AUROC threshold",
+  "grouped_split": {
+    "key": "recipient_id",
+    "rule": "all six assessments remain together",
+    "prerequisite_before_training": true
+  }
+}

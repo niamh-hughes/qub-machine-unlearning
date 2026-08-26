@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9e7e75dad6444539",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"recipient\": {\n    \"recipient_age\": 68,\n    \"donor_age\": 55,\n    \"donor_type\": \"Deceased\",\n    \"kidney_failure_cause\": \"Polycystic kidney disease\",\n    \"previous_transplant\": 0,\n    \"dialysis_months\": 30,\n    \"recipient_blood_group\": \"AB\",\n    \"donor_blood_group\": \"A\",\n    \"hla_mismatch_count\": 2,\n    \"antibody_risk_score\": 0.2,\n    \"cold_ischaemia_hours\": 12.0,\n    \"baseline_creatinine_mg_dl\": 1.3\n  },\n  \"assessments\": [\n    {\n      \"creatinine_mg_dl\": 1.4,\n      \"days_since_transplant\": 7,\n      \"infection_indicator\": 0,\n      \"medication_adherence_pct\": 95,\n      \"tacrolimus_level_ng_ml\": 12.5,\n      \"urine_output_ml_24h\": 1800\n    },\n    {\n      \"creatinine_mg_dl\": 1.2,\n      \"days_since_transplant\": 14,\n      \"infection_indicator\": 0,\n      \"medication_adherence_pct\": 98,\n      \"tacrolimus_level_ng_ml\": 11.8,\n      \"urine_output_ml_24h\": 1650\n    },\n    {\n      \"creatinine_mg_dl\": 1.1,\n      \"days_since_transplant\": 30,\n      \"infection_indicator\": 0,\n      \"medication_adherence_pct\": 97,\n      \"tacrolimus_level_ng_ml\": 10.2,\n      \"urine_output_ml_24h\": 1500\n    },\n    {\n      \"creatinine_mg_dl\": 1.0,\n      \"days_since_transplant\": 60,\n      \"infection_indicator\": 0,\n      \"medication_adherence_pct\": 99,\n      \"tacrolimus_level_ng_ml\": 9.5,\n      \"urine_output_ml_24h\": 1450\n    },\n    {\n      \"creatinine_mg_dl\": 0.9,\n      \"days_since_transplant\": 90,\n      \"infection_indicator\": 0,\n      \"medication_adherence_pct\": 98,\n      \"tacrolimus_level_ng_ml\": 8.8,\n      \"urine_output_ml_24h\": 1400\n    },\n    {\n      \"creatinine_mg_dl\": 0.9,\n      \"days_since_transplant\": 180,\n      \"infection_indicator\": 0,\n      \"medication_adherence_pct\": 100,\n      \"tacrolimus_level_ng_ml\": 8.2,\n      \"urine_output_ml_24h\": 1350\n    }\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1786895142,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 707,
+    "prompt_tokens": 434,
+    "total_tokens": 1141,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

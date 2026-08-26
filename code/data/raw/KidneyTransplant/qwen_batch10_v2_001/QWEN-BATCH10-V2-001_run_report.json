@@ -1,0 +1,263 @@
+{
+  "run_id": "QWEN-BATCH10-V2-001",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "api_requests_attempted": 10,
+  "api_requests_completed": 10,
+  "recipients_completed": 10,
+  "total_rows": 60,
+  "token_usage": {
+    "prompt_tokens": 4393,
+    "completion_tokens": 7059,
+    "total_tokens": 11452
+  },
+  "failures": [],
+  "soft_warnings": [],
+  "target_count": 11,
+  "target_prevalence": 0.18333333333333332,
+  "categorical_diversity": {
+    "donor_type": [
+      "Deceased",
+      "Living"
+    ],
+    "kidney_failure_cause": [
+      "Diabetic kidney disease",
+      "Glomerulonephritis",
+      "Hypertensive kidney disease",
+      "IgA nephropathy",
+      "Lupus nephritis",
+      "Other",
+      "Polycystic kidney disease"
+    ],
+    "abo_compatibility_category": [
+      "Managed incompatibility",
+      "Standard compatible"
+    ],
+    "recipient_blood_group": [
+      "A",
+      "AB",
+      "B",
+      "O"
+    ],
+    "donor_blood_group": [
+      "A",
+      "AB",
+      "B",
+      "O"
+    ],
+    "hospital_id": [
+      "H01",
+      "H02",
+      "H03",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08",
+      "H09",
+      "H10"
+    ],
+    "training_consent_status": [
+      "Active"
+    ],
+    "training_consent_version": [
+      "RECIPIENT_V1",
+      "RECIPIENT_V2",
+      "RECIPIENT_V3",
+      "RECIPIENT_V4"
+    ]
+  },
+  "numerical_ranges": {
+    "recipient_age": {
+      "min": 29.0,
+      "max": 75.0
+    },
+    "donor_age": {
+      "min": 30.0,
+      "max": 62.0
+    },
+    "dialysis_months": {
+      "min": 8.0,
+      "max": 60.0
+    },
+    "hla_mismatch_count": {
+      "min": 1.0,
+      "max": 6.0
+    },
+    "antibody_risk_score": {
+      "min": 0.1,
+      "max": 0.95
+    },
+    "cold_ischaemia_hours": {
+      "min": 3.0,
+      "max": 20.0
+    },
+    "days_since_transplant": {
+      "min": 7.0,
+      "max": 180.0
+    },
+    "creatinine_mg_dl": {
+      "min": 0.8,
+      "max": 4.2
+    },
+    "creatinine_change_pct": {
+      "min": -50.0,
+      "max": 133.33333333333334
+    },
+    "urine_output_ml_24h": {
+      "min": 950.0,
+      "max": 2200.0
+    },
+    "tacrolimus_level_ng_ml": {
+      "min": 5.1,
+      "max": 18.2
+    },
+    "medication_adherence_pct": {
+      "min": 78.0,
+      "max": 100.0
+    },
+    "infection_indicator": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "previous_rejection": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "acute_rejection_within_30_days": {
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "duplicate_checks": {
+    "duplicate_rows": 0,
+    "unique_assessment_ids": 60
+  },
+  "leakage_checks": {
+    "audit_or_identifier_in_classifier": [],
+    "event_metadata_in_classifier": [],
+    "unapproved_columns": []
+  },
+  "deletion_scenario_support": [
+    {
+      "scenario": "recipient withdrawal",
+      "field_rule": "recipient_id == QWEN-BATCH10-R000001",
+      "matched_rows": 6
+    },
+    {
+      "scenario": "donor withdrawal",
+      "field_rule": "donor_id == QWEN-BATCH10-D000002",
+      "matched_rows": 6
+    },
+    {
+      "scenario": "hospital removal",
+      "field_rule": "hospital_id == H07",
+      "matched_rows": 6
+    },
+    {
+      "scenario": "invalid consent",
+      "field_rule": "training_consent_status == Active and training_consent_version == RECIPIENT_V3",
+      "matched_rows": 24
+    },
+    {
+      "scenario": "retention expiry",
+      "field_rule": "retention_expiry_date <= 2026-01-01",
+      "matched_rows": 12
+    }
+  ],
+  "protected_dataset": {
+    "sha256_before": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "sha256_after": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_before": "2026-08-06T11:23:07.691858+00:00",
+    "mtime_after": "2026-08-06T11:23:07.691858+00:00",
+    "size_before": 19817033,
+    "size_after": 19817033
+  },
+  "full_bulk_generation_enabled": false,
+  "artifacts": {
+    "batch_csv": "QWEN-BATCH10-V2-001_canonical_42.csv",
+    "archetypes": "QWEN-BATCH10-V2-001_archetypes.json",
+    "deletion_audit": "QWEN-BATCH10-V2-001_deletion_scenario_audit.csv"
+  },
+  "recipient_summaries": [
+    {
+      "request_id": "QWEN-BATCH10-REQ000001",
+      "recipient_id": "QWEN-BATCH10-R000001",
+      "archetype": "stable_living_low_risk",
+      "rows": 6,
+      "target_positives": 0,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000002",
+      "recipient_id": "QWEN-BATCH10-R000002",
+      "archetype": "stable_deceased_older",
+      "rows": 6,
+      "target_positives": 0,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000003",
+      "recipient_id": "QWEN-BATCH10-R000003",
+      "archetype": "obvious_rejection_day35",
+      "rows": 6,
+      "target_positives": 3,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000004",
+      "recipient_id": "QWEN-BATCH10-R000004",
+      "archetype": "subtle_rejection_day75",
+      "rows": 6,
+      "target_positives": 1,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000005",
+      "recipient_id": "QWEN-BATCH10-R000005",
+      "archetype": "infection_no_rejection",
+      "rows": 6,
+      "target_positives": 0,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000006",
+      "recipient_id": "QWEN-BATCH10-R000006",
+      "archetype": "tacrolimus_exposure_no_rejection",
+      "rows": 6,
+      "target_positives": 0,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000007",
+      "recipient_id": "QWEN-BATCH10-R000007",
+      "archetype": "early_rejection_day20",
+      "rows": 6,
+      "target_positives": 2,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000008",
+      "recipient_id": "QWEN-BATCH10-R000008",
+      "archetype": "late_rejection_day110",
+      "rows": 6,
+      "target_positives": 1,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000009",
+      "recipient_id": "QWEN-BATCH10-R000009",
+      "archetype": "stable_oldest_recipient",
+      "rows": 6,
+      "target_positives": 0,
+      "warnings": []
+    },
+    {
+      "request_id": "QWEN-BATCH10-REQ000010",
+      "recipient_id": "QWEN-BATCH10-R000010",
+      "archetype": "multiple_events_day35_day110",
+      "rows": 6,
+      "target_positives": 4,
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "run_id": "QWEN-CORRECTED10-V31-001",
+  "status": "completed",
+  "api_requests_attempted": 10,
+  "api_requests_completed": 10,
+  "retries": 0,
+  "failure": null,
+  "recipients_completed": 10,
+  "rows_checkpointed": 60,
+  "finish_reasons": [
+    {
+      "request_id": "QWEN-V31-C10-REQ000001",
+      "recipient_id": "V31-R000001",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 878,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000002",
+      "recipient_id": "V31-R000002",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 878,
+        "total_tokens": 1392,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000003",
+      "recipient_id": "V31-R000003",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 515,
+        "prompt_tokens": 881,
+        "total_tokens": 1396,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1185,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000004",
+      "recipient_id": "V31-R000004",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 880,
+        "total_tokens": 1393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000005",
+      "recipient_id": "V31-R000005",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000006",
+      "recipient_id": "V31-R000006",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 881,
+        "total_tokens": 1395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000007",
+      "recipient_id": "V31-R000007",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 884,
+        "total_tokens": 1400,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000008",
+      "recipient_id": "V31-R000008",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 877,
+        "total_tokens": 1390,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000009",
+      "recipient_id": "V31-R000061",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 881,
+        "total_tokens": 1394,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    },
+    {
+      "request_id": "QWEN-V31-C10-REQ000010",
+      "recipient_id": "V31-R000062",
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 878,
+        "total_tokens": 1391,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent",
+      "reasoning_content_length": 0
+    }
+  ],
+  "token_usage_records": [
+    {
+      "completion_tokens": 514,
+      "prompt_tokens": 878,
+      "total_tokens": 1392,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 514,
+      "prompt_tokens": 878,
+      "total_tokens": 1392,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 515,
+      "prompt_tokens": 881,
+      "total_tokens": 1396,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 513,
+      "prompt_tokens": 880,
+      "total_tokens": 1393,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 513,
+      "prompt_tokens": 881,
+      "total_tokens": 1394,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 514,
+      "prompt_tokens": 881,
+      "total_tokens": 1395,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 516,
+      "prompt_tokens": 884,
+      "total_tokens": 1400,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 513,
+      "prompt_tokens": 877,
+      "total_tokens": 1390,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 513,
+      "prompt_tokens": 881,
+      "total_tokens": 1394,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    {
+      "completion_tokens": 513,
+      "prompt_tokens": 878,
+      "total_tokens": 1391,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  ],
+  "token_usage_total": {
+    "completion_tokens": 5138,
+    "completion_tokens_details": 0,
+    "prompt_tokens": 8799,
+    "prompt_tokens_details": 0,
+    "total_tokens": 13937
+  },
+  "response_jsonl_records": 10,
+  "manifest_jsonl_records": 20,
+  "identity_dimensions": [
+    19,
+    12
+  ],
+  "assessment_dimensions": [
+    60,
+    31
+  ],
+  "target_count": 6,
+  "target_prevalence": 0.1,
+  "diagnostic_summary": {
+    "maximum_univariate_auroc": 0.7962962962962963,
+    "grouped_exploratory_classifier": {
+      "method": "leave-one-recipient-out logistic diagnostic; not formal performance",
+      "auroc": 0.3209876543209877,
+      "accuracy_at_0_5": 0.7333333333333333,
+      "f1_at_0_5": 0.0
+    },
+    "soft_plausibility_warnings": [
+      "some continuous values dominate more than 40% of a day-specific cell"
+    ]
+  },
+  "deletion_structure_support": {
+    "repeated_hospitals": true,
+    "shared_deceased_donor": true,
+    "assessment_consent_versions": true,
+    "assessment_retention_dates": true
+  },
+  "protected_before": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_in_finally": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_integrity_ok": true,
+  "immutable_existing_artifacts_ok": true,
+  "notebooks_01_05_ok": true,
+  "generation_flags": {
+    "RUN_CORRECTED_10": false,
+    "RUN_100_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  },
+  "protected_after_execution": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  }
+}

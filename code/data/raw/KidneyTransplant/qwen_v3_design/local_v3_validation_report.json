@@ -1,0 +1,267 @@
+{
+  "design_version": "qwen-kidney-v3",
+  "api_request_count": 0,
+  "v2_findings": {
+    "rows": 60,
+    "recipients": 10,
+    "positive_targets": 11,
+    "repeated_continuous_day_field_cells": 41,
+    "recipients_per_hospital": {
+      "H01": 1,
+      "H02": 1,
+      "H03": 1,
+      "H04": 1,
+      "H05": 1,
+      "H06": 1,
+      "H07": 1,
+      "H08": 1,
+      "H09": 1,
+      "H10": 1
+    },
+    "recipients_per_donor": {
+      "QWEN-BATCH10-D000001": 1,
+      "QWEN-BATCH10-D000002": 1,
+      "QWEN-BATCH10-D000003": 1,
+      "QWEN-BATCH10-D000004": 1,
+      "QWEN-BATCH10-D000005": 1,
+      "QWEN-BATCH10-D000006": 1,
+      "QWEN-BATCH10-D000007": 1,
+      "QWEN-BATCH10-D000008": 1,
+      "QWEN-BATCH10-D000009": 1,
+      "QWEN-BATCH10-D000010": 1
+    },
+    "one_recipient_per_hospital": true,
+    "one_recipient_per_donor": true,
+    "deletion_scenarios": [
+      {
+        "scenario": "recipient_withdrawal",
+        "matched_rows": 6,
+        "affected_recipients": 1,
+        "all_affected_histories_complete": true
+      },
+      {
+        "scenario": "donor_withdrawal",
+        "matched_rows": 6,
+        "affected_recipients": 1,
+        "all_affected_histories_complete": true
+      },
+      {
+        "scenario": "hospital_removal",
+        "matched_rows": 6,
+        "affected_recipients": 1,
+        "all_affected_histories_complete": true
+      },
+      {
+        "scenario": "invalid_consent",
+        "matched_rows": 24,
+        "affected_recipients": 4,
+        "all_affected_histories_complete": true
+      },
+      {
+        "scenario": "retention_expiry",
+        "matched_rows": 12,
+        "affected_recipients": 2,
+        "all_affected_histories_complete": true
+      }
+    ],
+    "exploratory_grouped_classifier": {
+      "method": "leave-one-recipient-out logistic diagnostic; not formal performance",
+      "auroc": 0.9907235621521335,
+      "accuracy_at_0_5": 0.9666666666666667,
+      "f1_at_0_5": 0.9166666666666666
+    },
+    "maximum_univariate_auroc": 0.9025974025974026,
+    "exploratory_warning": "Classifier and univariate metrics are diagnostic only and are not formal model performance."
+  },
+  "identity_rows": 170,
+  "recipient_metadata_rows": 100,
+  "assessment_skeleton_rows": 600,
+  "hospital_cluster_sizes": {
+    "V3-H01": 10,
+    "V3-H02": 10,
+    "V3-H03": 10,
+    "V3-H04": 10,
+    "V3-H05": 10,
+    "V3-H06": 10,
+    "V3-H07": 10,
+    "V3-H08": 10,
+    "V3-H09": 10,
+    "V3-H10": 10
+  },
+  "donor_cluster_size_distribution": {
+    "1": 40,
+    "2": 30
+  },
+  "deletion_scenarios": [
+    {
+      "scenario": "recipient_withdrawal",
+      "matched_rows": 6,
+      "matched_percentage": 0.01,
+      "recipients": 1,
+      "hospitals": 1,
+      "donors": 1,
+      "min_records_per_recipient": 6,
+      "median_records_per_recipient": 6.0,
+      "max_records_per_recipient": 6,
+      "complete_histories_removed": 1,
+      "any_complete_history_removed": true
+    },
+    {
+      "scenario": "donor_withdrawal",
+      "matched_rows": 30,
+      "matched_percentage": 0.05,
+      "recipients": 5,
+      "hospitals": 4,
+      "donors": 3,
+      "min_records_per_recipient": 6,
+      "median_records_per_recipient": 6.0,
+      "max_records_per_recipient": 6,
+      "complete_histories_removed": 5,
+      "any_complete_history_removed": true
+    },
+    {
+      "scenario": "hospital_removal",
+      "matched_rows": 60,
+      "matched_percentage": 0.1,
+      "recipients": 10,
+      "hospitals": 1,
+      "donors": 10,
+      "min_records_per_recipient": 6,
+      "median_records_per_recipient": 6.0,
+      "max_records_per_recipient": 6,
+      "complete_histories_removed": 10,
+      "any_complete_history_removed": true
+    },
+    {
+      "scenario": "invalid_consent_version",
+      "matched_rows": 60,
+      "matched_percentage": 0.1,
+      "recipients": 30,
+      "hospitals": 10,
+      "donors": 30,
+      "min_records_per_recipient": 2,
+      "median_records_per_recipient": 2.0,
+      "max_records_per_recipient": 2,
+      "complete_histories_removed": 0,
+      "any_complete_history_removed": false
+    },
+    {
+      "scenario": "retention_expiry",
+      "matched_rows": 90,
+      "matched_percentage": 0.15,
+      "recipients": 45,
+      "hospitals": 10,
+      "donors": 43,
+      "min_records_per_recipient": 2,
+      "median_records_per_recipient": 2.0,
+      "max_records_per_recipient": 2,
+      "complete_histories_removed": 0,
+      "any_complete_history_removed": false
+    }
+  ],
+  "scenario_overlap": {
+    "recipient_withdrawal": {
+      "recipient_withdrawal": 6.0,
+      "donor_withdrawal": 0.0,
+      "hospital_removal": 0.0,
+      "invalid_consent_version": 0.0,
+      "retention_expiry": 0.0
+    },
+    "donor_withdrawal": {
+      "recipient_withdrawal": 0.0,
+      "donor_withdrawal": 30.0,
+      "hospital_removal": 12.0,
+      "invalid_consent_version": 2.0,
+      "retention_expiry": 10.0
+    },
+    "hospital_removal": {
+      "recipient_withdrawal": 0.0,
+      "donor_withdrawal": 12.0,
+      "hospital_removal": 60.0,
+      "invalid_consent_version": 6.0,
+      "retention_expiry": 10.0
+    },
+    "invalid_consent_version": {
+      "recipient_withdrawal": 0.0,
+      "donor_withdrawal": 2.0,
+      "hospital_removal": 6.0,
+      "invalid_consent_version": 60.0,
+      "retention_expiry": 0.0
+    },
+    "retention_expiry": {
+      "recipient_withdrawal": 0.0,
+      "donor_withdrawal": 10.0,
+      "hospital_removal": 10.0,
+      "invalid_consent_version": 0.0,
+      "retention_expiry": 90.0
+    }
+  },
+  "consent_version_behavior": "RECIPIENT_V3 appears only on days 30 and 60 for 30 recipients; no complete history selected.",
+  "retention_behavior": "expiry is assessment_date + 730 days; cutoff selects days 7 and 14 for 45 recipients.",
+  "target_predictability_changes": [
+    "independent baseline risk and events",
+    "independent HLA and antibody risk",
+    "independent adherence/infection/tacrolimus/confounders/recovery",
+    "required overlap cases"
+  ],
+  "qwen_return_fields": [
+    "days_since_transplant",
+    "creatinine_mg_dl",
+    "urine_output_ml_24h",
+    "tacrolimus_level_ng_ml",
+    "medication_adherence_pct",
+    "infection_indicator"
+  ],
+  "python_derived_fields": [
+    "assessment_id",
+    "assessment_date",
+    "retention_expiry_date",
+    "abo_compatibility_category",
+    "creatinine_change_pct",
+    "previous_rejection",
+    "acute_rejection_within_30_days"
+  ],
+  "grouped_split_requirement": {
+    "key": "recipient_id",
+    "rule": "all six assessments remain in one split",
+    "prerequisite_before_training": true
+  },
+  "bulk_storage": {
+    "responses": "append complete serialized responses to immutable chunked JSONL",
+    "recipients_per_chunk": 100,
+    "expected_api_requests": 10000,
+    "expected_output_rows": 60000,
+    "estimated_tokens_per_request_from_v2": 1145.2,
+    "estimated_total_tokens": 11452000,
+    "chunk_count": 100,
+    "manifest": {
+      "format": "single append-only manifest JSONL/CSV",
+      "fields": [
+        "request_id",
+        "recipient_id",
+        "seed",
+        "status",
+        "token_usage",
+        "validation_result",
+        "response_chunk",
+        "line_number"
+      ]
+    },
+    "checkpoints": "one validated assessment checkpoint and one completion-state checkpoint per chunk",
+    "resume": "read manifest and checkpoints; skip completed request IDs; never overwrite or automatically retry",
+    "finalization": "write final identity, assessment, and optional audit-only joined CSV only after all recipients pass",
+    "approximate_artifact_count": 308,
+    "artifact_count_basis": "per chunk: response JSONL + validated checkpoint + state checkpoint; plus manifest/config/schemas/final outputs/report",
+    "full_generation_executed": false
+  },
+  "unresolved_decisions": [
+    "final chunk size after storage benchmark",
+    "production acceptance thresholds after a larger diagnostic batch",
+    "whether to emit the audit-only joined 42-column export by default"
+  ],
+  "generation_enabled": {
+    "corrected_10": false,
+    "hundred": false,
+    "full_bulk": false
+  }
+}

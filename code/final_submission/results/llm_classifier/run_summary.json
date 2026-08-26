@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "research_question": "Can a pretrained language model fine-tuned as a classifier perform the same kidney-transplant classification task as the existing MLP?",
+  "model_name": "google/bert_uncased_L-2_H-128_A-2",
+  "parameter_count": 4386178,
+  "split_rows": {
+    "train": 42024,
+    "validation": 8988,
+    "test": 8988
+  },
+  "training_prevalence": 0.07519512659432705,
+  "training_seconds": 111.38809379190207,
+  "selected_threshold": 0.63,
+  "transformer_test_metrics": {
+    "n": 8988,
+    "positive_count": 665,
+    "prevalence": 0.07398753894080996,
+    "threshold": 0.63,
+    "pr_auc": 0.12836296357916102,
+    "auroc": 0.6709298176355222,
+    "balanced_accuracy": 0.59349930756243,
+    "f1": 0.19399860432658758,
+    "binary_cross_entropy": 0.6411371377891036,
+    "precision": 0.1263062244434348,
+    "recall": 0.4180451127819549,
+    "specificity": 0.7689535023429052,
+    "accuracy": 0.7429906542056075,
+    "true_negative": 6400,
+    "false_positive": 1923,
+    "false_negative": 387,
+    "true_positive": 278
+  },
+  "mlp_test_metrics": {
+    "pr_auc": 0.1688612026464463,
+    "auroc": 0.7321320843861427,
+    "balanced_accuracy": 0.6303888400564068,
+    "f1": 0.2445793581960104,
+    "binary_cross_entropy": 0.5750919266960258
+  },
+  "reload_verification_pass": true,
+  "protected_inputs_unchanged": true,
+  "machine_unlearning_performed": false
+}

@@ -1,0 +1,21 @@
+{
+  "run_id": "QWEN-V32-PROD-001",
+  "chunk_id": "CHUNK-048",
+  "status": "failed",
+  "automatic_resume": false,
+  "requests_attempted": 14,
+  "requests_completed": 13,
+  "recipients_validated": 13,
+  "checkpoint_rows": 78,
+  "failure": {
+    "stage": "api_request",
+    "request_id": "QWEN-V32-PROD-REQ004714",
+    "recipient_id": "V32P-R004714",
+    "request_sequence_number": 4714,
+    "attempt_number": 1,
+    "exception_type": "APITimeoutError",
+    "message": "Request timed out."
+  },
+  "retry_performed": false,
+  "assessment_chunk_created": false
+}

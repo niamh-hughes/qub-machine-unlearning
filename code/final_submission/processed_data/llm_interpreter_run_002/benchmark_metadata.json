@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "request_count": 100,
+  "category_counts": {
+    "straightforward": 60,
+    "paraphrased": 20,
+    "ambiguous": 10,
+    "unsupported": 10
+  },
+  "supported_policy_counts": {
+    "recipient_withdrawal": 16,
+    "donor_withdrawal": 16,
+    "hospital_removal": 16,
+    "invalid_consent": 16,
+    "retention_expiry": 16
+  },
+  "benchmark_csv_sha256": "95f5f2904b7e8e079e5d06409100f1525a2e0598466282ae06b2840fc74bd7ce",
+  "generated_locally_before_api": true,
+  "llm_used_to_generate_benchmark": false,
+  "target_or_model_performance_used": false,
+  "created_at": "2026-08-22T13:56:43.274674+00:00"
+}

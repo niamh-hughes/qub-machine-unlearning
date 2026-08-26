@@ -1,0 +1,11 @@
+scenario_a,scenario_b,overlap_rows,overlap_percentage_of_training,overlap_percentage_of_a,overlap_percentage_of_b,a_subset_b,b_subset_a
+s1_actor_withdrawal,s2_submission_withdrawal,16,0.00038095238095238096,0.03855421686746988,0.007487131492746842,False,False
+s1_actor_withdrawal,s3_agency_withdrawal,0,0.0,0.0,0.0,False,False
+s1_actor_withdrawal,s4_project_closure,0,0.0,0.0,0.0,False,False
+s1_actor_withdrawal,s5_retention_expiry,66,0.0015714285714285715,0.15903614457831325,0.010479517307081613,False,False
+s2_submission_withdrawal,s3_agency_withdrawal,214,0.005095238095238095,0.100140383715489,0.050662878787878785,False,False
+s2_submission_withdrawal,s4_project_closure,332,0.007904761904761904,0.15535797847449695,0.0527905867387502,False,False
+s2_submission_withdrawal,s5_retention_expiry,297,0.007071428571428571,0.13897987833411324,0.04715782788186726,False,False
+s3_agency_withdrawal,s4_project_closure,0,0.0,0.0,0.0,False,False
+s3_agency_withdrawal,s5_retention_expiry,613,0.014595238095238095,0.14512310606060605,0.09733248650365195,False,False
+s4_project_closure,s5_retention_expiry,693,0.0165,0.11019239942757195,0.11003493172435694,False,False

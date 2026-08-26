@@ -1,0 +1,15 @@
+method,request_text,expected_request_type,predicted_request_type,error_type,expected_training_rows,predicted_training_rows,false_negative_rows,false_positive_rows,jaccard
+few_shot,Recipient V32P-R004205 withdraws consent for all their records to be used for model training.,recipient_withdrawal,recipient_withdrawal,correct,6,6,0,0,1.0
+few_shot,Exclude every recipient assessment associated with donor V32P-DP001364 from training.,donor_withdrawal,unknown,wrong_policy,0,0,0,0,1.0
+few_shot,Exclude every recipient assessment associated with donor V32P-DP001364 from training.,donor_withdrawal,unknown,wrong_entity_extraction,0,0,0,0,1.0
+rule_baseline,Recipient V32P-R004205 withdraws consent for all their records to be used for model training.,recipient_withdrawal,recipient_withdrawal,correct,6,6,0,0,1.0
+rule_baseline,Recipient V32P-R006444 requests removal of their transplant assessments from model training.,recipient_withdrawal,unknown,wrong_policy,6,0,6,0,0.0
+rule_baseline,Recipient V32P-R006444 requests removal of their transplant assessments from model training.,recipient_withdrawal,unknown,wrong_entity_extraction,6,0,6,0,0.0
+rule_baseline,Recipient V32P-R006444 requests removal of their transplant assessments from model training.,recipient_withdrawal,unknown,under_deletion,6,0,6,0,0.0
+rule_baseline,Apply the frozen retention cutoff of 2025-12-31 to training records.,retention_expiry,unknown,wrong_cutoff_date,6262,0,6262,0,0.0
+zero_shot,Recipient V32P-R004205 withdraws consent for all their records to be used for model training.,recipient_withdrawal,recipient_withdrawal,correct,6,6,0,0,1.0
+zero_shot,Remove every assessment belonging to recipient V32P-R001325 from future training.,recipient_withdrawal,unknown,wrong_policy,0,0,0,0,1.0
+zero_shot,Remove every assessment belonging to recipient V32P-R001325 from future training.,recipient_withdrawal,unknown,wrong_entity_extraction,0,0,0,0,1.0
+zero_shot,Delete the training scope associated with donor V32P-DP000419.,donor_withdrawal,unknown,under_deletion,12,0,12,0,0.0
+zero_shot,Can you take all of V32P-H05's transplant records out of future training?,hospital_removal,unknown,malformed_or_schema_invalid,4314,0,4314,0,0.0
+zero_shot,Remove assessments whose retention expiry date is on or before 2025-12-31.,retention_expiry,unknown,wrong_cutoff_date,6262,0,6262,0,0.0

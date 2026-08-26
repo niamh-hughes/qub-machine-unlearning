@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-94da33f955b7502c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n\"predictions\": [\n{\"row_key\": \"row_04550\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04551\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04552\", \"positive_class_score\": 0.15},\n{\"row_key\": \"row_04553\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04554\", \"positive_class_score\": 0.25},\n{\"row_key\": \"row_04555\", \"positive_class_score\": 0.15},\n{\"row_key\": \"row_04556\", \"positive_class_score\": 0.10},\n{\"row_key\": \"row_04557\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04558\", \"positive_class_score\": 0.35},\n{\"row_key\": \"row_04559\", \"positive_class_score\": 0.10},\n{\"row_key\": \"row_04560\", \"positive_class_score\": 0.10},\n{\"row_key\": \"row_04561\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04562\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04563\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04564\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04565\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04566\", \"positive_class_score\": 0.10},\n{\"row_key\": \"row_04567\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04568\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04569\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04570\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04571\", \"positive_class_score\": 0.05},\n{\"row_key\": \"row_04572\", \"positive_class_score\": 0.45},\n{\"row_key\": \"row_04573\", \"positive_class_score\": 0.20},\n{\"row_key\": \"row_04574\", \"positive_class_score\": 0.10}\n]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "created": 1787674634,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 636,
+    "prompt_tokens": 4884,
+    "total_tokens": 5520,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

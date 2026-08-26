@@ -1,0 +1,6 @@
+scenario,display_name,selected_method,actual_epochs_completed,selected_epoch,optimizer_steps,complete_forget_set_coverage,runtime_seconds_gradient_ascent,runtime_seconds_retrained,runtime_ratio_gradient_ascent_to_retrained,selection_valid
+s1_random_1_percent,Random 1%,NegGrad,3,3,6,True,0.0251715830527246,6.158162959036417,0.004087514932645313,True
+s2_random_5_percent,Random 5%,NegGrad,3,3,21,True,0.08394387492444366,6.309742750017904,0.01330385060852211,True
+s3_simulated_data_provider_withdrawal,Simulated Data Provider Withdrawal (~5%),NegGrad,3,3,21,True,0.08355404192116112,4.582675707992166,0.018232588829151325,True
+s4_random_10_percent,Random 10%,NegGrad,3,3,42,True,0.15383245807606727,5.082447624998167,0.030267396621942118,True
+s5_retention_expiry,Simulated Retention Expiry,NegGrad,3,3,66,True,0.23419558291789144,5.083568624977488,0.046069129817034496,True

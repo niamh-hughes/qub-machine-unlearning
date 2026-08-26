@@ -1,0 +1,8 @@
+{
+  "selection_data": "validation only",
+  "rule": "stable; utility gap within 0.02 of minimum; lowest KS; fastest tie-break",
+  "learning_rate": 4.000000000000001e-06,
+  "forget_weight": 0.1,
+  "update_epochs": 2,
+  "config_id": "gd_14_lr4e-06_l0.1_e2"
+}

@@ -1,0 +1,71 @@
+{
+  "status": "actual_contract_frozen",
+  "design_id": "QWEN-V32-PRODUCTION-DESIGN-001",
+  "confirmed_generator_version": "qwen-kidney-v3.2",
+  "prompt_template_sha256": "6cbdec644f63e9905795e2a71d444beab79fc50f8847b6446673df049b36d747",
+  "prompt_template_unchanged": true,
+  "render_prompt_function_source_sha256": "e0367ad4b9808828edfd619324a0787eaa6033871aafe7a4e34c2b89cd209999",
+  "render_prompt_function_unchanged": true,
+  "finding": "The exact render_prompt function constructs a static_fields dictionary and includes a replacement for {static_clinical_fields}, but the saved v3.2 template contains no such placeholder. The replacement is therefore a no-op. Explicit static clinical field names and values were not inserted into the confirmed Qwen prompts.",
+  "actual_frozen_contract": {
+    "python_uses_static_clinical_fields_for": [
+      "risk construction",
+      "event construction",
+      "relationship metadata",
+      "audit metadata",
+      "Python-derived ABO compatibility"
+    ],
+    "qwen_receives": [
+      "pseudonymous deterministic seed",
+      "baseline creatinine",
+      "four generation-only day-7 numerical anchors",
+      "recovery pattern",
+      "event schedule",
+      "rejection signal strength",
+      "infection schedule",
+      "adherence pattern",
+      "tacrolimus-exposure pattern",
+      "non-rejection confounder",
+      "fixed output schema and approved measurement ranges"
+    ],
+    "qwen_does_not_receive": [
+      "explicit static clinical field names or values",
+      "direct identifiers",
+      "sensitive audit fields such as ethnicity or region",
+      "consent fields",
+      "retention fields",
+      "target labels"
+    ],
+    "sensitive_audit_fields_influence_qwen_measurements": false
+  },
+  "three_rendered_preview_audits": [
+    {
+      "recipient_id": "V31-R000009",
+      "rendered_prompt_sha256": "76059dafe3f66734daa69736fec5c9eb933312799ea7f89a26c257d0dbda352c",
+      "rendered_prompt_length_characters": 3823,
+      "static_field_names_present": [],
+      "serialized_static_dictionary_inserted": false,
+      "all_operational_placeholders_resolved": true
+    },
+    {
+      "recipient_id": "V31-R000018",
+      "rendered_prompt_sha256": "16439b75ef21e14c5764ed621027d5753e4fe8c96e00232cd66c8596278feb8e",
+      "rendered_prompt_length_characters": 3812,
+      "static_field_names_present": [],
+      "serialized_static_dictionary_inserted": false,
+      "all_operational_placeholders_resolved": true
+    },
+    {
+      "recipient_id": "V31-R000028",
+      "rendered_prompt_sha256": "b02eead3328c497713e6fde49ab8afaeb72c300bb15366004459d1118737efc7",
+      "rendered_prompt_length_characters": 3806,
+      "static_field_names_present": [],
+      "serialized_static_dictionary_inserted": false,
+      "all_operational_placeholders_resolved": true
+    }
+  ],
+  "response_ledger_limitation": "The immutable v3.2 responses ledger preserves complete responses but not rendered requests; these local previews reconstruct the exact prompts from the frozen function inputs without making an API call.",
+  "behavior_change_made": false,
+  "static_fields_added_to_prompt": false,
+  "api_requests": 0
+}

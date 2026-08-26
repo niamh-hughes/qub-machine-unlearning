@@ -1,0 +1,786 @@
+{
+  "run_id": "QWEN-V32-CONFIRM20-001",
+  "status": "completed",
+  "api_requests_attempted": 20,
+  "api_requests_completed": 20,
+  "attempts": 20,
+  "failures": 0,
+  "retries": 0,
+  "failure": null,
+  "token_usage_total": {
+    "prompt_tokens": 21488,
+    "completion_tokens": 10146,
+    "total_tokens": 31634
+  },
+  "finish_reason_counts": {
+    "stop": 20
+  },
+  "finish_records": [
+    {
+      "request_id": "QWEN-V32-C20-REQ000009",
+      "recipient_id": "V31-R000009",
+      "seed": 310009,
+      "request_sequence_number": 1,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1081,
+        "total_tokens": 1594,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000010",
+      "recipient_id": "V31-R000010",
+      "seed": 310010,
+      "request_sequence_number": 2,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 514,
+        "prompt_tokens": 1072,
+        "total_tokens": 1586,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1184,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000011",
+      "recipient_id": "V31-R000011",
+      "seed": 310011,
+      "request_sequence_number": 3,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1070,
+        "total_tokens": 1583,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000012",
+      "recipient_id": "V31-R000012",
+      "seed": 310012,
+      "request_sequence_number": 4,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1075,
+        "total_tokens": 1578,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1173,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000013",
+      "recipient_id": "V31-R000013",
+      "seed": 310013,
+      "request_sequence_number": 5,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1079,
+        "total_tokens": 1581,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1172,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000014",
+      "recipient_id": "V31-R000014",
+      "seed": 310014,
+      "request_sequence_number": 6,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 503,
+        "prompt_tokens": 1071,
+        "total_tokens": 1574,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1173,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000015",
+      "recipient_id": "V31-R000015",
+      "seed": 310015,
+      "request_sequence_number": 7,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 504,
+        "prompt_tokens": 1077,
+        "total_tokens": 1581,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1174,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000016",
+      "recipient_id": "V31-R000016",
+      "seed": 310016,
+      "request_sequence_number": 8,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1071,
+        "total_tokens": 1587,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000017",
+      "recipient_id": "V31-R000017",
+      "seed": 310017,
+      "request_sequence_number": 9,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1073,
+        "total_tokens": 1586,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000018",
+      "recipient_id": "V31-R000018",
+      "seed": 310018,
+      "request_sequence_number": 10,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1075,
+        "total_tokens": 1577,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1172,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000019",
+      "recipient_id": "V31-R000019",
+      "seed": 310019,
+      "request_sequence_number": 11,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1076,
+        "total_tokens": 1589,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000020",
+      "recipient_id": "V31-R000020",
+      "seed": 310020,
+      "request_sequence_number": 12,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 517,
+        "prompt_tokens": 1078,
+        "total_tokens": 1595,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1187,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000021",
+      "recipient_id": "V31-R000021",
+      "seed": 310021,
+      "request_sequence_number": 13,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 516,
+        "prompt_tokens": 1070,
+        "total_tokens": 1586,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1186,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000022",
+      "recipient_id": "V31-R000022",
+      "seed": 310022,
+      "request_sequence_number": 14,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 520,
+        "prompt_tokens": 1074,
+        "total_tokens": 1594,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1190,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000023",
+      "recipient_id": "V31-R000023",
+      "seed": 310023,
+      "request_sequence_number": 15,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 489,
+        "prompt_tokens": 1074,
+        "total_tokens": 1563,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1159,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000024",
+      "recipient_id": "V31-R000024",
+      "seed": 310024,
+      "request_sequence_number": 16,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 491,
+        "prompt_tokens": 1077,
+        "total_tokens": 1568,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1161,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000025",
+      "recipient_id": "V31-R000025",
+      "seed": 310025,
+      "request_sequence_number": 17,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 513,
+        "prompt_tokens": 1073,
+        "total_tokens": 1586,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1183,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000026",
+      "recipient_id": "V31-R000026",
+      "seed": 310026,
+      "request_sequence_number": 18,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 502,
+        "prompt_tokens": 1074,
+        "total_tokens": 1576,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1172,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000027",
+      "recipient_id": "V31-R000027",
+      "seed": 310027,
+      "request_sequence_number": 19,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1074,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1171,
+      "reasoning_content_status": "absent"
+    },
+    {
+      "request_id": "QWEN-V32-C20-REQ000028",
+      "recipient_id": "V31-R000028",
+      "seed": 310028,
+      "request_sequence_number": 20,
+      "attempt_number": 1,
+      "finish_reason": "stop",
+      "token_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1074,
+        "total_tokens": 1575,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "response_length": 1171,
+      "reasoning_content_status": "absent"
+    }
+  ],
+  "response_records": 20,
+  "manifest_records": 60,
+  "manifest_status_counts": {
+    "request_started": 20,
+    "response_preserved": 20,
+    "validated": 20
+  },
+  "recipients_completed": 20,
+  "assessment_rows": 120,
+  "validation": {
+    "checks": {
+      "dimensions": true,
+      "schema_exact": true,
+      "recipient_count": true,
+      "six_assessments_each": "True",
+      "assessment_ids_unique": true,
+      "recipient_days_unique": true,
+      "no_duplicate_rows": true,
+      "no_missing_values": true,
+      "static_fields_constant": true,
+      "dates_and_retention_exact": true,
+      "python_derivations_exact": true,
+      "approved_ranges": true,
+      "raw_response_reconciliation": true,
+      "day7_anchor_proximity": true,
+      "identity_subset_exact": true,
+      "no_leakage": true
+    },
+    "failures": [],
+    "raw_reconciliation": {
+      "expected_matches": 600,
+      "actual_matches": 600,
+      "mismatches": 0
+    },
+    "derivation_error_examples": [],
+    "date_error_examples": [],
+    "range_error_examples": [],
+    "anchor_error_examples": [],
+    "leakage_fields": []
+  },
+  "soft_warnings": [],
+  "diagnostics": {
+    "model_metrics_computed": false,
+    "model_metric_acceptance_thresholds": false,
+    "generator_tuning_from_confirmation_metrics": false,
+    "day_specific_dominant_values_and_unique_counts": [
+      {
+        "field": "creatinine_mg_dl",
+        "day": 7,
+        "dominant_value": 1.25,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 18
+      },
+      {
+        "field": "creatinine_mg_dl",
+        "day": 14,
+        "dominant_value": 1.05,
+        "dominant_count": 4,
+        "dominant_fraction": 0.2,
+        "unique_values": 14
+      },
+      {
+        "field": "creatinine_mg_dl",
+        "day": 30,
+        "dominant_value": 1.12,
+        "dominant_count": 3,
+        "dominant_fraction": 0.15,
+        "unique_values": 15
+      },
+      {
+        "field": "creatinine_mg_dl",
+        "day": 60,
+        "dominant_value": 1.08,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 18
+      },
+      {
+        "field": "creatinine_mg_dl",
+        "day": 90,
+        "dominant_value": 1.12,
+        "dominant_count": 3,
+        "dominant_fraction": 0.15,
+        "unique_values": 16
+      },
+      {
+        "field": "creatinine_mg_dl",
+        "day": 180,
+        "dominant_value": 0.91,
+        "dominant_count": 3,
+        "dominant_fraction": 0.15,
+        "unique_values": 15
+      },
+      {
+        "field": "urine_output_ml_24h",
+        "day": 7,
+        "dominant_value": 1850.0,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 16
+      },
+      {
+        "field": "urine_output_ml_24h",
+        "day": 14,
+        "dominant_value": 2100.0,
+        "dominant_count": 4,
+        "dominant_fraction": 0.2,
+        "unique_values": 14
+      },
+      {
+        "field": "urine_output_ml_24h",
+        "day": 30,
+        "dominant_value": 1950.0,
+        "dominant_count": 3,
+        "dominant_fraction": 0.15,
+        "unique_values": 14
+      },
+      {
+        "field": "urine_output_ml_24h",
+        "day": 60,
+        "dominant_value": 1850.0,
+        "dominant_count": 3,
+        "dominant_fraction": 0.15,
+        "unique_values": 15
+      },
+      {
+        "field": "urine_output_ml_24h",
+        "day": 90,
+        "dominant_value": 1950.0,
+        "dominant_count": 5,
+        "dominant_fraction": 0.25,
+        "unique_values": 15
+      },
+      {
+        "field": "urine_output_ml_24h",
+        "day": 180,
+        "dominant_value": 2050.0,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 18
+      },
+      {
+        "field": "tacrolimus_level_ng_ml",
+        "day": 7,
+        "dominant_value": 10.8,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 17
+      },
+      {
+        "field": "tacrolimus_level_ng_ml",
+        "day": 14,
+        "dominant_value": 9.5,
+        "dominant_count": 3,
+        "dominant_fraction": 0.15,
+        "unique_values": 15
+      },
+      {
+        "field": "tacrolimus_level_ng_ml",
+        "day": 30,
+        "dominant_value": 9.5,
+        "dominant_count": 4,
+        "dominant_fraction": 0.2,
+        "unique_values": 12
+      },
+      {
+        "field": "tacrolimus_level_ng_ml",
+        "day": 60,
+        "dominant_value": 8.5,
+        "dominant_count": 5,
+        "dominant_fraction": 0.25,
+        "unique_values": 12
+      },
+      {
+        "field": "tacrolimus_level_ng_ml",
+        "day": 90,
+        "dominant_value": 8.2,
+        "dominant_count": 5,
+        "dominant_fraction": 0.25,
+        "unique_values": 12
+      },
+      {
+        "field": "tacrolimus_level_ng_ml",
+        "day": 180,
+        "dominant_value": 7.5,
+        "dominant_count": 5,
+        "dominant_fraction": 0.25,
+        "unique_values": 12
+      },
+      {
+        "field": "medication_adherence_pct",
+        "day": 7,
+        "dominant_value": 96.5,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 17
+      },
+      {
+        "field": "medication_adherence_pct",
+        "day": 14,
+        "dominant_value": 85.0,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 16
+      },
+      {
+        "field": "medication_adherence_pct",
+        "day": 30,
+        "dominant_value": 78.5,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 14
+      },
+      {
+        "field": "medication_adherence_pct",
+        "day": 60,
+        "dominant_value": 90.0,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 15
+      },
+      {
+        "field": "medication_adherence_pct",
+        "day": 90,
+        "dominant_value": 96.5,
+        "dominant_count": 4,
+        "dominant_fraction": 0.2,
+        "unique_values": 17
+      },
+      {
+        "field": "medication_adherence_pct",
+        "day": 180,
+        "dominant_value": 92.0,
+        "dominant_count": 3,
+        "dominant_fraction": 0.15,
+        "unique_values": 17
+      }
+    ],
+    "day7_summary": {
+      "urine_output": {
+        "dominant_value": 1850.0,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 16
+      },
+      "medication_adherence": {
+        "dominant_value": 96.5,
+        "dominant_count": 2,
+        "dominant_fraction": 0.1,
+        "unique_values": 17
+      }
+    },
+    "identical_complete_five_field_trajectories": {
+      "duplicate_group_count": 0,
+      "groups": []
+    },
+    "production_acceptance_conditions": {
+      "structural_validation_passed": true,
+      "no_identical_complete_five_field_trajectories": true,
+      "day7_urine_unique_at_least_12": true,
+      "day7_adherence_unique_at_least_12": true,
+      "day7_urine_dominant_fraction_at_most_0_20": true,
+      "day7_adherence_dominant_fraction_at_most_0_20": true
+    },
+    "all_production_acceptance_conditions_passed": true,
+    "production_suitability": "suitable",
+    "diversity_failure_action": "none"
+  },
+  "local_design_outcome": {
+    "status": "passed",
+    "errors": [],
+    "api_requests": 0,
+    "anchor_algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+    "anchor_recipient_count": 100,
+    "confirmation_recipient_ids": [
+      "V31-R000009",
+      "V31-R000010",
+      "V31-R000011",
+      "V31-R000012",
+      "V31-R000013",
+      "V31-R000014",
+      "V31-R000015",
+      "V31-R000016",
+      "V31-R000017",
+      "V31-R000018",
+      "V31-R000019",
+      "V31-R000020",
+      "V31-R000021",
+      "V31-R000022",
+      "V31-R000023",
+      "V31-R000024",
+      "V31-R000025",
+      "V31-R000026",
+      "V31-R000027",
+      "V31-R000028"
+    ],
+    "confirmation_non_overlapping_with_corrected10": true,
+    "event_to_target_summary": {
+      "controlled_event_recipient_count": 34,
+      "controlled_event_count": 34,
+      "recipients_with_at_least_one_target_positive_assessment": 25,
+      "event_recipients_without_target_positive_assessment": 9,
+      "events_without_target_positive_assessment": 9,
+      "event_days_without_coverage": [
+        150
+      ],
+      "explanation": "There are 34 recipients with a controlled rejection event, but only 25 have at least one target-positive assessment. The remaining 9 events occur without a scheduled assessment in the preceding 30-day prediction window; under the frozen rule assessment_day < event_day <= assessment_day + 30, those events validly create no positive assessment. No event schedule was changed.",
+      "target_rule": "assessment_day < event_day <= assessment_day + 30",
+      "event_schedule_modified": false,
+      "api_requests_during_audit": 0
+    },
+    "diversity_comparison": {
+      "v3_1_diagnostic100_observed": {
+        "urine_output": {
+          "dominant_value": 2100.0,
+          "dominant_count": 49,
+          "dominant_fraction": 0.49,
+          "unique_values": 6
+        },
+        "medication_adherence": {
+          "dominant_value": 98.5,
+          "dominant_count": 57,
+          "dominant_fraction": 0.57,
+          "unique_values": 8
+        }
+      },
+      "v3_2_confirmation_anchor_preview": {
+        "urine_output": {
+          "dominant_value": 1768.6,
+          "dominant_count": 1,
+          "dominant_fraction": 0.05,
+          "unique_values": 20
+        },
+        "medication_adherence": {
+          "dominant_value": 82.17,
+          "dominant_count": 1,
+          "dominant_fraction": 0.05,
+          "unique_values": 20
+        }
+      }
+    },
+    "classifier_leakage_fields": [],
+    "production_generation_enabled": false
+  },
+  "event_to_target_coverage": {
+    "controlled_event_recipient_count": 34,
+    "controlled_event_count": 34,
+    "recipients_with_at_least_one_target_positive_assessment": 25,
+    "event_recipients_without_target_positive_assessment": 9,
+    "events_without_target_positive_assessment": 9,
+    "event_days_without_coverage": [
+      150
+    ],
+    "explanation": "There are 34 recipients with a controlled rejection event, but only 25 have at least one target-positive assessment. The remaining 9 events occur without a scheduled assessment in the preceding 30-day prediction window; under the frozen rule assessment_day < event_day <= assessment_day + 30, those events validly create no positive assessment. No event schedule was changed.",
+    "target_rule": "assessment_day < event_day <= assessment_day + 30",
+    "event_schedule_modified": false,
+    "api_requests_during_audit": 0
+  },
+  "protected_before": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_after_validation": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_in_finally": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_integrity_in_finally": true,
+  "diagnostic100_before": {
+    "file_count": 11,
+    "total_size_bytes": 740646,
+    "aggregate_sha256_with_metadata": "7950744f9e9f250d420e9d9668c85965ffa0ce4ce11d1a7792460226ed48d272"
+  },
+  "diagnostic100_in_finally": {
+    "file_count": 11,
+    "total_size_bytes": 740646,
+    "aggregate_sha256_with_metadata": "7950744f9e9f250d420e9d9668c85965ffa0ce4ce11d1a7792460226ed48d272"
+  },
+  "diagnostic100_integrity_in_finally": true,
+  "immutable_evidence_checks": {
+    "pilot": true,
+    "v2_batch": true,
+    "v3_design": true,
+    "v3_1_design": true,
+    "corrected_10": true,
+    "diagnostic_100": true,
+    "processed": true,
+    "models": true,
+    "results": true
+  },
+  "notebooks_01_05_checks": {
+    "01_kidney_transplant_baseline.ipynb": true,
+    "02_kidney_transplant_forget_sets_and_full_retraining.ipynb": true,
+    "03_kidney_transplant_retain_set_finetuning.ipynb": true,
+    "04_kidney_transplant_gradient_ascent.ipynb": true,
+    "05_kidney_transplant_sisa.ipynb": true
+  },
+  "persistent_generation_flags": {
+    "RUN_QWEN_V32_CONFIRM20": false,
+    "RUN_10000_RECIPIENTS": false,
+    "RUN_FULL_GENERATION": false
+  },
+  "full_generation_started": false,
+  "protected_after_execution": {
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00",
+    "size_bytes": 19817033
+  },
+  "protected_integrity_after_execution": true,
+  "diagnostic100_after_execution": {
+    "file_count": 11,
+    "total_size_bytes": 740646,
+    "aggregate_sha256_with_metadata": "7950744f9e9f250d420e9d9668c85965ffa0ce4ce11d1a7792460226ed48d272"
+  },
+  "diagnostic100_integrity_after_execution": true
+}

@@ -1,0 +1,49 @@
+{
+  "baseline_signature": {
+    "tag": "Qwen baseline",
+    "initialisation": "fresh pretrained Qwen + fresh LoRA/head",
+    "model": "Qwen/Qwen2.5-0.5B",
+    "seed": 42,
+    "max_epochs": 5,
+    "early_stopping_patience": 2,
+    "batch_size": 16,
+    "learning_rate": 0.0002,
+    "maximum_length": 144,
+    "adam_epsilon": 1e-06,
+    "warmup_fraction": 0.05,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_targets": [
+      "q_proj",
+      "v_proj"
+    ],
+    "class_weight_strategy": "inverse_frequency",
+    "training_membership_sha256": "26cf71ef9a9cf1119b5f3fd1caee01584dcd34b4e9a7f8c39776c356b1738819",
+    "validation_membership_sha256": "a4e23c11fa0462d820fb76d510739118e8617f1a30e21ffaff060adc85156de8"
+  },
+  "retain_validation_sha256": "187f11efc367d8c0e5197c3b8bdccccaf1df55baf6297fdfc0b80dea2dec6ed5",
+  "forget_validation_sha256": "9282156794375bf40c1d86e5f19a5320d71e7b02c4624efde2283b4ff5b1e0e9",
+  "grid": {
+    "learning_rates": [
+      4.000000000000001e-07,
+      8.000000000000002e-07,
+      4.000000000000001e-06
+    ],
+    "forget_weights": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "update_epochs": [
+      1,
+      2
+    ]
+  },
+  "threshold": 0.06,
+  "seed": 42,
+  "stability_gate": {
+    "maximum_validation_bce": 5.0,
+    "maximum_preclip_gradient_norm": 1000.0,
+    "maximum_gradient_norm_after_clip": 1.0
+  }
+}

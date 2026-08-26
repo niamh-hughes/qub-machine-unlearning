@@ -1,0 +1,62 @@
+{
+  "seed": 42,
+  "method": "StratifiedGroupKFold with 20 donor-group folds; 14/3/3 folds",
+  "group_key": "donor_id",
+  "stratification_label": "recipient-level maximum acute_rejection_within_30_days",
+  "split_summary": [
+    {
+      "split": "train",
+      "assessment_rows": 42024,
+      "recipients": 7004,
+      "donors": 5601,
+      "positive_assessments": 3160,
+      "assessment_prevalence": 0.07519512659432705,
+      "positive_recipients": 1733,
+      "recipient_positive_prevalence": 0.2474300399771559
+    },
+    {
+      "split": "validation",
+      "assessment_rows": 8988,
+      "recipients": 1498,
+      "donors": 1199,
+      "positive_assessments": 669,
+      "assessment_prevalence": 0.07443257676902537,
+      "positive_recipients": 370,
+      "recipient_positive_prevalence": 0.24699599465954605
+    },
+    {
+      "split": "test",
+      "assessment_rows": 8988,
+      "recipients": 1498,
+      "donors": 1200,
+      "positive_assessments": 665,
+      "assessment_prevalence": 0.07398753894080996,
+      "positive_recipients": 370,
+      "recipient_positive_prevalence": 0.24699599465954605
+    }
+  ],
+  "assessment_rows": {
+    "train": 42024,
+    "validation": 8988,
+    "test": 8988
+  },
+  "recipient_overlap": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "donor_overlap": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "assessment_overlap": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "all_recipients_single_split": true,
+  "all_shared_donors_single_split": true,
+  "all_six_assessments_single_split": true,
+  "preserved_first_run_split_membership_identical": true
+}

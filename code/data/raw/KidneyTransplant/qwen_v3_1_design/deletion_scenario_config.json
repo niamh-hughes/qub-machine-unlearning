@@ -1,0 +1,33 @@
+{
+  "recipient_withdrawal": {
+    "recipient_id": "V31-R000100",
+    "expected_rows": 6
+  },
+  "donor_withdrawal": {
+    "selected_donor_ids": [
+      "V31-DL000001",
+      "V31-DP000001",
+      "V31-DP000002"
+    ],
+    "selected_cluster_sizes": {
+      "V31-DL000001": 1,
+      "V31-DP000001": 2,
+      "V31-DP000002": 2
+    },
+    "expected_rows": 30
+  },
+  "hospital_removal": {
+    "hospital_id": "V31-H05",
+    "expected_rows": 60
+  },
+  "invalid_consent_version": {
+    "invalid_version": "RECIPIENT_V3",
+    "effective_start": "2023-02-09",
+    "effective_end_exclusive": "2023-03-07",
+    "expected_rows": 60
+  },
+  "retention_expiry": {
+    "evaluation_cutoff": "2025-02-26",
+    "expected_rows": 90
+  }
+}

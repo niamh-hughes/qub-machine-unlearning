@@ -1,0 +1,75 @@
+{
+  "scenario": "recipient_withdrawal",
+  "epochs": [
+    {
+      "scenario": "recipient_withdrawal",
+      "epoch": 1,
+      "forget_set_size": 426,
+      "retain_set_size": 41598,
+      "forget_examples": 426,
+      "retain_examples_sampled": 426,
+      "batches": 1,
+      "batch_size": 512,
+      "sampling_with_replacement": true,
+      "random_seed": 10043,
+      "no_validation_or_test_sampled": true,
+      "all_sampled_ids_in_authoritative_retain": true
+    },
+    {
+      "scenario": "recipient_withdrawal",
+      "epoch": 2,
+      "forget_set_size": 426,
+      "retain_set_size": 41598,
+      "forget_examples": 426,
+      "retain_examples_sampled": 426,
+      "batches": 1,
+      "batch_size": 512,
+      "sampling_with_replacement": true,
+      "random_seed": 10044,
+      "no_validation_or_test_sampled": true,
+      "all_sampled_ids_in_authoritative_retain": true
+    },
+    {
+      "scenario": "recipient_withdrawal",
+      "epoch": 3,
+      "forget_set_size": 426,
+      "retain_set_size": 41598,
+      "forget_examples": 426,
+      "retain_examples_sampled": 426,
+      "batches": 1,
+      "batch_size": 512,
+      "sampling_with_replacement": true,
+      "random_seed": 10045,
+      "no_validation_or_test_sampled": true,
+      "all_sampled_ids_in_authoritative_retain": true
+    },
+    {
+      "scenario": "recipient_withdrawal",
+      "epoch": 4,
+      "forget_set_size": 426,
+      "retain_set_size": 41598,
+      "forget_examples": 426,
+      "retain_examples_sampled": 426,
+      "batches": 1,
+      "batch_size": 512,
+      "sampling_with_replacement": true,
+      "random_seed": 10046,
+      "no_validation_or_test_sampled": true,
+      "all_sampled_ids_in_authoritative_retain": true
+    },
+    {
+      "scenario": "recipient_withdrawal",
+      "epoch": 5,
+      "forget_set_size": 426,
+      "retain_set_size": 41598,
+      "forget_examples": 426,
+      "retain_examples_sampled": 426,
+      "batches": 1,
+      "batch_size": 512,
+      "sampling_with_replacement": true,
+      "random_seed": 10047,
+      "no_validation_or_test_sampled": true,
+      "all_sampled_ids_in_authoritative_retain": true
+    }
+  ]
+}

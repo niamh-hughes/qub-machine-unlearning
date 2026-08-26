@@ -1,0 +1,6 @@
+display_name,scenario,true_<=50K_pred_<=50K,true_<=50K_pred_>50K,true_>50K_pred_<=50K,true_>50K_pred_>50K
+Random 1%,s1_random_1_percent,5195,379,663,1090
+Random 5%,s2_random_5_percent,5178,396,656,1097
+Simulated Data Provider Withdrawal (~5%),s3_simulated_data_provider_withdrawal,5211,363,692,1061
+Random 10%,s4_random_10_percent,5174,400,659,1094
+Simulated Retention Expiry,s5_retention_expiry,5217,357,696,1057

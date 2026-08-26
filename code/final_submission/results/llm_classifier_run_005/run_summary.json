@@ -1,0 +1,53 @@
+{
+  "status": "completed",
+  "research_question": "Can machine unlearning be applied effectively to a fine-tuned language-model classifier, preserving predictive utility while approximating full retraining more efficiently?",
+  "model_name": "google/bert_uncased_L-2_H-128_A-2",
+  "parameter_count": 4386178,
+  "scenario_count": 5,
+  "baseline_threshold": 0.63,
+  "full_retraining_thresholds": {
+    "recipient_withdrawal": 0.62,
+    "donor_withdrawal": 0.54,
+    "hospital_removal": 0.57,
+    "invalid_consent": 0.56,
+    "retention_expiry": 0.53
+  },
+  "total_full_retraining_seconds": 388.22693429212086,
+  "total_gradient_difference_seconds": 78.49908666685224,
+  "mean_speed_up": 4.945623583364024,
+  "mean_ks_statistic": 0.4824500316329258,
+  "average_utility": [
+    {
+      "model": "LLM Baseline",
+      "pr_auc": 0.1289436782528341,
+      "balanced_accuracy": 0.5958094755847336,
+      "binary_cross_entropy": 0.626030624865184,
+      "f1": 0.1964233022548351,
+      "auroc": 0.6779424564909421,
+      "composite_utility": 0.2797656651328923
+    },
+    {
+      "model": "LLM Full Retraining",
+      "pr_auc": 0.11943080695411193,
+      "balanced_accuracy": 0.6105993934477216,
+      "binary_cross_entropy": 0.6500587186724387,
+      "f1": 0.18732928370209123,
+      "auroc": 0.668187813604721,
+      "composite_utility": 0.2664712741145556
+    },
+    {
+      "model": "LLM Gradient Difference",
+      "pr_auc": 0.1265846347348182,
+      "balanced_accuracy": 0.5570401489287224,
+      "binary_cross_entropy": 0.5244137591808944,
+      "f1": 0.11476063348770697,
+      "auroc": 0.6762295057848022,
+      "composite_utility": 0.16551711165159086
+    }
+  ],
+  "failed_scenarios": [],
+  "all_models_reloaded": true,
+  "memberships_verified": true,
+  "protected_inputs_unchanged": true,
+  "original_llm_baseline_overwritten": false
+}

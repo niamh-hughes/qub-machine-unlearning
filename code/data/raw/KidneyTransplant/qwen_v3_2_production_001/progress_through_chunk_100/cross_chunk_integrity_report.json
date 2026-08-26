@@ -1,0 +1,747 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-08-17T17:30:26.396585+00:00",
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-002",
+  "manual_review_id": "QWEN-V32-PROD-001-MANUAL-QUALITY-REVIEW-001",
+  "global_integrity_checks": {
+    "protected_unchanged": true,
+    "previous_evidence_unchanged": true,
+    "notebooks_01_05_unchanged": true,
+    "production_design_unchanged": true,
+    "completed_chunks_001_075_and_historical_evidence_unchanged": true,
+    "progress_through_chunk_075_unchanged": true,
+    "validation_amendment_001_unchanged": true,
+    "validation_amendment_002_unchanged": true,
+    "manual_quality_review_001_unchanged": true,
+    "no_chunk_directories_beyond_100": true,
+    "final_assembly_absent": true,
+    "chunk_001_unchanged": true,
+    "chunk_002_unchanged": true,
+    "chunk_003_unchanged": true,
+    "chunk_004_unchanged": true,
+    "chunk_005_unchanged": true,
+    "chunk_006_unchanged": true,
+    "chunk_007_unchanged": true,
+    "chunk_008_unchanged": true,
+    "chunk_009_unchanged": true,
+    "chunk_010_unchanged": true,
+    "chunk_011_unchanged": true,
+    "chunk_012_unchanged": true,
+    "chunk_013_unchanged": true,
+    "chunk_014_unchanged": true,
+    "chunk_015_unchanged": true,
+    "chunk_016_unchanged": true,
+    "chunk_017_unchanged": true,
+    "chunk_018_unchanged": true,
+    "chunk_019_unchanged": true,
+    "chunk_020_unchanged": true,
+    "chunk_021_unchanged": true,
+    "chunk_022_unchanged": true,
+    "chunk_023_unchanged": true,
+    "chunk_024_unchanged": true,
+    "chunk_025_unchanged": true,
+    "chunk_026_unchanged": true,
+    "chunk_027_unchanged": true,
+    "chunk_028_unchanged": true,
+    "chunk_029_unchanged": true,
+    "chunk_030_unchanged": true,
+    "chunk_031_unchanged": true,
+    "chunk_032_unchanged": true,
+    "chunk_033_unchanged": true,
+    "chunk_034_unchanged": true,
+    "chunk_035_unchanged": true,
+    "chunk_036_unchanged": true,
+    "chunk_037_unchanged": true,
+    "chunk_038_unchanged": true,
+    "chunk_039_unchanged": true,
+    "chunk_040_unchanged": true,
+    "chunk_041_unchanged": true,
+    "chunk_042_unchanged": true,
+    "chunk_043_unchanged": true,
+    "chunk_044_unchanged": true,
+    "chunk_045_unchanged": true,
+    "chunk_046_unchanged": true,
+    "chunk_047_unchanged": true,
+    "chunk_048_unchanged": true,
+    "chunk_049_unchanged": true,
+    "chunk_050_unchanged": true,
+    "chunk_051_unchanged": true,
+    "chunk_052_unchanged": true,
+    "chunk_053_unchanged": true,
+    "chunk_054_unchanged": true,
+    "chunk_055_unchanged": true,
+    "chunk_056_unchanged": true,
+    "chunk_057_unchanged": true,
+    "chunk_058_unchanged": true,
+    "chunk_059_unchanged": true,
+    "chunk_060_unchanged": true,
+    "chunk_061_unchanged": true,
+    "chunk_062_unchanged": true,
+    "chunk_063_unchanged": true,
+    "chunk_064_unchanged": true,
+    "chunk_065_unchanged": true,
+    "chunk_066_unchanged": true,
+    "chunk_067_unchanged": true,
+    "chunk_068_unchanged": true,
+    "chunk_069_unchanged": true,
+    "chunk_070_unchanged": true,
+    "chunk_071_unchanged": true,
+    "chunk_072_unchanged": true,
+    "chunk_073_unchanged": true,
+    "chunk_074_unchanged": true,
+    "chunk_075_unchanged": true,
+    "chunk_076_unchanged": true,
+    "chunk_077_unchanged": true,
+    "chunk_078_unchanged": true,
+    "chunk_079_unchanged": true,
+    "chunk_080_unchanged": true,
+    "chunk_081_unchanged": true,
+    "chunk_082_unchanged": true,
+    "chunk_083_unchanged": true,
+    "chunk_084_unchanged": true,
+    "chunk_085_unchanged": true,
+    "chunk_086_unchanged": true,
+    "chunk_087_unchanged": true,
+    "chunk_088_unchanged": true,
+    "chunk_089_unchanged": true,
+    "chunk_090_unchanged": true,
+    "chunk_091_unchanged": true,
+    "chunk_092_unchanged": true,
+    "chunk_093_unchanged": true,
+    "chunk_094_unchanged": true,
+    "chunk_095_unchanged": true,
+    "chunk_096_unchanged": true,
+    "chunk_097_unchanged": true,
+    "chunk_098_unchanged": true,
+    "chunk_099_unchanged": true,
+    "chunk_100_unchanged": true
+  },
+  "chunk_fingerprints": {
+    "chunk_001": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_001",
+      "file_count": 12,
+      "total_size_bytes": 1746881,
+      "aggregate_sha256_with_metadata": "2441e471beb9de1bc2ce08f80472b1ee9cf2d0c12077378b1df4db5fa2706878"
+    },
+    "chunk_002": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_002",
+      "file_count": 12,
+      "total_size_bytes": 1717372,
+      "aggregate_sha256_with_metadata": "c9bfe5d30a1bb9003d578b49b24f0a1ff04a01cbf73d88f49a5e9ce422a1d57f"
+    },
+    "chunk_003": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_003",
+      "file_count": 12,
+      "total_size_bytes": 1718400,
+      "aggregate_sha256_with_metadata": "b15c02e6b8b5ef18fddd9ca982fd9c47f84656e84429be68ad7a4d1fb921fe26"
+    },
+    "chunk_004": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_004",
+      "file_count": 12,
+      "total_size_bytes": 1715606,
+      "aggregate_sha256_with_metadata": "dda700c4be83f87682536699d98c783fc6de9c452ef5b8ddc3c27a77b97ed48d"
+    },
+    "chunk_005": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_005",
+      "file_count": 12,
+      "total_size_bytes": 1718608,
+      "aggregate_sha256_with_metadata": "eb369ee0e8836981728b7b2c90047e0352d3c7285ee5aa6bec641988189ca285"
+    },
+    "chunk_006": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_006",
+      "file_count": 13,
+      "total_size_bytes": 1715634,
+      "aggregate_sha256_with_metadata": "f8edec89cbbd6be276bd3e2241b97fe7f15bb32b1cc83b7aa417b055a423a1fd"
+    },
+    "chunk_007": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_007",
+      "file_count": 13,
+      "total_size_bytes": 1715852,
+      "aggregate_sha256_with_metadata": "08876802579c6a2b95a2788a15fd9c825d6a7ee1c3ab45a5d20597bc1193ef30"
+    },
+    "chunk_008": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_008",
+      "file_count": 12,
+      "total_size_bytes": 1725793,
+      "aggregate_sha256_with_metadata": "dc76fddc6dad2b49a9ad609ee10319873964046e5a34f17beb01e71e1f22beac"
+    },
+    "chunk_009": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_009",
+      "file_count": 12,
+      "total_size_bytes": 1724077,
+      "aggregate_sha256_with_metadata": "55b225569617766e528e63874b00f9d29c9d7b9d2385da1d054432afb26cbab8"
+    },
+    "chunk_010": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_010",
+      "file_count": 12,
+      "total_size_bytes": 1723109,
+      "aggregate_sha256_with_metadata": "11044f1e1b1637f0da6154ce901ce049db3ad98869c5d084b8f8a46169f1b62a"
+    },
+    "chunk_011": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_011",
+      "file_count": 12,
+      "total_size_bytes": 1721753,
+      "aggregate_sha256_with_metadata": "8b36b296f71df29c6ce748edb9b9b03c267cedfbbc944e0873c674011221f716"
+    },
+    "chunk_012": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_012",
+      "file_count": 12,
+      "total_size_bytes": 1724167,
+      "aggregate_sha256_with_metadata": "b3d7c9bd0d3c20d376252311076b2d964d9e9ba0ae43eae06f3b363bd5e4e4a8"
+    },
+    "chunk_013": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_013",
+      "file_count": 12,
+      "total_size_bytes": 1725765,
+      "aggregate_sha256_with_metadata": "99e1377a0cbfe91da560a7c4d20893de1f0e1b5bd51157e635ca456d8c7f3de4"
+    },
+    "chunk_014": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_014",
+      "file_count": 12,
+      "total_size_bytes": 1722738,
+      "aggregate_sha256_with_metadata": "ed61ffdecf99a9546133b073fb8c83e965cd546db60ff5b907cdf1746085541b"
+    },
+    "chunk_015": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_015",
+      "file_count": 12,
+      "total_size_bytes": 1725188,
+      "aggregate_sha256_with_metadata": "44f6c29f71bab98ef90df092d97a36645c204a014cb3dbe95ef1f60a314c8b07"
+    },
+    "chunk_016": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_016",
+      "file_count": 12,
+      "total_size_bytes": 1724891,
+      "aggregate_sha256_with_metadata": "d7822861fa730da08f98fdd5d348d20d351e946d4ffc1cbce0af7c2c0bab6afd"
+    },
+    "chunk_017": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_017",
+      "file_count": 12,
+      "total_size_bytes": 1726313,
+      "aggregate_sha256_with_metadata": "fcdff02ff88aad3b8a6426deecd389d6b46be2722ab866c13e4f850cb639ae64"
+    },
+    "chunk_018": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_018",
+      "file_count": 12,
+      "total_size_bytes": 1725197,
+      "aggregate_sha256_with_metadata": "235c1c8a90c898a7f7510de296abf4139da5360da09f7693e73a5c7f4c82c1ca"
+    },
+    "chunk_019": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_019",
+      "file_count": 12,
+      "total_size_bytes": 1722762,
+      "aggregate_sha256_with_metadata": "d9564dfd0c994d212d871a0a6cfbc83aa7038d1a67254571e923d3b8f080a69b"
+    },
+    "chunk_020": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_020",
+      "file_count": 12,
+      "total_size_bytes": 1725053,
+      "aggregate_sha256_with_metadata": "403b87efa60047e715f42e1be0effab51d3f47e7eacdc561b1e3c0bd2bf34e84"
+    },
+    "chunk_021": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_021",
+      "file_count": 12,
+      "total_size_bytes": 1727344,
+      "aggregate_sha256_with_metadata": "53285e557f2edd36d48b82ec90fbd32373e0e3345b06725e54a5e06548c8862a"
+    },
+    "chunk_022": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_022",
+      "file_count": 12,
+      "total_size_bytes": 1728853,
+      "aggregate_sha256_with_metadata": "fdd457c4982b4f0a5733708582974b90ab3da126a1513f5d0749000b3d9dd0b5"
+    },
+    "chunk_023": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_023",
+      "file_count": 12,
+      "total_size_bytes": 1728917,
+      "aggregate_sha256_with_metadata": "478cc3b7914edade3367e41b9ac144c2e5e880c38cf00589d9c4dfadc140b9f5"
+    },
+    "chunk_024": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_024",
+      "file_count": 12,
+      "total_size_bytes": 1726318,
+      "aggregate_sha256_with_metadata": "0a3c174f1f1ce356087c21566216764bb5bc6b05cb6ff64a3bc49f1a87ed60bc"
+    },
+    "chunk_025": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_025",
+      "file_count": 12,
+      "total_size_bytes": 1728996,
+      "aggregate_sha256_with_metadata": "19bb2bfb1f34b2de421dcb2dbd6b49487e7ab2cc9d06cb842201d346cf15c277"
+    },
+    "chunk_026": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_026",
+      "file_count": 12,
+      "total_size_bytes": 1727839,
+      "aggregate_sha256_with_metadata": "89544740a005d4a51980de8290724f7bc41d4a2b4f9031f8aaadd7e0773c0713"
+    },
+    "chunk_027": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_027",
+      "file_count": 12,
+      "total_size_bytes": 1727611,
+      "aggregate_sha256_with_metadata": "9c6dcbaabaef2a1dbc1ef7e5c32dc06f630c4e892c13c635c97274b13e5403f9"
+    },
+    "chunk_028": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_028",
+      "file_count": 12,
+      "total_size_bytes": 1727080,
+      "aggregate_sha256_with_metadata": "d30640571ba331f80cc865f4cad2d259de6585ebb8ee383d33b7532b2e09cd44"
+    },
+    "chunk_029": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_029",
+      "file_count": 12,
+      "total_size_bytes": 1727971,
+      "aggregate_sha256_with_metadata": "da7e2692a99a86b2f307f316283b68687cc4bd9141422a527e0808a76c4238f4"
+    },
+    "chunk_030": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_030",
+      "file_count": 12,
+      "total_size_bytes": 1727842,
+      "aggregate_sha256_with_metadata": "6704551dbe042161341218ed0322dc88ddd9ad3cb657b7dadfb2f8eb8ea4a441"
+    },
+    "chunk_031": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_031",
+      "file_count": 12,
+      "total_size_bytes": 1728840,
+      "aggregate_sha256_with_metadata": "8fb69647767b826be941e7ab5a70d08e6a5c441ebcf895af9ccece577ebf2a64"
+    },
+    "chunk_032": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_032",
+      "file_count": 12,
+      "total_size_bytes": 1728881,
+      "aggregate_sha256_with_metadata": "fd0fdc55cd15ebfb60f659ede252ec24e5c4e4e130a6f970ac7f93c0c6b99217"
+    },
+    "chunk_033": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_033",
+      "file_count": 12,
+      "total_size_bytes": 1726986,
+      "aggregate_sha256_with_metadata": "b2228b10f878c53f621b43cbcc4f6d4e7260b9d4602699343911fc683bca0fca"
+    },
+    "chunk_034": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_034",
+      "file_count": 12,
+      "total_size_bytes": 1725627,
+      "aggregate_sha256_with_metadata": "6bf0cceacc9d92f53319c5634d42991cdd148cea26058539010e7d5da2632de1"
+    },
+    "chunk_035": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_035",
+      "file_count": 12,
+      "total_size_bytes": 1727028,
+      "aggregate_sha256_with_metadata": "7311ca79abc85f26cc8fe2f9384ba75ab8662837a769dd30d5a237403c8238a6"
+    },
+    "chunk_036": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_036",
+      "file_count": 12,
+      "total_size_bytes": 1728232,
+      "aggregate_sha256_with_metadata": "06af23c8001e78c79a001871c807ea23a7faab61c7732d68642f489c61004121"
+    },
+    "chunk_037": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_037",
+      "file_count": 12,
+      "total_size_bytes": 1726119,
+      "aggregate_sha256_with_metadata": "ecaa510dfa021ce27ee29911fec5d42f3c52b57f54d5dc699e349fd05827f723"
+    },
+    "chunk_038": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_038",
+      "file_count": 12,
+      "total_size_bytes": 1728774,
+      "aggregate_sha256_with_metadata": "aea935b0b7f7b0083b8f7b155069af6197813c290c59895d75058120a2b52756"
+    },
+    "chunk_039": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_039",
+      "file_count": 12,
+      "total_size_bytes": 1727167,
+      "aggregate_sha256_with_metadata": "01cc63ec93d7e687cd6fd29928d68a2f6ffcedc17b0c702a8d83d921c3dcb4a8"
+    },
+    "chunk_040": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_040",
+      "file_count": 12,
+      "total_size_bytes": 1729138,
+      "aggregate_sha256_with_metadata": "a42082510fc32117162170761609b57f3c20e81244711310390c3c5757dcf604"
+    },
+    "chunk_041": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_041",
+      "file_count": 12,
+      "total_size_bytes": 1727611,
+      "aggregate_sha256_with_metadata": "2a3d833afd6203225f7808acb2f28c93a410c882c728798582fabca12ba3b1bc"
+    },
+    "chunk_042": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_042",
+      "file_count": 12,
+      "total_size_bytes": 1727995,
+      "aggregate_sha256_with_metadata": "c58997d9a4e75fefa1b72bc3dd321d5b2eae5749e1e727db02e10f46dbd107ab"
+    },
+    "chunk_043": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_043",
+      "file_count": 12,
+      "total_size_bytes": 1729379,
+      "aggregate_sha256_with_metadata": "2352182f9413d4062d451c395c245e473ec9a8d2afbc296310ff65f72c2c012e"
+    },
+    "chunk_044": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_044",
+      "file_count": 12,
+      "total_size_bytes": 1728732,
+      "aggregate_sha256_with_metadata": "69a3a7242fd24387c9ed6b636c61dc061056830a7b6da6b11018efa17c5e9f99"
+    },
+    "chunk_045": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_045",
+      "file_count": 12,
+      "total_size_bytes": 1729023,
+      "aggregate_sha256_with_metadata": "8d5a5b20786543fae11f7556d518ded33a8e4ac533a3f9f4a7d1c6ec395555a3"
+    },
+    "chunk_046": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_046",
+      "file_count": 12,
+      "total_size_bytes": 1728463,
+      "aggregate_sha256_with_metadata": "00b84c33ba719490806b36f4723a626c76186952d938b870e08f7f3ae2f453b7"
+    },
+    "chunk_047": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_047",
+      "file_count": 12,
+      "total_size_bytes": 1728891,
+      "aggregate_sha256_with_metadata": "86bf7564f5c95f07d2480e998ef046e1f554c5baa2548ca1b3c76c4787709a39"
+    },
+    "chunk_048": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_048",
+      "file_count": 14,
+      "total_size_bytes": 1814617,
+      "aggregate_sha256_with_metadata": "ecf3f6123f065fcd6a5460b61d466f0ac416b51e8d49742b6918963b70ce3468"
+    },
+    "chunk_049": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_049",
+      "file_count": 12,
+      "total_size_bytes": 1731158,
+      "aggregate_sha256_with_metadata": "c5f40ada22c19533112886083686fcaabf68452bfec83e413b1b025d3cd03334"
+    },
+    "chunk_050": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_050",
+      "file_count": 12,
+      "total_size_bytes": 1727538,
+      "aggregate_sha256_with_metadata": "d9233f6c41aaf858759a7cdbb27769eddd48e984075d91bc3a9c6cc2d2fa8d79"
+    },
+    "chunk_051": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_051",
+      "file_count": 12,
+      "total_size_bytes": 1726105,
+      "aggregate_sha256_with_metadata": "deaf2c20a2d729c9b7009de35e69d216fd2e480db0a06b33b5a2d5c42705206b"
+    },
+    "chunk_052": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_052",
+      "file_count": 12,
+      "total_size_bytes": 1730808,
+      "aggregate_sha256_with_metadata": "a03747af0f2a03480445630a13f5fb38d891fa28238e1b09363b40f4e2f2bb8d"
+    },
+    "chunk_053": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_053",
+      "file_count": 12,
+      "total_size_bytes": 1727920,
+      "aggregate_sha256_with_metadata": "b59886310dc97aeed88382943bc3eff91fc112ea90eceeaeb52ccc29fd8482a9"
+    },
+    "chunk_054": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_054",
+      "file_count": 12,
+      "total_size_bytes": 1727888,
+      "aggregate_sha256_with_metadata": "1afbe0aac11aed681e5982a9785a5793adcf06bdc03d22719073a3731f8a8c31"
+    },
+    "chunk_055": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_055",
+      "file_count": 12,
+      "total_size_bytes": 1726728,
+      "aggregate_sha256_with_metadata": "93b633f4de43e55d509f806fffaa1c7f16f7006d4c05356a7d37a9db0f572458"
+    },
+    "chunk_056": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_056",
+      "file_count": 12,
+      "total_size_bytes": 1726217,
+      "aggregate_sha256_with_metadata": "c98e5821cafcd709dac57d5d5df09349e3981131591a1b2656aaf0a5e8c94fee"
+    },
+    "chunk_057": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_057",
+      "file_count": 12,
+      "total_size_bytes": 1729096,
+      "aggregate_sha256_with_metadata": "30147562547a33d9e27f4e3bc30e82ea6abe7b695fdfdd3f4efad65032fe0f3c"
+    },
+    "chunk_058": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_058",
+      "file_count": 12,
+      "total_size_bytes": 1729807,
+      "aggregate_sha256_with_metadata": "b4649fe28dfc047487447d4e6271fc3435cec79e14a537cf535e2a4f5bb5395e"
+    },
+    "chunk_059": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_059",
+      "file_count": 12,
+      "total_size_bytes": 1728461,
+      "aggregate_sha256_with_metadata": "0e84e36339f3276399049e2edd26ed3dbb56e857e76a9ef5ac7eb18305f6bbd8"
+    },
+    "chunk_060": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_060",
+      "file_count": 12,
+      "total_size_bytes": 1729569,
+      "aggregate_sha256_with_metadata": "a29df3c4c00c20f323d1d9951dcf6dac409df02ed92f0aae6ffd941dc93624e1"
+    },
+    "chunk_061": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_061",
+      "file_count": 12,
+      "total_size_bytes": 1729429,
+      "aggregate_sha256_with_metadata": "aed75bab18636ed236269b50fef8532a0ff9b4fc9890eaf2ebed3c303ecff51a"
+    },
+    "chunk_062": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_062",
+      "file_count": 12,
+      "total_size_bytes": 1729089,
+      "aggregate_sha256_with_metadata": "afdfdfc1a9f6b7f70e6ec6b28e994d8b6dcc5d51c4def7884e17c24afd12f0bf"
+    },
+    "chunk_063": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_063",
+      "file_count": 12,
+      "total_size_bytes": 1727206,
+      "aggregate_sha256_with_metadata": "4c38f9b752077eea1ce3b57637b216bad9a328dfbace80bcbba0356d9a410553"
+    },
+    "chunk_064": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_064",
+      "file_count": 12,
+      "total_size_bytes": 1729334,
+      "aggregate_sha256_with_metadata": "a97bde2802482a2d4f115883135dcfd3d42d06e5d15ab48e9c159cbe0f750d58"
+    },
+    "chunk_065": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_065",
+      "file_count": 12,
+      "total_size_bytes": 1730440,
+      "aggregate_sha256_with_metadata": "bb9ea10b14782fddb4b7d75a815262322d959b16ce604ae28dc5bfdfed2f9c31"
+    },
+    "chunk_066": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_066",
+      "file_count": 12,
+      "total_size_bytes": 1728394,
+      "aggregate_sha256_with_metadata": "86c19bb9ee6b04b3520021d04a2a63a3d8af46f46d04d34722dd8b88eac967bf"
+    },
+    "chunk_067": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_067",
+      "file_count": 12,
+      "total_size_bytes": 1729923,
+      "aggregate_sha256_with_metadata": "e7fe83b827de56c3925f5a61820b4039811bc564b9cf08e6e9cdb77d18b5506f"
+    },
+    "chunk_068": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_068",
+      "file_count": 12,
+      "total_size_bytes": 1728792,
+      "aggregate_sha256_with_metadata": "120109322342a39122b347c54cf64d99734ff2227ef7693a002162f6860e8426"
+    },
+    "chunk_069": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_069",
+      "file_count": 12,
+      "total_size_bytes": 1728653,
+      "aggregate_sha256_with_metadata": "3659e1f25ee0c48bb3178b9d8f94fb1bfc212f65569a210967f84f88a4a3b982"
+    },
+    "chunk_070": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_070",
+      "file_count": 12,
+      "total_size_bytes": 1729521,
+      "aggregate_sha256_with_metadata": "0df7b9a7a1d29c976d22ec06f40fb721fffd552591716a11d9b0474e31962b43"
+    },
+    "chunk_071": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_071",
+      "file_count": 12,
+      "total_size_bytes": 1730269,
+      "aggregate_sha256_with_metadata": "889f851f045f22c713bb798444233b997807c3fd5eedd6e3942f0f4880feae8f"
+    },
+    "chunk_072": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_072",
+      "file_count": 12,
+      "total_size_bytes": 1727632,
+      "aggregate_sha256_with_metadata": "ead1de67fa9594327aa11779d698646d8126d37a0b35853cfe0af0d8bfd7f5e3"
+    },
+    "chunk_073": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_073",
+      "file_count": 12,
+      "total_size_bytes": 1728541,
+      "aggregate_sha256_with_metadata": "d0e31fe185c4fc84b1cbe0a521363f5acb3e3295ef9287b6ae1c7c960b22009e"
+    },
+    "chunk_074": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_074",
+      "file_count": 12,
+      "total_size_bytes": 1729724,
+      "aggregate_sha256_with_metadata": "65525a52896f059e1c094a7c11eb85cb04a6682b4b9ca0653df4f5027f0b68fe"
+    },
+    "chunk_075": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_075",
+      "file_count": 12,
+      "total_size_bytes": 1729255,
+      "aggregate_sha256_with_metadata": "7b5d1869b2f615038a1c6c340d600191ff9bfe89ea01cf7be089c02fe8626b98"
+    },
+    "chunk_076": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_076",
+      "file_count": 12,
+      "total_size_bytes": 1730302,
+      "aggregate_sha256_with_metadata": "2ce8e8e0f565695bbe06c8ff55add6e578fabc72a801917cb5325bfe4f9cc103"
+    },
+    "chunk_077": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_077",
+      "file_count": 12,
+      "total_size_bytes": 1728826,
+      "aggregate_sha256_with_metadata": "a2c131d9c2503f7ca190c751eaa8d49acda1eacaf4299b8e0803f3c45ae0043b"
+    },
+    "chunk_078": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_078",
+      "file_count": 12,
+      "total_size_bytes": 1729120,
+      "aggregate_sha256_with_metadata": "fa3576dbc037edd46fc640b0819fc328772e59949aa6ca0aa2c20701f217227f"
+    },
+    "chunk_079": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_079",
+      "file_count": 12,
+      "total_size_bytes": 1729184,
+      "aggregate_sha256_with_metadata": "6059dc63ff1633f9acbc8e5d86e79f8f887133e7009a7de2a35eeef021f626b0"
+    },
+    "chunk_080": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_080",
+      "file_count": 12,
+      "total_size_bytes": 1729261,
+      "aggregate_sha256_with_metadata": "dbebbe9a0a896dd7b8fc6fc64725caa90ba07ddcebbf93d1aa026306e356e4a5"
+    },
+    "chunk_081": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_081",
+      "file_count": 12,
+      "total_size_bytes": 1729382,
+      "aggregate_sha256_with_metadata": "d023ad26f2e1264e3dec56dbd9c0131eb29173ccf52ff799e38fceeadaefb290"
+    },
+    "chunk_082": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_082",
+      "file_count": 12,
+      "total_size_bytes": 1729857,
+      "aggregate_sha256_with_metadata": "589234abc3e7b088c1e53a1ba51a18fed54f2465d1c45ea33b6c4d63e5f8317c"
+    },
+    "chunk_083": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_083",
+      "file_count": 12,
+      "total_size_bytes": 1728046,
+      "aggregate_sha256_with_metadata": "20740069e14a6e0459c7748b63e12430f924b3446654f24905ebb3a9c0ccb782"
+    },
+    "chunk_084": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_084",
+      "file_count": 12,
+      "total_size_bytes": 1729984,
+      "aggregate_sha256_with_metadata": "ce4bcb66e518c9eb361c35e6c8f64ccd58dff2c17f91c397b1efc43be61ea263"
+    },
+    "chunk_085": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_085",
+      "file_count": 12,
+      "total_size_bytes": 1727678,
+      "aggregate_sha256_with_metadata": "901db367da4ffaa0c2bbd13191ee4b4322bcbc99c8a34e17ad0da0e0bceccb23"
+    },
+    "chunk_086": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_086",
+      "file_count": 12,
+      "total_size_bytes": 1729549,
+      "aggregate_sha256_with_metadata": "c8bea507d608e06f231cd6377665c11d38dfbae0733c1e90e1d2688018173ea0"
+    },
+    "chunk_087": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_087",
+      "file_count": 12,
+      "total_size_bytes": 1728613,
+      "aggregate_sha256_with_metadata": "32c93c80ea2a5701911ca16952864080430ca0ead2aae92aabfac3b6a3e890f1"
+    },
+    "chunk_088": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_088",
+      "file_count": 12,
+      "total_size_bytes": 1728482,
+      "aggregate_sha256_with_metadata": "9c55054697ee4af7c10acf2f1b83bfc744819333231c14af0c7b61c44ffa1553"
+    },
+    "chunk_089": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_089",
+      "file_count": 12,
+      "total_size_bytes": 1729305,
+      "aggregate_sha256_with_metadata": "fefb4082c8471d56ec35d86ed27c876dbc7462981d08d68de91be76f11dfda4f"
+    },
+    "chunk_090": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_090",
+      "file_count": 12,
+      "total_size_bytes": 1729892,
+      "aggregate_sha256_with_metadata": "6953f7de4a652536bd794bce29a5616bce34907c9f3d7a6196b729341e25f255"
+    },
+    "chunk_091": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_091",
+      "file_count": 12,
+      "total_size_bytes": 1727306,
+      "aggregate_sha256_with_metadata": "f08fdf831f10bccaf79f405601c4bd5d9b8a3c9080db74d2422807470da79cb7"
+    },
+    "chunk_092": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_092",
+      "file_count": 12,
+      "total_size_bytes": 1729398,
+      "aggregate_sha256_with_metadata": "9f90c6dd29cb2ab6d5ccf07ac26599b8ac98072c95fba1abad0d6f5073aefc75"
+    },
+    "chunk_093": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_093",
+      "file_count": 12,
+      "total_size_bytes": 1729825,
+      "aggregate_sha256_with_metadata": "84878f45817879f3457bb0bbcbb24f634f95610f88edfc24490b19ecef1bd506"
+    },
+    "chunk_094": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_094",
+      "file_count": 12,
+      "total_size_bytes": 1728693,
+      "aggregate_sha256_with_metadata": "2a32dcd03b89663e446862ff1c680fdf3cffff17fc59afcf7518d8ed44f92e81"
+    },
+    "chunk_095": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_095",
+      "file_count": 12,
+      "total_size_bytes": 1728893,
+      "aggregate_sha256_with_metadata": "d959fb0d58aaf20fee8c23cf2d2f7a4dddc8beab5ce6d249f9a0b04f1e2b933c"
+    },
+    "chunk_096": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_096",
+      "file_count": 12,
+      "total_size_bytes": 1729189,
+      "aggregate_sha256_with_metadata": "3ac32fd8250ac0dc2556cb6cd797a8ab7cd5eab4c53ae7771faeb5a07d2def89"
+    },
+    "chunk_097": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_097",
+      "file_count": 12,
+      "total_size_bytes": 1730351,
+      "aggregate_sha256_with_metadata": "9b0e425e376efbde3728b31f1166f50b72d90dc236780b8b86704fe13adcd39d"
+    },
+    "chunk_098": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_098",
+      "file_count": 12,
+      "total_size_bytes": 1727378,
+      "aggregate_sha256_with_metadata": "092e2c3576e73ac145c59e155d3fa157b1068b1f66700c91525997e6a1a2fd52"
+    },
+    "chunk_099": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_099",
+      "file_count": 12,
+      "total_size_bytes": 1729646,
+      "aggregate_sha256_with_metadata": "c91a3122f7ecb278bc8f7b0cc77265c3a729bd06cf5951f687957e6ee7ebb521"
+    },
+    "chunk_100": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/chunk_100",
+      "file_count": 12,
+      "total_size_bytes": 1729309,
+      "aggregate_sha256_with_metadata": "917e90096b7ea1e80443c65ad25ed352fe2431ec998b1e93d046c7177fcfb92f"
+    }
+  },
+  "validation_amendment_001_fingerprint": {
+    "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/validation_amendment_001",
+    "file_count": 4,
+    "total_size_bytes": 76312,
+    "aggregate_sha256_with_metadata": "615a5a8d5cfddda5e007db69cb1edb14ebe8343785be46d7f9959609c0a99d5f"
+  },
+  "validation_amendment_002_fingerprint": {
+    "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/validation_amendment_002",
+    "file_count": 4,
+    "total_size_bytes": 391631,
+    "aggregate_sha256_with_metadata": "858fd1b1a277f4e57600250afaf1a5c77a04280a2ec01cbbeced71b076cd60f1"
+  },
+  "manual_quality_review_001_fingerprint": {
+    "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/manual_quality_review_001",
+    "file_count": 3,
+    "total_size_bytes": 6210,
+    "aggregate_sha256_with_metadata": "56350da16dfec5c69af90e5be9b99c22472b0f412ea61c33989c8e5311f2ddcd"
+  },
+  "progress_through_chunk_020_fingerprint": {
+    "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/progress_through_chunk_020",
+    "file_count": 4,
+    "total_size_bytes": 295864,
+    "aggregate_sha256_with_metadata": "22c2fed0f7d641282c3ae54de897ca616ccd0289f2933a981790d208850d227f"
+  },
+  "chunks_beyond_100_started": false,
+  "final_dataset_assembly_started": false
+}

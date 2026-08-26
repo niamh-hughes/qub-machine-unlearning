@@ -1,0 +1,72 @@
+{
+  "amendment_id": "PROD-VALIDATION-AMENDMENT-002",
+  "status": "passed",
+  "api_requests": 0,
+  "checked_at_utc": "2026-08-16T21:24:15.351708+00:00",
+  "pre_api_checks": {
+    "all_627_preserved_responses_hard_valid": true,
+    "all_python_derived_rows_available": true,
+    "existing_checkpoints_reconcile": true,
+    "only_572_and_627_historical_anchor_failures": true,
+    "only_two_anchor_deviation_warnings": true,
+    "aggregate_anchor_correlations_at_least_0_90": true,
+    "no_existing_record_requires_regeneration": true,
+    "chunks_001_006_complete_immutable": true,
+    "chunk_007_exact_partial_state": true,
+    "recipient_627_one_request_one_response": true,
+    "next_request_is_628": true,
+    "chunks_008_010_absent": true,
+    "chunks_011_100_disabled": true,
+    "maximum_new_requests_373": true,
+    "automatic_retries_disabled": true,
+    "prompt_and_hash_unchanged": true,
+    "final_assembly_disabled": true
+  },
+  "protected_before": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "protected_after_amendment": {
+    "path": "data/raw/kidney_transplant_unlearning_dataset.csv",
+    "sha256": "8f4b6b51f96b753490cbef542643ab363408e472bf6dcf21b2c91cc3176648b7",
+    "mtime_ns": 1786015387691857656,
+    "size_bytes": 19817033,
+    "mtime_utc": "2026-08-06T11:23:07.691858+00:00"
+  },
+  "chunks_001_006_unchanged": {
+    "chunk_001": true,
+    "chunk_002": true,
+    "chunk_003": true,
+    "chunk_004": true,
+    "chunk_005": true,
+    "chunk_006": true
+  },
+  "chunk_007_partial_unchanged_before_recovery": true,
+  "amendment_001_unchanged": true,
+  "previous_evidence_unchanged": true,
+  "notebooks_01_05_unchanged": true,
+  "production_design_unchanged": true,
+  "created_file_fingerprints_excluding_self": {
+    "validation_policy_amendment_002.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/validation_amendment_002/validation_policy_amendment_002.json",
+      "sha256": "34da9644240a6168bbe1374f36909796a3cba12c9f574ad404146156c296527e",
+      "mtime_ns": 1786915455340497628,
+      "size_bytes": 2459
+    },
+    "retrospective_anchor_diagnostics.csv": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/validation_amendment_002/retrospective_anchor_diagnostics.csv",
+      "sha256": "2c655e3a6bdfd37c4173b26cdcf25ef57af2bca055a2aa19967b1a9bf733a6fc",
+      "mtime_ns": 1786915455350445109,
+      "size_bytes": 341333
+    },
+    "retrospective_anchor_diagnostics_summary.json": {
+      "path": "data/raw/KidneyTransplant/qwen_v3_2_production_001/validation_amendment_002/retrospective_anchor_diagnostics_summary.json",
+      "sha256": "2b53b3f2b16ae3016ef142b101abe2adda0eef92f21241d2ac36c334e774328e",
+      "mtime_ns": 1786915455351652425,
+      "size_bytes": 44860
+    }
+  }
+}

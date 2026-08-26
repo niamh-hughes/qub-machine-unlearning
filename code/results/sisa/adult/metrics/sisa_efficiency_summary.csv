@@ -1,0 +1,6 @@
+scenario,forget_size,affected_shards,total_slices_retrained,total_retained_records_reprocessed,total_deletion_optimizer_steps,total_deletion_runtime_seconds,original_sisa_setup_runtime_seconds,full_retraining_runtime_seconds
+s1_random_1_percent,342,5,25,33847,600,8.836169457994401,11.92857233399991,6.158162959036417
+s2_random_5_percent,1709,5,25,32480,596,7.082371710217558,11.92857233399991,6.309742750017904
+s3_simulated_data_provider_withdrawal,1698,5,25,32491,600,7.486980582936667,11.92857233399991,4.582675707992166
+s4_random_10_percent,3419,5,25,30770,500,7.545780830900185,11.92857233399991,5.082447624998167
+s5_retention_expiry,5585,5,25,28604,500,8.097793793887831,11.92857233399991,5.083568624977488

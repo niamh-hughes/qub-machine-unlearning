@@ -1,0 +1,39 @@
+{
+  "continuous_fields": [
+    "creatinine_mg_dl",
+    "creatinine_change_pct",
+    "urine_output_ml_24h",
+    "tacrolimus_level_ng_ml",
+    "medication_adherence_pct"
+  ],
+  "dominant_exact_value_warning_fraction_per_day": 0.25,
+  "near_perfect_univariate_auroc_warning": 0.95,
+  "near_perfect_grouped_classifier_auroc_warning": 0.95,
+  "checks": [
+    "repeated-value frequency",
+    "unique values at each assessment day",
+    "positive/negative distribution overlap",
+    "recipient event prevalence",
+    "assessment target prevalence",
+    "static-risk target correlations",
+    "univariate AUROC for every classifier feature",
+    "recipient-grouped exploratory classifier",
+    "hospital and donor cluster sizes",
+    "prevalence by hospital, consent version, sex and ethnicity",
+    "categorical levels exclusive to one recipient outcome class"
+  ],
+  "ten_recipient_policy": "warnings only; never formal performance",
+  "grouped_split": {
+    "key": "recipient_id",
+    "rule": "all six assessments remain in one split",
+    "prerequisite_before_training": true
+  },
+  "warning_rules": [
+    "dominant exact continuous value by day",
+    "near-perfect feature separation",
+    "hospital or consent identifier associated with one outcome",
+    "near-perfect grouped classifier",
+    "categorical level exclusive to one class"
+  ],
+  "tuning_policy": "Do not tune generation to one exact AUROC; seek plausible overlap and non-trivial prediction."
+}

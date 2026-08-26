@@ -1,0 +1,6 @@
+scenario,field_rule,matched_rows
+recipient withdrawal,recipient_id == QWEN-BATCH10-R000001,6
+donor withdrawal,donor_id == QWEN-BATCH10-D000002,6
+hospital removal,hospital_id == H07,6
+invalid consent,training_consent_status == Active and training_consent_version == RECIPIENT_V3,24
+retention expiry,retention_expiry_date <= 2026-01-01,12

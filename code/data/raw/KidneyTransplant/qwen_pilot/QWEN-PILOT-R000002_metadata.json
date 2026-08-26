@@ -1,0 +1,29 @@
+{
+  "request_id": "QWEN-PILOT-R000002",
+  "reasoning_content": null,
+  "finish_reason": "stop",
+  "token_usage": {
+    "completion_tokens": 924,
+    "prompt_tokens": 620,
+    "total_tokens": 1544,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "response_length": 2333,
+  "prompt_version": "qwen-kidney-pilot-v1",
+  "model_name": "Qwen/Qwen3.6-35B-A3B",
+  "generation_timestamp": "2026-08-16T15:21:30.265983+00:00",
+  "recipient_id": "QWEN-PILOT-R000001",
+  "api_request_count": 1,
+  "validation_status": "passed",
+  "assessment_count": 6,
+  "longitudinal_warnings": [],
+  "output_filenames": {
+    "complete_response": "QWEN-PILOT-R000002_complete_response.json",
+    "final_content": "QWEN-PILOT-R000002_final_content.txt",
+    "response_diagnostics": "QWEN-PILOT-R000002_response_diagnostics.json",
+    "parsed_json": "QWEN-PILOT-R000002_parsed.json",
+    "validated_assessments_csv": "QWEN-PILOT-R000002_validated_assessments.csv",
+    "metadata": "QWEN-PILOT-R000002_metadata.json"
+  }
+}

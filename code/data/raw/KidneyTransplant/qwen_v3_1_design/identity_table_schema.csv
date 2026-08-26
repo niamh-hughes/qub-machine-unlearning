@@ -1,0 +1,13 @@
+field_name,table,role,classifier_allowed
+entity_id,identity,pseudonymous join key,False
+person_id,identity,direct identifier,False
+person_role,identity,direct identifier,False
+full_name,identity,direct identifier,False
+date_of_birth,identity,direct identifier,False
+email_address,identity,direct identifier,False
+postcode,identity,direct identifier,False
+hospital_number,identity,direct identifier,False
+current_consent_status,identity,identity audit,False
+current_consent_version,identity,identity audit,False
+consent_granted_date,identity,identity audit,False
+consent_withdrawal_date,identity,identity audit,False

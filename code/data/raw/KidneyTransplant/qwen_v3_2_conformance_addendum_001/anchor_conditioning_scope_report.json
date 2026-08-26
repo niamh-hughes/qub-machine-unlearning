@@ -1,0 +1,101 @@
+{
+  "report_id": "QWEN-V32-CONFORMANCE-ADDENDUM-001",
+  "status": "documented_design_limitation",
+  "validation_failure": false,
+  "algorithm_version": "qwen-kidney-v3.2-anchor-v1",
+  "actual_numeric_anchor_inputs_used": [
+    {
+      "field": "request_seed",
+      "use": "seeds numpy default_rng after adding the documented constant offset"
+    },
+    {
+      "field": "recipient_id-derived numeric suffix",
+      "use": "small deterministic tie-breaking terms in all four anchors"
+    },
+    {
+      "field": "baseline_creatinine_mg_dl",
+      "use": "primary baseline for day-7 creatinine"
+    },
+    {
+      "field": "recovery_pattern",
+      "use": "creatinine recovery factor and urine-output adjustment"
+    },
+    {
+      "field": "adherence_pattern",
+      "use": "selects the day-7 adherence sampling band"
+    },
+    {
+      "field": "tacrolimus_exposure_pattern",
+      "use": "selects the day-7 tacrolimus sampling band"
+    },
+    {
+      "field": "infection_episode_days",
+      "use": "reduced to an early-infection flag when any scheduled infection day is <=30"
+    },
+    {
+      "field": "confirmed_rejection_event_days",
+      "use": "reduced to an early-event flag when an event occurs after day 7 and by day 37"
+    },
+    {
+      "field": "non_rejection_confounders",
+      "use": "confounder-specific creatinine, urine and tacrolimus adjustments"
+    },
+    {
+      "field": "canonical approved numerical bounds",
+      "use": "clips every anchor to the existing approved range"
+    }
+  ],
+  "preserved_or_prompted_but_not_used_in_numeric_anchor_calculation": [
+    {
+      "field": "rejection_signal_strength",
+      "note": "Preserved in anchor metadata and supplied to Qwen, but not used by the Python numeric-anchor formula."
+    },
+    {
+      "field": "static clinical fields",
+      "note": "Supplied to the Qwen trajectory prompt, but not used by the Python numeric-anchor formula."
+    }
+  ],
+  "requested_static_clinical_fields_not_used_by_numeric_anchor_calculation": [
+    "recipient_age",
+    "donor_age",
+    "donor_type",
+    "kidney_failure_cause",
+    "previous_transplant",
+    "dialysis_months",
+    "donor_blood_group",
+    "recipient_blood_group",
+    "abo_compatibility_category",
+    "hla_mismatch_count",
+    "antibody_risk_score",
+    "cold_ischaemia_hours"
+  ],
+  "other_generation_controls_not_used_by_numeric_anchor_calculation": [
+    "rejection_signal_strength",
+    "event_probability",
+    "event_random_draw",
+    "event_selection_basis"
+  ],
+  "sensitive_or_audit_attributes_intentionally_not_used": [
+    "recipient_sex",
+    "recipient_ethnicity",
+    "recipient_region",
+    "distance_to_transplant_centre_km",
+    "hospital_id",
+    "recipient_id except deterministic numeric tie-break suffix",
+    "donor_id",
+    "assessment dates",
+    "consent fields",
+    "retention fields"
+  ],
+  "sensitive_attribute_rationale": "Ethnicity and region are sensitive or contextual audit attributes and should not influence synthetic clinical measurements without an explicit clinical rationale, bias assessment, governance approval and documented validation. The same caution applies to sex or location when no justified causal design has been specified.",
+  "limitation_explanation": "The v3.2 anchors addressed the predefined repetition problem but did not implement the broader static-field conditioning later requested. This is documented without changing the immutable algorithm, prompt, responses or tables.",
+  "why_not_a_validation_failure": {
+    "structural_validation_passed": true,
+    "all_predefined_diversity_conditions_passed": true,
+    "production_suitability_recorded_by_confirmation": "suitable",
+    "reason": "The existing confirmation was evaluated against its frozen structural and diversity criteria. Broader static-field conditioning was not one of those predefined criteria."
+  },
+  "retrospective_claim_of_broader_conditioning": false,
+  "existing_evidence_modified": false,
+  "api_requests_made_by_addendum": 0
+}

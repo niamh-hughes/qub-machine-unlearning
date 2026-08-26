@@ -1,0 +1,6 @@
+scenario,matched_rows,matched_percentage,recipients,hospitals,donors,min_records_per_recipient,median_records_per_recipient,max_records_per_recipient,complete_histories_removed,any_complete_history_removed
+recipient_withdrawal,6,0.01,1,1,1,6,6.0,6,1,True
+donor_withdrawal,30,0.05,5,4,3,6,6.0,6,5,True
+hospital_removal,60,0.1,10,1,10,6,6.0,6,10,True
+invalid_consent_version,60,0.1,30,10,30,2,2.0,2,0,False
+retention_expiry,90,0.15,45,10,43,2,2.0,2,0,False
