@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "experiment": "Original Qwen classifier",
+  "source_notebook": "notebooks/09_original.ipynb",
+  "source_run_id": "20260829T151430Z",
+  "learning_rate": 1e-5,
+  "selected_epoch": 6,
+  "frozen_threshold": 0.55,
+  "source_output": "saved executed test-metrics display",
+  "recovery_note": "The original RunPod CSV was not committed. Ranking and calibration metrics retain the six decimal places saved in the executed notebook output. Threshold-dependent metrics were recovered exactly from the saved confusion counts at the frozen threshold."
+}

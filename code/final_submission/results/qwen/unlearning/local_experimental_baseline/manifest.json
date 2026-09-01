@@ -1,0 +1,17 @@
+{
+  "purpose": "local approximate-unlearning start state only",
+  "historical_run_id": "20260829T151430Z",
+  "base_model_id": "unsloth/Qwen3.5-2B-Base",
+  "adapter_path": "/Users/niamhhughes/Desktop/Desktop - Niamh\u2019s MacBook Pro/QUB/Research Proj/code/final_submission/models/qwen/baseline/adapter",
+  "head_path": "/Users/niamhhughes/Desktop/Desktop - Niamh\u2019s MacBook Pro/QUB/Research Proj/code/final_submission/models/qwen/baseline/binary_classification_head.pt",
+  "tokenizer_path": "/Users/niamhhughes/Desktop/Desktop - Niamh\u2019s MacBook Pro/QUB/Research Proj/code/final_submission/models/qwen/baseline/adapter",
+  "serialisation_specification_path": "/Users/niamhhughes/Desktop/Desktop - Niamh\u2019s MacBook Pro/QUB/Research Proj/code/final_submission/results/qwen/original/serialisation_specification.json",
+  "serialisation_specification_sha256": "79c330fd129fc313222b5db2985981cdfe00e13916a2c7e0f7ebb7b0291d1224",
+  "threshold": 0.55,
+  "maximum_length": 216,
+  "device_type": "mps",
+  "model_dtype": "torch.float16",
+  "seed": 42,
+  "trainable_state_sha256": "4e7e23b853bc05b2b48a7b965acf3ff6b964f7898f8291e95877745e9fe2d6b1",
+  "head_state_sha256": "1c5f1f7c5c9c9147f0e43948c95a97ced940cb005ba698e77f154032eca915b0"
+}

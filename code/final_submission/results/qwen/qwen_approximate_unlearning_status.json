@@ -1,0 +1,22 @@
+{
+  "status": "ready_local_baseline_verified",
+  "historical_baseline_available": true,
+  "historical_baseline_reproduced": false,
+  "historical_ids_aligned": true,
+  "historical_labels_aligned": true,
+  "historical_max_probability_difference": 0.038141846656799316,
+  "historical_mean_probability_difference": 0.010628688994003708,
+  "historical_check_is_execution_gate": false,
+  "local_baseline_frozen": true,
+  "local_baseline_verification_passed": true,
+  "local_baseline_state_sha256": "4e7e23b853bc05b2b48a7b965acf3ff6b964f7898f8291e95877745e9fe2d6b1",
+  "local_max_probability_difference": 0.0,
+  "local_mean_probability_difference": 0.0,
+  "tolerance": {
+    "absolute": 1e-05,
+    "relative": 0.0001
+  },
+  "approximate_unlearning_executed": false,
+  "full_retraining_available": true,
+  "full_retraining_environment": "historical A100/CUDA/Unsloth reference"
+}

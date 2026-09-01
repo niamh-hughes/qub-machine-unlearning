@@ -1,0 +1,34 @@
+{
+  "run_id": "20260829T151430Z",
+  "model_id": "unsloth/Qwen3.5-2B-Base",
+  "target": "acute_rejection_within_30_days",
+  "classes": {
+    "0": "no acute rejection within 30 days",
+    "1": "acute rejection within 30 days"
+  },
+  "feature_count": 18,
+  "serialisation_version": "kidney-qwen35-v1",
+  "max_seq_length": 216,
+  "training": {
+    "model": "unsloth/Qwen3.5-2B-Base",
+    "batch size": 8,
+    "effective batch size": 32,
+    "learning rate": 1e-05,
+    "maximum epochs": 10,
+    "LoRA rank": 16,
+    "LoRA alpha": 16,
+    "LoRA dropout": 0,
+    "LoRA targets": "all linear language layers (hybrid Qwen3.5 coverage)",
+    "maximum sequence length": 216,
+    "optimiser": "AdamW",
+    "weight decay": 0.01,
+    "early stopping patience": 2,
+    "selection metric": "validation PR-AUC (higher is better)",
+    "random seed": 42
+  },
+  "best_epoch": 6,
+  "selected_threshold": 0.55,
+  "selection_data": "validation only",
+  "test_evaluations": 1,
+  "machine_unlearning_performed": false
+}
