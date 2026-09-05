@@ -1,0 +1,42 @@
+{
+  "model_name": "unsloth/Qwen3-4B-Base",
+  "seed": 3407,
+  "memory_recipient_count": 300,
+  "control_recipient_count": 300,
+  "memory_fields": [
+    "recipient_age",
+    "recipient_sex",
+    "recipient_ethnicity",
+    "recipient_region",
+    "donor_id",
+    "donor_age",
+    "donor_type",
+    "kidney_failure_cause",
+    "previous_transplant",
+    "dialysis_months",
+    "abo_compatibility_category",
+    "hla_mismatch_count",
+    "antibody_risk_score",
+    "cold_ischaemia_hours"
+  ],
+  "question_specs": {
+    "recipient_age": "What is the recorded recipient age for this recipient?",
+    "recipient_sex": "What is the recorded recipient sex for this recipient?",
+    "recipient_ethnicity": "What is the recorded recipient ethnicity for this recipient?",
+    "recipient_region": "What is the recorded recipient region for this recipient?",
+    "donor_id": "What is the recorded donor ID for this recipient?",
+    "donor_age": "What is the recorded donor age for this recipient?",
+    "donor_type": "What is the recorded donor type for this recipient?",
+    "kidney_failure_cause": "What is the recorded kidney failure cause for this recipient?",
+    "previous_transplant": "What is the recorded previous-transplant indicator for this recipient?",
+    "dialysis_months": "What is the recorded dialysis duration in months for this recipient?",
+    "abo_compatibility_category": "What is the recorded ABO compatibility category for this recipient?",
+    "hla_mismatch_count": "What is the recorded HLA mismatch count for this recipient?",
+    "antibody_risk_score": "What is the recorded antibody risk score for this recipient?",
+    "cold_ischaemia_hours": "What is the recorded cold ischaemia time in hours for this recipient?"
+  },
+  "training_epochs": 20,
+  "unique_qa_examples": 4200,
+  "prediction_task_included": false,
+  "answer_marker": "SOLUTION\n"
+}
