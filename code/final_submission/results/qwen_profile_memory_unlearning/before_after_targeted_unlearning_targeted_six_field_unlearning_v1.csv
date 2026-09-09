@@ -1,0 +1,3 @@
+group,recipients_before,questions_before,correct_answers_before,exact_recall_before,mean_correct_answer_log_probability_before,exact_recall_pct_before,recipients_after,questions_after,correct_answers_after,exact_recall_after,mean_correct_answer_log_probability_after,exact_recall_pct_after,recall_change_pp,answer_log_probability_change,desired_result
+forget,100,600,587,0.9783333333333334,-0.034375332033995426,97.83,100,600,376,0.6266666666666667,-1.5985784703748998,62.67,-35.17,-1.5642,Recall should decrease
+retain,200,1200,1183,0.9858333333333333,-0.02805545176369975,98.58,200,1200,1117,0.9308333333333333,-0.09109972922639413,93.08,-5.5,-0.063,Recall should remain high
