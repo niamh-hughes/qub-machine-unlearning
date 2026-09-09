@@ -1,0 +1,7 @@
+{
+  "evaluation_run_name": "six_fields_300_memory_vs_300_controls_v1",
+  "score_definition": "mean correct-answer log probability",
+  "f1_threshold": -0.35540260397829115,
+  "calibration_recipients_per_group": 60,
+  "use_after_unlearning": "Reuse this threshold unchanged."
+}

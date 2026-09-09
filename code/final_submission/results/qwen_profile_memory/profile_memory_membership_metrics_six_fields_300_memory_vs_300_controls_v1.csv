@@ -1,0 +1,2 @@
+evaluation_run_name,score_definition,f1_threshold,calibration_recipients_per_group,test_recipients_per_group,test_questions,f1,precision,recall,balanced_accuracy,auroc,pr_auc
+six_fields_300_memory_vs_300_controls_v1,mean correct-answer log probability,-0.35540260397829115,60,240,2880,0.9545607539548974,0.9261920313520575,0.9847222222222223,0.953125,0.9860247878086419,0.9788176937087928

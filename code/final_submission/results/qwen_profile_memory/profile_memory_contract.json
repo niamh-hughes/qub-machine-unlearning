@@ -37,6 +37,18 @@
   },
   "training_epochs": 20,
   "unique_qa_examples": 4200,
+  "focused_memory_recipient_count": 300,
+  "focused_control_recipient_count": 300,
+  "focused_memory_fields": [
+    "recipient_age",
+    "recipient_region",
+    "donor_id",
+    "donor_age",
+    "kidney_failure_cause",
+    "dialysis_months"
+  ],
+  "focused_unique_qa_examples": 1800,
+  "focused_training_epochs": 20,
   "prediction_task_included": false,
   "answer_marker": "SOLUTION\n"
 }
