@@ -1,0 +1,570 @@
+assessment_id,recipient_id,acute_rejection_within_30_days,expected_answer,generated_response,predicted_answer,correct
+V32P-A027211,V32P-R004536,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A030259,V32P-R005044,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has increased",No,True
+V32P-A040921,V32P-R006821,1,Yes,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,False
+V32P-A021853,V32P-R003643,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A007585,V32P-R001265,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A033109,V32P-R005519,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A050401,V32P-R008401,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A000931,V32P-R000156,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the creatinine level increased by 3",Yes,True
+V32P-A013345,V32P-R002225,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A037981,V32P-R006331,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A005563,V32P-R000928,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A029677,V32P-R004947,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A007009,V32P-R001169,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A011461,V32P-R001911,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A034423,V32P-R005738,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A018799,V32P-R003134,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A041407,V32P-R006902,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A035557,V32P-R005927,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A041479,V32P-R006914,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A017737,V32P-R002957,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A024589,V32P-R004099,1,Yes,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,False
+V32P-A009043,V32P-R001508,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A051709,V32P-R008619,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A043591,V32P-R007266,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A043075,V32P-R007180,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A001465,V32P-R000245,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A003463,V32P-R000578,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A023269,V32P-R003879,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A001669,V32P-R000279,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,False
+V32P-A052471,V32P-R008746,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has not",No,False
+V32P-A047185,V32P-R007865,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A022129,V32P-R003689,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has increased",No,False
+V32P-A034081,V32P-R005681,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A028015,V32P-R004670,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A039373,V32P-R006563,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A041305,V32P-R006885,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the creatinine level increased by 2",Yes,True
+V32P-A009247,V32P-R001542,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A054997,V32P-R009167,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A021787,V32P-R003632,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A052411,V32P-R008736,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A051001,V32P-R008501,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A026689,V32P-R004449,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level has increased",Yes,True
+V32P-A022831,V32P-R003806,0,No,"Yes.
+
+Reasoning:
+Yes, because the creatinine level increased by 1",Yes,False
+V32P-A053311,V32P-R008886,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A041809,V32P-R006969,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A041089,V32P-R006849,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,False
+V32P-A001471,V32P-R000246,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A054181,V32P-R009031,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A004471,V32P-R000746,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A016639,V32P-R002774,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A025123,V32P-R004188,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A010747,V32P-R001792,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A007213,V32P-R001203,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A033001,V32P-R005501,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A001081,V32P-R000181,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A019087,V32P-R003182,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A042379,V32P-R007064,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,True
+V32P-A014005,V32P-R002335,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A007915,V32P-R001320,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A036901,V32P-R006151,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A006079,V32P-R001014,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A015967,V32P-R002662,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A058753,V32P-R009793,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A021547,V32P-R003592,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A018385,V32P-R003065,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A052981,V32P-R008831,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A042319,V32P-R007054,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has increased",No,False
+V32P-A049699,V32P-R008284,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A014857,V32P-R002477,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A053881,V32P-R008981,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,True
+V32P-A041149,V32P-R006859,1,Yes,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,False
+V32P-A017041,V32P-R002841,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A013873,V32P-R002313,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A030097,V32P-R005017,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,True
+V32P-A003385,V32P-R000565,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A056389,V32P-R009399,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has increased",No,False
+V32P-A016717,V32P-R002787,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A022441,V32P-R003741,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the creatinine level increased by 1",Yes,True
+V32P-A034123,V32P-R005688,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A058693,V32P-R009783,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A001891,V32P-R000316,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,False
+V32P-A048295,V32P-R008050,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A031339,V32P-R005224,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A056497,V32P-R009417,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A058225,V32P-R009705,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A020071,V32P-R003346,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,True
+V32P-A056473,V32P-R009413,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,True
+V32P-A041335,V32P-R006890,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A021679,V32P-R003614,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A003631,V32P-R000606,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A000451,V32P-R000076,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A037591,V32P-R006266,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has not",No,False
+V32P-A021013,V32P-R003503,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A051955,V32P-R008660,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A058933,V32P-R009823,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A022399,V32P-R003734,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A045193,V32P-R007533,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A056803,V32P-R009468,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A024313,V32P-R004053,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A023035,V32P-R003840,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A014995,V32P-R002500,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A017509,V32P-R002919,0,No,"No.
+
+Reasoning:
+No, because the creatinine level has increased by",No,True
+V32P-A006805,V32P-R001135,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A022645,V32P-R003775,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A008623,V32P-R001438,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A029605,V32P-R004935,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A010537,V32P-R001757,0,No,"No.
+
+Reasoning:
+No, because the creatinine level has decreased by -",No,True
+V32P-A010807,V32P-R001802,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A018499,V32P-R003084,1,Yes,"No.
+
+Reasoning:
+No, because the creatinine level has increased by",No,False
+V32P-A047887,V32P-R007982,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,True
+V32P-A058759,V32P-R009794,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A014251,V32P-R002376,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A048307,V32P-R008052,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A031999,V32P-R005334,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A047497,V32P-R007917,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A000001,V32P-R000001,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A021127,V32P-R003522,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A036457,V32P-R006077,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A029401,V32P-R004901,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A016399,V32P-R002734,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A045415,V32P-R007570,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A017863,V32P-R002978,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A007375,V32P-R001230,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A033103,V32P-R005518,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A057997,V32P-R009667,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A034333,V32P-R005723,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A052081,V32P-R008681,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A000571,V32P-R000096,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A038551,V32P-R006426,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A017431,V32P-R002906,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A029059,V32P-R004844,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A000973,V32P-R000163,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A035911,V32P-R005986,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A026779,V32P-R004464,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A038611,V32P-R006436,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A030103,V32P-R005018,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A040579,V32P-R006764,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A058699,V32P-R009784,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A054487,V32P-R009082,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has changed",No,True
+V32P-A031831,V32P-R005306,0,No,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,False
+V32P-A026533,V32P-R004423,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A043909,V32P-R007319,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True
+V32P-A015571,V32P-R002596,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A045577,V32P-R007597,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A059017,V32P-R009837,1,Yes,"Yes.
+
+Reasoning:
+Yes, because the recipient's creatinine level increased by",Yes,True
+V32P-A048157,V32P-R008027,1,Yes,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,False
+V32P-A034885,V32P-R005815,0,No,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,False
+V32P-A025177,V32P-R004197,0,No,"No.
+
+Reasoning:
+No, because the recipient's creatinine level has decreased",No,True
+V32P-A007573,V32P-R001263,1,Yes,"Yes.
+
+Yes, the recipient will experience a confirmed acute rejection event within the next",Yes,True
+V32P-A040087,V32P-R006682,0,No,"No.
+
+Reasoning:
+No, the recipient will not experience a confirmed acute rejection",No,True

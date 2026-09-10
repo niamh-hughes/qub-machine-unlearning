@@ -1,0 +1,9 @@
+Field,Record group,Questions asked,Exact answers recovered,Exact recovery rate,Mean absolute error
+Months on dialysis before transplantation,Trained-on record,850,17 out of 850,2%,26.5
+Months on dialysis before transplantation,Unseen record,150,1 out of 150,1%,26.2
+Donor age,Trained-on record,850,18 out of 850,2%,15.8
+Donor age,Unseen record,150,4 out of 150,3%,16.2
+Recipient age at transplantation,Trained-on record,850,14 out of 850,2%,17.5
+Recipient age at transplantation,Unseen record,150,5 out of 150,3%,16.7
+Recipient ethnicity,Trained-on record,850,163 out of 850,19%,Not applicable
+Recipient ethnicity,Unseen record,150,33 out of 150,22%,Not applicable

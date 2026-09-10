@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-10T09:15:27.677115+00:00",
+  "git_commit": "24f2b10379aaabecf52e9f654e8c619a5f6e5bfd",
+  "seed": 42,
+  "source_dataset_sha256": "ec6c6265fc7ed7674c2950316efefb74546b04a817e37fd64170c076d6205600",
+  "target_column": "acute_rejection_within_30_days",
+  "cohort_size": 1000,
+  "records_per_class": 500,
+  "training_records": 850,
+  "unseen_test_records": 150,
+  "selection_rule": "first assessment per original-train recipient; unique recipient and donor IDs"
+}
